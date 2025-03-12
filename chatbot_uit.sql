@@ -121,7 +121,11 @@ CREATE TABLE GIANGVIEN(
     FOREIGN KEY (Day_Mon) REFERENCES MONHOC(Ma_Mon_Hoc),
     FOREIGN KEY (Khoa) REFERENCES KHOA(Ma_Khoa)
 );
-
+CREATE TABLE USER(
+    username VARCHAR(50) PRIMARY KEY, 
+    password_hash VARCHAR(255) NOT NULL, 
+    role ENUM('SinhVien', 'GiangVien', 'TruongKhoa') NOT NULL
+)
 
 
 
