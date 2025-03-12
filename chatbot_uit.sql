@@ -66,8 +66,14 @@ CREATE TABLE MONHOC (
     Ngay_KT datetime,
     Ma_Mon_Hoc_Truoc CHAR(5)
 );
-
-
+CREATE TABLE NGANH
+{
+    Ma_Nganh VARCHAR(20) PRIMARY KEY,
+    Ten_Nganh VARCHAR(255),
+    So_Tin_Chi INT,
+    Ma_Khoa VARCHAR(20),
+    Mo_Ta VARCHAR(255),
+}
 
 
 
