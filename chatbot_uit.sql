@@ -66,14 +66,63 @@ CREATE TABLE MONHOC (
     Ngay_KT datetime,
     Ma_Mon_Hoc_Truoc CHAR(5)
 );
-CREATE TABLE NGANH
-{
+
+CREATE TABLE NGANH (
     Ma_Nganh VARCHAR(20) PRIMARY KEY,
     Ten_Nganh VARCHAR(255),
     So_Tin_Chi INT,
     Ma_Khoa VARCHAR(20),
     Mo_Ta VARCHAR(255),
-}
+);
+
+
+CREATE TABLE LOP(
+    Ma_Lop VARCHAR(10) PRIMARY KEY,
+    Ten_Lop VARCHAR(255) NOT NULL,
+    So_Luong INT,
+    Co_Van_Hoc_Tap varchar(20)
+);
+
+CREATE TABLE GIANGVIEN(
+    Ma_Giang_Vien VARCHAR(20) PRIMARY KEY,
+    Day_Mon VARCHAR(20),
+    Ho_Ten VARCHAR(255),
+    Gioi_Tinh VARCHAR(10),
+    Ngay_Sinh DATE,
+    Noi_Sinh VARCHAR(255),
+    Khoa VARCHAR(10),
+    Email_Truong VARCHAR(255),
+    Email_Ca_Nhan VARCHAR(255),
+    username VARCHAR(50),
+    Dien_Thoai VARCHAR(15),
+    So_CMND VARCHAR(20),
+    Ngay_Cap_CMND DATE,
+    Noi_Cap_CMND VARCHAR(255),
+    Dan_Toc VARCHAR(50),
+    Ton_Giao VARCHAR(50),
+    Xuat_Than VARCHAR(50),
+    Ngay_Vao_Doan DATE,
+    Ngay_Vao_Dang DATE,
+    Ho_Ten_Cha VARCHAR(255),
+    Nghe_Nghiep_Cha VARCHAR(255),
+    SDT_Cha VARCHAR(15),
+    Ho_Ten_Me VARCHAR(255),
+    Nghe_Nghiep_Me VARCHAR(255),
+    SDT_Me VARCHAR(15),
+    Thuong_Tru VARCHAR(255),
+    Quan_Huyen VARCHAR(255),
+    Phuong_Xa VARCHAR(255),
+    Tinh_Tp VARCHAR(255),
+    Dia_Chi_Tam_Tru VARCHAR(255),
+    Hoc_Vi VARCHAR(10),
+    Hoc_Ham VARCHAR(10),
+    He_So FLOAT,
+    Muc_Luong INT,
+    FOREIGN KEY (Day_Mon) REFERENCES MONHOC(Ma_Mon_Hoc),
+    FOREIGN KEY (Khoa) REFERENCES KHOA(Ma_Khoa)
+);
+
+
 
 
 
