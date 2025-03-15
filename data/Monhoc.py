@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 
 data_html = """
-
+    
 """
 
 # Danh sách các khoa cần lấy
@@ -20,7 +20,7 @@ for row in rows:
     ma_mon_hoc = cols[1].text.strip()
     ten_mon_hoc = cols[2].text.strip()
     ma_khoa = cols[5].text.strip()
-    
+    loai_mh = cols[6].text.strip()
     # Chỉ lấy các môn thuộc các khoa cần thiết
     if ma_khoa not in danh_sach_khoa:
         continue  
@@ -33,8 +33,8 @@ for row in rows:
     ma_mon_hoc_tien_quyet = f"'{ma_mon_hoc_tien_quyet}'" if ma_mon_hoc_tien_quyet else "NULL"
 
     sql = f"""
-    INSERT INTO MONHOC (Ma_Mon_Hoc, Ten_Mon_Hoc, Ma_Khoa, Tin_chi_LT, Tin_chi_TH, Ma_Mon_Hoc_Tien_Quyet)
-    VALUES ('{ma_mon_hoc}', '{ten_mon_hoc}', '{ma_khoa}', {tin_chi_lt}, {tin_chi_th}, {ma_mon_hoc_tien_quyet});
+    INSERT INTO MONHOC (Ma_Mon_Hoc, Ten_Mon_Hoc, Loai_MH, Ma_Khoa, Tin_chi_LT, Tin_chi_TH, Ma_Mon_Hoc_Tien_Quyet)
+    VALUES ('{ma_mon_hoc}', '{ten_mon_hoc}', '{loai_mh}', '{ma_khoa}', {tin_chi_lt}, {tin_chi_th}, {ma_mon_hoc_tien_quyet});
     """
     insert_statements.append(sql.strip())
 

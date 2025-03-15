@@ -11,7 +11,8 @@ ds_ten_khoa = [
 ]
 
 def generate_ma_truong_khoa():
-    return f"GV{random.randint(1, 9999)}"
+    ma_tk = random.randint(1, 100)
+    return f"GV{ma_tk:03d}"
 
 with open("insert_khoa.sql", "w", encoding="utf-8") as file:
     for ma_khoa, ten_khoa in zip(ds_khoa, ds_ten_khoa):
