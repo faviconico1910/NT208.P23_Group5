@@ -1,12 +1,18 @@
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
-VALUES ('KH&KTTT', 'Khoa học và kĩ thuật thông tin', 'GV23');
+VALUES ('KH&KTTT', 'Khoa học và kĩ thuật thông tin', 'GV091');
+
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
-VALUES ('MMT&TT', 'Mạng máy tính và truyền thông', 'GV85');
+VALUES ('MMT&TT', 'Mạng máy tính và truyền thông', 'GV085');
+
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
-VALUES ('KHMT', 'Khoa học máy tính', 'GV96');
+VALUES ('KHMT', 'Khoa học máy tính', 'GV054');
+
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
-VALUES ('KTMT', 'Kĩ thuật máy tính', 'GV55');
+VALUES ('KTMT', 'Kĩ thuật máy tính', 'GV025');
+
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
-VALUES ('CNPM', 'Công nghệ phần mềm', 'GV58');
+VALUES ('CNPM', 'Công nghệ phần mềm', 'GV067');
+
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
-VALUES ('HTTT', 'Hệ thống thông tin', 'GV76');
+VALUES ('HTTT', 'Hệ thống thông tin', 'GV055');
+        
