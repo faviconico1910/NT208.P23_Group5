@@ -1,4 +1,4 @@
-from faker import Faker
+from faker import Faker 
 import random
 import unidecode
 
