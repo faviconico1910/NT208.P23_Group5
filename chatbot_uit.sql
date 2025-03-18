@@ -119,7 +119,7 @@ CREATE TABLE GIANGVIEN(
     Tinh_Tp VARCHAR(255),
     Dia_Chi_Tam_Tru VARCHAR(255),
     Hoc_Vi VARCHAR(10),
-    Hoc_Ham VARCHAR(10),
+    Hoc_Ham VARCHAR(50),
     He_So FLOAT,
     Muc_Luong INT
 );
