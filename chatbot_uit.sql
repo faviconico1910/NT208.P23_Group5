@@ -7,7 +7,7 @@ select * from SINHVIEN;
 drop table SINHVIEN;
 drop table khoa;
 drop table monhoc;
-
+SELECT * FROM MONHOC;
 -- create table
 CREATE TABLE SINHVIEN (
 	Ma_Sinh_Vien VARCHAR(20) PRIMARY KEY,
@@ -58,6 +58,7 @@ CREATE TABLE MONHOC (
     Tin_chi_TH INT,
     Ma_Mon_Hoc_Truoc VARCHAR(20)
 );
+
 CREATE TABLE KETQUA (
 	Ma_Sinh_Vien VARCHAR(20) ,
     Ma_Mon_Hoc VARCHAR(20), 
@@ -147,3 +148,4 @@ ALTER TABLE GIANGVIEN ADD CONSTRAINT fk_giangvien_khoa FOREIGN KEY (Ma_Khoa) REF
 ALTER TABLE GIANGVIEN ADD CONSTRAINT fk_giangvien_user FOREIGN KEY (Ma_Giang_Vien) REFERENCES USER(Tai_Khoan);
 
 ALTER TABLE KHOA ADD CONSTRAINT fk_khoa_truongkhoa FOREIGN KEY (Ma_Truong_Khoa) REFERENCES GIANGVIEN(Ma_Giang_Vien);
+
