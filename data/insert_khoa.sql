@@ -15,4 +15,6 @@ VALUES ('CNPM', 'Công nghệ phần mềm', 'GV067');
 
 INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
 VALUES ('HTTT', 'Hệ thống thông tin', 'GV055');
-        
+
+INSERT INTO KHOA (Ma_Khoa, Ten_Khoa, Ma_Truong_Khoa)
+VALUES ('Chung', 'Chung', 'GV001');
