@@ -1,27 +1,31 @@
 import re
 import random
-import hashlib
+import string
 
 # === Cấu hình các file ===
 file_sinhvien = "insert_sinhvien.sql"
 file_giangvien = "insert_giangvien.sql"
 file_users = "insert_users.sql"
 
-# === Hàm băm mật khẩu SHA-256 ===
-def hash_password(password):
-    return hashlib.sha256(password.encode()).hexdigest()
+# === Hàm tạo mật khẩu ngẫu nhiên (10 ký tự) ===
+def generate_password(length=10):
+    characters = string.ascii_letters + string.digits  # Chữ hoa, chữ thường, số
+    return ''.join(random.choice(characters) for _ in range(length))
 
 # === Đọc danh sách sinh viên từ file SQL ===
 sinhvien_list = []
+
 with open(file_sinhvien, "r", encoding="utf-8") as f:
     content = f.read()
-    matches = re.findall(r"\((.*?)\)", content)  # Tìm tất cả giá trị trong ngoặc đơn
+    # Tìm tất cả các dòng chứa thông tin sinh viên
+    matches = re.findall(r"\(([^)]+)\)", content)
 
     for match in matches:
-        fields = re.split(r",\s*", match)  # Tách theo dấu phẩy và bỏ khoảng trắng
+        # Tách các trường dữ liệu
+        fields = [field.strip().strip("'") for field in match.split(",")]
         if len(fields) > 0:
-            mssv = fields[0].strip().strip("'")  # MSSV
-            if mssv.startswith("SV"):  # Chỉ lấy những mã hợp lệ
+            mssv = fields[0]  # Lấy MSSV là cột đầu tiên
+            if mssv.isdigit() and len(mssv) == 8:  # Kiểm tra nếu MSSV là số hợp lệ (8 chữ số)
                 sinhvien_list.append(mssv)
 
 # === Đọc danh sách giảng viên từ file SQL ===
@@ -43,13 +47,13 @@ data_users = []
 
 # Thêm Sinh viên
 for mssv in sinhvien_list:
-    password = hash_password(mssv)
+    password = generate_password()
     record = f"('{mssv}', '{password}', 'SinhVien')"
     data_users.append(record)
 
 # Thêm Giảng viên (chỉ có vai trò GiangVien)
 for ma_gv in giangvien_list:
-    password = hash_password(ma_gv)
+    password = generate_password()
     record = f"('{ma_gv}', '{password}', 'GiangVien')"
     data_users.append(record)
 
