@@ -5,7 +5,7 @@ import string
 # === Cấu hình các file ===
 file_sinhvien = "insert_sinhvien.sql"
 file_giangvien = "insert_giangvien.sql"
-file_users = "insert_users.sql"
+file_user = "insert_user.sql"
 
 # === Hàm tạo mật khẩu ngẫu nhiên (10 ký tự) ===
 def generate_password(length=10):
@@ -43,28 +43,28 @@ with open(file_giangvien, "r", encoding="utf-8") as f:
                 giangvien_list.append(ma_gv)
 
 # === Tạo danh sách USERS ===
-data_users = []
+data_user = []
 
 # Thêm Sinh viên
 for mssv in sinhvien_list:
     password = generate_password()
     record = f"('{mssv}', '{password}', 'SinhVien')"
-    data_users.append(record)
+    data_user.append(record)
 
 # Thêm Giảng viên (chỉ có vai trò GiangVien)
 for ma_gv in giangvien_list:
     password = generate_password()
     record = f"('{ma_gv}', '{password}', 'GiangVien')"
-    data_users.append(record)
+    data_user.append(record)
 
 # === Ghi dữ liệu vào file SQL ===
-with open(file_users, "w", encoding="utf-8") as f:
-    f.write("INSERT INTO USERS (username, password, role) VALUES\n")
-    for i, record in enumerate(data_users):
+with open(file_user, "w", encoding="utf-8") as f:
+    f.write("INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES\n")
+    for i, record in enumerate(data_user):
         f.write(f"{record}")
-        if i < len(data_users) - 1:
+        if i < len(data_user) - 1:
             f.write(",\n")
         else:
             f.write(";\n")
 
-print(f"File SQL đã được tạo: {file_users}")
+print(f"File SQL đã được tạo: {file_user}")
