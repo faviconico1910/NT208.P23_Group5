@@ -5,8 +5,8 @@ USE CHATBOT_UIT;
 show tables;
 select * from SINHVIEN;
 drop table SINHVIEN;
-drop table khoa;
-drop table monhoc;
+drop table lichhoc;
+drop table dangky;
 SELECT * FROM MONHOC;
 SELECT * FROM USER;
 -- create table
@@ -129,11 +129,19 @@ CREATE TABLE KHOA(
     Ten_Khoa VARCHAR(255),
     Ma_Truong_Khoa VARCHAR(20)
 );
--- SOME TESTS
-SELECT * FROM NGANH;
-SELECT DISTINCT Ma_Nganh  
-FROM SINHVIEN  
-WHERE Ma_Nganh NOT IN (SELECT Ma_Nganh FROM NGANH);
+CREATE TABLE DANGKY(
+	Ma_Sinh_Vien VARCHAR(20),
+	Ma_Mon_Hoc VARCHAR(20),
+	Ma_Lop_Hoc VARCHAR(20),
+	PRIMARY KEY (Ma_Sinh_Vien, Ma_Mon_Hoc, Ma_Lop_Hoc)
+);
+CREATE TABLE LICHHOC(
+    Ma_Lop_Hoc VARCHAR(20) PRIMARY KEY,
+    Thu INT,
+    Tiet_Bat_Dau INT,
+    Tiet_Ket_Thuc INT
+);
+
 
 -- set foreign key
 ALTER TABLE MONHOC ADD CONSTRAINT fk_monhoc_truoc FOREIGN KEY (Ma_Mon_Hoc_Truoc) REFERENCES MONHOC(Ma_Mon_Hoc);
@@ -156,7 +164,8 @@ ALTER TABLE GIANGVIEN ADD CONSTRAINT fk_giangvien_user FOREIGN KEY (Ma_Giang_Vie
 
 ALTER TABLE KHOA ADD CONSTRAINT fk_khoa_truongkhoa FOREIGN KEY (Ma_Truong_Khoa) REFERENCES GIANGVIEN(Ma_Giang_Vien);
 
-
-
+ALTER TABLE DANGKY ADD CONSTRAINT fk_dangky_sinhvien FOREIGN KEY (Ma_Sinh_Vien) REFERENCES SINHVIEN(Ma_Sinh_Vien);
+ALTER TABLE DANGKY ADD CONSTRAINT fk_dangky_monhoc FOREIGN KEY (Ma_Mon_Hoc) REFERENCES MONHOC(Ma_Mon_Hoc);
+ALTER TABLE DANGKY ADD CONSTRAINT fk_dangky_lophoc FOREIGN KEY (Ma_Lop_Hoc) REFERENCES LICHHOC(Ma_Lop_Hoc);
 
 
