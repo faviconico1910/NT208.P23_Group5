@@ -8,6 +8,7 @@ drop table SINHVIEN;
 drop table khoa;
 drop table monhoc;
 SELECT * FROM MONHOC;
+SELECT * FROM USER;
 -- create table
 CREATE TABLE SINHVIEN (
 	Ma_Sinh_Vien VARCHAR(20) PRIMARY KEY,
