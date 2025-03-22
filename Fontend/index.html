@@ -1,0 +1,36 @@
+<input type="text" id="Tai_Khoan" placeholder="Nhập tài khoản">
+<input type="password" id="Mat_Khau" placeholder="Nhập mật khẩu">
+<button onclick="login()">Đăng nhập</button>
+<p id="message"></p>
+
+<script>
+   async function login() {
+    const Tai_Khoan = document.getElementById("Tai_Khoan").value;
+    const Mat_Khau = document.getElementById("Mat_Khau").value;
+    const message = document.getElementById("message");
+
+    try {
+        const response = await fetch("http://localhost:3000/api/auth/login", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ Tai_Khoan, Mat_Khau })
+        });
+
+        const data = await response.json();
+        console.log("📩 Response từ server:", data); // Log response từ server
+
+        if (response.ok) {
+            message.style.color = "green";
+            message.textContent = "Đăng nhập thành công!";
+        } else {
+            message.style.color = "red";
+            message.textContent = data.message || "Đăng nhập thất bại!";
+        }
+    } catch (error) {
+        console.error("❌ Lỗi kết nối đến server:", error);
+        message.style.color = "red";
+        message.textContent = "Lỗi kết nối đến server!";
+    }
+}
+
+</script>
