@@ -1,7 +1,10 @@
-const db = require("../db");
+const db = require("../config/db.js");
 const jwt = require("jsonwebtoken");
 const login = (req, res) => {
     const { Tai_Khoan, Mat_Khau } = req.body;
+    if (!Tai_Khoan || !Mat_Khau) {
+        return res.status(401).json({ message: "Không được để trống ô tài khoản và mật khẩu!"})
+    }
 
     console.log("📩 Nhận request đăng nhập:", Tai_Khoan, Mat_Khau); // Log input
 

@@ -3,7 +3,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     let Tai_Khoan = document.getElementById("Tai_Khoan").value;
     let Mat_Khau = document.getElementById("Mat_Khau").value;
 
-    let response = await fetch("http://localhost:3000/api/auth/login", {
+    let response = await fetch("http://localhost:3000/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ Tai_Khoan, Mat_Khau })
