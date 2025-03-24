@@ -57,7 +57,8 @@ CREATE TABLE MONHOC (
     Hoc_Ki INT,
     Tin_chi_LT INT,
     Tin_chi_TH INT,
-    Ma_Mon_Hoc_Truoc VARCHAR(20)
+    Ma_Mon_Hoc_Truoc VARCHAR(20),
+    Do_Kho INT
 );
 
 CREATE TABLE KETQUA (
