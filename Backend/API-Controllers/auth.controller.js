@@ -35,9 +35,11 @@ const login = (req, res) => {
             process.env.JWT_SECRET,
             { expiresIn: "1h" }
         );
+        
+        console.log(token);
 
         console.log("✅ Đăng nhập thành công!");
-        res.json({ message: "Đăng nhập thành công!", token, Vai_Tro: user.Vai_Tro });
+        res.json({ message: "Đăng nhập thành công!", token, Vai_Tro: user.Vai_Tro, redirect: `/student_profile/${user.id}` });
     });
 };
 module.exports = { login };

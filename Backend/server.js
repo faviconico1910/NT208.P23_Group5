@@ -9,7 +9,7 @@ const huongdandkhpRoutes = require("./routes/Huongdandkhp.routes.js");
 const xemlichhocRoutes = require("./routes/Xemlichhoc.routes.js");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 
 // Cấu hình middleware
@@ -21,6 +21,11 @@ app.use("/", authRoutes);
 app.use("/", studentRoutes); 
 app.use("/huongdandkhp", huongdandkhpRoutes);
 app.use("/xemlichhoc", xemlichhocRoutes);
+
+app.use(cors({
+    allowedHeaders: ["Authorization", "Content-Type"],
+    exposedHeaders: ["Authorization"]
+}));
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
