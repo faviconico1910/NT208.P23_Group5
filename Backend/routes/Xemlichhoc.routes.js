@@ -1,6 +1,5 @@
 const express = require("express");
-const path = require("path");
 const router = express.Router();
-const {xemlichhocCTRL} = require('../API-Controllers/xemlichhoc.controller');
-router.get('/',xemlichhocCTRL);
+const {Xem_lich_hoc} = require('../API-Controllers/xemlichhoc.controller');
+router.get('/',Xem_lich_hoc);
 module.exports = router;
