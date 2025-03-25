@@ -7,6 +7,7 @@ const authRoutes = require("./routes/auth.routes.js");
 const studentRoutes = require('./routes/student.routes.js');
 const huongdandkhpRoutes = require("./routes/Huongdandkhp.routes.js");
 const xemlichhocRoutes = require("./routes/Xemlichhoc.routes.js");
+const completedCoursesRoutes = require("./routes/completedCourses.routes.js");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -21,6 +22,7 @@ app.use("/", authRoutes);
 app.use("/", studentRoutes); 
 app.use("/huongdandkhp", huongdandkhpRoutes);
 app.use("/xemlichhoc", xemlichhocRoutes);
+app.use("/completedCourses", completedCoursesRoutes);
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
