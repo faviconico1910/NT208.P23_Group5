@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Profile</title>
+    </head>
+    <body>
+        <h1>Profile Sinh Viên</h1>
+        <div id="profile"></div>
+        <p id="message"></p>
+        <button onclick="logout()">Đăng xuất</button>
+        <script>
+            const Tai_Khoan = window.location.pathname.split('/')[1];
+            const token = localStorage.getItem("token");
+            console.log("Token: ", token);
+            if (!token || !Tai_Khoan) {
+                document.getElementById("message").innerText = "Vui lòng đăng nhập lại!";
+                setTimeout(() => window.location.href = "/", 2000);
+            } else {
+                fetchStudentProfile(token, Tai_Khoan);
+            }
+
+            async function fetchStudentProfile(token, Tai_Khoan) {
+                try {
+                    console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
+                    let response = await fetch(`http://localhost:3000/profile/${Tai_Khoan}`, {
+                        method: "GET",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": `Bearer ${token}`
+                        }
+                    });
+
+                    let data = await response.json();
+                    if (response.ok) {
+                        document.getElementById("profile").innerHTML = `
+                            <p><strong>Mã Sinh Viên:</strong> ${data.Ma_Sinh_Vien}</p>
+                            <p><strong>Họ tên:</strong> ${data.Ho_Ten || "Chưa cập nhật"}</p>
+                            <!-- Thêm các trường khác nếu cần -->
+                        `;
+                    } else {
+                        document.getElementById("message").innerText = data.message;
+                    }
+                } catch (error) {
+                    document.getElementById("message").innerText = "Lỗi tải profile!";
+                }
+            }
+
+            function logout() {
+                localStorage.clear();
+                window.location.href = "/login";
+            }
+        </script>
+    </body>
+</html>

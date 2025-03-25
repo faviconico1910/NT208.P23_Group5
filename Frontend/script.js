@@ -1,5 +1,6 @@
 document.getElementById("loginForm").addEventListener("submit", async (e) => {
     e.preventDefault();
+    console.log('♥ Submitted!!!');
     let Tai_Khoan = document.getElementById("Tai_Khoan").value;
     let Mat_Khau = document.getElementById("Mat_Khau").value;
 
@@ -11,15 +12,18 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
 
     let data = await response.json();
     if (response.ok) {
-        alert("Đăng nhập thành công!");
         localStorage.setItem("token", data.token);
+        alert("Đăng nhập thành công " + localStorage.getItem("token"));
+        
+    
         localStorage.setItem("Vai_Tro", data.Vai_Tro); // Lưu Vai_Tro
+        localStorage.setItem("Tai_Khoan", data.Tai_Khoan);
 
         // Điều hướng dựa vào Vai_Tro
         if (data.Vai_Tro === "SinhVien") {
-            window.location.href = "student_home.html";
+            window.location.href = `/${data.Tai_Khoan}`;
         } else if (data.Vai_Tro === "GiangVien") {
-            window.location.href = "teacher_home.html";
+            window.location.href = `/${data.Tai_Khoan}`
         }
     } else {
         document.getElementById("message").innerText = data.message;

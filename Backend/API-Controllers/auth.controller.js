@@ -39,7 +39,11 @@ const login = (req, res) => {
         console.log(token);
 
         console.log("✅ Đăng nhập thành công!");
-        res.json({ message: "Đăng nhập thành công!", token, Vai_Tro: user.Vai_Tro, redirect: `/student_profile/${user.id}` });
+        res.json({ message: "Đăng nhập thành công!",
+        token,
+        Vai_Tro: user.Vai_Tro,
+        Tai_Khoan: user.Tai_Khoan
+        });
     });
 };
 module.exports = { login };

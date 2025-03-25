@@ -1,39 +1,37 @@
-const db = require('../config/db.js');
-const jwt = require("jsonwebtoken");
+    const db = require('../config/db.js');
+    const jwt = require("jsonwebtoken");
 
-const profile = async (req, res) => {
-    try {
-        const authHeader = req.headers.authorization; //lấy token từ header
+    const profile = async (req, res) => {
+        try {
+            const authHeader = req.headers.authorization; //lấy token từ header
 
-        if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
-            return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
+            if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
+                return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
+            }
+            const token = authHeader.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.JWT_SECRET);
+            const userId = decoded.Tai_Khoan;  // MSSV lấy từ token
+
+            console.log("📩 Nhận request student_profile với id từ token:", userId);
+
+            const sql = "SELECT * FROM SINHVIEN WHERE Ma_Sinh_Vien = ?";
+            db.query(sql, [userId], (err, result) => {
+                if (err) {
+                    console.error("❌ Lỗi truy vấn SQL:", err);
+                    return res.status(500).json({ message: "Lỗi server!", error: err });
+                }
+                if (result.length === 0) {
+                    console.log("❌ Không tìm thấy sinh viên!");
+                    return res.status(404).json({ message: "Không tìm thấy sinh viên!" });
+                }
+                console.log("✅ Dữ liệu sinh viên:", result[0]);
+                res.json(result[0]);
+            });
+        } catch (error) {
+            console.error("❌ Lỗi xác thực token:", error);
+            res.status(401).json({ message: "Token không hợp lệ!" });
+            
         }
+    };
 
-        // Cắt chuỗi "Bearer " để lấy token
-        const token = authHeader.split(" ")[1];
-        // Giải mã token để lấy id sinh viên
-        const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        const userId = decoded.Tai_Khoan;  // MSSV lấy từ token
-
-        console.log("📩 Nhận request student_profile với id từ token:", userId);
-
-        const sql = "SELECT * FROM SINHVIEN WHERE Ma_Sinh_Vien = ?";
-        db.query(sql, [userId], (err, result) => {
-            if (err) {
-                console.error("❌ Lỗi truy vấn SQL:", err);
-                return res.status(500).json({ message: "Lỗi server!", error: err });
-            }
-            if (result.length === 0) {
-                console.log("❌ Không tìm thấy sinh viên!");
-                return res.status(404).json({ message: "Không tìm thấy sinh viên!" });
-            }
-            console.log("✅ Dữ liệu sinh viên:", result[0]);
-            res.json(result[0]);
-        });
-    } catch (error) {
-        console.error("❌ Lỗi xác thực token:", error);
-        res.status(401).json({ message: "Token không hợp lệ!" });
-    }
-};
-
-module.exports = { profile };
+    module.exports = { profile };
