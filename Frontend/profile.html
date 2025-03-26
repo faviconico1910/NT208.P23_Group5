@@ -1,83 +1,219 @@
 <!DOCTYPE html>
-<html lang = "vi">
+<html lang="vi">
     <head>
-        <title>Hướng Dẫn Đăng Ký Học Phần</title>
-        <meta charset="UTF-8">
+        <title>Profile</title>
         <style>
-            body{
-                text-align: justify;
+            *{
+                box-sizing: border-box;
             }
-            h1{
+            :root {
+                --main-font: 'Roboto', sans-serif;
+            }
+            body {
+                font-family: var(--main-font);
+                background-color: #e5ecf4;
+            }
+            h1 {
+                text-align: center;
+                color: #B94A48;
+            }
+            h2{
                 text-align: center;
             }
-            img{
-                text-align: center;
+            .profile__wrapper
+            {
+                background-color: #fff;
+                display: flex;
+                max-width: 1200px;
+                margin: auto;
+                padding: 50px;
+            }
+            table {
+                border-collapse: collapse;
+                border-spacing: 0;
+                margin: auto;
+            }
+            th, td {
+                padding: 10px;
+                
+            }
+            td
+            {
+                min-width: 350px;
+            }
+            input {
+                border: none;  
+                width: 100%; 
+            }
+            p {
+                margin: 8px;
+            }
+            .logout {
+                border-radius: 5px;
+                display: flex;
+                justify-content: center;
+            }
+            button{
+                border-radius: 5px;
+                width: 100px;
+                height: 30px;
             }
         </style>
     </head>
+
     <body>
-        <h1>HƯỚNG DẪN ĐĂNG KÝ HỌC PHẦN</h1>
-        <h2><b>1. Đăng nhập</b></h2>
-        <p>- Truy cập vào trang <a href="https://dkhp.uit.edu.vn">https://dkhp.uit.edu.vn</a></p>
-        <p>- Dùng tài khoản chứng thực để đăng nhập</p>
-        <img src="/image/dangnhap.png" alt="Giao diện đăng nhập">
-        <p>- Sau khi đăng nhập xong, màn hình xuất hiện như sau: </p>
-        <img src="/image/giaodien.png" alt="Giao diện sau khi đăng nhập">
-        <h2><b>2. Xác nhận Lớp được hỗ trợ đăng ký từ Phòng ĐTĐH/CTĐB </b></h2>
-        <ul>
-            <li>Bước 1: Vào menu <a href="https://dkhp.uit.edu.vn"><span style="color: blue;"><u>Xác nhận Đăng ký Học Phần</u></span></a></li>
-            <li>Bước 2: Kiểm tra kỹ danh sách đăng ký </li>
-            <li>Bước 3: Nhấn button Đồng ý nếu muốn xác nhận, không làm gì nếu không muốn xác nhận. 
-                Sau thời gian xác nhận, sinh viên nào đã xác nhận đồng ý sẽ giữ lại ĐKHP, sinh viên không 
-                thực hiện sẽ bị xóa đăng ký học phần. Sinh viên dù đồng ý hay không vẫn có thể tiến hành 
-                Đăng ký học phần bình thường.</li>
-        </ul>
-        <img src="/image/xacnhanlop.png" alt="Giao diện xác nhận lớp">
-        <h2><b>3. Đăng ký học phần</b></h2>
-        <p>Các bước đăng ký học phần:</p>
-        <ul>
-            <li>Bước 1: Chuyển sang menu <span style="color: red;"><u>Đăng ký Học phần</u></span>. </li>
-            <img src="/image/giaodienchinhkhidkhp.png" alt="Giao diện chính khi đăng ký học phần">
-            <li>Bước 2: Tìm kiếm danh sách mã lớp cần đăng ký bằng thanh tìm kiếm.</li>
-            <img src="/image/huongdannhaplop.png" alt="Hướng dẫn tìm kiếm mã lớp">
-            <li>Bước 3: Chọn các lớp cần đăng ký. </li>
-            <img src="/image/huongdantimmalop.png" alt="Hướng dẫn chọn mã lớp">
-            <li>Bước 4: Bấm nút đăng ký sau khi xem xong danh sách các lớp đã chọn ở ngay bên dưới.</li>
-            <img src="/image/huongdandklopdachon.png" alt="Hướng dẫn đăng ký các lớp đã chọn ">
-            <li>Bước 5: Gồm 2 bước nhỏ
-                <ul>
-                    <li>Nếu các lớp chọn <span style="color: red;"><u>không vấn đề gì</u></span>, hệ thống sẽ <span style="color: red;">tiến hành ghi nhận</span>.</li>
-                    <li>Nếu <span style="color: red;"><u>có vấn đề lỗi</u></span> thì sẽ thông báo lỗi như sau</li>
-                    <img src="/image/loilop.png" alt="Hiển thị thông báo lỗi khi đăng ký lớp">
-                    <li>Nếu <span style="color: red;"><u>ghi nhận thành công</u></span> sẽ thông báo màu xanh... và chờ kết quả xử lý... </li>
-                    <img src="/image/thanhcongdklop.png" alt="Hiển thị đăng ký thành công và được hệ thống ghi nhận">
-                </ul>
-            </li>
-            <li>Bước 6: Kiểm tra kết quả đăng ký học phần trả về.</li>
-            <img src="/image/ketqua.png" alt="Kết quả trả về khi đăng ký học phần">
-            <li>Bước 7: Hoàn tất đăng ký học phần:</li>
-        </ul>
-        <img src="/image/dshp.png" alt="Danh sách các lớp đăng ký thành công">
-        <h2><b>4. Xóa đăng ký học phần</b></h2>
-        <p>Các bước xoá các lớp đã đăng ký học phần: </p>
-        <ul>
-            <li>Bước 1: Chuyển sang menu Danh sách Lớp đã đăng ký.</li>
-            <img src="/image/giaodiendslopdk.png" alt="Giao diện danh sách lớp đã đăng ký">
-            <li>Bước 2: Chọn các lớp cần xoá đăng ký.</li>
-            <img src="/image/chonmalopxoa.png" alt="Hướng dẫn chọn mã lớp cần xóa">
-            <li>Bước 3: Bấm xóa sau khi xem xong danh sách các lớp đã chọn ở ngay bên dưới. </li>
-            <img src="/image/xoalopchon.png" alt="Hướng dẫn xóa các lớp đã chọn">
-            <li>Bước 4 gồm 2 bước nhỏ: 
-                <ul>
-                    <li>Nếu các lớp chọn <span style="color: red;"><u>không vấn đề gì</u></span>, hệ thống sẽ <span style="color: red;">tiến hành ghi nhận</span>.</li>
-                    <li>Nếu <span style="color: red;"><u>có vấn đề lỗi</u></span> thì sẽ thông báo lỗi như sau</li>
-                    <img src="/image/xoalopthatbai.png" alt="Hiển thị lỗi khi chọn lớp để xóa">
-                    <li>Nếu <span style="color: red;"><u>ghi nhận thành công</u></span> sẽ thông báo màu xanh... và chờ kết quả xử lý... </li>
-                    <img src="/image/thanhcongxoalop.png" alt="Hiển thị xóa thành công và được hệ thống ghi nhận">
-                </ul>
-            </li>
-            <li>Bước 5: Kiểm tra kết quả xoá đăng ký học phần trả về. </li>
-            <img src="/image/ketquaxoalop.png" alt="Kết quả trả về khi xóa đăng ký học phần">
-        </ul>
+        <h1>Thông tin lí lịch sinh viên</h1>
+        <h2>Chào mừng quay trở lại! 👋</h2>
+        <div class="profile__wrapper">
+            <table border="1">
+                <tr>
+                    <th class="key">
+                        <p>Họ Tên</p>
+                        <p>Giới tính</p>
+                        <p>Ngày Sinh</p>
+                        <p>Nơi Sinh</p>
+                        <p>Tình Trạng</p>
+                    </th>
+                    <td class="value">
+                        <p><input id="name" type="text" ></p>
+                        <p><input id="gender" type="text" ></p>
+                        <p><input id="birth" type="text"></p>
+                        <p><input id="birth_place" type="text"></p>
+                        <p><input id="status" type="text"></p>
+                    </td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <th>Lớp</th>
+                    <td ><p><input id="class" type="text" ></p></td>
+                    <th>Hệ đào tạo</th>
+                    <td><p><input id="hedaotao" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Email Trường</th>
+                    <td><p><input id="email1" type="text" ></p></td>
+                    <th>Email cá nhân</th>
+                    <td><p><input id="email2" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Số CMND</th>
+                    <td><p><input id="CMND" type="text" ></p></td>
+                    <th>Ngày cấp</th>
+                    <td><p><input id="date_provided" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Nơi cấp</th>
+                    <td><p><input id="place_provided" type="text" ></p></td>
+                    <th>Tôn Giáo</th>
+                    <td><p><input id="religion" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Dân Tộc</th>
+                    <td><p><input id="folk" type="text" ></p></td>
+                    <th>Xuất Thân</th>
+                    <td><p><input id="origin" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Họ tên cha</th>
+                    <td><p><input id="father" type="text" ></p></td>
+                    <th>Nghề Nghiệp</th>
+                    <td><p><input id="father_job" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>SĐT Cha</th>
+                    <td><p><input id="father_phonenumber" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Họ tên mẹ</th>
+                    <td><p><input id="mother" type="text" ></p></td>
+                    <th>Nghề Nghiệp</th>
+                    <td><p><input id="mother_job" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>SĐT Mẹ</th>
+                    <td><p><input id="mother_phonenumber" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Thường Trú</th>
+                    <td><p><input id="location" type="text" ></p></td>
+                    <th>Phường/Xã</th>
+                    <td><p><input id="commune" type="text" ></p></td>
+                </tr>
+                <tr>
+                    <th>Quận/Huyện</th>
+                    <td><p><input id="district" type="text" ></p></td>
+                    <th>Tỉnh/Thành Phố</th>
+                    <td><p><input id="city" type="text" ></p></td>
+                </tr>
+            </table>
+        </div>
+        <p id="message"></p>
+        <div class="logout"><button  onclick="logout()">Đăng xuất</button></div>
+        <script>
+            const Tai_Khoan = window.location.pathname.split('/')[1];
+            const token = localStorage.getItem("token");
+            console.log("Token: ", token);
+            if (!token || !Tai_Khoan) {
+                document.getElementById("message").innerText = "Vui lòng đăng nhập lại!";
+                setTimeout(() => window.location.href = "/", 2000);
+            } else {
+                fetchStudentProfile(token, Tai_Khoan);
+            }
+
+            async function fetchStudentProfile(token, Tai_Khoan) {
+                try {
+                    console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
+                    let response = await fetch(`http://localhost:3000/profile/${Tai_Khoan}`, {
+                        method: "GET",
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": `Bearer ${token}`
+                        }
+                    });
+
+                    let data = await response.json();
+                    if (response.ok) {
+                        updateProfile(data);
+                    } else {
+                        document.getElementById("message").textContent = data.message;
+                    }
+                } catch (error) {
+                    document.getElementById("message").textContent = "Lỗi tải profile!";
+                }
+            }
+            function updateProfile(data) {
+                document.getElementById("name").value = data.Ho_Ten || "Không có dữ liệu";
+                document.getElementById("gender").value = data.Gioi_Tinh || "Không có dữ liệu";
+                document.getElementById("birth").value = data.Ngay_Sinh || "Không có dữ liệu";
+                document.getElementById("birth_place").value = data.Noi_Sinh || "Không có dữ liệu";
+                document.getElementById("status").value = data.Tinh_Trang || "Không có dữ liệu";
+                document.getElementById("class").value = data.Ma_Lop || "Không có dữ liệu";
+                document.getElementById("hedaotao").value= data.He_Dao_Tao || "Không có dữ liệu";
+                document.getElementById("email1").value = data.Email_Truong || "Không có dữ liệu";
+                document.getElementById("email2").value = data.Email_Ca_Nhan || "Không có dữ liệu";
+                document.getElementById("CMND").value = data.So_CMND || "Không có dữ liệu";
+                document.getElementById("date_provided").value = data.Ngay_Cap_CMND || "Không có dữ liệu";
+                document.getElementById("date_provided").value = data.Ngay_Cap_CMND || "Không có dữ liệu";
+                document.getElementById("place_provided").value = data.Noi_Cap_CMND || "Không có dữ liệu";
+                document.getElementById("religion").value = data.Ton_Giao|| "Không có dữ liệu";
+                document.getElementById("folk").value = data.Dan_Toc || "Không có dữ liệu";
+                document.getElementById("origin").value = data.Xuat_Than || "Không có dữ liệu";
+                document.getElementById("father").value = data.Ho_Ten_Cha || "Không có dữ liệu";
+                document.getElementById("father_job").value = data.Nghe_Nghiep_Cha || "Không có dữ liệu";
+                document.getElementById("father_phonenumber").value = data.SDT_Cha || "Không có dữ liệu";
+                document.getElementById("mother").value = data.Ho_Ten_Me || "Không có dữ liệu";
+                document.getElementById("mother_job").value = data.Nghe_Nghiep_Me || "Không có dữ liệu";
+                document.getElementById("mother_phonenumber").value = data.SDT_Me || "Không có dữ liệu";
+                document.getElementById("location").value = data.Thuong_Tru || "Không có dữ liệu";
+                document.getElementById("commune").value = data.Phuong_Xa || "Không có dữ liệu";
+                document.getElementById("district").value = data.Quan_Huyen || "Không có dữ liệu";
+                document.getElementById("city").value = data.Tinh_Tp || "Không có dữ liệu";
+            }
+
+            function logout() {
+                localStorage.clear();
+                window.location.href = "/login";
+            }
+        </script>
     </body>
 </html>
