@@ -20,9 +20,9 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
 
         // Điều hướng dựa vào Vai_Tro
         if (data.Vai_Tro === "SinhVien") {
-            window.location.href = `/${data.Tai_Khoan}`;
+            window.location.href = `/student/${data.Tai_Khoan}`;
         } else if (data.Vai_Tro === "GiangVien") {
-            window.location.href = `/${data.Tai_Khoan}`
+            window.location.href = `/giangvien/${data.Tai_Khoan}`
         }
     } else {
         document.getElementById("message").innerText = data.message;

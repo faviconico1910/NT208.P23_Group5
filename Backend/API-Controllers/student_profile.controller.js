@@ -4,6 +4,7 @@
     const profile = async (req, res) => {
         try {
             const authHeader = req.headers.authorization; //lấy token từ header
+            console.log("📌 Token nhận được từ client:", authHeader);
 
             if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
                 return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
@@ -28,6 +29,7 @@
                 res.json(result[0]);
             });
         } catch (error) {
+
             console.error("❌ Lỗi xác thực token:", error);
             res.status(401).json({ message: "Token không hợp lệ!" });
             

@@ -17,13 +17,13 @@ const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 app.use(express.json());
 app.use(cors()); // Cho phép gọi API từ client
 app.use(express.static(path.join(__dirname, "../Frontend"))); // Phục vụ file frontend
-app.use("/", authRoutes);
+app.use("/login", authRoutes);
 // đường dẫn cho profile của mỗi sinh viên /student/{id}, vd /student/24520001
-app.use("/", studentRoutes); 
+app.use("/student/", studentRoutes); 
 app.use("/huongdandkhp", huongdandkhpRoutes);
 app.use("/xemlichhoc", xemlichhocRoutes);
 app.use("/completedCourses", completedCoursesRoutes);
-app.use("/", DeXuatMonHocRoutes);
+app.use("/dexuatmonhoc", DeXuatMonHocRoutes);
 
 app.use(cors({
     allowedHeaders: ["Authorization", "Content-Type"],

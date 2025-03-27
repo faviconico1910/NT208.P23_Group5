@@ -150,25 +150,26 @@
         <p id="message"></p>
         <div class="logout"><button  onclick="logout()">Đăng xuất</button></div>
         <script>
-            const Tai_Khoan = window.location.pathname.split('/')[1];
-            const token = localStorage.getItem("token");
-            console.log("Token: ", token);
+            const Tai_Khoan = window.location.pathname.split('/')[2];
+            console.log("Giá trị Tai_Khoan:", Tai_Khoan);
+            let token = localStorage.getItem("token");
             if (!token || !Tai_Khoan) {
                 document.getElementById("message").innerText = "Vui lòng đăng nhập lại!";
-                setTimeout(() => window.location.href = "/", 2000);
+                setTimeout(() => window.location.href = "/login", 2000);
             } else {
                 fetchStudentProfile(token, Tai_Khoan);
             }
 
+            
             async function fetchStudentProfile(token, Tai_Khoan) {
                 try {
                     console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
-                    let response = await fetch(`http://localhost:3000/profile/${Tai_Khoan}`, {
+                    let response = await fetch(`http://localhost:3000/student/test/${Tai_Khoan}`, {
                         method: "GET",
                         headers: {
                             "Content-Type": "application/json",
                             "Authorization": `Bearer ${token}`
-                        }
+                        },
                     });
 
                     let data = await response.json();
