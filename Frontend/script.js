@@ -25,7 +25,6 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
             window.location.href = `/giangvien/${data.Tai_Khoan}`
         }
     } else {
-        document.getElementById("message").innerText = data.message;
+        alert( data.message);
     }
 });
-    

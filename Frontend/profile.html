@@ -56,7 +56,7 @@
             button{
                 border-radius: 5px;
                 width: 100px;
-                height: 30px;
+                height: 50px;
             }
         </style>
     </head>
@@ -147,7 +147,9 @@
                 </tr>
             </table>
         </div>
+        
         <p id="message"></p>
+        <div ><button class="list_monhoc">Xem danh sách môn học</button></div>
         <div class="logout"><button  onclick="logout()">Đăng xuất</button></div>
         <script>
             const Tai_Khoan = window.location.pathname.split('/')[2];
@@ -171,7 +173,7 @@
                             "Authorization": `Bearer ${token}`
                         },
                     });
-
+            
                     let data = await response.json();
                     if (response.ok) {
                         updateProfile(data);
@@ -213,8 +215,29 @@
 
             function logout() {
                 localStorage.clear();
+                localStorage.removeItem("token");
+                localStorage.removeItem("Vai_Tro");
+                localStorage.removeItem("Tai_Khoan");
                 window.location.href = "/login";
             }
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const buttonListMonHoc = document.querySelector(".list_monhoc");
+                
+                if (buttonListMonHoc) {
+                    buttonListMonHoc.addEventListener("click", () => {
+                        const studentId = localStorage.getItem("Tai_Khoan");
+                        
+                        if (!studentId) {
+                            alert("Bạn chưa đăng nhập!");
+                            window.location.href = "/login";
+                            return;
+                        }
+                        
+                        window.location.href = `/completedCourses.html`;
+                    });
+                }
+            });
         </script>
     </body>
 </html>
