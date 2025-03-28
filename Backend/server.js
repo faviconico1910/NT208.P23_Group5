@@ -16,7 +16,7 @@ const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 // Cấu hình middleware
 app.use(express.json());
 app.use(cors()); // Cho phép gọi API từ client
-app.use(express.static(path.join(__dirname, "../Frontend"))); // Phục vụ file frontend
+app.use(express.static(path.join(__dirname, "../Frontend")));
 app.use("/login", authRoutes);
 // đường dẫn cho profile của mỗi sinh viên /student/{id}, vd /student/24520001
 app.use("/student/", studentRoutes); 

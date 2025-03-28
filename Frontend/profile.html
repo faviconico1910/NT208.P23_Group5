@@ -2,6 +2,7 @@
 <html lang="vi">
     <head>
         <title>Profile</title>
+        <link rel="stylesheet" href="/layout/sidebar.css">
         <style>
             *{
                 box-sizing: border-box;
@@ -62,6 +63,7 @@
     </head>
 
     <body>
+        <div id="sidebar-container"></div>
         <h1>Thông tin lí lịch sinh viên</h1>
         <h2>Chào mừng quay trở lại! 👋</h2>
         <div class="profile__wrapper">
@@ -151,6 +153,9 @@
         <p id="message"></p>
         <div ><button class="list_monhoc">Xem danh sách môn học</button></div>
         <div class="logout"><button  onclick="logout()">Đăng xuất</button></div>
+
+
+        <!-- javascript here -->
         <script>
             const Tai_Khoan = window.location.pathname.split('/')[2];
             console.log("Giá trị Tai_Khoan:", Tai_Khoan);
@@ -237,6 +242,12 @@
                         window.location.href = `/completedCourses.html`;
                     });
                 }
+            });
+            
+            // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
+            fetch('/layout/sidebar.html').then(response => response.text())
+            .then(html => {
+                document.getElementById("sidebar-container").innerHTML = html
             });
         </script>
     </body>

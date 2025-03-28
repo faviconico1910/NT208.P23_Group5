@@ -1,0 +1,22 @@
+
+.sidebar {
+    position: fixed;
+    width: 287px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: #0C1E33;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+}
+.sidebar ul {
+    list-style-type: none;
+}
+.sidebar a {
+    color: #fff;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+}
