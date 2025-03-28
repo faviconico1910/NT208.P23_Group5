@@ -4,6 +4,6 @@ const { getDeXuatPage, getDeXuatMonHoc } = require("../API-Controllers/dexuatmon
 
 // Route lấy danh sách môn học đề xuất
 router.get("/", getDeXuatPage);   // Trả về giao diện HTML
-router.get("/api/dexuatmonhoc", getDeXuatMonHoc); // Trả về JSON dữ liệu
+router.get("/api", getDeXuatMonHoc); // Trả về JSON dữ liệu
 
 module.exports = router;
