@@ -1,0 +1,20 @@
+.right{
+    background-color: #fff;
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    padding: 20px;
+    margin-left: 387px;
+    font-size: 25px;
+    margin-right: 100px;
+}
+.right h1{
+    text-align: left;
+    align-self: flex-start;
+    margin-bottom: 50px;
+    margin-top: 50px !important;
+}
+.image{
+    text-align: center;
+}
