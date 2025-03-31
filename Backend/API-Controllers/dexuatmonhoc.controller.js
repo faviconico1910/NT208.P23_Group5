@@ -2,12 +2,12 @@ const db = require('../config/db.js');
 const path = require("path");
 
 const getDeXuatPage = (req, res) => {
-    res.sendFile(path.join(__dirname, "../../Frontend/dexuatmonhoc.html"));
+    res.sendFile(path.join(__dirname, "../../Frontend/DeXuat/DeXuat.html"));
 };
 // Hàm lấy danh sách môn học đề xuất
 const getDeXuatMonHoc = async (req, res) => {
     try {
-        const studentId = req.user?.Ma_Sinh_Vien || "24520202";
+        const studentId = req.user?.Ma_Sinh_Vien || "23520004";
 
         if (!studentId) {
             return res.status(400).json({ error: "Mã sinh viên không hợp lệ hoặc chưa đăng nhập" });
