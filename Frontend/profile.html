@@ -3,155 +3,105 @@
     <head>
         <title>Profile</title>
         <link rel="stylesheet" href="/layout/sidebar.css">
-        <style>
-            *{
-                box-sizing: border-box;
-            }
-            :root {
-                --main-font: 'Roboto', sans-serif;
-            }
-            body {
-                font-family: var(--main-font);
-                background-color: #e5ecf4;
-            }
-            h1 {
-                text-align: center;
-                color: #B94A48;
-            }
-            h2{
-                text-align: center;
-            }
-            .profile__wrapper
-            {
-                background-color: #fff;
-                display: flex;
-                max-width: 1200px;
-                margin: auto;
-                padding: 50px;
-            }
-            table {
-                border-collapse: collapse;
-                border-spacing: 0;
-                margin: auto;
-            }
-            th, td {
-                padding: 10px;
-                
-            }
-            td
-            {
-                min-width: 350px;
-            }
-            input {
-                border: none;  
-                width: 100%; 
-            }
-            p {
-                margin: 8px;
-            }
-            .logout {
-                border-radius: 5px;
-                display: flex;
-                justify-content: center;
-            }
-            button{
-                border-radius: 5px;
-                width: 100px;
-                height: 50px;
-            }
-        </style>
+        <link rel="stylesheet" href="/profile.css">
     </head>
-
     <body>
         <div id="sidebar-container"></div>
-        <h1>Thông tin lí lịch sinh viên</h1>
-        <h2>Chào mừng quay trở lại! 👋</h2>
-        <div class="profile__wrapper">
-            <table border="1">
-                <tr>
-                    <th class="key">
-                        <p>Họ Tên</p>
-                        <p>Giới tính</p>
-                        <p>Ngày Sinh</p>
-                        <p>Nơi Sinh</p>
-                        <p>Tình Trạng</p>
-                    </th>
-                    <td class="value">
-                        <p><input id="name" type="text" ></p>
-                        <p><input id="gender" type="text" ></p>
-                        <p><input id="birth" type="text"></p>
-                        <p><input id="birth_place" type="text"></p>
-                        <p><input id="status" type="text"></p>
-                    </td>
-                    <td colspan="2"></td>
-                </tr>
-                <tr>
-                    <th>Lớp</th>
-                    <td ><p><input id="class" type="text" ></p></td>
-                    <th>Hệ đào tạo</th>
-                    <td><p><input id="hedaotao" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Email Trường</th>
-                    <td><p><input id="email1" type="text" ></p></td>
-                    <th>Email cá nhân</th>
-                    <td><p><input id="email2" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Số CMND</th>
-                    <td><p><input id="CMND" type="text" ></p></td>
-                    <th>Ngày cấp</th>
-                    <td><p><input id="date_provided" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Nơi cấp</th>
-                    <td><p><input id="place_provided" type="text" ></p></td>
-                    <th>Tôn Giáo</th>
-                    <td><p><input id="religion" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Dân Tộc</th>
-                    <td><p><input id="folk" type="text" ></p></td>
-                    <th>Xuất Thân</th>
-                    <td><p><input id="origin" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Họ tên cha</th>
-                    <td><p><input id="father" type="text" ></p></td>
-                    <th>Nghề Nghiệp</th>
-                    <td><p><input id="father_job" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>SĐT Cha</th>
-                    <td><p><input id="father_phonenumber" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Họ tên mẹ</th>
-                    <td><p><input id="mother" type="text" ></p></td>
-                    <th>Nghề Nghiệp</th>
-                    <td><p><input id="mother_job" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>SĐT Mẹ</th>
-                    <td><p><input id="mother_phonenumber" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Thường Trú</th>
-                    <td><p><input id="location" type="text" ></p></td>
-                    <th>Phường/Xã</th>
-                    <td><p><input id="commune" type="text" ></p></td>
-                </tr>
-                <tr>
-                    <th>Quận/Huyện</th>
-                    <td><p><input id="district" type="text" ></p></td>
-                    <th>Tỉnh/Thành Phố</th>
-                    <td><p><input id="city" type="text" ></p></td>
-                </tr>
-            </table>
+        <!-- main -->
+        <div class="header"></div>
+        <div class="profile__container">
+            <div class="avatar__container">
+                <img src="../image/cat_meme.jpg" alt="avatar">
+                <p class="name" id="name"></p>
+            </div>
+            <div class="welcome">
+                <h2>👋 Welcome!!</h2>
+            </div>
+            <div class="uni-info-container">
+                <div class="uni-info">
+                    <div class="uni-info-item uni-info__mssv">
+                        <label for="">MSSV</label>
+                        <p class="mssv" id="mssv"></p>
+                    </div>
+                    <div class="uni-info-item uni-info__class">
+                        <label for="">Lớp</label>
+                        <p class="class" id="class"></p>
+                    </div>
+                    <div class="uni-info-item uni-info__email1">
+                        <label for="">Email Trường</label>
+                        <p class="email1" id="email1"></p>
+                    </div>
+                    <div class="uni-info-item uni-info__status">
+                        <label for="">Tình Trạng</label>
+                        <p class="status" id="status">Cảnh báo</p>
+                    </div>
+                </div>
+            </div>
+            <h2>Thông tin cá nhân</h2>
+            <div class="personal-info-container">
+                
+                <div class="personal-info">
+                    <div class="personal-info-item personal-info-birth">
+                        <label for="">Ngày sinh</label>
+                        <p class="birth" id="birth"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-cccd">
+                        <label for="">CCCD</label>
+                        <p class="cccd" id="cccd"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-gender">
+                        <label for="">Giới tính</label>
+                        <p class="gender" id="gender"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-religion">
+                        <label for="">Tôn giáo</label>
+                        <p class="religion" id="religion"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-location">
+                        <label for="">Thường Trú</label>
+                        <p class="location" id="location"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-email2">
+                        <label for="">Email Cá Nhân</label>
+                        <p class="email2" id="email2"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-father-container">
+                <div class="info-father">
+                    <div class="personal-info-item personal-info-father">
+                        <label for="">Họ tên cha</label>
+                        <p class="father" id="father"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-father_phonenumber">
+                        <label for="">Số điện thoại</label>
+                        <p class="father_phonenumber" id="father_phonenumber"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-father_job">
+                        <label for="">Nghề Nghiệp</label>
+                        <p class="father_job" id="father_job"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="info-mother-container">
+                <div class="info-mother">
+                    <div class="personal-info-item personal-info-mother">
+                        <label for="">Họ tên cha</label>
+                        <p class="mother" id="mother"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-mother_phonenumber">
+                        <label for="">Số Điện Thoại</label>
+                        <p class="mother_phonenumber" id="mother_phonenumber"></p>
+                    </div>
+                    <div class="personal-info-item personal-info-mother_job">
+                        <label for="">Nghề Nghiệp</label>
+                        <p class="mother_job" id="mother_job"></p>
+                    </div>
+                </div>
+            </div>
         </div>
         
         <p id="message"></p>
-        <div ><button class="list_monhoc">Xem danh sách môn học</button></div>
         <div class="logout"><button  onclick="logout()">Đăng xuất</button></div>
 
 
@@ -160,13 +110,13 @@
             const Tai_Khoan = window.location.pathname.split('/')[2];
             console.log("Giá trị Tai_Khoan:", Tai_Khoan);
             let token = localStorage.getItem("token");
+
             if (!token || !Tai_Khoan) {
                 document.getElementById("message").innerText = "Vui lòng đăng nhập lại!";
                 setTimeout(() => window.location.href = "/login", 2000);
             } else {
                 fetchStudentProfile(token, Tai_Khoan);
             }
-
             
             async function fetchStudentProfile(token, Tai_Khoan) {
                 try {
@@ -190,32 +140,25 @@
                 }
             }
             function updateProfile(data) {
-                document.getElementById("name").value = data.Ho_Ten || "Không có dữ liệu";
-                document.getElementById("gender").value = data.Gioi_Tinh || "Không có dữ liệu";
-                document.getElementById("birth").value = data.Ngay_Sinh || "Không có dữ liệu";
-                document.getElementById("birth_place").value = data.Noi_Sinh || "Không có dữ liệu";
-                document.getElementById("status").value = data.Tinh_Trang || "Không có dữ liệu";
-                document.getElementById("class").value = data.Ma_Lop || "Không có dữ liệu";
-                document.getElementById("hedaotao").value= data.He_Dao_Tao || "Không có dữ liệu";
-                document.getElementById("email1").value = data.Email_Truong || "Không có dữ liệu";
-                document.getElementById("email2").value = data.Email_Ca_Nhan || "Không có dữ liệu";
-                document.getElementById("CMND").value = data.So_CMND || "Không có dữ liệu";
-                document.getElementById("date_provided").value = data.Ngay_Cap_CMND || "Không có dữ liệu";
-                document.getElementById("date_provided").value = data.Ngay_Cap_CMND || "Không có dữ liệu";
-                document.getElementById("place_provided").value = data.Noi_Cap_CMND || "Không có dữ liệu";
-                document.getElementById("religion").value = data.Ton_Giao|| "Không có dữ liệu";
-                document.getElementById("folk").value = data.Dan_Toc || "Không có dữ liệu";
-                document.getElementById("origin").value = data.Xuat_Than || "Không có dữ liệu";
-                document.getElementById("father").value = data.Ho_Ten_Cha || "Không có dữ liệu";
-                document.getElementById("father_job").value = data.Nghe_Nghiep_Cha || "Không có dữ liệu";
-                document.getElementById("father_phonenumber").value = data.SDT_Cha || "Không có dữ liệu";
-                document.getElementById("mother").value = data.Ho_Ten_Me || "Không có dữ liệu";
-                document.getElementById("mother_job").value = data.Nghe_Nghiep_Me || "Không có dữ liệu";
-                document.getElementById("mother_phonenumber").value = data.SDT_Me || "Không có dữ liệu";
-                document.getElementById("location").value = data.Thuong_Tru || "Không có dữ liệu";
-                document.getElementById("commune").value = data.Phuong_Xa || "Không có dữ liệu";
-                document.getElementById("district").value = data.Quan_Huyen || "Không có dữ liệu";
-                document.getElementById("city").value = data.Tinh_Tp || "Không có dữ liệu";
+                document.getElementById("name").innerText = data.Ho_Ten || "Không có dữ liệu";
+                document.getElementById("mssv").innerText = data.Ma_Sinh_Vien || "Không có dữ liệu";
+                document.getElementById("gender").innerText = data.Gioi_Tinh || "Không có dữ liệu";
+                document.getElementById("birth").innerText = data.Ngay_Sinh || "Không có dữ liệu";
+                document.getElementById("status").innerText = data.Tinh_Trang || "Không có dữ liệu";
+                document.getElementById("class").innerText = data.Ma_Lop || "Không có dữ liệu";
+                document.getElementById("email1").innerText = data.Email_Truong || "Không có dữ liệu";
+                document.getElementById("email2").innerText = data.Email_Ca_Nhan || "Không có dữ liệu";
+                document.getElementById("cccd").innerText = data.So_CMND || "Không có dữ liệu";
+                document.getElementById("religion").innerText = data.Ton_Giao|| "Không có dữ liệu";
+                document.getElementById("location").innerText = data.Thuong_Tru|| "Không có dữ liệu";
+                // father
+                document.getElementById("father").innerText = data.Ho_Ten_Cha || "Không có dữ liệu";
+                document.getElementById("father_phonenumber").innerText = data.SDT_Cha || "Không có dữ liệu";
+                document.getElementById("father_job").innerText = data.Nghe_Nghiep_Cha || "Không có dữ liệu";
+                // mother
+                document.getElementById("mother").innerText = data.Ho_Ten_Me || "Không có dữ liệu";
+                document.getElementById("mother_phonenumber").innerText = data.SDT_Me || "Không có dữ liệu";
+                document.getElementById("mother_job").innerText = data.Nghe_Nghiep_Me || "Không có dữ liệu";
             }
 
             function logout() {
@@ -226,28 +169,34 @@
                 window.location.href = "/login";
             }
 
-            document.addEventListener("DOMContentLoaded", () => {
-                const buttonListMonHoc = document.querySelector(".list_monhoc");
+            // document.addEventListener("DOMContentLoaded", () => {
+            //     const buttonListMonHoc = document.querySelector(".list_monhoc");
                 
-                if (buttonListMonHoc) {
-                    buttonListMonHoc.addEventListener("click", () => {
-                        const studentId = localStorage.getItem("Tai_Khoan");
+            //     if (buttonListMonHoc) {
+            //         buttonListMonHoc.addEventListener("click", () => {
+            //             const studentId = localStorage.getItem("Tai_Khoan");
                         
-                        if (!studentId) {
-                            alert("Bạn chưa đăng nhập!");
-                            window.location.href = "/login";
-                            return;
-                        }
+            //             if (!studentId) {
+            //                 alert("Bạn chưa đăng nhập!");
+            //                 window.location.href = "/login";
+            //                 return;
+            //             }
                         
-                        window.location.href = `/completedCourses.html`;
-                    });
-                }
-            });
+            //             window.location.href = `/completedCourses.html`;
+            //         });
+            //     }
+            // });
             
             // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
             fetch('/layout/sidebar.html').then(response => response.text())
             .then(html => {
-                document.getElementById("sidebar-container").innerHTML = html
+                document.getElementById("sidebar-container").innerHTML = html;
+                const toggleButton = document.getElementById("toggle-btn");
+                const sidebar = document.getElementById("sidebar");
+
+                toggleButton.addEventListener("click", () => {
+                    sidebar.classList.toggle("collapsed");
+                })
             });
         </script>
     </body>

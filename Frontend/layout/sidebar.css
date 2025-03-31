@@ -1,22 +1,99 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .sidebar {
     position: fixed;
     width: 287px;
     height: 100vh;
     left: 0;
     top: 0;
-    background-color: #0C1E33;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    background-color: #222627;
+    /* border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; */
     color: #fff;
+    transition: width 0.3s ease;
+    overflow: hidden auto;
+    flex: 1 1 auto;
+    z-index: 1;
+}
+.sidebar__header-container {
+    border-bottom: 1px solid #2c3134;
+}
+.sidebar__header {
+    position: absolute;
+    width: 199px;
+    height: 37px;
+    left: 72px;
+    top: 5px;
+    font-size: 20px;
+    background: linear-gradient(180deg, #54b1f4, #766cbe);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sidebar__list {
+    padding-top: 24px;
+    font-size: 20px;
+}
+.sidebar i {
+    background: linear-gradient(180deg, #54b1f4, #766cbe);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sidebar__list i::before {
+    background: linear-gradient(180deg, #54b1f4, #766cbe);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sidebar__link {
+    margin-left: 20px;
+}
+.sidebar__list i {
+    max-width: 15px;
+}
+.sidebar__list-item {
+    padding: 0;
 }
 .sidebar ul {
     list-style-type: none;
 }
-.sidebar a {
-    color: #fff;
-    padding: 10px;
+.nav-item {
+    padding: 20px;
+    margin-left: 10px;
 }
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
+.sidebar__open-close {
+    /* border: 1px solid #fff; */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    cursor: pointer;
+}
+.sidebar__open-close:hover {
+    opacity: 0.7;
+}
+
+
+.sidebar.collapsed {
+    width: 70px;
+    padding-right: 0;
+}
+
+.sidebar.collapsed a {
+    display: none;
+}
+/* responsive */
+@media (max-width: 768px) {
+    #sidebar {
+        width: 70px;
+        padding-right: 0;
+    }
+    .sidebar a {
+        display: none;
+    }
+}
+
