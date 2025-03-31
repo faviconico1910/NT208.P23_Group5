@@ -9,6 +9,8 @@ const huongdandkhpRoutes = require("./routes/Huongdandkhp.routes.js");
 const xemlichhocRoutes = require("./routes/Xemlichhoc.routes.js");
 const completedCoursesRoutes = require("./routes/completedCourses.routes.js");
 const DeXuatMonHocRoutes = require("./routes/dexuatmonhoc.routes.js");
+const thongKeRoutes = require('./routes/thongke.routes.js');
+
 const app = express();
 const PORT = process.env.PORT;
 const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
@@ -24,6 +26,7 @@ app.use("/huongdandkhp", huongdandkhpRoutes);
 app.use("/xemlichhoc", xemlichhocRoutes);
 app.use("/completedCourses", completedCoursesRoutes);
 app.use("/dexuatmonhoc", DeXuatMonHocRoutes);
+app.use('/thongkesv', thongKeRoutes);
 
 app.use(cors({
     allowedHeaders: ["Authorization", "Content-Type"],

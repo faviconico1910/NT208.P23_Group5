@@ -1,0 +1,248 @@
+/* CSS mới */
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #3f37c9;
+    --accent-color: #4895ef;
+    --success-color: #4cc9f0;
+    --danger-color: #f72585;
+    --warning-color: #f8961e;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --gray-color: #6c757d;
+    --border-radius: 12px;
+    --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    color: var(--dark-color);
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.content-container {
+    flex: 1;
+    padding: 1rem 2rem;
+    margin-left: 270px;
+    transition: all 0.3s;
+}
+
+.page-header {
+    margin: 0.5rem 0 1.5rem 0;
+    padding-top: 0.5rem;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+.page-header h1 i {
+    margin-right: 10px;
+    color: var(--accent-color);
+}
+
+#class-name {
+    font-size: 1.3rem;
+    color: var(--gray-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+#class-name i {
+    margin-right: 8px;
+    color: var(--primary-color);
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.stat-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.student-count .stat-icon {
+    background: linear-gradient(135deg, #4361ee, #3f37c9);
+}
+
+.average-gpa .stat-icon {
+    background: linear-gradient(135deg, #4895ef, #4cc9f0);
+}
+
+.average-credits .stat-icon {
+    background: linear-gradient(135deg, #f8961e, #f9c74f);
+}
+
+.stat-info h3 {
+    font-size: 1rem;
+    color: var(--gray-color);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.stat-info p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin: 0;
+}
+
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.chart-box {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+    
+}
+
+.chart-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.chart-header h3 {
+    font-size: 1.2rem;
+    color: var(--dark-color);
+    font-weight: 600;
+    margin: 0;
+}
+
+.chart-header h3 i {
+    margin-right: 8px;
+    color: var(--accent-color);
+}
+
+.chart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+canvas {
+    max-height: 200px;
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        margin-left: 0;
+        padding: 1rem;
+    }
+    
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .chart-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.main-container.collapsed .content-container {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Container chính khi sidebar đóng */
+.main-container.collapsed {
+    justify-content: center;
+}
+
+/* Điều chỉnh kích thước các thành phần khi sidebar đóng */
+.main-container.collapsed .page-header,
+.main-container.collapsed .stats-container,
+.main-container.collapsed .chart-container {
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* Điều chỉnh card stats khi sidebar đóng */
+.main-container.collapsed .stat-card {
+    min-width: 250px;
+}
+
+/* Điều chỉnh biểu đồ khi sidebar đóng */
+.main-container.collapsed .chart-box {
+    width: 100%;
+    max-width: 600px;
+}
+
+.content-container {
+    transition: all 0.3s ease;
+}
+
+.stats-container, .chart-container {
+    transition: all 0.3s ease;
+}
