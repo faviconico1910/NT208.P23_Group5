@@ -164,24 +164,6 @@
                 localStorage.removeItem("Tai_Khoan");
                 window.location.href = "/login";
             }
-
-            // document.addEventListener("DOMContentLoaded", () => {
-            //     const buttonListMonHoc = document.querySelector(".list_monhoc");
-                
-            //     if (buttonListMonHoc) {
-            //         buttonListMonHoc.addEventListener("click", () => {
-            //             const studentId = localStorage.getItem("Tai_Khoan");
-                        
-            //             if (!studentId) {
-            //                 alert("Bạn chưa đăng nhập!");
-            //                 window.location.href = "/login";
-            //                 return;
-            //             }
-                        
-            //             window.location.href = `/completedCourses.html`;
-            //         });
-            //     }
-            // });
             
             // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
             fetch('/layout/sidebar.html').then(response => response.text())

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết Quả Học Tập</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="completedCourses.css">
+    <link rel="stylesheet" href="/layout/sidebar.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar-container"></div>
+    <!-- Mobile Toggle Button -->
+    <button class="menu-toggle" style="display: none;">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1><i class="fas fa-chart-line"></i> Kết Quả Học Tập</h1>
+        </header>
+        
+        <!-- Stats Cards -->
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Môn đã hoàn thành</h3>
+                <div class="value completed" id="completed-courses">--</div>
+            </div>
+            <div class="stat-card">
+                <h3>Môn cần học lại</h3>
+                <div class="value failed" id="failed-courses">--</div>
+            </div>
+            <div class="stat-card">
+                <h3>Tín chỉ đã hoàn thành</h3>
+                <div class="value completed" id="completed-credits">--</div>
+            </div>
+            <div class="stat-card">
+                <h3>Tín chỉ cần học lại</h3>
+                <div class="value failed" id="failed-credits">--</div>
+            </div>
+            <div class="stat-card">
+                <h3>Điểm trung bình</h3>
+                <div class="value diem-tb" id="average-score">--</div>
+                <div class="sub-value"></div>
+            </div>
+        </div>
+        
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <div class="filter-group">
+                <label for="semester-filter">Học kỳ</label>
+                <select id="semester-filter">
+                    <option value="">Tất cả học kỳ</option>
+                    <option value="1">Học kỳ 1</option>
+                    <option value="2">Học kỳ 2</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label for="year-filter">Năm học</label>
+                <select id="year-filter">
+                    <option value="">Tất cả năm học</option>
+                    <option value="2023-2024">2023-2024</option>
+                    <option value="2022-2023">2022-2023</option>
+                    <option value="2021-2022">2021-2022</option>
+                </select>
+            </div>
+            
+            <div class="filter-actions">
+                <button class="btn" id="filter-btn">
+                    <i class="fas fa-filter"></i> Lọc
+                </button>
+                <button class="btn btn-secondary" id="reset-btn">
+                    <i class="fas fa-sync-alt"></i> Đặt lại
+                </button>
+            </div>
+        </div>
+        
+        <!-- Results Table -->
+        <div class="results-container">
+            <table class="results-table">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã môn</th>
+                        <th>Tên môn</th>
+                        <th>TC</th>
+                        <th>Điểm QT</th>
+                        <th>Điểm GK</th>
+                        <th>Điểm TH</th>
+                        <th>Điểm CK</th>
+                        <th>Điểm HP</th>
+                        <th>Xếp loại</th>
+                        <th>Ghi chú</th>
+                    </tr>
+                </thead>
+                <tbody id="results-body">
+                    <tr>
+                        <td colspan="11" class="no-data">
+                            <i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // Lấy token từ localStorage (giả sử đã lưu khi đăng nhập)
+        const token = localStorage.getItem('token');
+        
+        // Xử lý toggle sidebar trên mobile
+        const menuToggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+        
+        if (window.innerWidth <= 768) {
+            menuToggle.style.display = 'block';
+            
+            menuToggle.addEventListener('click', () => {
+                sidebar.classList.toggle('active');
+            });
+        }
+        
+        // Xử lý active menu
+        const navItems = document.querySelectorAll('.nav-item');
+        navItems.forEach(item => {
+            item.addEventListener('click', function() {
+                navItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+        
+        async function fetchResults() {
+            const semester = document.getElementById('semester-filter').value;
+            const year = document.getElementById('year-filter').value;
+            
+            console.log('Filter values:', { semester, year });
+
+            const tbody = document.getElementById('results-body');
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="11" class="no-data">
+                        <i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...
+                    </td>
+                </tr>
+            `;
+            
+            try {
+                let url = '/completedCourses';
+                const params = new URLSearchParams();
+                
+                // Thêm tham số chỉ khi có giá trị
+                if (semester) params.append('hocKy', semester);
+                if (year) params.append('namHoc', year);
+                
+                const response = await fetch(`${url}?${params.toString()}`, {
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`Lỗi HTTP: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                
+                if (!data.success) {
+                    throw new Error(data.message);
+                }
+                    
+                // Hiển thị dữ liệu
+                displayResults(data.data);
+                updateStats(
+                    data.stats.tongMon,
+                    data.data.filter(item => item.Diem_HP < 5).length,
+                    data.stats.tongTC,
+                    data.data.filter(item => item.Diem_HP < 5).reduce((sum, item) => sum + item.So_TC, 0),
+                    data.stats.diemTB
+                );
+                
+            } catch (error) {
+                console.error('Lỗi khi lấy dữ liệu:', error);
+                showError(error.message || 'Lỗi khi tải dữ liệu');
+            }
+        }
+        
+        function displayResults(data) {
+            const tbody = document.getElementById('results-body');
+            
+            if (data.length === 0) {
+                tbody.innerHTML = `
+                    <tr>
+                        <td colspan="11" class="no-data">
+                            <i class="fas fa-info-circle"></i> Không có dữ liệu môn học nào
+                        </td>
+                    </tr>
+                `;
+                return;
+            }
+            
+            tbody.innerHTML = '';
+            data.forEach((item, index) => {
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${item.Ma_Mon_Hoc}</td>
+                    <td>${item.Ten_Mon_Hoc}</td>
+                    <td>${item.So_TC}</td>
+                    <td><span class="score ${getScoreClass(item.Diem_QT)}">${displayScore(item.Diem_QT)}</span></td>
+                    <td><span class="score ${getScoreClass(item.Diem_GK)}">${displayScore(item.Diem_GK)}</span></td>
+                    <td><span class="score ${getScoreClass(item.Diem_TH)}">${displayScore(item.Diem_TH)}</span></td>
+                    <td><span class="score ${getScoreClass(item.Diem_CK)}">${displayScore(item.Diem_CK)}</span></td>
+                    <td><span class="score ${getScoreClass(item.Diem_HP)}">${displayScore(item.Diem_HP)}</span></td>
+                    <td>${item.Xep_Loai || ''}</td>
+                    <td>${item.GHI_CHU || ''}</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+        
+        function updateStats(totalCourses, failedCourses, totalCredits, failedCredits, averageScore) {
+            document.getElementById('completed-courses').textContent = totalCourses - failedCourses;
+            document.getElementById('failed-courses').textContent = failedCourses;
+            document.getElementById('completed-credits').textContent = totalCredits - failedCredits;
+            document.getElementById('failed-credits').textContent = failedCredits;
+            document.getElementById('average-score').textContent = averageScore;
+        }
+        
+        function getScoreClass(score) {
+            if (!score && score !== 0) return '';
+            if (score >= 8) return 'high';
+            if (score >= 5) return 'medium';
+            return 'low';
+        }
+        
+        function displayScore(score) {
+            return (score || score === 0) ? score.toFixed(1) : '-';
+        }
+        
+        function showError(message) {
+            const tbody = document.getElementById('results-body');
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="11" class="no-data" style="color: var(--danger)">
+                        <i class="fas fa-exclamation-circle"></i> ${message}
+                    </td>
+                </tr>
+            `;
+        }
+        
+        // Xử lý sự kiện filter
+        document.getElementById('filter-btn').addEventListener('click', fetchResults);
+        document.getElementById('reset-btn').addEventListener('click', () => {
+            document.getElementById('semester-filter').value = '';
+            document.getElementById('year-filter').value = '';
+            fetchResults();
+        });
+        
+        // Tải dữ liệu ban đầu khi trang được tải
+        document.addEventListener('DOMContentLoaded', () => {
+            if (!token) {
+                window.location.href = '/login';
+                return;
+            }
+            
+            fetchResults();
+        });
+
+        // Xử lý resize window để ẩn/hiện sidebar
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) {
+                sidebar.classList.remove('active');
+                menuToggle.style.display = 'none';
+            } else {
+                menuToggle.style.display = 'block';
+            }
+        });
+
+        fetch('/layout/sidebar.html').then(response => response.text())
+            .then(html => {
+                document.getElementById("sidebar-container").innerHTML = html;
+                const toggleButton = document.getElementById("toggle-btn");
+                const sidebar = document.getElementById("sidebar");
+
+                toggleButton.addEventListener("click", () => {
+                    sidebar.classList.toggle("collapsed");
+                })
+            });
+    </script>
+</body>
+</html>
