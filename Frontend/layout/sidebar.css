@@ -5,14 +5,11 @@
 }
 .sidebar {
     position: fixed;
-    width: 287px;
+    width: 255px;
     height: 100vh;
     left: 0;
     top: 0;
     background-color: #222627;
-    /* border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; */
-    color: #fff;
     transition: width 0.3s ease;
     overflow: hidden auto;
     flex: 1 1 auto;
@@ -66,7 +63,7 @@ a {
     text-decoration: none !important;
 }
 .sidebar__open-close {
-    /* border: 1px solid #fff; */
+
     width: 30px;
     height: 30px;
     text-align: center;
@@ -86,6 +83,15 @@ a {
 .sidebar.collapsed a {
     display: none;
 }
+.logout {
+    margin-top: 230px;
+    border-top: 1px solid #2c3134;
+}
+.logout a {
+    margin-left: 10px;
+}
+
+
 /* responsive */
 @media (max-width: 768px) {
     #sidebar {
