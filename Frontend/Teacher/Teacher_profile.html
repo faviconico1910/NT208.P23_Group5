@@ -3,7 +3,8 @@
     <head>
         <title>Profile</title>
         <link rel="stylesheet" href="/layout/sidebar.css">
-        <link rel="stylesheet" href="/profile.css">
+        <!-- dùng chung với profile -->
+        <link rel="stylesheet" href="../profile.css"> 
     </head>
     <body>
         <div id="sidebar-container"></div>
@@ -11,23 +12,32 @@
         <div class="header"></div>
         <div class="profile__container">
             <div class="avatar__container">
-                <img src="../image/cat_meme.jpg" alt="avatar">
+                <img src="/image/cat_meme.jpg" alt="avatar">
                 <p class="name" id="name"></p>
                 <p class="email1" id="email1"></p>
             </div>
+
             <div class="uni-info-container">
                 <div class="uni-info">
-                    <div class="uni-info-item uni-info__mssv">
-                        <label for="">MSSV</label>
-                        <p class="mssv" id="mssv"></p>
+                    <div class="uni-info-item uni-info__mgv">
+                        <label for="">MGV</label>
+                        <p class="mgv" id="mgv"></p>
                     </div>
-                    <div class="uni-info-item uni-info__class">
-                        <label for="">Lớp</label>
-                        <p class="class" id="class"></p>
+                    <div class="uni-info-item uni-info__faculty">
+                        <label for="">Khoa</label>
+                        <p class="faculty" id="faculty"></p>
                     </div>
-                    <div class="uni-info-item uni-info__status">
-                        <label for="">Tình Trạng</label>
-                        <p class="status" id="status"></p>
+                    <div class="uni-info-item uni-info__hh">
+                        <label for="">Học hàm</label>
+                        <p class="hh" id="hh"></p>
+                    </div>
+                    <div class="uni-info-item uni-info__factor">
+                        <label for="">Hệ số</label>
+                        <p class="factor" id="factor"></p>
+                    </div>
+                    <div class="uni-info-item uni-info__salary">
+                        <label for="">Mức Lương</label>
+                        <p class="salary" id="salary"></p>
                     </div>
                 </div>
             </div>
@@ -111,7 +121,7 @@
             async function fetchStudentProfile(token, Tai_Khoan) {
                 try {
                     console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
-                    let response = await fetch(`http://localhost:3000/student/api`, {
+                    let response = await fetch(`http://localhost:3000/teacher/api`, {
                         method: "GET",
                         headers: {
                             "Content-Type": "application/json",
@@ -131,16 +141,18 @@
             }
             function updateProfile(data) {
                 document.getElementById("name").innerText = data.Ho_Ten || "Không có dữ liệu";
-                document.getElementById("mssv").innerText = data.Ma_Sinh_Vien || "Không có dữ liệu";
+                document.getElementById("mgv").innerText = data.Ma_Giang_Vien || "Không có dữ liệu";
+                document.getElementById("faculty").innerText = data.Ma_Khoa|| "Không có dữ liệu";
                 document.getElementById("gender").innerText = data.Gioi_Tinh || "Không có dữ liệu";
                 document.getElementById("birth").innerText = data.Ngay_Sinh || "Không có dữ liệu";
-                document.getElementById("status").innerText = data.Tinh_Trang || "Không có dữ liệu";
-                document.getElementById("class").innerText = data.Ma_Lop || "Không có dữ liệu";
                 document.getElementById("email1").innerText = data.Email_Truong || "Không có dữ liệu";
                 document.getElementById("email2").innerText = data.Email_Ca_Nhan || "Không có dữ liệu";
                 document.getElementById("cccd").innerText = data.So_CMND || "Không có dữ liệu";
                 document.getElementById("religion").innerText = data.Ton_Giao|| "Không có dữ liệu";
                 document.getElementById("location").innerText = data.Thuong_Tru|| "Không có dữ liệu";
+                document.getElementById("hh").innerText = data.Hoc_Ham|| "Không có dữ liệu";
+                document.getElementById("factor").innerText = data.He_So || "Không có dữ liệu";
+                document.getElementById("salary").innerText = data.Muc_Luong || "Không có dữ liệu";
                 // father
                 document.getElementById("father").innerText = data.Ho_Ten_Cha || "Không có dữ liệu";
                 document.getElementById("father_phonenumber").innerText = data.SDT_Cha || "Không có dữ liệu";

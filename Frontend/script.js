@@ -22,7 +22,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
         if (data.Vai_Tro === "SinhVien") {
             window.location.href = `/student/${data.Tai_Khoan}`;
         } else if (data.Vai_Tro === "GiangVien") {
-            window.location.href = `/teacher/api`
+            window.location.href = `/teacher/${data.Tai_Khoan}`;
         }
     } else {
         alert( data.message);

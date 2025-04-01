@@ -19,11 +19,16 @@ const PORT = process.env.PORT;
 const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 
 // Cấu hình middleware
+app.use(cors({ 
+    origin: `http://127.0.0.1:${CLIENT_PORT}`, // Origin của client
+    allowedHeaders: ["Authorization", "Content-Type"], // Cho phép header Authorization
+    exposedHeaders: ["Authorization"],
+}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../Frontend")));
 app.use("/login", authRoutes);
 // đường dẫn cho profile của mỗi sinh viên /student/{id}, vd /student/24520001
-app.use("/student/", studentRoutes); 
+app.use("/student", studentRoutes); 
 app.use("/huongdandkhp", huongdandkhpRoutes);
 app.use("/xemlichhoc", xemlichhocRoutes);
 app.use("/completedCourses", completedCoursesRoutes);
@@ -31,11 +36,7 @@ app.use("/dexuatmonhoc", DeXuatMonHocRoutes);
 app.use('/thongkesv', thongKeRoutes);
 app.use('/teacher', teacherRoutes);
 
-app.use(cors({ 
-    origin: `http://127.0.0.1:${CLIENT_PORT}`, // Origin của client
-    allowedHeaders: ["Authorization", "Content-Type"], // Cho phép header Authorization
-    exposedHeaders: ["Authorization"],
-}));
+
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
