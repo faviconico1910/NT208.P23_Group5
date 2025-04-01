@@ -1,0 +1,171 @@
+:root {
+    --primary: #766cbe;
+    --secondary: #3f37c9;
+    --accent: #4895ef;
+    --light: #f8f9fa;
+    --dark: #212529;
+    --success: #4cc9f0;
+    --warning: #f8961e;
+    --danger: #f72585;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fb;
+    color: var(--dark);
+    line-height: 1.6;
+    display: flex;
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    padding: 30px;
+    margin-left: 240px; /* Độ rộng sidebar */
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: var(--primary);
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Graduation Guide */
+.guide-container {
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+}
+
+.guide-header {
+    background: var(--primary);
+    color: white;
+    padding: 20px 25px;
+}
+
+.guide-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.guide-body {
+    padding: 25px;
+}
+
+.step {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-left: 4px solid var(--accent);
+}
+
+.step-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.step-number {
+    background: var(--primary);
+    color: white;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.step-title {
+    font-size: 1.2rem;
+    color: var(--primary);
+    margin: 0;
+}
+
+.step-content {
+    padding-left: 47px;
+}
+
+.note {
+    background-color: #fff8e6;
+    border-left: 4px solid var(--warning);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.note-icon {
+    color: var(--warning);
+    font-size: 1.2rem;
+}
+
+.note-content {
+    flex: 1;
+}
+
+.note-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--dark);
+}
+
+ul.feature-list {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+ul.feature-list li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+ul.feature-list li:before {
+    content: "•";
+    color: var(--accent);
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+a.link {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+a.link:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .quick-links {
+        grid-template-columns: 1fr 1fr;
+    }
+}

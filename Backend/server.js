@@ -13,20 +13,20 @@ const completedCoursesRoutes = require("./routes/completedCourses.routes.js");
 const DeXuatMonHocRoutes = require("./routes/dexuatmonhoc.routes.js");
 const thongKeRoutes = require('./routes/thongke.routes.js');
 const teacherRoutes = require('./routes/teacher.routes.js');
+const huongdanXTNRoutes = require("./routes/huongdanXTN.routes.js");
 
 const app = express();
 const PORT = process.env.PORT;
 const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 
 // Cấu hình middleware
-app.use(cors({ 
-    origin: `http://127.0.0.1:${CLIENT_PORT}`, // Origin của client
-    allowedHeaders: ["Authorization", "Content-Type"], // Cho phép header Authorization
-    exposedHeaders: ["Authorization"],
+app.use(cors({
+    allowedHeaders: ["Authorization", "Content-Type"],
+    exposedHeaders: ["Authorization"]
 }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../Frontend")));
-app.use("/login", authRoutes);
+app.use("/login", authRoutes);  
 // đường dẫn cho profile của mỗi sinh viên /student/{id}, vd /student/24520001
 app.use("/student", studentRoutes); 
 app.use("/huongdandkhp", huongdandkhpRoutes);
@@ -35,8 +35,7 @@ app.use("/completedCourses", completedCoursesRoutes);
 app.use("/dexuatmonhoc", DeXuatMonHocRoutes);
 app.use('/thongkesv', thongKeRoutes);
 app.use('/teacher', teacherRoutes);
-
-
+app.use("/huongdanXTN", huongdanXTNRoutes);
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
