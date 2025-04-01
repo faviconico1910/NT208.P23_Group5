@@ -35,6 +35,9 @@ body {
     left: 43%;
     transform: translateX(-50%);
     font-size: 30px;
+    background: linear-gradient(90deg, #000000, #333333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .email1 {
     position: absolute;
@@ -44,9 +47,7 @@ body {
     font-size: 15px;
     opacity: 0.5;
 }
-.welcome {
-    text-align: center;
-}
+
 
 .uni-info-container, .personal-info-container , .info-father-container, .info-mother-container {
     display: flex;
@@ -74,7 +75,6 @@ body {
 }
 .uni-info p, .personal-info p , .info-father p, .info-mother p {
     width: 318px;
-    /* margin: 8px; */
     border: 1px solid #A9A9A9;
     border-radius: 8px;
     padding: 6px 0 6px 15px;

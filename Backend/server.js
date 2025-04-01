@@ -20,8 +20,13 @@ const PORT = process.env.PORT;
 const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 
 // Cấu hình middleware
+<<<<<<< HEAD
 app.use(cors({
     allowedHeaders: ["Authorization", "Content-Type"],
+=======
+app.use(cors({ 
+    allowedHeaders: ["Authorization", "Content-Type"], // Cho phép header Authorization
+>>>>>>> 44c7642355524f482941a8a30dcf7103d894923c
     exposedHeaders: ["Authorization"]
 }));
 app.use(express.json());

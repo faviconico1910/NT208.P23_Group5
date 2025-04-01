@@ -80,7 +80,7 @@
             <div class="info-mother-container">
                 <div class="info-mother">
                     <div class="personal-info-item personal-info-mother">
-                        <label for="">Họ tên cha</label>
+                        <label for="">Họ tên mẹ</label>
                         <p class="mother" id="mother"></p>
                     </div>
                     <div class="personal-info-item personal-info-mother_phonenumber">
@@ -160,16 +160,31 @@
             }
             
             // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
-            fetch('/layout/sidebar.html').then(response => response.text())
+            fetch('/layout/sidebar.html')
+            .then(response => response.text())
             .then(html => {
                 document.getElementById("sidebar-container").innerHTML = html;
+
+                
+                setTimeout(() => {
+                //  toggle sidebar
                 const toggleButton = document.getElementById("toggle-btn");
                 const sidebar = document.getElementById("sidebar");
+                if (toggleButton && sidebar) {
+                    toggleButton.addEventListener("click", () => {
+                        sidebar.classList.toggle("collapsed");
+                    });
+                }
+                document.addEventListener("DOMContentLoaded", () => {
+                let mssv = localStorage.getItem("Tai_Khoan");
+                let profileLink = document.getElementById("profile_link");
 
-                toggleButton.addEventListener("click", () => {
-                    sidebar.classList.toggle("collapsed");
-                })
-            });
+                if (mssv && profileLink) {
+                    profileLink.href = `/student/${mssv}`;
+                }
+                });
+            }, 100); 
+        });
         </script>
     </body>
 </html>
