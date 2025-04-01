@@ -20,9 +20,8 @@ const CLIENT_PORT = process.env.CLIENT_PORT || 5500;
 
 // Cấu hình middleware
 app.use(cors({ 
-    origin: `http://127.0.0.1:${CLIENT_PORT}`, // Origin của client
     allowedHeaders: ["Authorization", "Content-Type"], // Cho phép header Authorization
-    exposedHeaders: ["Authorization"],
+    exposedHeaders: ["Authorization"]
 }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../Frontend")));
