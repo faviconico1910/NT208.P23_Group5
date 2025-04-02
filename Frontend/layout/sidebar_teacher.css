@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
 .sidebar {
     position: fixed;
     width: 255px;
@@ -14,9 +16,11 @@
     flex: 1 1 auto;
     z-index: 1;
 }
+
 .sidebar__header-container {
     border-bottom: 1px solid #2c3134;
 }
+
 .sidebar__header {
     position: absolute;
     width: 199px;
@@ -31,6 +35,7 @@
 .sidebar__list {
     padding-top: 24px;
     font-size: 20px;
+    flex: 1;
 }
 .sidebar i {
     background: linear-gradient(180deg, #54b1f4, #766cbe);
@@ -62,23 +67,21 @@ a {
     text-decoration: none !important;
 }
 .sidebar__open-close {
-
     width: 30px;
     height: 30px;
     text-align: center;
     margin: 10px 0 0 10px;
     cursor: pointer;
 }
+
 .sidebar__open-close:hover {
     opacity: 0.7;
 }
-
 
 .sidebar.collapsed {
     width: 70px;
     padding-right: 0;
 }
-
 .sidebar.collapsed .sidebar__header {
     display: none;
 }
@@ -87,9 +90,16 @@ a {
     display: none;
 }
 
+.content_container {
+    transition: margin-left 0.3s ease; /* Hiệu ứng khi dịch chuyển */
+}
+
+.sidebar.collapsed ~ .content_container {
+    margin-left: 70px; /* Dịch trái khi sidebar thu gọn */
+}
 
 .logout {
-    margin-top: 230px;
+    margin-top: 300px;
     border-top: 1px solid #2c3134;
 }
 .logout a {

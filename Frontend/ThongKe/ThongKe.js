@@ -1,4 +1,4 @@
-fetch('/layout/sidebar.html').then(response => response.text())
+fetch('/layout/sidebar_teacher.html').then(response => response.text())
 .then(html => {
     document.getElementById("sidebar-container").innerHTML = html;
     const toggleButton = document.getElementById("toggle-btn");
