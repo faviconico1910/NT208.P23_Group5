@@ -1,7 +1,7 @@
 /* DeXuat/DeXuat.css */
 
 :root {
-    --primary-color: #4361ee;
+    --primary-color: #6C5CE7;
     --secondary-color: #3f37c9;
     --accent-color: #4895ef;
     --success-color: #4cc9f0;
@@ -32,7 +32,7 @@ body {
 .content-container {
     flex: 1;
     padding: 2rem;
-    margin-left: 270px;
+    margin-left: 260px;
     transition: all 0.3s ease;
 }
 
@@ -52,13 +52,13 @@ body {
     left: 0;
     width: 60px;
     height: 3px;
-    background: var(--accent-color);
+    background: var(--primary-color);
     border-radius: 3px;
 }
 
 .content-container h1 i {
     margin-right: 10px;
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 .table-container {

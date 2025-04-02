@@ -3,7 +3,7 @@
     --secondary: #00CEFF;
     --light: #F5F6FA;
     --dark: #2D3436;
-    --sidebar-width: 240px;
+    --sidebar-width: 260px;
     --success: #00b894;
     --warning: #fdcb6e;
     --danger: #ff7675;
@@ -81,15 +81,25 @@ header {
     margin-bottom: 30px;
 }
 
-h1 {
-    color: var(--primary) !important;
-    font-size: 24px;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 10px;
+header h1 {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 0.5rem;
 }
 
+header h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3.5px;
+    background: var(--primary);
+    border-radius: 3px;
+}
 /* Stats Card */
 .stats-container {
     display: flex;
