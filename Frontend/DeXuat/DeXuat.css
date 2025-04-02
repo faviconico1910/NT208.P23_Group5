@@ -26,13 +26,14 @@ body {
 .main-container {
     display: flex;
     min-height: 100vh;
+    transition: all 0.3s ease;
 }
 
 .content-container {
     flex: 1;
     padding: 2rem;
     margin-left: 270px;
-    transition: var(--transition);
+    transition: all 0.3s ease;
 }
 
 .content-container h1 {
@@ -191,3 +192,26 @@ tbody tr {
 tbody tr:nth-child(1) { animation-delay: 0.1s; }
 tbody tr:nth-child(2) { animation-delay: 0.2s; }
 tbody tr:nth-child(3) { animation-delay: 0.3s; }
+
+
+.main-container.collapsed .content-container {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Container chính khi sidebar đóng */
+.main-container.collapsed {
+    justify-content: center;
+}
+
+/* Điều chỉnh kích thước các thành phần khi sidebar đóng */
+.main-container.collapsed .page-header,
+.main-container.collapsed .table-container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}

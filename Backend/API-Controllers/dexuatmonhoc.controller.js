@@ -1,5 +1,6 @@
 const db = require('../config/db.js');
 const path = require("path");
+const jwt = require("jsonwebtoken");
 
 const getDeXuatPage = (req, res) => {
     res.sendFile(path.join(__dirname, "../../Frontend/DeXuat/DeXuat.html"));
@@ -7,9 +8,26 @@ const getDeXuatPage = (req, res) => {
 // Hàm lấy danh sách môn học đề xuất
 const getDeXuatMonHoc = async (req, res) => {
     try {
-        const studentId = req.user?.Ma_Sinh_Vien || "23520004";
+        const authHeader = req.headers.authorization; //lấy token từ header
+        console.log("📌 Token nhận được từ client:", authHeader);
+        
+        if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
+            return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
+        }
+        const token = authHeader.split(" ")[1];
+        let decoded;
 
-        if (!studentId) {
+        try {
+            decoded = jwt.verify(token, process.env.JWT_SECRET);
+        } catch (error) {
+            return res.status(401).json({ message: "Token không hợp lệ hoặc đã hết hạn!" });
+        }
+
+        const userId = decoded.Tai_Khoan;  // MSSV lấy từ token
+
+        console.log("📩 MSSV từ token:", userId);
+
+        if (!userId) {
             return res.status(400).json({ error: "Mã sinh viên không hợp lệ hoặc chưa đăng nhập" });
         }
 
@@ -74,12 +92,11 @@ const getDeXuatMonHoc = async (req, res) => {
             LIMIT 10;
         `;
 
-        db.query(query, [studentId, studentId], (error, results) => {
+        db.query(query, [userId, userId], (error, results) => {
             if (error) {
                 console.error("Lỗi lấy dữ liệu:", error);
                 return res.status(500).json({ error: "Lỗi server" });
             }
-            // res.sendFile(path.join(__dirname,"../../Frontend/dexuatmonhoc.html"));
             res.json(results);
         });
     } catch (error) {

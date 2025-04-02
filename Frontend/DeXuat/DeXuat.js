@@ -1,14 +1,46 @@
 fetch('/layout/sidebar.html').then(response => response.text())
-            .then(html => {
-                document.getElementById("sidebar-container").innerHTML = html
-            });
+.then(html => {
+    document.getElementById("sidebar-container").innerHTML = html;
+    const toggleButton = document.getElementById("toggle-btn");
+    const sidebar = document.getElementById("sidebar");
 
-const fetchData = async () => {
+    toggleButton.addEventListener("click", () => {
+        sidebar.classList.toggle("collapsed");
+        document.querySelector(".main-container").classList.toggle("collapsed");
+    })
+});
+
+
+document.addEventListener("DOMContentLoaded", async () => {
+    // ✅ Lấy token từ localStorage
+    const token = localStorage.getItem("token");
+
+    // ✅ Kiểm tra nếu chưa đăng nhập
+    if (!token) {
+        alert("Bạn chưa đăng nhập!");
+        window.location.href = "/login.html";
+        return;
+    }
+
+    console.log("📌 Token từ localStorage:", token);
+
     try {
-        const response = await fetch("http://127.0.0.1:3000/dexuatmonhoc/api");
+        const response = await fetch("http://127.0.0.1:3000/dexuatmonhoc/api", {
+            method: "GET",
+            headers: { 
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error("Lỗi khi tải dữ liệu. Có thể token không hợp lệ!");
+        }
+
         const data = await response.json();
-        console.log("Dữ liệu API nhận được:", data);
-        if (!data || !Array.isArray(data)) {
+        console.log("📩 Dữ liệu API nhận được:", data);
+
+        if (!Array.isArray(data)) {
             throw new Error("Dữ liệu từ API không hợp lệ");
         }
 
@@ -32,9 +64,8 @@ const fetchData = async () => {
             tbody.innerHTML += row;
         });
 
-    }  catch (error) {
-        console.error("Lỗi khi tải dữ liệu từ API:", error);
+    } catch (error) {
+        console.error("🚨 Lỗi khi tải dữ liệu từ API:", error);
+        alert("Không thể tải dữ liệu. Hãy kiểm tra đăng nhập hoặc token!");
     }
-};
-
-document.addEventListener("DOMContentLoaded", fetchData);   
+});
