@@ -7,18 +7,29 @@ const getGPAPage = (req, res) => {
 };
 const getGPAList = async (req, res) => {
     try {
-        // const authHeader = req.headers.authorization; //lấy token từ header
-        // console.log("📌 Token nhận được từ client:", authHeader);
+        const authHeader = req.headers.authorization; //lấy token từ header
+                console.log("📌 Token nhận được từ client:", authHeader);
+                
+                if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
+                    return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
+                }
+                const token = authHeader.split(" ")[1];
+                let decoded;
         
-        // if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
-        //     return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
-        // }
-        // const token = authHeader.split(" ")[1];
-        // const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        // const userId = decoded.Tai_Khoan;  // MSSV lấy từ token
+                try {
+                    decoded = jwt.verify(token, process.env.JWT_SECRET);
+                } catch (error) {
+                    return res.status(401).json({ message: "Token không hợp lệ hoặc đã hết hạn!" });
+                }
+        
+                const userId = decoded.Tai_Khoan;  // MSSV lấy từ token
+        
+                console.log("📩 MSGV từ token:", userId);
+        
+                if (!userId) {
+                    return res.status(400).json({ error: "Mã sinh viên không hợp lệ hoặc chưa đăng nhập" });
+                }
 
-        // console.log("📩 Nhận request student_profile với id từ token:", userId);
-        const userId = 'GV015'
         const query = `
             SELECT 
                 lop.Ma_Lop, 
