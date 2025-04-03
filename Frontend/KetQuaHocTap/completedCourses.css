@@ -48,7 +48,7 @@ body {
     cursor: pointer;
     transition: all 0.2s;
     color: white;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     gap: 10px;
 }

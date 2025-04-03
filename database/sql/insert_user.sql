@@ -1,5 +1,5 @@
 INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES
-('24520001', 'R2C3mN6pgt', 'SinhVien'),
+('24520001', '123', 'SinhVien'),
 ('24520002', 'BjW9Tnkept', 'SinhVien'),
 ('24520003', 'AD7JjYveeg', 'SinhVien'),
 ('24520004', 'KA8L7m5eVF', 'SinhVien'),
@@ -999,7 +999,7 @@ INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES
 ('21520248', 'aHGyNd6ilh', 'SinhVien'),
 ('21520249', 'go1dUmt47H', 'SinhVien'),
 ('21520250', 'f5F1YYPbTn', 'SinhVien'),
-('GV001', 'XlpGeMPcYZ', 'GiangVien'),
+('GV001', '123', 'GiangVien'),
 ('GV002', 'RszcBT0eTo', 'GiangVien'),
 ('GV003', 'si7JFOCgxD', 'GiangVien'),
 ('GV004', 'rETh92qqWB', 'GiangVien'),

@@ -1,112 +1,163 @@
 <!DOCTYPE html>
-<html lang = "vi">
-    <head>
-        <title>Hướng Dẫn Đăng Ký Học Phần</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="/layout/sidebar.css">
-        <link rel="stylesheet" href="hddkhp.css">
-    </head>
-    <body>
-        <div id="sidebar-container"></div>
-        <div class="right">
-            <h1>HƯỚNG DẪN ĐĂNG KÝ HỌC PHẦN</h1>
-            <h2><b>1. Đăng nhập</b></h2>
-            <p>- Truy cập vào trang <a href="https://dkhp.uit.edu.vn">https://dkhp.uit.edu.vn</a></p>
-            <p>- Dùng tài khoản chứng thực để đăng nhập</p>
-            <div class="image">
-                <img src="/image/dangnhap.png" alt="Giao diện đăng nhập">
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng dẫn DKHP</title>
+    <link rel="stylesheet" href="hddkhp.css">
+    <link rel="stylesheet" href="/layout/sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar-container"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <header>
+            <h1><i class="fa-solid fa-circle-question"></i> Hướng dẫn đăng ký học phần</h1>
+        </header>
+
+        <div class="guide-container">
+            <div class="guide-header">
+                <h2><i class="fas fa-info-circle"></i> Quy trình DKHP</h2>
             </div>
-            <p>- Sau khi đăng nhập xong, màn hình xuất hiện như sau: </p>
-            <div class="image">
-                <img src="/image/giaodien.png" alt="Giao diện sau khi đăng nhập">
+            <div class="guide-body">
+                <p>Trường tổ chức xét tốt nghiệp mỗi năm 04 đợt, theo kế hoạch năm được công bố tại cổng thông tin đào tạo: <a href="https://daa.uit.edu.vn" class="link" target="_blank">daa.uit.edu.vn</a>.</p>
+
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Đăng nhập</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>- Truy cập vào trang <a href="https://dkhp.uit.edu.vn">https://dkhp.uit.edu.vn</a></p>
+                        <p>- Dùng tài khoản chứng thực để đăng nhập</p>
+                        <div class="image">
+                            <img src="/image/dangnhap.png" alt="Giao diện đăng nhập" style="width: 40%;">
+                        </div>
+                        <p>- Sau khi đăng nhập xong, màn hình xuất hiện như sau: </p>
+                        <div class="image">
+                            <img src="/image/giaodien.png" alt="Giao diện sau khi đăng nhập">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Xác nhận Lớp được hỗ trợ đăng ký từ Phòng ĐTĐH/CTĐB</h3>
+                    </div>
+                    <div class="step-content">
+                        <ul>
+                            <li>Bước 1: Vào menu <a href="https://dkhp.uit.edu.vn"><span style="color: blue;"><u>Xác nhận Đăng ký Học Phần</u></span></a></li>
+                            <li>Bước 2: Kiểm tra kỹ danh sách đăng ký </li>
+                            <li>Bước 3: Nhấn button Đồng ý nếu muốn xác nhận, không làm gì nếu không muốn xác nhận. 
+                                Sau thời gian xác nhận, sinh viên nào đã xác nhận đồng ý sẽ giữ lại ĐKHP, sinh viên không 
+                                thực hiện sẽ bị xóa đăng ký học phần. Sinh viên dù đồng ý hay không vẫn có thể tiến hành 
+                                Đăng ký học phần bình thường.</li>
+                        </ul>
+                    </div>
+                    <div class="image">
+                        <img src="/image/xacnhanlop.png" alt="Giao diện xác nhận lớp">
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Đăng ký học phần</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Các bước đăng ký học phần:</p>
+                            <ul>
+                                <li>Bước 1: Chuyển sang menu <span style="color: red;"><u>Đăng ký Học phần</u></span>. </li>
+                                <div class="image">
+                                    <img src="/image/giaodienchinhkhidkhp.png" alt="Giao diện chính khi đăng ký học phần" style="width: 60%;">
+                                </div>
+                                <li>Bước 2: Tìm kiếm danh sách mã lớp cần đăng ký bằng thanh tìm kiếm.</li>
+                                <div class="image">
+                                    <img src="/image/huongdannhaplop.png" alt="Hướng dẫn tìm kiếm mã lớp"  style="width: 60%;">
+                                </div>
+                                <li>Bước 3: Chọn các lớp cần đăng ký. </li>
+                                <div class="image">
+                                    <img src="/image/huongdantimmalop.png" alt="Hướng dẫn chọn mã lớp" style="width: 60%;">
+                                </div>
+                                <li>Bước 4: Bấm nút đăng ký sau khi xem xong danh sách các lớp đã chọn ở ngay bên dưới.</li>
+                                <div class="image">
+                                    <img src="/image/huongdandklopdachon.png" alt="Hướng dẫn đăng ký các lớp đã chọn "  style="width: 60%;">
+                                </div>
+                                <li>Bước 5: Gồm 2 bước nhỏ
+                                    <ul>
+                                        <li>Nếu các lớp chọn <span style="color: red;"><u>không vấn đề gì</u></span>, hệ thống sẽ <span style="color: red;">tiến hành ghi nhận</span>.</li>
+                                        <li>Nếu <span style="color: red;"><u>có vấn đề lỗi</u></span> thì sẽ thông báo lỗi như sau</li>
+                                        <div class="image">
+                                            <img src="/image/loilop.png" alt="Hiển thị thông báo lỗi khi đăng ký lớp" style="width: 60%;">
+                                        </div>
+                                        <li>Nếu <span style="color: red;"><u>ghi nhận thành công</u></span> sẽ thông báo màu xanh... và chờ kết quả xử lý... </li>
+                                        <div class="image">
+                                            <img src="/image/thanhcongdklop.png" alt="Hiển thị đăng ký thành công và được hệ thống ghi nhận" style="width: 60%;">
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li>Bước 6: Kiểm tra kết quả đăng ký học phần trả về.</li>
+                                <div class="image">
+                                    <img src="/image/ketqua.png" alt="Kết quả trả về khi đăng ký học phần" style="width: 60%;">
+                                </div>
+                                <li>Bước 7: Hoàn tất đăng ký học phần:</li>
+                            </ul>
+                        </div>
+                    <div class="image">
+                        <img src="/image/dshp.png" alt="Danh sách các lớp đăng ký thành công" style="width: 60%;">
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Xóa đăng ký học phần</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Các bước xoá các lớp đã đăng ký học phần: </p>
+                        <ul>
+                            <li>Bước 1: Chuyển sang menu Danh sách Lớp đã đăng ký.</li>
+                            <div class="image">
+                                <img src="/image/giaodiendslopdk.png" alt="Giao diện danh sách lớp đã đăng ký" style="width: 60%;">
+                            </div>
+                            <li>Bước 2: Chọn các lớp cần xoá đăng ký.</li>
+                            <div class="image">
+                                <img src="/image/chonmalopxoa.png" alt="Hướng dẫn chọn mã lớp cần xóa" style="width: 60%;">
+                            </div>
+                            <li>Bước 3: Bấm xóa sau khi xem xong danh sách các lớp đã chọn ở ngay bên dưới. </li>
+                            <div class="image">
+                                <img src="/image/xoalopchon.png" alt="Hướng dẫn xóa các lớp đã chọn" style="width: 60%;">
+                            </div>
+                            <li>Bước 4 gồm 2 bước nhỏ: 
+                                <ul>
+                                    <li>Nếu các lớp chọn <span style="color: red;"><u>không vấn đề gì</u></span>, hệ thống sẽ <span style="color: red;">tiến hành ghi nhận</span>.</li>
+                                    <li>Nếu <span style="color: red;"><u>có vấn đề lỗi</u></span> thì sẽ thông báo lỗi như sau</li>
+                                    <div class="image">
+                                        <img src="/image/xoalopthatbai.png" alt="Hiển thị lỗi khi chọn lớp để xóa" style="width: 60%;">
+                                    </div>
+                                    <li>Nếu <span style="color: red;"><u>ghi nhận thành công</u></span> sẽ thông báo màu xanh... và chờ kết quả xử lý... </li>
+                                    <div class="image">
+                                        <img src="/image/thanhcongxoalop.png" alt="Hiển thị xóa thành công và được hệ thống ghi nhận" style="width: 60%;">
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>Bước 5: Kiểm tra kết quả xoá đăng ký học phần trả về. </li>
+                            <div class="image">
+                                <img src="/image/ketquaxoalop.png" alt="Kết quả trả về khi xóa đăng ký học phần" style="width: 60%;">
+                            </div>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <h2><b>2. Xác nhận Lớp được hỗ trợ đăng ký từ Phòng ĐTĐH/CTĐB </b></h2>
-            <ul>
-                <li>Bước 1: Vào menu <a href="https://dkhp.uit.edu.vn"><span style="color: blue;"><u>Xác nhận Đăng ký Học Phần</u></span></a></li>
-                <li>Bước 2: Kiểm tra kỹ danh sách đăng ký </li>
-                <li>Bước 3: Nhấn button Đồng ý nếu muốn xác nhận, không làm gì nếu không muốn xác nhận. 
-                    Sau thời gian xác nhận, sinh viên nào đã xác nhận đồng ý sẽ giữ lại ĐKHP, sinh viên không 
-                    thực hiện sẽ bị xóa đăng ký học phần. Sinh viên dù đồng ý hay không vẫn có thể tiến hành 
-                    Đăng ký học phần bình thường.</li>
-            </ul>
-            <div class="image">
-                <img src="/image/xacnhanlop.png" alt="Giao diện xác nhận lớp">
-            </div>
-            <h2><b>3. Đăng ký học phần</b></h2>
-            <p>Các bước đăng ký học phần:</p>
-            <ul>
-                <li>Bước 1: Chuyển sang menu <span style="color: red;"><u>Đăng ký Học phần</u></span>. </li>
-                <div class="image">
-                    <img src="/image/giaodienchinhkhidkhp.png" alt="Giao diện chính khi đăng ký học phần">
-                </div>
-                <li>Bước 2: Tìm kiếm danh sách mã lớp cần đăng ký bằng thanh tìm kiếm.</li>
-                <div class="image">
-                    <img src="/image/huongdannhaplop.png" alt="Hướng dẫn tìm kiếm mã lớp">
-                </div>
-                <li>Bước 3: Chọn các lớp cần đăng ký. </li>
-                <div class="image">
-                    <img src="/image/huongdantimmalop.png" alt="Hướng dẫn chọn mã lớp">
-                </div>
-                <li>Bước 4: Bấm nút đăng ký sau khi xem xong danh sách các lớp đã chọn ở ngay bên dưới.</li>
-                <div class="image">
-                    <img src="/image/huongdandklopdachon.png" alt="Hướng dẫn đăng ký các lớp đã chọn ">
-                </div>
-                <li>Bước 5: Gồm 2 bước nhỏ
-                    <ul>
-                        <li>Nếu các lớp chọn <span style="color: red;"><u>không vấn đề gì</u></span>, hệ thống sẽ <span style="color: red;">tiến hành ghi nhận</span>.</li>
-                        <li>Nếu <span style="color: red;"><u>có vấn đề lỗi</u></span> thì sẽ thông báo lỗi như sau</li>
-                        <div class="image">
-                            <img src="/image/loilop.png" alt="Hiển thị thông báo lỗi khi đăng ký lớp">
-                        </div>
-                        <li>Nếu <span style="color: red;"><u>ghi nhận thành công</u></span> sẽ thông báo màu xanh... và chờ kết quả xử lý... </li>
-                        <div class="image">
-                            <img src="/image/thanhcongdklop.png" alt="Hiển thị đăng ký thành công và được hệ thống ghi nhận">
-                        </div>
-                    </ul>
-                </li>
-                <li>Bước 6: Kiểm tra kết quả đăng ký học phần trả về.</li>
-                <div class="image">
-                    <img src="/image/ketqua.png" alt="Kết quả trả về khi đăng ký học phần">
-                </div>
-                <li>Bước 7: Hoàn tất đăng ký học phần:</li>
-            </ul>
-            <div class="image">
-                <img src="/image/dshp.png" alt="Danh sách các lớp đăng ký thành công">
-            </div>
-            <h2><b>4. Xóa đăng ký học phần</b></h2>
-            <p>Các bước xoá các lớp đã đăng ký học phần: </p>
-            <ul>
-                <li>Bước 1: Chuyển sang menu Danh sách Lớp đã đăng ký.</li>
-                <div class="image">
-                    <img src="/image/giaodiendslopdk.png" alt="Giao diện danh sách lớp đã đăng ký">
-                </div>
-                <li>Bước 2: Chọn các lớp cần xoá đăng ký.</li>
-                <div class="image">
-                    <img src="/image/chonmalopxoa.png" alt="Hướng dẫn chọn mã lớp cần xóa">
-                </div>
-                <li>Bước 3: Bấm xóa sau khi xem xong danh sách các lớp đã chọn ở ngay bên dưới. </li>
-                <div class="image">
-                    <img src="/image/xoalopchon.png" alt="Hướng dẫn xóa các lớp đã chọn">
-                </div>
-                <li>Bước 4 gồm 2 bước nhỏ: 
-                    <ul>
-                        <li>Nếu các lớp chọn <span style="color: red;"><u>không vấn đề gì</u></span>, hệ thống sẽ <span style="color: red;">tiến hành ghi nhận</span>.</li>
-                        <li>Nếu <span style="color: red;"><u>có vấn đề lỗi</u></span> thì sẽ thông báo lỗi như sau</li>
-                        <div class="image">
-                            <img src="/image/xoalopthatbai.png" alt="Hiển thị lỗi khi chọn lớp để xóa">
-                        </div>
-                        <li>Nếu <span style="color: red;"><u>ghi nhận thành công</u></span> sẽ thông báo màu xanh... và chờ kết quả xử lý... </li>
-                        <div class="image">
-                            <img src="/image/thanhcongxoalop.png" alt="Hiển thị xóa thành công và được hệ thống ghi nhận">
-                        </div>
-                    </ul>
-                </li>
-                <li>Bước 5: Kiểm tra kết quả xoá đăng ký học phần trả về. </li>
-                <div class="image">
-                    <img src="/image/ketquaxoalop.png" alt="Kết quả trả về khi xóa đăng ký học phần">
-                </div>
-            </ul>
         </div>
         <script src="hddkhp.js"></script>
-    </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </div>
+</body>
 </html>
