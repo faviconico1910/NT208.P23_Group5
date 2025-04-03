@@ -103,7 +103,7 @@ a {
         width: 70px;
         padding-right: 0;
     }
-    .sidebar a {
+    .sidebar a, .sidebar__header   {
         display: none;
     }
 }

@@ -16,23 +16,30 @@ body {
 
 
 .avatar__container {
+    display: flex;
     position: relative;
     text-align: center;
     height: 150px;
 }
-.avatar__container img {
+.img_container {
     width: 164px;
     height: 144px;
     border-radius: 60%;
     position: absolute;
     top: 20%;  
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%); 
+}
+
+.avatar__container img {
+    width: 90%;
+    height: 90%;
+    border-radius: 60%;
 }
 .name {
     position: absolute;
-    bottom: 50%; /* Đưa tên xuống dưới avatar */
-    left: 43%;
+    bottom: 50%; 
+    left: 40%;
     transform: translateX(-50%);
     font-size: 30px;
     background: linear-gradient(90deg, #000000, #333333);
@@ -41,8 +48,8 @@ body {
 }
 .email1 {
     position: absolute;
-    bottom: 30%; /* Đưa tên xuống dưới avatar */
-    left: 43%;
+    bottom: 30%; 
+    left: 40%;
     transform: translateX(-50%);
     font-size: 15px;
     opacity: 0.5;
@@ -85,7 +92,70 @@ body {
 .uni-info-item, .personal-info-item {
     margin: 0 auto;
 }
-.profile__container > h2 {
-    margin-left: 375px;
-    font-size: 36px;
+
+.content_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 200px;
 }
+/* .text_container  {
+    display: flex;
+    padding-left: 350px;
+    font-size: 36px;
+} */
+
+
+
+.profile__container.collapsed .avatar__container,
+.profile__container.collapsed .uni-info-container,
+.profile__container.collapsed .personal-info-container,
+.profile__container.collapsed .info-father-container,
+.profile__container.collapsed .info-mother-container {
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.content_container {
+    transition: margin-left 0.3s ease;
+}
+
+h2 {
+    transition: margin-left 0.3s ease;
+    margin-left: 280px;
+}
+.profile__container.collapsed h2 {
+    margin-left:  220px;
+}
+
+@media (max-width: 1400px) {
+    .name, .email1 {
+        left: 40%;
+        transform: translateX(-30%);
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .uni-info, .personal-info, .info-father, .info-mother {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 20px;
+        height: auto; /* cho chữ không bị chèn lẫn nhau */
+    }
+    
+    h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    .name, .email1 {
+        left: 60%;
+        transform: translateX(-30%);
+        text-align: center;
+        height: auto;
+    }
+}
+
+

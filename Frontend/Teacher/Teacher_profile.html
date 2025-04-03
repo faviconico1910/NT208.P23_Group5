@@ -14,7 +14,9 @@
             <div id="sidebar-container"></div>
             <div class="content_container">
                 <div class="avatar__container">
-                    <img src="../image/cat_meme.jpg" alt="avatar">
+                    <div class="img_container">
+                        <img src="../image/cat_meme.jpg" alt="avatar">
+                    </div>
                     <p class="name" id="name"></p>
                     <p class="email1" id="email1"></p>
                 </div>
@@ -45,7 +47,6 @@
                 </div>
                 <h2>Thông tin cá nhân</h2>
                 <div class="personal-info-container">
-                    
                     <div class="personal-info">
                         <div class="personal-info-item personal-info-birth">
                             <label for="">Ngày sinh</label>
@@ -180,10 +181,11 @@
                 document.getElementById("sidebar-container").innerHTML = html;
                 const toggleButton = document.getElementById("toggle-btn");
                 const sidebar = document.getElementById("sidebar");
-                const contentContainer = document.querySelector(".content_container");
+                const profileContainer = document.querySelector(".profile__container");
                 toggleButton.addEventListener("click", () => {
                     sidebar.classList.toggle("collapsed");
-                    contentContainer.style.marginLeft = sidebar.classList.contains("collapsed") ? "70px" : "255px"; // Thay đổi vị trí content
+                    profileContainer.classList.toggle("collapsed");
+                    // profileContainer.style.marginLeft = sidebar.classList.contains("collapsed") ? "30px" : "255px";
                 })
             });
         </script>

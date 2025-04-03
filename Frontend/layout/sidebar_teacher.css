@@ -77,7 +77,6 @@ a {
 .sidebar__open-close:hover {
     opacity: 0.7;
 }
-
 .sidebar.collapsed {
     width: 70px;
     padding-right: 0;
@@ -90,13 +89,6 @@ a {
     display: none;
 }
 
-.content_container {
-    transition: margin-left 0.3s ease; /* Hiệu ứng khi dịch chuyển */
-}
-
-.sidebar.collapsed ~ .content_container {
-    margin-left: 70px; /* Dịch trái khi sidebar thu gọn */
-}
 
 .logout {
     margin-top: 300px;
@@ -113,7 +105,7 @@ a {
         width: 70px;
         padding-right: 0;
     }
-    .sidebar a {
+    .sidebar a, .sidebar__header   {
         display: none;
     }
 }
