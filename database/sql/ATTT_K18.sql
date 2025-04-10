@@ -68,9 +68,6 @@ INSERT INTO MONHOC_KHAC (Khoa, Ma_Nganh, Ma_Mon_Hoc, Ten_Mon_Hoc, Tin_chi_LT, Ti
 ('K19','ATTT','NT547','Blockchain: nền tảng, ứng dụng và bảo mật',2,1,NULL,'chuyên ngành'),
 ('K19','ATTT','NT118','Phát triển ứng dụng trên thiết bị di động',2,1,NULL,'chuyên ngành'),
 
-('K19','ATTT','NT541','Công nghệ mạng khả lập trình',3,1,NULL,'tự chọn'),
-('K19','ATTT','NT533','Hệ tính toán phân bố',2,1,NULL,'tự chọn'),
-('K19','ATTT','NT522','Phương pháp học máy trong an toàn thông tin',2,1,NULL,'tự chọn'),
-
-('K19','ATTT','NT541','Công nghệ mạng khả lập trình',3,1,NULL,'tự chọn'),
-('K19','ATTT','NT548','Công nghệ DevOps và ứng dụng',3,1,NULL,'tự chọn'),
+('K19','ATTT','NT541','Công nghệ mạng khả lập trình',3,1,NULL,'chuyên đề'),
+('K19','ATTT','NT533','Hệ tính toán phân bố',2,1,NULL,'chuyên đề'),
+('K19','ATTT','NT522','Phương pháp học máy trong an toàn thông tin',2,1,NULL,'chuyên đề'),
