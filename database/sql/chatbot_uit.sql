@@ -49,16 +49,28 @@ CREATE TABLE SINHVIEN (
 	Dia_Chi_Me VARCHAR(255),
 	Dia_Chi_Bao_Ho VARCHAR(255)
 );
+
 CREATE TABLE MONHOC (
-	Ma_Mon_Hoc VARCHAR(20) PRIMARY KEY, 
+	Khoa VARCHAR(5),
+    Ma_Nganh VARCHAR(20),
+	Ma_Mon_Hoc VARCHAR(20), 
     Ten_Mon_Hoc VARCHAR(255),
-    Ma_Khoa VARCHAR(20),
-    Loai_MH VARCHAR(20),
     Hoc_Ki INT,
     Tin_chi_LT INT,
     Tin_chi_TH INT,
-    Ma_Mon_Hoc_Truoc VARCHAR(20),
-    Do_Kho INT
+    Ma_Mon_Tien_Quyet VARCHAR(20),
+    PRIMARY KEY (Khoa, Ma_Nganh, Ma_Mon_Hoc)
+);
+
+CREATE TABLE MONHOC_KHAC (
+	Khoa VARCHAR(5),
+    Ma_Nganh VARCHAR(20),
+	Ma_Mon_Hoc VARCHAR(20), 
+    Ten_Mon_Hoc VARCHAR(255),
+    Tin_chi_LT INT,
+    Tin_chi_TH INT,
+    Loai VARCHAR(20),
+    PRIMARY KEY (Khoa, Ma_Nganh, Ma_Mon_Hoc)
 );
 
 CREATE TABLE KETQUA (
@@ -145,7 +157,7 @@ CREATE TABLE LICHHOC(
 
 
 -- set foreign key
-ALTER TABLE MONHOC ADD CONSTRAINT fk_monhoc_truoc FOREIGN KEY (Ma_Mon_Hoc_Truoc) REFERENCES MONHOC(Ma_Mon_Hoc);
+ALTER TABLE MONHOC ADD CONSTRAINT fk_monhoc_truoc FOREIGN KEY (Ma_Mon_Tien_Quyet) REFERENCES MONHOC(Ma_Mon_Hoc);
 ALTER TABLE MONHOC ADD CONSTRAINT fk_makhoa_monhoc FOREIGN KEY (Ma_Khoa) REFERENCES KHOA(Ma_Khoa);
 
 ALTER TABLE KETQUA ADD CONSTRAINT fk_ketqua_sinhvien FOREIGN KEY (Ma_Sinh_Vien) REFERENCES SINHVIEN(Ma_Sinh_Vien);
