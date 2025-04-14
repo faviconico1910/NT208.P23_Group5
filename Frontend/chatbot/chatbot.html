@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="/layout/sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="chatbox" id="chatbox">
+                    <div class="message bot">
+                        <p class="text-center display-5">Tôi có thể giúp gì?</p>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="user-input" placeholder="Nhập câu hỏi của bạn...">
+                        <button class="btn btn-primary" id="send-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0i3S+1Qus7w3I5fX1+1YYCzPlfFgjA9x2xVtcfXgNprTAXm1" crossorigin="anonymous"></script>
+    <script>
+        const sendBtn = document.getElementById("send-btn");
+        var input = document.getElementById("user-input");
+        const chatbox = document.getElementById("chatbox");
+
+        sendBtn.addEventListener("click", send);
+        input.addEventListener("keypress", function(e) {
+            if (e.key == "Enter")
+                send();
+        })
+        function appendMessage(content, type) {
+            const message = document.createElement('div');
+            message.classList.add('message', type);
+            message.innerHTML = '<p>' + content + '</p>';
+            chatbox.appendChild(message);
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }   
+        async function send() {
+            const ctn = input.value.trim();
+
+            if (!ctn) return;
+
+            appendMessage(ctn, 'user');
+            input.value = "";
+
+            const loadingMsg = document.createElement('div');
+            loadingMsg.classList.add('message', 'bot');
+            loadingMsg.innerHTML = '<p><em>Đang trả lời...</em></p>';
+            chatbox.appendChild(loadingMsg);
+            chatbox.scrollTop = chatbox.scrollHeight;
+
+            try {
+                const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+                    method: "POST",
+                    headers: {
+                        "Authorization": "Bearer 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", 
+                        "HTTP-Referer": "http://localhost",
+                        "X-Title": "UIT Chatbot",
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        "model": "deepseek/deepseek-r1-zero:free",
+                        "messages": [
+                            { "role": "user", "content": ctn }
+                        ]
+                    })
+                });
+
+                const data = await res.json();
+                console.log(data);
+                const botReply = data.choices?.[0]?.message?.content || "Bot không trả lời được.";
+
+                loadingMsg.remove(); 
+                appendMessage(botReply, 'bot');
+            } catch (error) {
+                loadingMsg.remove();
+                appendMessage("Có lỗi khi gọi API!", 'bot');
+                console.error(error);
+            }
+        }
+    </script>
+    <!-- <script>
+            fetch('../layout/sidebar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("sidebar-container").innerHTML = html;
+
+                
+                setTimeout(() => {
+                //  toggle sidebar
+                const toggleButton = document.getElementById("toggle-btn");
+                const sidebar = document.getElementById("sidebar");
+                const profileContainer = document.querySelector(".profile__container");
+                if (toggleButton && sidebar) {
+                    toggleButton.addEventListener("click", () => {
+                        sidebar.classList.toggle("collapsed");
+                        profileContainer.classList.toggle("collapsed");
+                    });
+                }
+                document.addEventListener("DOMContentLoaded", () => {
+                let mssv = localStorage.getItem("Tai_Khoan");
+                let profileLink = document.getElementById("profile_link");
+
+                if (mssv && profileLink) {
+                    profileLink.href = `/student/${mssv}`;
+                }
+                });
+            }, 100); 
+        });
+    </script> -->
+</body>
+</html>

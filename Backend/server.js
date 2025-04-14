@@ -4,6 +4,7 @@ const path = require("path");
 const bcrypt = require("bcryptjs");
 const cors = require("cors");
 
+
 //  routes
 const authRoutes = require("./routes/auth.routes.js");
 const studentRoutes = require('./routes/student.routes.js');
@@ -14,6 +15,7 @@ const DeXuatMonHocRoutes = require("./routes/dexuatmonhoc.routes.js");
 const thongKeRoutes = require('./routes/thongke.routes.js');
 const teacherRoutes = require('./routes/teacher.routes.js');
 const huongdanXTNRoutes = require("./routes/huongdanXTN.routes.js");
+const chatbotRoutes = require("./routes/chatbot.routes.js");
 
 const app = express();
 const PORT = process.env.PORT;
@@ -36,6 +38,7 @@ app.use("/dexuatmonhoc", DeXuatMonHocRoutes);
 app.use('/thongkesv', thongKeRoutes);
 app.use('/teacher', teacherRoutes);
 app.use("/huongdanXTN", huongdanXTNRoutes);
+app.use("/chatbot", chatbotRoutes);
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
