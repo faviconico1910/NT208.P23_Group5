@@ -8,7 +8,7 @@ router.post("/api", sendMessage);
 
 // Frontend route (trả về file chatbot.html)
 router.get("/chatbot", (req, res) => {
-    res.sendFile(path.join(__dirname, "../../Frontend", "chatbot.html"));
+    res.sendFile(path.join(__dirname, "../../Frontend/chatbot", "chatbot.html"));
 });
 
 module.exports = router;
