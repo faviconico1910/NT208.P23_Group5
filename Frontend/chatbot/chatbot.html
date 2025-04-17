@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container mt-5">
+        <div id="sidebar-container"></div>
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="chatbox" id="chatbox">
@@ -79,35 +80,35 @@ async function send() {
         console.error(err);
     }
 }
-    </script>
-    <!-- <script>
-            fetch('../layout/sidebar.html')
-            .then(response => response.text())
-            .then(html => {
-                document.getElementById("sidebar-container").innerHTML = html;
 
-                
-                setTimeout(() => {
-                //  toggle sidebar
-                const toggleButton = document.getElementById("toggle-btn");
-                const sidebar = document.getElementById("sidebar");
-                const profileContainer = document.querySelector(".profile__container");
-                if (toggleButton && sidebar) {
-                    toggleButton.addEventListener("click", () => {
-                        sidebar.classList.toggle("collapsed");
-                        profileContainer.classList.toggle("collapsed");
-                    });
-                }
-                document.addEventListener("DOMContentLoaded", () => {
-                let mssv = localStorage.getItem("Tai_Khoan");
-                let profileLink = document.getElementById("profile_link");
 
-                if (mssv && profileLink) {
-                    profileLink.href = `/student/${mssv}`;
-                }
+        fetch('../layout/sidebar.html')
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById("sidebar-container").innerHTML = html;
+
+            
+            setTimeout(() => {
+            //  toggle sidebar
+            const toggleButton = document.getElementById("toggle-btn");
+            const sidebar = document.getElementById("sidebar");
+            const profileContainer = document.querySelector(".profile__container");
+            if (toggleButton && sidebar) {
+                toggleButton.addEventListener("click", () => {
+                    sidebar.classList.toggle("collapsed");
+                    profileContainer.classList.toggle("collapsed");
                 });
-            }, 100); 
-        });
-    </script> -->
+            }
+            document.addEventListener("DOMContentLoaded", () => {
+            let mssv = localStorage.getItem("Tai_Khoan");
+            let profileLink = document.getElementById("profile_link");
+
+            if (mssv && profileLink) {
+                profileLink.href = `/student/${mssv}`;
+            }
+            });
+        }, 100); 
+    });
+    </script> 
 </body>
 </html>

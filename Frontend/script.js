@@ -20,7 +20,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
 
         // Điều hướng dựa vào Vai_Tro
         if (data.Vai_Tro === "SinhVien") {
-            window.location.href = `/student/${data.Tai_Khoan}`;
+            window.location.href = `/KetQuaHocTap/completedCourses.html`;
         } else if (data.Vai_Tro === "GiangVien") {
             window.location.href = `/teacher/${data.Tai_Khoan}`;
         }
