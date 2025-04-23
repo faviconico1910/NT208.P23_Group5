@@ -68,7 +68,7 @@ const getCompletedCourses = async (req, res) => {
         whereConditions.push("kq.Diem_HP IS NOT NULL");
 
         // Truy vấn SQL
-        const [results] = await db.promise().query(`
+        const [results] = await db.query(`
             SELECT 
                 kq.Hoc_Ky,
                 mh.Ma_Mon_Hoc, 
