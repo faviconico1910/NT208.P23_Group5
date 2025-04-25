@@ -10,62 +10,289 @@ fetch('/layout/sidebar.html').then(response => response.text())
     })
 });
 
+let responseData = {};
+let deXuatList = [];
+let hocLaiList = [];
+let tuChonList = [];
+let chuyenNganhList = [];
+let chuyenDeList = [];
 
 document.addEventListener("DOMContentLoaded", async () => {
-    // ✅ Lấy token từ localStorage
     const token = localStorage.getItem("token");
-
-    // ✅ Kiểm tra nếu chưa đăng nhập
     if (!token) {
         alert("Bạn chưa đăng nhập!");
         window.location.href = "/login.html";
         return;
     }
-
-    console.log("📌 Token từ localStorage:", token);
-
+    
     try {
+        // const tbody = document.querySelector("table tbody");
+        const dexuatTbody = document.getElementById("dexuat-tbody");
+        const retakeTbody = document.getElementById("retake-tbody");
+        const majorTbody = document.getElementById("major-tbody");
+        const electiveTbody = document.getElementById("elective-tbody");
+        const specialTbody = document.getElementById("special-tbody");
+
+        dexuatTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Đang tải dữ liệu...</td></tr>";
+        retakeTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Đang tải dữ liệu...</td></tr>";
+        majorTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Đang tải dữ liệu...</td></tr>";
+        electiveTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Đang tải dữ liệu...</td></tr>";
+        specialTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Đang tải dữ liệu...</td></tr>";
+
         const response = await fetch("http://127.0.0.1:3000/dexuatmonhoc/api", {
             method: "GET",
-            headers: { 
+            headers: {
                 "Authorization": `Bearer ${token}`,
                 "Content-Type": "application/json"
             }
         });
 
+        responseData = await response.json();
+
         if (!response.ok) {
-            throw new Error("Lỗi khi tải dữ liệu. Có thể token không hợp lệ!");
+            const errorMessage = responseData.message || "Lỗi không xác định";
+            throw new Error(`Lỗi ${response.status}: ${errorMessage}`);
         }
 
-        const data = await response.json();
-        console.log("📩 Dữ liệu API nhận được:", data);
+        // ✅ Hiển thị môn học đề xuất
+        deXuatList = responseData.de_xuat || [];
+        if (deXuatList.length === 0) {
+            dexuatTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Không có dữ liệu môn học đề xuất</td></tr>";
+        } else {
+            dexuatTbody.innerHTML = "";
+            deXuatList.forEach((subject, index) => {
+                const row = `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td>${subject.Ma_Mon_Hoc}</td>
+                        <td>${subject.Ten_Mon_Hoc}</td>
+                        <td>${subject.Tin_chi_LT}</td>
+                        <td>${subject.Tin_chi_TH}</td>
+                        <td>${subject.Ma_Mon_Tien_Quyet || "Không"}</td>
+                        <td>
+                            <button class="add-btn btn btn-sm fw-bold fs-5" data-mamh="${subject.Ma_Mon_Hoc}">+</button>
+                        </td>
+                    </tr>
+                `;
+                dexuatTbody.innerHTML += row;
+            });
 
-        if (!Array.isArray(data)) {
-            throw new Error("Dữ liệu từ API không hợp lệ");
+            ganSuKienThemMonHoc();
         }
 
-        const tbody = document.querySelector("table tbody");
-        tbody.innerHTML = ""; // Xóa nội dung cũ
+        // ✅ Hiển thị môn học cần học lại
+        hocLaiList = responseData.hoc_lai || [];
+        if (hocLaiList.length === 0) {
+            retakeTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Không có dữ liệu môn học cần học lại</td></tr>";
+        } else {
+            retakeTbody.innerHTML = "";
+            hocLaiList.forEach((subject, index) => {
+                const row = `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td>${subject.Ma_Mon_Hoc}</td>
+                        <td>${subject.Ten_Mon_Hoc}</td>
+                        <td>${subject.Tin_chi_LT}</td>
+                        <td>${subject.Tin_chi_TH}</td>
+                        <td>${subject.Ma_Mon_Tien_Quyet || "Không"}</td>
+                        <td>
+                            <button class="add-btn btn btn-sm fw-bold fs-5" data-mamh="${subject.Ma_Mon_Hoc}">+</button>
+                        </td>
+                    </tr>
+                `;
+                retakeTbody.innerHTML += row;
+            });
 
-        data.forEach(subject => {
-            const maMonHocTruoc = subject.Ma_Mon_Hoc_Truoc ? subject.Ma_Mon_Hoc_Truoc : 'Không';
-            const row = `
-                <tr>
-                    <td>${subject.Ma_Mon_Hoc}</td>
-                    <td>${subject.Ten_Mon_Hoc}</td>
-                    <td>${subject.Ma_Khoa}</td>
-                    <td>${subject.Loai_MH}</td>
-                    <td>${subject.Tin_chi_LT}</td>
-                    <td>${subject.Tin_chi_TH}</td>
-                    <td>${maMonHocTruoc}</td>
-                    <td>${subject.Do_Kho}</td>
-                </tr>
-            `;
-            tbody.innerHTML += row;
-        });
+            ganSuKienThemMonHoc();
+        }
 
+        // ✅ Hiển thị môn học chuyên ngành
+        chuyenNganhList = responseData.chuyen_nganh || [];
+        if (chuyenNganhList.length === 0) {
+            majorTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Không có dữ liệu môn học chuyên ngành</td></tr>";
+        } else {
+            majorTbody.innerHTML = "";
+            chuyenNganhList.forEach((subject, index) => {
+                const row = `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td>${subject.Ma_Mon_Hoc}</td>
+                        <td>${subject.Ten_Mon_Hoc}</td>
+                        <td>${subject.Tin_chi_LT}</td>
+                        <td>${subject.Tin_chi_TH}</td>
+                        <td>
+                            <button class="add-btn btn btn-sm fw-bold fs-5" data-mamh="${subject.Ma_Mon_Hoc}">+</button>
+                        </td>
+                    </tr>
+                `;
+                majorTbody.innerHTML += row;
+            });
+
+            ganSuKienThemMonHoc();
+        }
+
+        // ✅ Hiển thị môn học tự chọn
+        tuChonList = responseData.tu_chon || [];
+        if (tuChonList.length === 0) {
+            electiveTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Không có dữ liệu môn học tự chọn</td></tr>";
+        } else {
+            electiveTbody.innerHTML = "";
+            tuChonList.forEach((subject, index) => {
+                const row = `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td>${subject.Ma_Mon_Hoc}</td>
+                        <td>${subject.Ten_Mon_Hoc}</td>
+                        <td>${subject.Tin_chi_LT}</td>
+                        <td>${subject.Tin_chi_TH}</td>
+                        <td>
+                            <button class="add-btn btn btn-sm fw-bold fs-5" data-mamh="${subject.Ma_Mon_Hoc}">+</button>
+                        </td>
+                    </tr>
+                `;
+                electiveTbody.innerHTML += row;
+            });
+
+            ganSuKienThemMonHoc();
+        }
+
+         // ✅ Hiển thị môn học chuyên đề
+        chuyenDeList = responseData.chuyen_de || [];
+        if (chuyenDeList.length === 0) {
+            specialTbody.innerHTML = "<tr><td colspan='5' class='text-center'>Không có dữ liệu môn học chuyên đề</td></tr>";
+        } else {
+            specialTbody.innerHTML = "";
+            chuyenDeList.forEach((subject, index) => {
+                const row = `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td>${subject.Ma_Mon_Hoc}</td>
+                        <td>${subject.Ten_Mon_Hoc}</td>
+                        <td>${subject.Tin_chi_LT}</td>
+                        <td>${subject.Tin_chi_TH}</td>
+                        <td>
+                        <button class="add-btn btn btn-sm fw-bold fs-5" data-mamh="${subject.Ma_Mon_Hoc}">+</button>
+                    </td>
+                    </tr>
+                `;
+                specialTbody.innerHTML += row;
+            });
+
+            ganSuKienThemMonHoc();
+        }
     } catch (error) {
         console.error("🚨 Lỗi khi tải dữ liệu từ API:", error);
-        alert("Không thể tải dữ liệu. Hãy kiểm tra đăng nhập hoặc token!");
+        const tbody = document.querySelector("table tbody");
+        tbody.innerHTML = `<tr><td colspan='5' class='text-center text-danger'>Lỗi: ${error.message}</td></tr>`;
     }
+});
+
+const tabButtons = document.querySelectorAll(".tab-btn");
+  const tableSections = document.querySelectorAll(".table-section");
+
+  tabButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      // Xóa active của tất cả nút
+      tabButtons.forEach(b => b.classList.remove("active"));
+
+      // Ẩn tất cả bảng
+      tableSections.forEach(section => section.classList.add("d-none"));
+
+      // Hiện bảng được chọn
+      const targetId = btn.getAttribute("data-target");
+      document.querySelector(targetId).classList.remove("d-none");
+
+      // Đánh dấu nút đang active
+      btn.classList.add("active");
+    });
+  });
+
+function ganSuKienThemMonHoc() {
+    document.querySelectorAll(".add-btn").forEach(button => {
+        button.onclick = function () {
+            const maMH = this.dataset.mamh;
+            themMonHocDaChon(maMH);
+        };
+    });
+}
+
+function themMonHocDaChon(maMH) {
+    const daChonTbody = document.getElementById("daChon-tbody");
+
+    const daTonTai = Array.from(daChonTbody.children).some(row =>
+        row.querySelector("td:nth-child(2)").textContent === maMH
+    );
+    if (daTonTai) {
+        alert("Môn học đã được chọn!");
+        return;
+    }
+
+    // Tìm trong tất cả danh sách
+    const allSubjects = [
+        ...(deXuatList || []),
+        ...(responseData?.hoc_lai || []),
+        ...(responseData?.chuyen_nganh || []),
+        ...(responseData?.tu_chon || []),
+        ...(responseData?.chuyen_de || [])
+    ];
+
+    const monHoc = allSubjects.find(item => item.Ma_Mon_Hoc === maMH);
+    if (!monHoc) {
+        alert("Không tìm thấy thông tin môn học!");
+        return;
+    }
+
+    const rowCount = daChonTbody.rows.length + 1;
+    const row = `
+        <tr>
+            <td>${rowCount}</td>
+            <td>${monHoc.Ma_Mon_Hoc}</td>
+            <td>${monHoc.Ten_Mon_Hoc}</td>
+            <td>${monHoc.Tin_chi_LT}</td>
+            <td>${monHoc.Tin_chi_TH}</td>
+            <td>${monHoc.Ma_Mon_Tien_Quyet || "Không"}</td>
+            <td><button class="remove-btn btn btn-sm fw-bold fs-5">-</button></td>
+        </tr>
+    `;
+    daChonTbody.insertAdjacentHTML("beforeend", row);
+
+    daChonTbody.querySelectorAll(".remove-btn").forEach(btn => {
+        btn.onclick = function () {
+            const row = this.closest("tr");
+            row.remove();
+            capNhatTongTinChi();
+            capNhatSTTMonHocDaChon();
+        };
+    });
+
+    capNhatTongTinChi();
+}
+
+  
+function capNhatTongTinChi() {
+    let tongLT = 0, tongTH = 0;
+    const daChonTbody = document.getElementById("daChon-tbody");
+
+    Array.from(daChonTbody.children).forEach(row => {
+        const tcLT = parseInt(row.children[3].textContent) || 0;
+        const tcTH = parseInt(row.children[4].textContent) || 0;
+        tongLT += tcLT;
+        tongTH += tcTH;
+    });
+    
+    document.getElementById("tong-tin-chi").textContent = tongLT + tongTH;
+    document.getElementById("tong-tin-chi-ly-thuyet").textContent = tongLT;
+    document.getElementById("tong-tin-chi-thuc-hanh").textContent = tongTH;
+}
+
+function capNhatSTTMonHocDaChon() {
+    const rows = document.querySelectorAll("#daChon-tbody tr");
+    rows.forEach((row, index) => {
+        row.children[0].textContent = index + 1;
+    });
+}
+document.getElementById("btnXoaHet").addEventListener("click", function () {
+    const daChonTbody = document.getElementById("daChon-tbody");
+    daChonTbody.innerHTML = "";
+    capNhatTongTinChi();
 });

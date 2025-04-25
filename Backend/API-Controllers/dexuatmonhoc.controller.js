@@ -5,104 +5,134 @@ const jwt = require("jsonwebtoken");
 const getDeXuatPage = (req, res) => {
     res.sendFile(path.join(__dirname, "../../Frontend/DeXuat/DeXuat.html"));
 };
-// Hàm lấy danh sách môn học đề xuất
-const getDeXuatMonHoc = async (req, res) => {
-    try {
-        const authHeader = req.headers.authorization; //lấy token từ header
-        console.log("📌 Token nhận được từ client:", authHeader);
-        
-        if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
-            return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
-        }
-        const token = authHeader.split(" ")[1];
-        let decoded;
 
+// Hàm lấy danh sách môn học đề xuất
+const getMonHocTongHop = async (req, res) => {
+    try {
+        const authHeader = req.headers.authorization;
+        if (!authHeader?.startsWith("Bearer ")) {
+            return res.status(403).json({ 
+                success: false,
+                message: "Token không hợp lệ!" 
+            });
+        }
+
+        const token = authHeader.split(" ")[1];
+        
+        // Thêm try-catch để xử lý lỗi verify token
+        let decoded;
         try {
             decoded = jwt.verify(token, process.env.JWT_SECRET);
-        } catch (error) {
-            return res.status(401).json({ message: "Token không hợp lệ hoặc đã hết hạn!" });
+        } catch (err) {
+            console.error("Lỗi xác thực token:", err);
+            return res.status(401).json({ 
+                success: false,
+                message: "Token không hợp lệ hoặc đã hết hạn!" 
+            });
         }
 
-        const userId = decoded.Tai_Khoan;  // MSSV lấy từ token
-
+        const userId = decoded.Tai_Khoan;
         console.log("📩 MSSV từ token:", userId);
 
         if (!userId) {
-            return res.status(400).json({ error: "Mã sinh viên không hợp lệ hoặc chưa đăng nhập" });
+            return res.status(400).json({ 
+                success: false,
+                message: "Mã sinh viên không hợp lệ hoặc chưa đăng nhập" 
+            });
         }
 
-        const query = `
-            WITH MHDaHoc AS (
-                -- Lấy danh sách các môn mà sinh viên đã học
-                SELECT m.Ma_Mon_Hoc, m.Do_Kho
-                FROM KETQUA k
-                JOIN MONHOC m ON k.Ma_Mon_Hoc = m.Ma_Mon_Hoc
-                WHERE k.Ma_Sinh_Vien = ?
-            ),
-            Do_Kho_Da_Hoc AS (
-                -- Tìm độ khó cao nhất mà sinh viên đã học hết tất cả các môn ở mức đó
-                SELECT MAX(mh.Do_Kho) AS Do_Kho
-                FROM MONHOC mh
-                WHERE NOT EXISTS (
-                    SELECT 1 FROM MONHOC m2
-                    WHERE m2.Do_Kho = mh.Do_Kho
-                    AND m2.Ma_Mon_Hoc NOT IN (SELECT Ma_Mon_Hoc FROM MHDaHoc)
-                )
-            ),
-            Do_Kho_TiepTheo AS (
-                -- Lấy độ khó nhỏ nhất mà sinh viên chưa học hết tất cả các môn
-                SELECT MIN(mh.Do_Kho) AS Do_Kho_De_Xuat
-                FROM MONHOC mh
-                WHERE mh.Do_Kho <= IFNULL((SELECT Do_Kho FROM Do_Kho_Da_Hoc), 0)
-                AND mh.Ma_Mon_Hoc NOT IN (SELECT Ma_Mon_Hoc FROM MHDaHoc)
-            ),
-            MH_HocLai AS (
-                -- Lấy danh sách môn học lại
-                SELECT mh.*, 1 AS Priority
-                FROM MONHOC mh
-                JOIN KETQUA k ON mh.Ma_Mon_Hoc = k.Ma_Mon_Hoc
-                WHERE k.Ma_Sinh_Vien = ?
-                AND k.GHI_CHU = 'Học lại'
-            ),
-            MHDuocDeXuat AS (
-                -- Lấy môn có độ khó nhỏ nhất chưa học
-                SELECT mh.*, 2 AS Priority
-                FROM MONHOC mh
-                WHERE mh.Do_Kho = (SELECT Do_Kho_De_Xuat FROM Do_Kho_TiepTheo)
-                AND mh.Ma_Mon_Hoc NOT IN (SELECT Ma_Mon_Hoc FROM MHDaHoc)
-            ),
-            MHBoSung AS (
-                -- Nếu chưa đủ 5 môn, lấy thêm môn có độ khó cao hơn
-                SELECT mh.*, 3 AS Priority
-                FROM MONHOC mh
-                WHERE mh.Do_Kho = (
-                    SELECT MIN(Do_Kho) FROM MONHOC 
-                    WHERE Do_Kho > IFNULL((SELECT Do_Kho_De_Xuat FROM Do_Kho_TiepTheo), 0)
-                )
-                AND mh.Ma_Mon_Hoc NOT IN (SELECT Ma_Mon_Hoc FROM MHDaHoc)
+        // Query cải tiến với xử lý học kỳ tốt hơn
+        const deXuatQuery = `
+            SELECT 
+                mh.Ma_Mon_Hoc, 
+                mh.Ten_Mon_Hoc, 
+                mh.Tin_chi_LT, 
+                mh.Tin_chi_TH, 
+                mh.Ma_Mon_Tien_Quyet
+            FROM MONHOC mh
+            JOIN SINHVIEN sv ON sv.Ma_Nganh = mh.Ma_Nganh
+            WHERE sv.Ma_Sinh_Vien = ?
+            AND mh.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+            AND mh.Hoc_Ki = IFNULL(
+                (
+                    SELECT MAX(kq.Hoc_Ky) + 1
+                    FROM KETQUA kq
+                    WHERE kq.Ma_Sinh_Vien = sv.Ma_Sinh_Vien
+                    GROUP BY kq.Ma_Sinh_Vien
+                ),
+                1  -- Mặc định học kỳ 1 nếu không tìm thấy kết quả
             )
-            SELECT Ma_Mon_Hoc, Ten_Mon_Hoc, Ma_Khoa, Loai_MH, Hoc_ki, Tin_chi_LT, Tin_chi_TH, Ma_Mon_Hoc_Truoc, Do_Kho FROM (
-                SELECT * FROM MH_HocLai
-                UNION ALL
-                SELECT * FROM MHDuocDeXuat
-                UNION ALL
-                SELECT * FROM MHBoSung
-            ) AS Combined
-            ORDER BY Priority, Do_Kho
-            LIMIT 10;
+            AND mh.Ma_Mon_Hoc NOT IN (
+                SELECT kq.Ma_Mon_Hoc
+                FROM KETQUA kq
+                WHERE kq.Ma_Sinh_Vien = sv.Ma_Sinh_Vien
+            );
         `;
+        const [deXuatData] = await db.query(deXuatQuery, [userId]);
 
-        db.query(query, [userId, userId], (error, results) => {
-            if (error) {
-                console.error("Lỗi lấy dữ liệu:", error);
-                return res.status(500).json({ error: "Lỗi server" });
-            }
-            res.json(results);
+        const hocLaiQuery = `
+                SELECT 
+                    COALESCE(mh.Ma_Mon_Hoc, mhk.Ma_Mon_Hoc) AS Ma_Mon_Hoc,
+                    COALESCE(mh.Ten_Mon_Hoc, mhk.Ten_Mon_Hoc) AS Ten_Mon_Hoc,
+                    COALESCE(mh.Tin_chi_LT, mhk.Tin_chi_LT) AS Tin_chi_LT,
+                    COALESCE(mh.Tin_chi_TH, mhk.Tin_chi_TH) AS Tin_chi_TH,
+                    mh.Ma_Mon_Tien_Quyet
+                FROM KETQUA kq
+                JOIN SINHVIEN sv ON kq.Ma_Sinh_Vien = sv.Ma_Sinh_Vien
+                LEFT JOIN MONHOC mh 
+                    ON mh.Ma_Mon_Hoc = kq.Ma_Mon_Hoc 
+                    AND mh.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+                    AND mh.Ma_Nganh = sv.Ma_Nganh
+                LEFT JOIN MONHOC_Khac mhk 
+                    ON mhk.Ma_Mon_Hoc = kq.Ma_Mon_Hoc 
+                    AND mhk.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+                    AND mhk.Ma_Nganh = sv.Ma_Nganh
+                WHERE kq.GHI_CHU = 'Khong dat'
+                AND kq.Ma_Sinh_Vien = ?
+        `;
+        
+        const [hocLaiData] = await db.query(hocLaiQuery, [userId]);
+
+        const chuyenNganhQuery = `
+                SELECT Ma_Mon_Hoc, Ten_Mon_Hoc, Tin_chi_LT, Tin_chi_TH
+                FROM MONHOC_KHAC mhk
+                JOIN SINHVIEN sv ON sv.Ma_Nganh = mhk.Ma_Nganh and mhk.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+                WHERE Ma_Sinh_Vien = ? and Loai = 'chuyên ngành';
+        `;
+        
+        const [chuyenNganhData] = await db.query(chuyenNganhQuery, [userId]);
+
+        const tuChonQuery = `
+                SELECT Ma_Mon_Hoc, Ten_Mon_Hoc, Tin_chi_LT, Tin_chi_TH
+                FROM MONHOC_KHAC mhk
+                JOIN SINHVIEN sv ON sv.Ma_Nganh = mhk.Ma_Nganh and mhk.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+                WHERE Ma_Sinh_Vien = ? and Loai = 'tự chọn';
+        `;
+        
+        const [tuchonData] = await db.query(tuChonQuery, [userId]);
+
+        const chuyenDeQuery = `
+                SELECT Ma_Mon_Hoc, Ten_Mon_Hoc, Tin_chi_LT, Tin_chi_TH
+                FROM MONHOC_KHAC mhk
+                JOIN SINHVIEN sv ON sv.Ma_Nganh = mhk.Ma_Nganh and mhk.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+                WHERE Ma_Sinh_Vien = ? and Loai = 'chuyên đề';
+        `;
+        
+        const [chuyenDeData] = await db.query(chuyenDeQuery, [userId]);
+
+        return res.json({
+            de_xuat: deXuatData,
+            hoc_lai: hocLaiData,
+            chuyen_nganh: chuyenNganhData,
+            tu_chon: tuchonData,
+            chuyen_de: chuyenDeData
         });
-    } catch (error) {
-        console.error("Lỗi lấy dữ liệu:", error);
-        res.status(500).json({ error: "Lỗi server" });
+    
+    } catch (err) {
+        console.error("Lỗi xử lý:", err);
+        res.status(500).json({ success: false, message: "Lỗi server" });
     }
-};
 
-module.exports = { getDeXuatPage, getDeXuatMonHoc };
+}
+
+module.exports = { getDeXuatPage, getMonHocTongHop };

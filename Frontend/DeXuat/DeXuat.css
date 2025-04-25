@@ -88,6 +88,10 @@ thead {
     color: white;
 }
 
+tfoot {
+    background-color: #6c757d2e;
+
+}
 th {
     padding: 12px 15px;
     text-align: left;

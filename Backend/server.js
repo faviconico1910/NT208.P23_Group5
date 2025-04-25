@@ -4,7 +4,6 @@ const path = require("path");
 const bcrypt = require("bcryptjs");
 const cors = require("cors");
 
-
 //  routes
 const authRoutes = require("./routes/auth.routes.js");
 const studentRoutes = require('./routes/student.routes.js');
