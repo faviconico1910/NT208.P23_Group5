@@ -7,8 +7,7 @@ const router = express.Router();
 router.get("/api", profile);
 
 // frontend
-router.get("/:mssv", (req, res) => {
-    const { mssv } = req.params;
+router.get("/profile", (req, res) => {
     res.sendFile(path.join(__dirname, "../../Frontend", "profile.html"));
 });
 

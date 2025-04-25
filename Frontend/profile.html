@@ -159,21 +159,11 @@
                 document.getElementById("mother_job").innerText = data.Nghe_Nghiep_Me || "Không có dữ liệu";
             }
 
-            function logout() {
-                localStorage.clear();
-                localStorage.removeItem("token");
-                localStorage.removeItem("Vai_Tro");
-                localStorage.removeItem("Tai_Khoan");
-                window.location.href = "/login";
-            }
-            
             // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
             fetch('/layout/sidebar.html')
             .then(response => response.text())
             .then(html => {
                 document.getElementById("sidebar-container").innerHTML = html;
-
-                
                 setTimeout(() => {
                 //  toggle sidebar
                 const toggleButton = document.getElementById("toggle-btn");
@@ -185,13 +175,11 @@
                         profileContainer.classList.toggle("collapsed");
                     });
                 }
-                document.addEventListener("DOMContentLoaded", () => {
-                let mssv = localStorage.getItem("Tai_Khoan");
-                let profileLink = document.getElementById("profile_link");
-
-                if (mssv && profileLink) {
-                    profileLink.href = `/student/${mssv}`;
-                }
+                document.getElementById("logout-btn").addEventListener("click", function(e) {
+                    e.preventDefault();
+                    localStorage.removeItem("token");
+                    localStorage.removeItem("Tai_Khoan");
+                    window.location.href = "/login";
                 });
             }, 100); 
         });

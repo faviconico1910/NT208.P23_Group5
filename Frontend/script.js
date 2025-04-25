@@ -13,8 +13,6 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     let data = await response.json();
     if (response.ok) {
         localStorage.setItem("token", data.token);
-        
-    
         localStorage.setItem("Vai_Tro", data.Vai_Tro); // Lưu Vai_Tro
         localStorage.setItem("Tai_Khoan", data.Tai_Khoan);
 
