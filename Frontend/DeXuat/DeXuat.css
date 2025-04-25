@@ -11,7 +11,7 @@
     --dark-color: #212529;
     --gray-color: #6c757d;
     --border-radius: 8px;
-    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
     --transition: all 0.3s ease;
 }
 
@@ -218,4 +218,24 @@ tbody tr:nth-child(3) { animation-delay: 0.3s; }
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.tab-btn {
+    border: 0.1px solid black; /* Viền tím */
+    background-color: transparent;
+    color: black;
+    transition: all 0.3s;
+    border-radius: 4px;
+    padding: 5px    10px;
+}
+
+.tab-btn.active {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.tab-btn:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    cursor: pointer;
 }

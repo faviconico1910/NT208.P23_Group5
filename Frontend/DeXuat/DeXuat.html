@@ -42,10 +42,10 @@
 
             <div class="table-container mt-3">
                 <div class="container d-flex justify-content-between">
-                    <button class="btn btn-outline-danger tab-btn active" data-target="#retake-table">Danh sách môn học lại</button>
-                    <button class="btn btn-outline-success tab-btn" data-target="#major-table">Danh sách môn chuyên ngành</button>
-                    <button class="btn btn-outline-primary tab-btn" data-target="#elective-table">Danh sách môn tự chọn</button>
-                    <button class="btn btn-outline-warning tab-btn" data-target="#special-table">Danh sách môn chuyên đề</button>
+                    <button class="tab-btn active" data-target="#retake-table">Danh sách môn học lại</button>
+                    <button class="tab-btn" data-target="#major-table">Danh sách môn chuyên ngành</button>
+                    <button class="tab-btn" data-target="#elective-table">Danh sách môn tự chọn</button>
+                    <button class="tab-btn" data-target="#special-table">Danh sách môn chuyên đề</button>
                 </div>
                 <div id="retake-table" class="table-section">
                     <h2 class="mt-3">Danh Sách Môn Học Cần Học Lại</h2>
@@ -57,7 +57,6 @@
                                 <th>Tên Môn Học</th>
                                 <th>TCLT</th>
                                 <th>TCTH</th>
-                                <th>Môn Học Tiên Quyết</th>
                                 <th>Thao tác</th>
                             </tr>
                         </thead>
@@ -143,7 +142,6 @@
                             <th>Tên Môn Học</th>
                             <th>TCLT</th>
                             <th>TCTH</th>
-                            <th>Môn Học Tiên Quyết</th>
                             <th>Thao tác</th>
                         </tr>
                     </thead>
@@ -158,9 +156,8 @@
                             <td id="tong-tin-chi">0</td>
                             <td id="tong-tin-chi-ly-thuyet">0</td>
                             <td id="tong-tin-chi-thuc-hanh">0</td>
-                            <td></td>
                             <td>
-                                <button id="btnXoaHet" class="btn btn-outline-danger btn-sm fw-bold">Xóa hết</button>
+                                <button id="btnXoaHet" class="btn btn-tab btn-outline-danger btn-sm fw-bold">Xóa hết</button>
                             </td>
                         </tr>
                     </tfoot>
