@@ -20,6 +20,59 @@
             <h1><i class="fa-solid fa-circle-question"></i> Xét tốt nghiệp cho sinh viên hệ CQUI</h1>
         </header>
 
+        <!--Điều kiện xét tốt nghiệp-->
+        <div class="guide-container">
+            <div class="guide-header">
+                <h2><i class="fas fa-info-circle"></i> Điều kiện xét tốt nghiệp</h2>
+            </div>
+            <div class="guide-body">
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Tích lũy đủ số tín chỉ</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Phòng Đào tạo Đại học (P.DTDH) thông báo điều kiện xét tốt nghiệp về tín chỉ trên trang web: <a href="https://student.uit.edu.vn/content/cu-nhan-nganh-toan-thong-tin-ap-dung-tu-khoa-19-2024" class="link" target="_blank">student.uit.edu.vn/content/cu-nhan-nganh-toan-thong-tin-ap-dung-tu-khoa-19-2024</a>.</p>
+                        
+                        <div id="TinChi"></div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">Điểm rèn luyện</h3>  
+                    </div>
+                    <div class="step-content">
+                        <p>Phòng Đào tạo Đại học (P.DTDH) thông báo điều kiện xét tốt nghiệp về điểm rèn luyện trên trang web: <a href="https://student.uit.edu.vn/sinhvien/dangky-totnghiep" class="link" target="_blank">student.uit.edu.vn/sinhvien/dangky-totnghiep</a>.</p>
+                        
+                        <div id="DiemRL"></div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Chuẩn đầu ra ngoại ngữ</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Phòng Đào tạo Đại học (P.DTDH) thông báo điều kiện xét tốt nghiệp về chuẩn đầu ra ngoại ngữ trên trang web: <a href="https://student.uit.edu.vn/content/huong-dan-sinh-vien-dai-hoc-he-chinh-quy-thuc-hien-cac-quy-dinh-ve-chuan-qua-trinh-va-chuan" class="link" target="_blank">student.uit.edu.vn/content/huong-dan-sinh-vien-dai-hoc-he-chinh-quy-thuc-hien-cac-quy-dinh-ve-chuan-qua-trinh-va-chuan</a>.</p>
+                        
+                        <div id="NN"></div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-header">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Chứng chỉ Giáo dục Quốc phòng & An ninh</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Phòng Đào tạo Đại học (P.DTDH) thông báo điều kiện xét tốt nghiệp về chuẩn đầu ra ngoại ngữ trên trang web: <a href="https://student.uit.edu.vn/content/huong-dan-sinh-vien-dai-hoc-he-chinh-quy-thuc-hien-cac-quy-dinh-ve-chuan-qua-trinh-va-chuan" class="link" target="_blank">student.uit.edu.vn/content/huong-dan-sinh-vien-dai-hoc-he-chinh-quy-thuc-hien-cac-quy-dinh-ve-chuan-qua-trinh-va-chuan</a>.</p>
+                        
+                        <div id="GDQP"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Quy trình xét tốt nghiệp-->
         <div class="guide-container">
             <div class="guide-header">
                 <h2><i class="fas fa-info-circle"></i> Quy trình xét tốt nghiệp</h2>
@@ -115,19 +168,7 @@
             </div>
         </div>
     </div>
+    <script src="/HuongDanXetTotNghiep/huongdanXTN.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-        // Tải sidebar
-        fetch('/layout/sidebar.html').then(response => response.text())
-            .then(html => {
-                document.getElementById("sidebar-container").innerHTML = html;
-                const toggleButton = document.getElementById("toggle-btn");
-                const sidebar = document.getElementById("sidebar");
-
-                toggleButton.addEventListener("click", () => {
-                    sidebar.classList.toggle("collapsed");
-                });
-            });
-    </script>
 </body>
 </html>

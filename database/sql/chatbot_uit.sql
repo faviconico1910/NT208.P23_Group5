@@ -7,8 +7,7 @@ select * from SINHVIEN;
 drop table SINHVIEN;
 drop table lichhoc;
 drop table dangky;
-SELECT * FROM KETQUA
-WHERE Ma_Sinh_Vien = '24520001'
+SELECT * FROM MONHOC;
 SELECT * FROM USER;
 -- create table
 CREATE TABLE SINHVIEN (
@@ -48,7 +47,9 @@ CREATE TABLE SINHVIEN (
 	Dia_Chi_Tam_Tru VARCHAR(255),
 	Dia_Chi_Cha VARCHAR(255),
 	Dia_Chi_Me VARCHAR(255),
-	Dia_Chi_Bao_Ho VARCHAR(255)
+	Dia_Chi_Bao_Ho VARCHAR(255),
+    Chung_Chi_Anh_Van VARCHAR(255),
+    Chung_Chi_Quan_Su VARCHAR(255)
 );
 
 CREATE TABLE MONHOC (
@@ -148,7 +149,8 @@ CREATE TABLE DANGKY(
 	Ma_Mon_Hoc VARCHAR(20),
 	Ma_Lop_Hoc VARCHAR(20),
     Loai VARCHAR(20),
-	PRIMARY KEY (Ma_Sinh_Vien, Ma_Mon_Hoc, Ma_Lop_Hoc)
+    Hoc_Ki INT,
+	PRIMARY KEY (Ma_Sinh_Vien, Ma_Mon_Hoc, Ma_Lop_Hoc, Hoc_Ki)  
 );
 CREATE TABLE LICHHOC(
     Ma_Lop_Hoc VARCHAR(20) PRIMARY KEY,
@@ -158,9 +160,13 @@ CREATE TABLE LICHHOC(
 );
 
 -- set foreign key
-ALTER TABLE MONHOC ADD CONSTRAINT fk_monhoc_truoc FOREIGN KEY (Khoa, Ma_Nganh, Ma_Mon_Tien_Quyet) REFERENCES MONHOC(Khoa, Ma_Nganh, Ma_Mon_Hoc);
+ALTER TABLE MONHOC
+ADD CONSTRAINT fk_monhoc_truoc 
+FOREIGN KEY (Khoa, Ma_Nganh, Ma_Mon_Tien_Quyet) 
+REFERENCES MONHOC(Khoa, Ma_Nganh, Ma_Mon_Hoc);
 
 ALTER TABLE KETQUA ADD CONSTRAINT fk_ketqua_sinhvien FOREIGN KEY (Ma_Sinh_Vien) REFERENCES SINHVIEN(Ma_Sinh_Vien);
+ALTER TABLE KETQUA ADD CONSTRAINT fk_ketqua_monhoc FOREIGN KEY (Ma_Mon_Hoc) REFERENCES MONHOC(Ma_Mon_Hoc);
 
 ALTER TABLE SINHVIEN ADD CONSTRAINT fk_sinhvien_lop FOREIGN KEY (Ma_Lop) REFERENCES LOP(Ma_Lop);
 ALTER TABLE SINHVIEN ADD CONSTRAINT fk_sinhvien_nganh FOREIGN KEY (Ma_Nganh) REFERENCES NGANH(Ma_Nganh);
@@ -177,6 +183,7 @@ ALTER TABLE GIANGVIEN ADD CONSTRAINT fk_giangvien_user FOREIGN KEY (Ma_Giang_Vie
 ALTER TABLE KHOA ADD CONSTRAINT fk_khoa_truongkhoa FOREIGN KEY (Ma_Truong_Khoa) REFERENCES GIANGVIEN(Ma_Giang_Vien);
 
 ALTER TABLE DANGKY ADD CONSTRAINT fk_dangky_sinhvien FOREIGN KEY (Ma_Sinh_Vien) REFERENCES SINHVIEN(Ma_Sinh_Vien);
+ALTER TABLE DANGKY ADD CONSTRAINT fk_dangky_monhoc FOREIGN KEY (Ma_Mon_Hoc) REFERENCES MONHOC(Ma_Mon_Hoc);
 ALTER TABLE DANGKY ADD CONSTRAINT fk_dangky_lophoc FOREIGN KEY (Ma_Lop_Hoc) REFERENCES LICHHOC(Ma_Lop_Hoc);
 
 
