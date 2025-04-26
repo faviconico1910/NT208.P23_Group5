@@ -15,13 +15,16 @@
         <div class="profile__container">
             <div id="sidebar-container"></div>
             <div class="content_container">
-                <div class="avatar__container">
+                <div class="avatar__container d-flex align-items-center">
                     <div class="img_container">
                         <img src="../image/cat_meme.jpg" alt="avatar">
                     </div>
                     <p class="name" id="name"></p>
                     <p class="email1" id="email1"></p>
+                    <button type="button" class="btn btn-primary ms-auto me-5" id="editBtn" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
                 </div>
+                
+                
                 <div class="uni-info-container">
                     <div class="uni-info">
                         <div class="uni-info-item uni-info__mssv">
@@ -102,7 +105,60 @@
                 </div>
             </div>
         </div>
-        
+
+        <!-- Modal -->
+        <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="editModalLabel">Edit your profile</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <div class="mb-3">
+                          <label for="edit-name" class="form-label">Họ tên</label>
+                          <input type="text" class="form-control" id="edit-name">
+                        </div>
+                        <!-- chỉ cần edit email cá nhân -->
+                        <div class="mb-3">
+                          <label for="edit-email2" class="form-label">Email cá nhân</label>
+                          <input type="email" class="form-control" id="edit-email2">
+                        </div>
+                        <div class="mb-3">
+                          <label for="edit-mssv" class="form-label">MSSV</label>
+                          <input type="text" class="form-control" id="edit-mssv">
+                        </div>
+                        <div class="mb-3">
+                          <label for="edit-birth" class="form-label">Ngày sinh</label>
+                          <input type="text" class="form-control" id="edit-birth">
+                        </div>
+                        <div class="mb-3">
+                          <label for="edit-cccd" class="form-label">CCCD</label>
+                          <input type="number" class="form-control" id="edit-cccd">
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit-religion" class="form-label">Tôn giáo</label>
+                            <input type="text" class="form-control" id="edit-religion">
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit-gender" class="form-label">Giới tính</label>
+                            <input type="text" class="form-control" id="edit-gender">
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit-location" class="form-label">Thường trú</label>
+                            <input type="text" class="form-control" id="edit-location">
+                        </div>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+                
         <!-- javascript here -->
         <script>
             const Tai_Khoan = window.location.pathname.split('/')[2];
@@ -118,7 +174,7 @@
             
             async function fetchStudentProfile(token, Tai_Khoan) {
                 try {
-                    console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
+                    console.log("Token trong localStorage:", localStorage.getItem("token"));
                     let response = await fetch(`http://localhost:3000/student/api`, {
                         method: "GET",
                         headers: {
@@ -158,7 +214,23 @@
                 document.getElementById("mother_phonenumber").innerText = data.SDT_Me || "Không có dữ liệu";
                 document.getElementById("mother_job").innerText = data.Nghe_Nghiep_Me || "Không có dữ liệu";
             }
-
+            // EditBtn code
+            const editBtn = document.getElementById("editBtn");
+            
+            editBtn.addEventListener('click', () => {
+                // Đổ dữ liệu hiện tại vào form trong Modal
+                document.getElementById('edit-name').value = document.getElementById('name').innerText;
+                document.getElementById('edit-email2').value = document.getElementById('email2').innerText;
+                document.getElementById('edit-mssv').value = document.getElementById('mssv').innerText;
+                document.getElementById('edit-birth').value = document.getElementById('birth').innerText;
+                document.getElementById('edit-cccd').value = document.getElementById('cccd').innerText;
+                document.getElementById('edit-religion').value = document.getElementById('religion').innerText;
+                document.getElementById('edit-gender').value = document.getElementById('gender').innerText;
+                document.getElementById('edit-location').value = document.getElementById('location').innerText;
+                // Hiển thị Modal
+                // const editModal = new bootstrap.Modal(document.getElementById('editModal'));
+                // editModal.show();
+            });
             // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
             fetch('/layout/sidebar.html')
             .then(response => response.text())

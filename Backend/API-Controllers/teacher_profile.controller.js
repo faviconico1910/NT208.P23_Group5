@@ -1,7 +1,7 @@
 const db = require('../config/db.js');
 const jwt = require('jsonwebtoken');
 
-const teacher_profile = async(req, res) => {
+const teacher_profile = async (req, res) => {
     try {
         const authHeader = req.headers.authorization;
         console.log("Token nhận được", authHeader);
@@ -18,18 +18,13 @@ const teacher_profile = async(req, res) => {
         
         // query 
         const sql = "SELECT * FROM GIANGVIEN WHERE Ma_Giang_Vien = ?";
-        db.query(sql, [userId], (err, result) => {
-            if (err) {
-                console.error("❌ Lỗi truy vấn SQL:", err);
-                return res.status(500).json({ message: "Lỗi server!", error: err });
-            }
+        const [result] = await db.query(sql, [userId]);
             if (result.length === 0) {
                 console.log("❌ Không tìm thấy giảng viên!");
                 return res.status(404).json({ message: "Không tìm thấy giảng viên!" });
             }
-            console.log("✅ Dữ liệu giảng viên:", result[0]);
+            console.log("Dữ liệu giảng viên:", result[0]);
             res.json(result[0]);
-        });
     }
     catch (error) {
         console.error("❌ Lỗi xác thực token:", error);
