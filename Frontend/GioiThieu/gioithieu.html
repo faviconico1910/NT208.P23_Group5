@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin sinh viên - UIT ChatBot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/layout/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="gioithieu.css">
+</head>
+<body>
+    <div id="sidebar-container"></div>
+    <div class="container">
+        <section class="hero">
+            <h1>Chào mừng <span id="student-name">...</span> đến với ChatBot UIT</h1>
+            <p>Hệ thống hỗ trợ sinh viên toàn diện - Đồng hành cùng bạn trong suốt quá trình học tập</p>
+        </section>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+        </div>
+
+        <div id="error" class="error-message">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Đã xảy ra lỗi khi tải dữ liệu. Vui lòng thử lại sau.</span>
+        </div>
+
+        <section class="section" id="profile-section" style="display: none;">
+            <div class="profile-header">
+                <div class="avatar">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div>
+                    <h2 class="user-name" id="full-name">...</h2>
+                    <p class="user-id"><i class="fas fa-id-card"></i> Mã sinh viên: <span id="student-id">...</span></p>
+                </div>
+            </div>
+
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-label">Ngày sinh</div>
+                    <div class="info-value" id="birthday">...</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Giới tính</div>
+                    <div class="info-value" id="gender">...</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Lớp</div>
+                    <div class="info-value" id="class-code">...</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Khoa</div>
+                    <div class="info-value" id="faculty">...</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Ngành</div>
+                    <div class="info-value" id="major">...</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Hệ đào tạo</div>
+                    <div class="info-value" id="education-system">...</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="academic-section" style="display: none;">
+            <h2><i class="fas fa-graduation-cap"></i> Thông tin học tập</h2>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="info-label">Năm học</div>
+                    <div class="stat-value" id="academic-year">...</div>
+                </div>
+                <div class="stat-card">
+                    <div class="info-label">Học kỳ</div>
+                    <div class="stat-value" id="semester">...</div>
+                </div>
+                <div class="stat-card">
+                    <div class="info-label">Tình trạng</div>
+                    <div class="stat-value" id="status">...</div>
+                </div>
+                <div class="stat-card">
+                    <div class="info-label">Tín chỉ tích lũy</div>
+                    <div class="stat-value" id="total-credits">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="info-label">Điểm TB tích lũy</div>
+                    <div class="stat-value" id="gpa">--</div>
+                </div>
+            </div>
+
+            <h3><i class="fas fa-book-open"></i> Môn học học kỳ này</h3>
+            <div class="table-container">
+                <table class="subject-table">
+                    <thead>
+                        <tr>
+                            <th>Mã môn</th>
+                            <th>Tên môn học</th>
+                            <th>TC</th>
+                            <th>Loại môn</th>
+                            <th>Lịch học</th>
+                        </tr>
+                    </thead>
+                    <tbody id="subjects-table-body">
+                        <tr>
+                            <td colspan="5" style="text-align: center;">Đang tải dữ liệu...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section" id="features-section" style="display: none;">
+            <h2><i class="fas fa-robot"></i> Giới thiệu hệ thống Chat Bot UIT</h2>
+            <p style="margin-bottom: 1rem; color: var(--gray-color);">Hệ thống Chat Bot UIT được phát triển nhằm hỗ trợ sinh viên trong quá trình học tập và giải đáp các thắc mắc liên quan đến học vụ.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <h3 class="feature-title"><i class="fas fa-search"></i> Tra cứu thông tin</h3>
+                    <p>Xem điểm, lịch học, thông tin môn học và kết quả học tập.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title"><i class="fas fa-comments"></i> Hỏi đáp thông minh</h3>
+                    <p>Giải đáp các câu hỏi về quy chế, quy định, lịch thi.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title"><i class="fas fa-bell"></i> Thông báo</h3>
+                    <p>Nhận thông báo mới nhất từ nhà trường, khoa.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title"><i class="fas fa-clipboard-list"></i> Đăng ký môn học</h3>
+                    <p>Hướng dẫn quy trình đăng ký môn học.</p>
+                </div>
+            </div>
+
+            <div class="quick-actions">
+                <a href="/chat" class="action-btn"><i class="fas fa-comment-dots"></i> Trò chuyện với Chat Bot</a>
+                <a href="/schedule" class="action-btn"><i class="fas fa-calendar-alt"></i> Xem lịch học</a>
+                <a href="/grades" class="action-btn"><i class="fas fa-chart-bar"></i> Xem điểm</a>
+                <a href="/help" class="action-btn"><i class="fas fa-question-circle"></i> Trợ giúp</a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        async function loadSidebar() {
+            try {
+                const response = await fetch('/layout/sidebar.html');
+                if (!response.ok) throw new Error('Failed to load sidebar');
+                const html = await response.text();
+                document.getElementById('sidebar-container').innerHTML = html;
+            } catch (error) {
+                console.error('Error loading sidebar:', error);
+            }
+        }
+
+        function getAuthToken() {
+            try {
+                const token = localStorage.getItem('token') || 
+                             sessionStorage.getItem('token') || 
+                             document.cookie.split('; ').find(row => row.startsWith('token='))?.split('=')[1];
+                
+                if (!token) {
+                    window.location.href = '/login?error=no_token';
+                    return null;
+                }
+                
+                if (typeof token !== 'string' || token.split('.').length !== 3) {
+                    localStorage.removeItem('token');
+                    sessionStorage.removeItem('token');
+                    document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+                    window.location.href = '/login?error=invalid_token_format';
+                    return null;
+                }
+                
+                return token;
+            } catch (error) {
+                console.error("Token access failed:", error);
+                window.location.href = '/login?error=storage_error';
+                return null;
+            }
+        }
+
+        async function fetchStudentData() {
+            try {
+                const token = getAuthToken();
+                if (!token) return;
+
+                const currentMonth = new Date().getMonth();
+                const semester = currentMonth >= 8 || currentMonth < 2 ? 1 : 2;
+                
+                const response = await fetch(`/gioithieu`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ semester })
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => null);
+                    const errorMsg = errorData?.message || `HTTP Error: ${response.status}`;
+                    
+                    if (response.status === 401) {
+                        localStorage.removeItem('token');
+                        sessionStorage.removeItem('token');
+                        document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+                        window.location.href = '/login?error=invalid_token';
+                        return;
+                    }
+                    
+                    throw new Error(errorMsg);
+                }
+
+                const result = await response.json();
+                
+                if (!result.success) {
+                    throw new Error(result.message || 'API request failed');
+                }
+
+                populateStudentData(result.data);
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('profile-section').style.display = 'block';
+                document.getElementById('academic-section').style.display = 'block';
+                document.getElementById('features-section').style.display = 'block';
+
+            } catch (error) {
+                console.error("Fetch failed:", error);
+                document.getElementById('loading').style.display = 'none';
+                const errorEl = document.getElementById('error');
+                errorEl.style.display = 'flex';
+                errorEl.querySelector('span').textContent = error.message || 'Lỗi khi tải dữ liệu';
+                
+                if (error.message.includes('Token') || error.message.includes('401')) {
+                    localStorage.removeItem('token');
+                    sessionStorage.removeItem('token');
+                    document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+                    setTimeout(() => {
+                        window.location.href = '/login?error=session_expired';
+                    }, 2000);
+                }
+            }
+        }
+    
+        function populateStudentData(data) {
+            const { studentInfo, academicInfo, currentSubjects } = data;
+            
+            document.getElementById('student-name').textContent = studentInfo.Ho_Ten;
+            document.getElementById('full-name').textContent = studentInfo.Ho_Ten;
+            document.getElementById('student-id').textContent = studentInfo.Ma_Sinh_Vien;
+            document.getElementById('birthday').textContent = new Date(studentInfo.Ngay_Sinh).toLocaleDateString('vi-VN');
+            document.getElementById('gender').textContent = studentInfo.Gioi_Tinh === 1 ? 'Nam' : 'Nữ';
+            document.getElementById('class-code').textContent = studentInfo.Ma_Lop;
+            document.getElementById('faculty').textContent = studentInfo.Ten_Khoa;
+            document.getElementById('major').textContent = studentInfo.Ten_Nganh;
+            document.getElementById('education-system').textContent = studentInfo.He_Dao_Tao || 'Chính quy';
+            document.getElementById('academic-year').textContent = currentSubjects.academicYear;
+            document.getElementById('semester').textContent = currentSubjects.semester;
+            document.getElementById('total-credits').textContent = academicInfo.totalCredits || '0';
+            document.getElementById('gpa').textContent = academicInfo.gpa ? academicInfo.gpa.toFixed(2) : '--';
+    
+            const tbody = document.getElementById('subjects-table-body');
+            tbody.innerHTML = '';
+            
+            if (currentSubjects.subjects.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">Không có môn học nào trong học kỳ này</td></tr>';
+            } else {
+                currentSubjects.subjects.forEach(subject => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${subject.maMon}</td>
+                        <td>${subject.tenMon}</td>
+                        <td>${subject.soTC}</td>
+                        <td><span class="badge badge-primary">${subject.loaiMon}</span></td>
+                        <td>${subject.lichHoc}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            }
+        }
+    
+        document.addEventListener('DOMContentLoaded', () => {
+            loadSidebar();
+            fetchStudentData();
+        });
+    </script>
+</body>
+</html>

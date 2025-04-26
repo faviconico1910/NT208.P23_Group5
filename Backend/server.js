@@ -15,6 +15,7 @@ const thongKeRoutes = require('./routes/thongke.routes.js');
 const teacherRoutes = require('./routes/teacher.routes.js');
 const huongdanXTNRoutes = require("./routes/huongdanXTN.routes.js");
 const chatbotRoutes = require("./routes/chatbot.routes.js");
+const gioithieuRoutes = require("./routes/gioithieu.routes.js");   
 
 const app = express();
 const PORT = process.env.PORT;
@@ -38,6 +39,7 @@ app.use('/thongkesv', thongKeRoutes);
 app.use('/teacher', teacherRoutes);
 app.use("/huongdanXTN", huongdanXTNRoutes);
 app.use("/chatbot", chatbotRoutes);
+app.use("/gioithieu", gioithieuRoutes);
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
