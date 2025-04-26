@@ -3,6 +3,7 @@ const jwt = require("jsonwebtoken");
 
 const getCompletedCourses = async (req, res) => {
     try {
+        // 1. Xác thực token
         const authHeader = req.headers.authorization;
         if (!authHeader?.startsWith("Bearer ")) {
             return res.status(403).json({ 
@@ -10,66 +11,71 @@ const getCompletedCourses = async (req, res) => {
                 message: "Token không hợp lệ!" 
             });
         }
-
+        
         const token = authHeader.split(" ")[1];
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-
         const studentId = decoded.Tai_Khoan;
-
-        // Lấy thông tin sinh viên: năm nhập học, mã ngành
-        const [[studentInfo]] = await db.query(`
-            SELECT Nam_Nhap_Hoc, Ma_Nganh
-            FROM SINHVIEN
-            WHERE Ma_Sinh_Vien = ?
-        `, [studentId]);
-
-        if (!studentInfo) {
-            return res.status(404).json({
-                success: false,
-                message: "Không tìm thấy sinh viên"
-            });
-        }
-
-        const { Nam_Nhap_Hoc, Ma_Nganh } = studentInfo;
-        const Khoa = `K${Nam_Nhap_Hoc - 2005}`; // vì K19 → 2024, tức 2005 + 19
-
+        
+        // Tính năm nhập học (ví dụ: MSSV 23012345 -> năm nhập học 2023)
+        const admissionYear = 2000 + parseInt(studentId.substring(0, 2));
         const { hocKy, namHoc } = req.query;
 
         let whereConditions = ["kq.Ma_Sinh_Vien = ?"];
         let queryParams = [studentId];
 
+        // Hàm kiểm tra năm học hợp lệ
+        const isValidAcademicYear = (yearStr, admissionYear) => {
+            if (!/^\d{4}-\d{4}$/.test(yearStr)) return false;
+            const [startYear, endYear] = yearStr.split('-').map(Number);
+            return endYear === startYear + 1 && 
+                   startYear >= admissionYear && 
+                   startYear <= admissionYear + 10; // Giả sử tối đa 10 năm học
+        };
+
+        // Xử lý khi có CẢ học kỳ và năm học
         if (hocKy && namHoc) {
             const hocKyNum = parseInt(hocKy);
             const [startYear] = namHoc.split('-').map(Number);
-            const expectedHocKy = (startYear - Nam_Nhap_Hoc) * 2 + hocKyNum;
+            const expectedHocKy = (startYear - admissionYear) * 2 + hocKyNum;
+            
             whereConditions.push("kq.Hoc_Ky = ?");
             queryParams.push(expectedHocKy);
-        } else if (hocKy) {
+        } 
+        // Chỉ có học kỳ
+        else if (hocKy) {
+            const hocKyNum = parseInt(hocKy);
+            if (isNaN(hocKyNum)) {
+                return res.status(400).json({
+                    success: false,
+                    message: "Học kỳ phải là số nguyên dương"
+                });
+            }
             whereConditions.push("kq.Hoc_Ky = ?");
-            queryParams.push(parseInt(hocKy));
-        } else if (namHoc) {
+            queryParams.push(hocKyNum);
+        } 
+        // Chỉ có năm học
+        else if (namHoc) {
             const [startYear] = namHoc.split('-').map(Number);
-            const yearOffset = startYear - Nam_Nhap_Hoc;
+            const yearOffset = startYear - admissionYear;
             const startHocKy = yearOffset * 2 + 1;
             const endHocKy = yearOffset * 2 + 2;
+            
             whereConditions.push(`kq.Hoc_Ky BETWEEN ? AND ?`);
             queryParams.push(startHocKy, endHocKy);
         }
 
+        // Thêm điều kiện chỉ lấy các môn đã có điểm (đã hoàn thành)
         whereConditions.push("kq.Diem_HP IS NOT NULL");
-        
+
+        // Truy vấn SQL
         const [results] = await db.query(`
             SELECT 
                 kq.Hoc_Ky,
-                dk.Ma_Mon_Hoc,
-                CASE 
-                    WHEN dk.LOAI = 'chinh' THEN mh.Ten_Mon_Hoc
-                    ELSE mhk.Ten_Mon_Hoc
-                END AS Ten_Mon_Hoc,
-                CASE 
-                    WHEN dk.LOAI = 'chinh' THEN (mh.Tin_chi_LT + IFNULL(mh.Tin_chi_TH, 0))
-                    ELSE (mhk.Tin_Chi_LT + IFNULL(mhk.Tin_Chi_TH, 0))
-                END AS So_TC,
+                mh.Ma_Mon_Hoc, 
+                mh.Ten_Mon_Hoc,
+                mh.Tin_chi_LT,
+                mh.Tin_chi_TH,
+                (mh.Tin_chi_LT + IFNULL(mh.Tin_chi_TH, 0)) AS So_TC,
                 kq.Diem_QT,
                 kq.Diem_GK,
                 kq.Diem_TH,
@@ -86,31 +92,25 @@ const getCompletedCourses = async (req, res) => {
                 END AS Xep_Loai,
                 kq.GHI_CHU,
                 CONCAT(
-                    ${Nam_Nhap_Hoc} + FLOOR((kq.Hoc_Ky-1)/2), 
+                    ${admissionYear} + FLOOR((kq.Hoc_Ky-1)/2), 
                     '-', 
-                    ${Nam_Nhap_Hoc} + FLOOR((kq.Hoc_Ky-1)/2) + 1
+                    ${admissionYear} + FLOOR((kq.Hoc_Ky-1)/2) + 1
                 ) AS Nam_Hoc
             FROM KETQUA kq
-            JOIN DANGKY dk ON kq.Ma_Mon_Hoc = dk.Ma_Mon_Hoc AND dk.Ma_Sinh_Vien = kq.Ma_Sinh_Vien
-            LEFT JOIN MONHOC mh ON dk.LOAI = 'chinh' AND mh.Ma_Mon_Hoc = dk.Ma_Mon_Hoc AND mh.Ma_Nganh = ? AND mh.Khoa = ?
-            LEFT JOIN MONHOC_KHAC mhk ON dk.LOAI = 'khac' AND mhk.Ma_Mon_Hoc = dk.Ma_Mon_Hoc AND mhk.Ma_Nganh = ? AND mhk.Khoa = ?
-            WHERE ${whereConditions.join(' AND ')} 
-            ORDER BY kq.Hoc_Ky DESC, Ten_Mon_Hoc ASC
-        `, [Ma_Nganh, Khoa, Ma_Nganh, Khoa,...queryParams ]);
+            JOIN MONHOC mh ON kq.Ma_Mon_Hoc = mh.Ma_Mon_Hoc
+            WHERE ${whereConditions.join(' AND ')}
+            ORDER BY kq.Hoc_Ky DESC, mh.Ten_Mon_Hoc ASC
+        `, queryParams);
 
-        console.log("Query params:", queryParams);
-        console.log("Final params:", [Ma_Nganh, Khoa, Ma_Nganh, Khoa,...queryParams]);
-        console.log("Khoa:", Khoa, "Ma_Nganh:", Ma_Nganh);
-
-        console.log("Số lượng kết quả:", results.length);
-        if (results.length === 0) {
-            console.log("Không có kết quả nào từ query. Có thể do JOIN sai Khoa hoặc Ma_Nganh.");
-        }
+        // Xử lý kết quả
         const processedResults = results.map(item => ({
             ...item,
+            Nam_Hoc: calculateAcademicYear(item.Hoc_Ky, admissionYear),
+            Xep_Loai: item.Xep_Loai || calculateGrade(item.Diem_HP),
             So_TC: item.So_TC || 0
         }));
 
+        // Tính toán thống kê
         const stats = {
             tongMon: processedResults.length,
             tongTC: processedResults.reduce((sum, item) => sum + (item.So_TC || 0), 0),
@@ -119,9 +119,12 @@ const getCompletedCourses = async (req, res) => {
                 : 0
         };
 
+        // Tạo message tùy theo điều kiện lọc
         let message = "Lấy dữ liệu thành công";
         if (hocKy && namHoc) {
-            message = `Dữ liệu học kỳ ${hocKy} năm học ${namHoc}`;
+            const [startYear] = namHoc.split('-');
+            const hocKyNum = (parseInt(startYear) - admissionYear) * 2 + parseInt(hocKy);
+            message = `Dữ liệu học kỳ ${hocKyNum} (${hocKy} năm học ${namHoc})`;
         } else if (hocKy) {
             message = `Dữ liệu học kỳ ${hocKy}`;
         } else if (namHoc) {
@@ -130,16 +133,14 @@ const getCompletedCourses = async (req, res) => {
 
         res.json({
             success: true,
-            message,
+            message: message,
             data: processedResults,
-            stats,
+            stats: stats,
             metadata: {
-                studentId,
-                Ma_Nganh,
-                Khoa,
-                Nam_Nhap_Hoc,
+                studentId: studentId,
                 hocKy: hocKy || "Tất cả",
-                namHoc: namHoc || "Tất cả"
+                namHoc: namHoc || "Tất cả",
+                admissionYear: admissionYear
             }
         });
 
@@ -157,5 +158,21 @@ const getCompletedCourses = async (req, res) => {
         });
     }
 };
+
+function calculateAcademicYear(hocKy, admissionYear) {
+    const yearOffset = Math.floor((hocKy - 1) / 2);
+    const startYear = admissionYear + yearOffset;
+    return `${startYear}-${startYear + 1}`;
+}
+
+function calculateGrade(diemHP) {
+    if (diemHP >= 8.5) return 'A';
+    if (diemHP >= 8.0) return 'B+';
+    if (diemHP >= 7.0) return 'B';
+    if (diemHP >= 6.5) return 'C+';
+    if (diemHP >= 5.5) return 'C';
+    if (diemHP >= 5.0) return 'D+';
+    return 'F';
+}
 
 module.exports = { getCompletedCourses };
