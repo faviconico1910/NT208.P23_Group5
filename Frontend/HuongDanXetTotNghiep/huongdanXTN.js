@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 129</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 129</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
@@ -201,7 +201,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>`;
                     ttcNote.classList.add("note-success");
                 }
@@ -211,7 +211,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         <i class="fas fa-exclamation-circle note-icon"></i>
                         <div class="note-content">
                             <div class="note-title">Lưu ý</div>
-                            <p>Sinh viên có tổng tín chỉ tích lũy <b>CHƯA ĐẠT</b> yêu cầu xét tốt nghiệp <b>${tongtinchi}</b> >= 130</p>
+                            <p>Yêu cầu xét tốt nghiệp <b>>= 130</b>, tín chỉ tích lũy hiện tại <b>${tongtinchi}</b>.</p>
                         </div>
                     `;
                     ttcNote.classList.add("note");
