@@ -175,12 +175,6 @@
                         profileContainer.classList.toggle("collapsed");
                     });
                 }
-                document.getElementById("logout-btn").addEventListener("click", function(e) {
-                    e.preventDefault();
-                    localStorage.removeItem("token");
-                    localStorage.removeItem("Tai_Khoan");
-                    window.location.href = "/login";
-                });
             }, 100); 
         });
         </script>
