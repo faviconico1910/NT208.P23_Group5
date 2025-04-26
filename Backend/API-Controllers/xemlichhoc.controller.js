@@ -25,7 +25,7 @@ const Xem_lich_hoc = async (req, res) => {
         console.log("📩 Nhận request với id:", userId, "và học kỳ:", hocKi);
 
         const sql = `
-        SELECT LH.Ma_Lop_Hoc, LH.Thu, LH.Tiet_Bat_Dau, LH.Tiet_Ket_Thuc, MH.Ten_Mon_Hoc, MH.Hoc_Ki
+        SELECT LH.Ma_Lop_Hoc, LH.Thu, LH.Tiet_Bat_Dau, LH.Tiet_Ket_Thuc, MH.Ten_Mon_Hoc, DK.Hoc_Ki
         FROM DANGKY DK
         JOIN LICHHOC LH ON DK.Ma_Lop_Hoc = LH.Ma_Lop_Hoc
         JOIN MONHOC MH ON DK.Ma_Mon_Hoc = MH.Ma_Mon_Hoc
@@ -58,11 +58,10 @@ const Lay_danh_sach_hoc_ki = async (req, res) => {
         const userId = decoded.Tai_Khoan;
 
         const sql = `
-        SELECT DISTINCT MH.Hoc_Ki
+        SELECT DISTINCT DK.Hoc_Ki
         FROM DANGKY DK
-        JOIN MONHOC MH ON DK.Ma_Mon_Hoc = MH.Ma_Mon_Hoc
         WHERE DK.Ma_Sinh_Vien = ?
-        ORDER BY MH.Hoc_Ki DESC`;
+        ORDER BY DK.Hoc_Ki DESC`;
 
         const [result] = await db.query(sql, [userId]);
         console.log("✅ Truy vấn danh sách học kỳ thành công:", result);

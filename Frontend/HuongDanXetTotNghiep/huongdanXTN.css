@@ -109,7 +109,20 @@ header h1 {
     display: flex;
     gap: 10px;
 }
+.note-success {
+    background-color: #e6ffed; /* Màu nền xanh lá nhạt */
+    border-left: 4px solid #28a745; /* Màu xanh lá cho viền trái */
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    gap: 10px;
+}
 
+.note-success .note-icon {
+    color: #28a745; /* Màu icon là màu xanh lá */
+    font-size: 1.2rem;
+}
 .note-icon {
     color: var(--warning);
     font-size: 1.2rem;
