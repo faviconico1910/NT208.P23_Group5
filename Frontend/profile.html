@@ -153,7 +153,7 @@
                 </div>
                 <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-primary" id="saveBtn">Save changes</button>
                 </div>
             </div>
             </div>
@@ -231,6 +231,50 @@
                 // const editModal = new bootstrap.Modal(document.getElementById('editModal'));
                 // editModal.show();
             });
+
+            // save change button
+            const saveBtn = document.getElementById("saveBtn");
+            saveBtn.addEventListener("click", async() => {
+                // json data của những thứ cần chỉnh sửa
+                const updatedProfile = {
+                    Ho_Ten: document.getElementById("edit-name").value,
+                    Email_Ca_Nhan: document.getElementById('edit-email2').value,
+                    Ma_Sinh_Vien: document.getElementById('edit-mssv').value,
+                    Ngay_Sinh: document.getElementById('edit-birth').value,
+                    So_CMND: document.getElementById('edit-cccd').value,
+                    Ton_Giao: document.getElementById('edit-religion').value,
+                    Gioi_Tinh: document.getElementById('edit-gender').value,
+                    Thuong_Tru: document.getElementById('edit-location').value,
+                };
+                try {
+                    const response = await fetch("http://localhost:3000/student/api",
+                    {
+                        method: "PUT",
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': `Bearer ${token}`
+                        },
+                        body: JSON.stringify(updatedProfile)
+                    });
+                    // nhận dữ liệu trả về từ backend
+                    const data = await response.json();
+                    console.log("Data nhận được :", data);
+                    if (response.ok)
+                    {
+                        updateProfile(data);
+                        const modal = bootstrap.Modal.getInstance(document.getElementById('editModal'));
+                        modal.hide();
+                    }
+                    else {
+                        alert(data.message || "Failed");
+                    }
+                } 
+                catch (error)
+                {
+                    alert("Debug " + error.message);
+                }
+            });
+            
             // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
             fetch('/layout/sidebar.html')
             .then(response => response.text())
