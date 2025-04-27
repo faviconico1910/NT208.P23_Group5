@@ -13,12 +13,13 @@
         <div class="profile__container">
             <div id="sidebar-container"></div>
             <div class="content_container">
-                <div class="avatar__container">
+                <div class="avatar__container d-flex align-items-center">
                     <div class="img_container">
                         <img src="../image/cat_meme.jpg" alt="avatar">
                     </div>
                     <p class="name" id="name"></p>
                     <p class="email1" id="email1"></p>
+                    <button type="button" class="btn btn-primary ms-auto me-5" id="editBtn" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
                 </div>
 
                 <div class="uni-info-container">
@@ -108,86 +109,58 @@
                 </div>
             </div>
         </div>
-        
+        <!-- modal -->
+        <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="editModalLabel">Edit your profile</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <div class="mb-3">
+                          <label for="edit-name" class="form-label">Họ tên</label>
+                          <input type="text" class="form-control" id="edit-name">
+                        </div>
+                        <!-- chỉ cần edit email cá nhân -->
+                        <div class="mb-3">
+                          <label for="edit-email2" class="form-label">Email cá nhân</label>
+                          <input type="email" class="form-control" id="edit-email2">
+                        </div>
+                        <div class="mb-3">
+                          <label for="edit-birth" class="form-label">Ngày sinh</label>
+                          <input type="text" class="form-control" id="edit-birth">
+                        </div>
+                        <div class="mb-3">
+                          <label for="edit-cccd" class="form-label">CCCD</label>
+                          <input type="number" class="form-control" id="edit-cccd">
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit-religion" class="form-label">Tôn giáo</label>
+                            <input type="text" class="form-control" id="edit-religion">
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit-gender" class="form-label">Giới tính</label>
+                            <input type="text" class="form-control" id="edit-gender">
+                        </div>
+                        <div class="mb-3">
+                            <label for="edit-location" class="form-label">Thường trú</label>
+                            <input type="text" class="form-control" id="edit-location">
+                        </div>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="saveBtn">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
         <!-- javascript here -->
-        <script>
-            const Tai_Khoan = window.location.pathname.split('/')[2];
-            console.log("Giá trị Tai_Khoan:", Tai_Khoan);
-            let token = localStorage.getItem("token");
+        <script src="Teacher.js"></script>
+        <!-- Bootstrap JS bundle -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-            if (!token || !Tai_Khoan) {
-                document.getElementById("message").innerText = "Vui lòng đăng nhập lại!";
-                setTimeout(() => window.location.href = "/login", 2000);
-            } else {
-                fetchStudentProfile(token, Tai_Khoan);
-            }
-            
-            async function fetchStudentProfile(token, Tai_Khoan) {
-                try {
-                    console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
-                    let response = await fetch(`http://localhost:3000/teacher/api`, {
-                        method: "GET",
-                        headers: {
-                            "Content-Type": "application/json",
-                            "Authorization": `Bearer ${token}`
-                        },
-                    });
-            
-                    let data = await response.json();
-                    if (response.ok) {
-                        updateProfile(data);
-                    } else {
-                        document.getElementById("message").textContent = data.message;
-                    }
-                } catch (error) {
-                    document.getElementById("message").textContent = "Lỗi tải profile!";
-                }
-            }
-            function updateProfile(data) {
-                document.getElementById("name").innerText = data.Ho_Ten || "Không có dữ liệu";
-                document.getElementById("mgv").innerText = data.Ma_Giang_Vien || "Không có dữ liệu";
-                document.getElementById("faculty").innerText = data.Ma_Khoa|| "Không có dữ liệu";
-                document.getElementById("gender").innerText = data.Gioi_Tinh || "Không có dữ liệu";
-                document.getElementById("birth").innerText = data.Ngay_Sinh || "Không có dữ liệu";
-                document.getElementById("email1").innerText = data.Email_Truong || "Không có dữ liệu";
-                document.getElementById("email2").innerText = data.Email_Ca_Nhan || "Không có dữ liệu";
-                document.getElementById("cccd").innerText = data.So_CMND || "Không có dữ liệu";
-                document.getElementById("religion").innerText = data.Ton_Giao|| "Không có dữ liệu";
-                document.getElementById("location").innerText = data.Thuong_Tru|| "Không có dữ liệu";
-                document.getElementById("hh").innerText = data.Hoc_Ham|| "Không có dữ liệu";
-                document.getElementById("factor").innerText = data.He_So || "Không có dữ liệu";
-                document.getElementById("salary").innerText = data.Muc_Luong || "Không có dữ liệu";
-                // father
-                document.getElementById("father").innerText = data.Ho_Ten_Cha || "Không có dữ liệu";
-                document.getElementById("father_phonenumber").innerText = data.SDT_Cha || "Không có dữ liệu";
-                document.getElementById("father_job").innerText = data.Nghe_Nghiep_Cha || "Không có dữ liệu";
-                // mother
-                document.getElementById("mother").innerText = data.Ho_Ten_Me || "Không có dữ liệu";
-                document.getElementById("mother_phonenumber").innerText = data.SDT_Me || "Không có dữ liệu";
-                document.getElementById("mother_job").innerText = data.Nghe_Nghiep_Me || "Không có dữ liệu";
-            }
-
-            function logout() {
-                localStorage.clear();
-                localStorage.removeItem("token");
-                localStorage.removeItem("Vai_Tro");
-                localStorage.removeItem("Tai_Khoan");
-                window.location.href = "/login";
-            }
-            
-            // fetch sidebar, đoạn này nha mấy cưng ơi, phải có ở trong mỗi page
-            fetch('/layout/sidebar_teacher.html').then(response => response.text())
-            .then(html => {
-                document.getElementById("sidebar-container").innerHTML = html;
-                const toggleButton = document.getElementById("toggle-btn");
-                const sidebar = document.getElementById("sidebar");
-                const profileContainer = document.querySelector(".profile__container");
-                toggleButton.addEventListener("click", () => {
-                    sidebar.classList.toggle("collapsed");
-                    profileContainer.classList.toggle("collapsed");
-                    // profileContainer.style.marginLeft = sidebar.classList.contains("collapsed") ? "30px" : "255px";
-                })
-            });
-        </script>
     </body>
 </html>
