@@ -16,7 +16,6 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
         localStorage.setItem("Vai_Tro", data.Vai_Tro); // Lưu Vai_Tro
         localStorage.setItem("Tai_Khoan", data.Tai_Khoan);
 
-        // Điều hướng dựa vào Vai_Tro
         if (data.Vai_Tro === "SinhVien") {
             window.location.href = `/KetQuaHocTap/completedCourses.html`;
         } else if (data.Vai_Tro === "GiangVien") {

@@ -40,8 +40,8 @@ app.use('/thongkesv', thongKeRoutes);
 app.use('/teacher', teacherRoutes);
 app.use("/huongdanXTN", huongdanXTNRoutes);
 app.use("/chatbot", chatbotRoutes);
-app.use("/gioithieu", gioithieuRoutes);
 app.use("/dssv", studentLists);
+app.use("/", gioithieuRoutes); // giới thiệu routes
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {

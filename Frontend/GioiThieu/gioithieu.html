@@ -3,289 +3,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thông tin sinh viên - UIT ChatBot</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/layout/sidebar.css">
-    <link rel="stylesheet" type="text/css" href="gioithieu.css">
+    <title>Giới thiệu Chatbot UIT - Trợ lý ảo thông minh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/GioiThieu/gioithieu.css">
+
 </head>
 <body>
-    <div id="sidebar-container"></div>
-    <div class="container">
-        <section class="hero">
-            <h1>Chào mừng <span id="student-name">...</span> đến với ChatBot UIT</h1>
-            <p>Hệ thống hỗ trợ sinh viên toàn diện - Đồng hành cùng bạn trong suốt quá trình học tập</p>
-        </section>
-
-        <div id="loading" class="loading">
-            <div class="spinner"></div>
-        </div>
-
-        <div id="error" class="error-message">
-            <i class="fas fa-exclamation-circle"></i>
-            <span>Đã xảy ra lỗi khi tải dữ liệu. Vui lòng thử lại sau.</span>
-        </div>
-
-        <section class="section" id="profile-section" style="display: none;">
-            <div class="profile-header">
-                <div class="avatar">
-                    <i class="fas fa-user-graduate"></i>
+    <header class="header">
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center">
+                <div class="logo-container">
+                    <a href="/" class="navbar-brand text-decoration-none">
+                        <div class="logo-icon animate__animated animate__fadeInLeft">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="logo-text">
+                            <a class="logo-main">CHATBOT UIT</a>
+                            <a class="logo-sub">UNIVERSITY OF INFORMATION TECHNOLOGY</a>
+                        </div>
+                    </a>
                 </div>
                 <div>
-                    <h2 class="user-name" id="full-name">...</h2>
-                    <p class="user-id"><i class="fas fa-id-card"></i> Mã sinh viên: <span id="student-id">...</span></p>
+                    <a href="/login" class="btn btn-light btn-sm me-2">
+                        <i class="fas fa-sign-in-alt"></i> Đăng nhập
+                    </a>
+                    <a href="/register" class="btn btn-outline-light btn-sm">
+                        <i class="fas fa-user-plus"></i> Đăng ký
+                    </a>    
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container text-center position-relative">
+            <h1 class="display-4 fw-bold mb-3 animate__animated animate__fadeInDown">CHATBOT UIT</h1>
+            <p class="lead mb-4 animate__animated animate__fadeIn animate__delay-1s">Trợ lý thông minh hỗ trợ sinh viên Đại học Công nghệ Thông tin</p>
+            <div class="animate__animated animate__fadeIn animate__delay-2s">
+                <a href="#features" class="btn btn-secondary btn-lg me-2">
+                    <i class="fas fa-star"></i> Khám phá ngay
+                </a>
+                <a href="/login" class="btn btn-light btn-lg">
+                    <i class="fas fa-arrow-right"></i> Dùng thử
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <main class="container mb-5">
+        <section class="row align-items-center mb-5 py-4">
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-4" style="color: var(--primary);">Giới thiệu về Chatbot UIT</h2>
+                <p class="lead">Chatbot UIT là giải pháp công nghệ tiên tiến được phát triển bởi sinh viên UIT, nhằm hỗ trợ toàn diện cho cộng đồng sinh viên và giảng viên.</p>
+                <p>Với công nghệ AI hiện đại, chatbot có thể hiểu và trả lời các câu hỏi liên quan đến học tập, nghiên cứu và đời sống sinh viên một cách nhanh chóng và chính xác.</p>
+                <div class="d-flex mt-4 flex-wrap">
+                    <a href="#features" class="btn btn-primary btn-lg me-3 mb-2">
+                        <i class="fas fa-star"></i> Khám phá tính năng
+                    </a>
+                    <a href="/login" class="btn btn-outline-primary btn-lg mb-2">
+                        <i class="fas fa-arrow-right"></i> Dùng thử ngay
+                    </a>
                 </div>
             </div>
+            <div class="col-lg-6">
+                <div class="bot-image-container h-100" style="max-width: 85%; margin-left: 100px;">
+                    <img src="https://img.freepik.com/free-vector/chatbot-messenger-composition-with-technical-support-symbols-isometric-vector-illustration_1284-67756.jpg?t=st=1745825653~exp=1745829253~hmac=dc6926cdef29f78a6cd158a3c8cfef681fd46091266924c95338175f6bcd9c53&w=900" alt="Chatbot Technology" class="img-fluid">
+                    <p class="mt-3 text-muted">Công nghệ Chatbot hiện đại với giao diện thân thiện</p>
+                </div>
+            </div>
+        </section>
 
-            <div class="info-grid">
-                <div class="info-item">
-                    <div class="info-label">Ngày sinh</div>
-                    <div class="info-value" id="birthday">...</div>
+        <section id="features" class="mb-5 py-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold" style="color: var(--primary);">CÁC TÍNH NĂNG NỔI BẬT</h2>
+                <p class="lead text-muted">Những công cụ mạnh mẽ hỗ trợ bạn trong học tập và nghiên cứu</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Hỏi đáp thông tin</h4>
+                            <p class="text-muted">Giải đáp mọi thắc mắc về trường, khoa, chương trình học, lịch trình và các thủ tục hành chính.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Giới tính</div>
-                    <div class="info-value" id="gender">...</div>
+                
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Quản lý lịch học</h4>
+                            <p class="text-muted">Cung cấp lịch học, lịch thi, thời khóa biểu cá nhân và nhắc nhở các sự kiện quan trọng.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Lớp</div>
-                    <div class="info-value" id="class-code">...</div>
+                
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Tài liệu học tập</h4>
+                            <p class="text-muted">Hỗ trợ tìm kiếm, chia sẻ tài liệu học tập và đề thi các môn học được hệ thống khoa học.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Khoa</div>
-                    <div class="info-value" id="faculty">...</div>
+
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Hỗ trợ học tập</h4>
+                            <p class="text-muted">Giải thích khái niệm, gợi ý giải bài tập và cung cấp ví dụ minh họa cho các môn học chuyên ngành.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Ngành</div>
-                    <div class="info-value" id="major">...</div>
+
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Thông báo</h4>
+                            <p class="text-muted">Cập nhật tin tức, thông báo mới nhất từ nhà trường và các khoa một cách nhanh chóng.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="info-item">
-                    <div class="info-label">Hệ đào tạo</div>
-                    <div class="info-value" id="education-system">...</div>
+
+                <div class="col-md-4">
+                    <div class="card feature-card h-100">
+                        <div class="card-body p-4 text-center">
+                            <div class="feature-icon mb-4">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3">Cộng đồng</h4>
+                            <p class="text-muted">Kết nối với bạn học, giảng viên và tạo nhóm thảo luận về các vấn đề học tập.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="academic-section" style="display: none;">
-            <h2><i class="fas fa-graduation-cap"></i> Thông tin học tập</h2>
-            
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="info-label">Năm học</div>
-                    <div class="stat-value" id="academic-year">...</div>
+        <section class="mb-5 py-5 bg-white rounded-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h2 class="fw-bold mb-4" style="color: var(--primary);">Xem Chatbot UIT hoạt động</h2>
+                        <p class="lead mb-4">Khám phá cách Chatbot UIT có thể hỗ trợ bạn trong học tập và nghiên cứu thông qua video giới thiệu ngắn.</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> Giao diện thân thiện, dễ sử dụng</li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> Phản hồi nhanh chóng, chính xác</li>
+                            <li class="mb-2"><i class="fas fa-check-circle me-2" style="color: var(--primary);"></i> Tích hợp đa nền tảng</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="video-container">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="stat-card">
-                    <div class="info-label">Học kỳ</div>
-                    <div class="stat-value" id="semester">...</div>
-                </div>
-                <div class="stat-card">
-                    <div class="info-label">Tình trạng</div>
-                    <div class="stat-value" id="status">...</div>
-                </div>
-                <div class="stat-card">
-                    <div class="info-label">Tín chỉ tích lũy</div>
-                    <div class="stat-value" id="total-credits">0</div>
-                </div>
-                <div class="stat-card">
-                    <div class="info-label">Điểm TB tích lũy</div>
-                    <div class="stat-value" id="gpa">--</div>
-                </div>
-            </div>
-
-            <h3><i class="fas fa-book-open"></i> Môn học học kỳ này</h3>
-            <div class="table-container">
-                <table class="subject-table">
-                    <thead>
-                        <tr>
-                            <th>Mã môn</th>
-                            <th>Tên môn học</th>
-                            <th>TC</th>
-                            <th>Loại môn</th>
-                            <th>Lịch học</th>
-                        </tr>
-                    </thead>
-                    <tbody id="subjects-table-body">
-                        <tr>
-                            <td colspan="5" style="text-align: center;">Đang tải dữ liệu...</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
         </section>
 
-        <section class="section" id="features-section" style="display: none;">
-            <h2><i class="fas fa-robot"></i> Giới thiệu hệ thống Chat Bot UIT</h2>
-            <p style="margin-bottom: 1rem; color: var(--gray-color);">Hệ thống Chat Bot UIT được phát triển nhằm hỗ trợ sinh viên trong quá trình học tập và giải đáp các thắc mắc liên quan đến học vụ.</p>
-            
-            <div class="features">
-                <div class="feature-card">
-                    <h3 class="feature-title"><i class="fas fa-search"></i> Tra cứu thông tin</h3>
-                    <p>Xem điểm, lịch học, thông tin môn học và kết quả học tập.</p>
-                </div>
-                <div class="feature-card">
-                    <h3 class="feature-title"><i class="fas fa-comments"></i> Hỏi đáp thông minh</h3>
-                    <p>Giải đáp các câu hỏi về quy chế, quy định, lịch thi.</p>
-                </div>
-                <div class="feature-card">
-                    <h3 class="feature-title"><i class="fas fa-bell"></i> Thông báo</h3>
-                    <p>Nhận thông báo mới nhất từ nhà trường, khoa.</p>
-                </div>
-                <div class="feature-card">
-                    <h3 class="feature-title"><i class="fas fa-clipboard-list"></i> Đăng ký môn học</h3>
-                    <p>Hướng dẫn quy trình đăng ký môn học.</p>
-                </div>
-            </div>
-
-            <div class="quick-actions">
-                <a href="/chat" class="action-btn"><i class="fas fa-comment-dots"></i> Trò chuyện với Chat Bot</a>
-                <a href="/schedule" class="action-btn"><i class="fas fa-calendar-alt"></i> Xem lịch học</a>
-                <a href="/grades" class="action-btn"><i class="fas fa-chart-bar"></i> Xem điểm</a>
-                <a href="/help" class="action-btn"><i class="fas fa-question-circle"></i> Trợ giúp</a>
+        <section class="cta-section py-5 mb-5 text-center text-white rounded-4">
+            <div class="container py-4 position-relative">
+                <h2 class="display-5 fw-bold mb-4">Sẵn sàng trải nghiệm?</h2>
+                <p class="lead mb-5">Đăng nhập ngay để khám phá mọi tính năng tuyệt vời của Chatbot UIT</p>
+                <a href="/login" class="btn btn-light btn-lg px-5 py-3 fw-bold">
+                    <i class="fas fa-arrow-right me-2"></i> Bắt đầu ngay
+                </a>
             </div>
         </section>
-    </div>
+    </main>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="logo-icon me-2" style="width: 40px; height: 40px;">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <span class="fw-bold fs-5">CHATBOT UIT</span>
+                    </div>
+                    <p class="small">Chatbot UIT là dự án được phát triển bởi nhóm sinh viên Đại học Công nghệ Thông tin, với mục tiêu hỗ trợ cộng đồng sinh viên UIT.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4">Liên kết</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/">Trang chủ</a></li>
+                        <li class="mb-2"><a href="/gioithieu">Giới thiệu</a></li>
+                        <li class="mb-2"><a href="/huongdan">Hướng dẫn</a></li>
+                        <li class="mb-2"><a href="/lienhe">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4">Hỗ trợ</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="/faq">Câu hỏi thường gặp</a></li>
+                        <li class="mb-2"><a href="/baocao">Báo cáo lỗi</a></li>
+                        <li class="mb-2"><a href="/dieukhoan">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="mb-4">Kết nối với chúng tôi</h5>
+                    <div class="d-flex gap-3 mb-4">
+                        <a href="#"><i class="fab fa-facebook-f fs-5"></i></a>
+                        <a href="#"><i class="fab fa-youtube fs-5"></i></a>
+                        <a href="#"><i class="fab fa-github fs-5"></i></a>
+                        <a href="#"><i class="fas fa-envelope fs-5"></i></a>
+                    </div>
+                    <p class="small">
+                        <i class="fas fa-map-marker-alt me-2"></i> Khu phố 6, P.Linh Trung, Tp.Thủ Đức, Tp.Hồ Chí Minh
+                    </p>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center small">
+                <p class="mb-0">© 2025 Chatbot UIT - Đồ án môn Lập trình Web. Bản quyền thuộc về nhóm phát triển.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
     <script>
-        async function loadSidebar() {
-            try {
-                const response = await fetch('/layout/sidebar.html');
-                if (!response.ok) throw new Error('Failed to load sidebar');
-                const html = await response.text();
-                document.getElementById('sidebar-container').innerHTML = html;
-            } catch (error) {
-                console.error('Error loading sidebar:', error);
-            }
-        }
+        document.querySelector('.back-to-top').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        });
 
-        function getAuthToken() {
-            try {
-                const token = localStorage.getItem('token') || 
-                             sessionStorage.getItem('token') || 
-                             document.cookie.split('; ').find(row => row.startsWith('token='))?.split('=')[1];
-                
-                if (!token) {
-                    window.location.href = '/login?error=no_token';
-                    return null;
-                }
-                
-                if (typeof token !== 'string' || token.split('.').length !== 3) {
-                    localStorage.removeItem('token');
-                    sessionStorage.removeItem('token');
-                    document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-                    window.location.href = '/login?error=invalid_token_format';
-                    return null;
-                }
-                
-                return token;
-            } catch (error) {
-                console.error("Token access failed:", error);
-                window.location.href = '/login?error=storage_error';
-                return null;
-            }
-        }
-
-        async function fetchStudentData() {
-            try {
-                const token = getAuthToken();
-                if (!token) return;
-
-                const currentMonth = new Date().getMonth();
-                const semester = currentMonth >= 8 || currentMonth < 2 ? 1 : 2;
-                
-                const response = await fetch(`/gioithieu`, {
-                    method: 'POST',
-                    headers: {
-                        'Authorization': `Bearer ${token}`,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ semester })
-                });
-
-                if (!response.ok) {
-                    const errorData = await response.json().catch(() => null);
-                    const errorMsg = errorData?.message || `HTTP Error: ${response.status}`;
-                    
-                    if (response.status === 401) {
-                        localStorage.removeItem('token');
-                        sessionStorage.removeItem('token');
-                        document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-                        window.location.href = '/login?error=invalid_token';
-                        return;
-                    }
-                    
-                    throw new Error(errorMsg);
-                }
-
-                const result = await response.json();
-                
-                if (!result.success) {
-                    throw new Error(result.message || 'API request failed');
-                }
-
-                populateStudentData(result.data);
-                
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('profile-section').style.display = 'block';
-                document.getElementById('academic-section').style.display = 'block';
-                document.getElementById('features-section').style.display = 'block';
-
-            } catch (error) {
-                console.error("Fetch failed:", error);
-                document.getElementById('loading').style.display = 'none';
-                const errorEl = document.getElementById('error');
-                errorEl.style.display = 'flex';
-                errorEl.querySelector('span').textContent = error.message || 'Lỗi khi tải dữ liệu';
-                
-                if (error.message.includes('Token') || error.message.includes('401')) {
-                    localStorage.removeItem('token');
-                    sessionStorage.removeItem('token');
-                    document.cookie = 'token=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-                    setTimeout(() => {
-                        window.location.href = '/login?error=session_expired';
-                    }, 2000);
-                }
-            }
-        }
-    
-        function populateStudentData(data) {
-            const { studentInfo, academicInfo, currentSubjects } = data;
-            
-            document.getElementById('student-name').textContent = studentInfo.Ho_Ten;
-            document.getElementById('full-name').textContent = studentInfo.Ho_Ten;
-            document.getElementById('student-id').textContent = studentInfo.Ma_Sinh_Vien;
-            document.getElementById('birthday').textContent = new Date(studentInfo.Ngay_Sinh).toLocaleDateString('vi-VN');
-            document.getElementById('gender').textContent = studentInfo.Gioi_Tinh === 1 ? 'Nam' : 'Nữ';
-            document.getElementById('class-code').textContent = studentInfo.Ma_Lop;
-            document.getElementById('faculty').textContent = studentInfo.Ten_Khoa;
-            document.getElementById('major').textContent = studentInfo.Ten_Nganh;
-            document.getElementById('education-system').textContent = studentInfo.He_Dao_Tao || 'Chính quy';
-            document.getElementById('academic-year').textContent = currentSubjects.academicYear;
-            document.getElementById('semester').textContent = currentSubjects.semester;
-            document.getElementById('total-credits').textContent = academicInfo.totalCredits || '0';
-            document.getElementById('gpa').textContent = academicInfo.gpa ? academicInfo.gpa.toFixed(2) : '--';
-    
-            const tbody = document.getElementById('subjects-table-body');
-            tbody.innerHTML = '';
-            
-            if (currentSubjects.subjects.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="5" style="text-align: center;">Không có môn học nào trong học kỳ này</td></tr>';
-            } else {
-                currentSubjects.subjects.forEach(subject => {
-                    const tr = document.createElement('tr');
-                    tr.innerHTML = `
-                        <td>${subject.maMon}</td>
-                        <td>${subject.tenMon}</td>
-                        <td>${subject.soTC}</td>
-                        <td><span class="badge badge-primary">${subject.loaiMon}</span></td>
-                        <td>${subject.lichHoc}</td>
-                    `;
-                    tbody.appendChild(tr);
-                });
-            }
-        }
-    
         document.addEventListener('DOMContentLoaded', () => {
-            loadSidebar();
-            fetchStudentData();
+            const featureCards = document.querySelectorAll('.feature-card');
+            const botImage = document.querySelector('.hero-bot-image');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                    }
+                });
+            }, {threshold: 0.1});
+
+            featureCards.forEach(card => {
+                observer.observe(card);
+            });
+
+            if (botImage) {
+                botImage.addEventListener('mouseenter', () => {
+                    botImage.classList.add('animate__pulse');
+                });
+                
+                botImage.addEventListener('mouseleave', () => {
+                    botImage.classList.remove('animate__pulse');
+                });
+            }
         });
     </script>
 </body>
