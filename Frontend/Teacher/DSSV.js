@@ -1,0 +1,98 @@
+document.addEventListener("DOMContentLoaded", async() => {
+    let token = localStorage.getItem("token");
+    try {
+        let res = await fetch("http://localhost:3000/dssv/api", {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            }     
+        });
+
+        const data = await res.json();
+        const noClassMessage = document.getElementById('noClassMessage');
+        const studentTable = document.getElementById("main-container");
+        const tableBody = document.getElementById('studentTableBody');
+        
+        // Reset
+        noClassMessage.style.display = 'none';
+        studentTable.style.display = 'none';
+        tableBody.innerHTML = '';
+        if (Array.isArray(data) && data.length > 0) {
+            noClassMessage.style.display = 'none';
+            studentTable.style.display = 'table';
+            data.forEach(sv => {
+                const row = `
+                <tr>
+                  <td>${sv.Ho_Ten}</td>
+                  <td>${sv.Ma_Sinh_Vien}</td>
+                  <td>${sv.GPA || '-'}</td>
+                  <td>${sv.Dien_Thoai || '-'}</td>
+                  <td>${sv.SDT_Cha || '-'}</td>
+                  <td>${sv.SDT_Me || '-'}</td>
+                  <td><a href="/" class="btn btn-success btn-sm">Xem hồ sơ</a></td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            });
+        } else {
+            studentTable.style.display = 'none';
+            noClassMessage.style.display = 'block';
+        }
+    }
+    catch (error) {
+        alert("Lỗi ở file FrontEnd");
+    }
+});
+
+// search function in Geeks4Geeks
+
+let input = document.getElementById('searchInput');
+let table = document.getElementById('studentTableContainer');
+let rows = table.getElementsByTagName('tr');
+let noMatchMessage = document.getElementById('noMatch');
+
+input.addEventListener('input', function () {
+    let filter = input
+        .value
+        .toLowerCase();
+    let matchFound = false;
+
+    for (let i = 1; i < rows.length; i++) {
+        let row = rows[i];
+        let cells = row
+            .getElementsByTagName('td');
+        let found = false;
+
+        for (let j = 0; j < cells.length; j++) {
+            let cell = cells[j];
+            if (cell.textContent.toLowerCase().indexOf(filter) > -1) {
+                found = true;
+                matchFound = true;
+                break;
+            }
+        }
+
+        if (found) {
+            row.style.display = '';
+        } else {
+            row.style.display = 'none';
+        }
+    }
+
+    if (!matchFound) {
+        noMatchMessage.style.display = 'block';
+    } else {
+        noMatchMessage.style.display = 'none';
+    }
+});
+
+fetch('/layout/sidebar_teacher.html').then(response => response.text())
+.then(html => {
+    document.getElementById("sidebar-container").innerHTML = html;
+    const toggleButton = document.getElementById("toggle-btn");
+    const sidebar = document.getElementById("sidebar");
+    const profileContainer = document.querySelector(".profile__container");
+    toggleButton.addEventListener("click", () => {
+        sidebar.classList.toggle("collapsed");
+        profileContainer.classList.toggle("collapsed");
+        // profileContainer.style.marginLeft = sidebar.classList.contains("collapsed") ? "30px" : "255px";
+    })
+});
