@@ -19,24 +19,80 @@
                 <h2 id="class-name"><i class="fas fa-users"></i> <span id="class-name-text">Lớp:</span></h2>
             </div>
 
-            <div class="stats-container">
+            <div class="stats-container general">
+                <div class="stats-title">
+                    <h3>Thông tin chung</h3>
+                </div>
                 <div class="stat-card student-count">
                     <div class="stat-icon">
                         <i class="fas fa-user-graduate"></i>
                     </div>
                     <div class="stat-info">
                         <h3>Số lượng sinh viên</h3>
-                        <p id="total-students">0</p>
+                        <p id="total-students"></p>
                     </div>
                 </div>
+
+                <div class="stat-card student-count-certificate">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-bookmark"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Số đạt đầu ra ngoại ngữ </h3>
+                        <p id="total-students">30</p>
+                    </div>
+                </div>
+
+                <div class="stat-card student-count-gender">
+                    <div class="stat-icon">
+                        <i class="fas fa-venus-mars"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Nam/Nữ</h3>
+                        <p id="total-students">35/15</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-group">
+                    <label for="semester-filter">Học kỳ</label>
+                    <select id="semester-filter">
+                        <option value="">Tất cả học kỳ</option>
+                        <option value="1">Học kỳ 1</option>
+                        <option value="2">Học kỳ 2</option>
+                    </select>
+                </div>
                 
+                <div class="filter-group">
+                    <label for="year-filter">Năm học</label>
+                    <select id="year-filter">
+                        <option value="">Tất cả năm học</option>
+                        <option value="2024-2025">2024-2025</option>
+                        <option value="2023-2024">2023-2024</option>
+                        <option value="2022-2023">2022-2023</option>
+                        <option value="2021-2022">2021-2022</option>
+                    </select>
+                </div>
+                
+                <div class="filter-actions">
+                    <button class="btn" id="filter-btn">
+                        <i class="fas fa-filter"></i> Lọc
+                    </button>
+                    <button class="btn btn-secondary" id="reset-btn">
+                        <i class="fas fa-sync-alt"></i> Đặt lại
+                    </button>
+                </div>
+            </div>
+
+            <div class="stats-container average">
                 <div class="stat-card average-gpa">
                     <div class="stat-icon">
                         <i class="fas fa-star"></i>
                     </div>
                     <div class="stat-info">
                         <h3>GPA trung bình</h3>
-                        <p id="average-gpa">0.00</p>
+                        <p id="average-gpa"></p>
                     </div>
                 </div>
                 
@@ -46,7 +102,17 @@
                     </div>
                     <div class="stat-info">
                         <h3>Tín chỉ tích lũy TB</h3>
-                        <p id="average-credits">0</p>
+                        <p id="average-credits"></p>
+                    </div>
+                </div>
+
+                <div class="stat-card average-drl">
+                    <div class="stat-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>Điểm rèn luyện TB</h3>
+                        <p id="average-drl"></p>
                     </div>
                 </div>
             </div>
@@ -60,11 +126,18 @@
                     <canvas id="pieChart"></canvas>
                 </div>
         
-                <div class="chart-box barchart-box">
+                <div class="chart-box linechart-box">
                     <div class="chart-header">
-                        <h3><i class="fas fa-chart-bar"></i> Biểu đồ cột GPA</h3>
+                        <h3><i class="fas fa-chart-line"></i> Biến động GPA</h3>
                     </div>
-                    <canvas id="barChart"></canvas>
+                    <canvas id="lineChart"></canvas>
+                </div>
+
+                <div class="chart-box piechart-box">
+                    <div class="chart-header">
+                        <h3><i class="fas fa-chart-pie"></i>Phân loại DRL</h3>
+                    </div>
+                    <canvas id="drlChart"></canvas>
                 </div>
             </div>
         </div>

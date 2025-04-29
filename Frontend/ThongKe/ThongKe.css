@@ -1,7 +1,7 @@
 /* CSS mới */
 :root {
     --primary-color: #6C5CE7;
-    --secondary-color: #3f37c9;
+    --secondary-color: #00CEFF;
     --accent-color: #4895ef;
     --success-color: #4cc9f0;
     --danger-color: #f72585;
@@ -10,7 +10,7 @@
     --dark-color: #212529;
     --gray-color: #6c757d;
     --border-radius: 12px;
-    --box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
 }
 
 body {
@@ -81,7 +81,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 20px;
 }
 
 .stat-card {
@@ -113,7 +113,15 @@ body {
 }
 
 .student-count .stat-icon {
-    background: linear-gradient(135deg, #4361ee, #3f37c9);
+    background: linear-gradient(135deg, #4361ee, #9e9aec);
+}
+
+.student-count-certificate .stat-icon {
+    background: linear-gradient(135deg, #eda6dc, #9e9aec);
+}
+
+.student-count-gender .stat-icon {
+    background: linear-gradient(135deg, #0acf06, #a9e4b6);
 }
 
 .average-gpa .stat-icon {
@@ -122,6 +130,10 @@ body {
 
 .average-credits .stat-icon {
     background: linear-gradient(135deg, #f8961e, #f9c74f);
+}
+
+.average-drl .stat-icon {
+    background: linear-gradient(135deg, #f8371e, #f9c74f);
 }
 
 .stat-info h3 {
@@ -157,7 +169,7 @@ body {
 
 .chart-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
 }
 
 .chart-header {
@@ -259,3 +271,73 @@ canvas {
 .stats-container, .chart-container {
     transition: all 0.3s ease;
 }
+
+/* Filter Section */
+.filter-section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.233);
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    border-left: 4px solid var(--primary-color);
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.filter-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.filter-group select, 
+.filter-group input {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: white;
+    font-size: 14px;
+}
+
+.filter-actions {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background: var(--primary-color) !important;
+    color: white !important;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    background: #2c31347d !important;
+    color: #333;
+}
+
+.stats-title {
+    grid-column: 1 / -1; /* <- Chiếm từ cột 1 đến hết */
+    width: 100%;
+    padding: 5px;
+    margin-bottom: -25px;
+}
+
