@@ -53,39 +53,43 @@
                     </div>
                 </div>
             </div>
-
-            <div class="filter-section">
-                <div class="filter-group">
-                    <label for="semester-filter">Học kỳ</label>
-                    <select id="semester-filter">
-                        <option value="">Tất cả học kỳ</option>
-                        <option value="1">Học kỳ 1</option>
-                        <option value="2">Học kỳ 2</option>
-                    </select>
-                </div>
-                
-                <div class="filter-group">
-                    <label for="year-filter">Năm học</label>
-                    <select id="year-filter">
-                        <option value="">Tất cả năm học</option>
-                        <option value="2024-2025">2024-2025</option>
-                        <option value="2023-2024">2023-2024</option>
-                        <option value="2022-2023">2022-2023</option>
-                        <option value="2021-2022">2021-2022</option>
-                    </select>
-                </div>
-                
-                <div class="filter-actions">
-                    <button class="btn" id="filter-btn">
-                        <i class="fas fa-filter"></i> Lọc
-                    </button>
-                    <button class="btn btn-secondary" id="reset-btn">
-                        <i class="fas fa-sync-alt"></i> Đặt lại
-                    </button>
-                </div>
-            </div>
-
+            
             <div class="stats-container average">
+                <div class="stats-title">
+                    <h3>Trung bình</h3>
+                </div>
+
+                <div class="filter-section">
+                    <div class="filter-group">
+                        <label for="semester-filter">Học kỳ</label>
+                        <select id="semester-filter">
+                            <option value="">Tất cả học kỳ</option>
+                            <option value="1">Học kỳ 1</option>
+                            <option value="2">Học kỳ 2</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="year-filter">Năm học</label>
+                        <select id="year-filter">
+                            <option value="">Tất cả năm học</option>
+                            <option value="2024-2025">2024-2025</option>
+                            <option value="2023-2024">2023-2024</option>
+                            <option value="2022-2023">2022-2023</option>
+                            <option value="2021-2022">2021-2022</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-actions">
+                        <button class="btn" id="filter-btn">
+                            <i class="fas fa-filter"></i> Lọc
+                        </button>
+                        <button class="btn btn-secondary" id="reset-btn">
+                            <i class="fas fa-sync-alt"></i> Đặt lại
+                        </button>
+                    </div>
+                </div>
+
                 <div class="stat-card average-gpa">
                     <div class="stat-icon">
                         <i class="fas fa-star"></i>
@@ -118,6 +122,39 @@
             </div>
 
             <div class="chart-container">
+                <div class="stats-title">
+                    <h3>Biểu đồ</h3>
+                </div>
+                <div class="filter-section">
+                    <div class="filter-group">
+                        <label for="semester-filter-chart">Học kỳ</label>
+                        <select id="semester-filter-chart">
+                            <option value="">Tất cả học kỳ</option>
+                            <option value="1">Học kỳ 1</option>
+                            <option value="2">Học kỳ 2</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="year-filter-chart">Năm học</label>
+                        <select id="year-filter-chart">
+                            <option value="">Tất cả năm học</option>
+                            <option value="2024-2025">2024-2025</option>
+                            <option value="2023-2024">2023-2024</option>
+                            <option value="2022-2023">2022-2023</option>
+                            <option value="2021-2022">2021-2022</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-actions">
+                        <button class="btn" id="filter-btn-chart">
+                            <i class="fas fa-filter"></i> Lọc
+                        </button>
+                        <button class="btn btn-secondary" id="reset-btn-chart">
+                            <i class="fas fa-sync-alt"></i> Đặt lại
+                        </button>
+                    </div>
+                </div>
                 <div class="chart-box piechart-box">
                     <div class="chart-header">
                         <h3><i class="fas fa-chart-pie"></i> Phân loại GPA</h3>

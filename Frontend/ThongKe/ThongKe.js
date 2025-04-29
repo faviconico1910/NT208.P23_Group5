@@ -10,20 +10,7 @@ fetch('/layout/sidebar_teacher.html').then(response => response.text())
     })
 });
 
-// Lấy dữ liệu GPA từ API Backend
-fetch('/layout/sidebar_teacher.html').then(response => response.text())
-.then(html => {
-    document.getElementById("sidebar-container").innerHTML = html;
-    const toggleButton = document.getElementById("toggle-btn");
-    const sidebar = document.getElementById("sidebar");
-
-    toggleButton.addEventListener("click", () => {
-        sidebar.classList.toggle("collapsed");
-        document.querySelector(".main-container").classList.toggle("collapsed");
-    })
-});
-
-// Lấy dữ liệu GPA từ API Backend
+// Lấy dữ liệu GPA từ API Backend dùng cho cập nhật dữ liệu thống kê
 const fetchGPAData = async () => {
     // ✅ Lấy token từ localStorage
     const token = localStorage.getItem("token");
@@ -98,6 +85,80 @@ const fetchGPAData = async () => {
     }
 };
 
+// Lấy dữ liệu GPA từ API Backend dùng cho vẽ biểu đồ
+const fetchGPADataChart = async () => {
+    // ✅ Lấy token từ localStorage
+    const token = localStorage.getItem("token");
+
+    // ✅ Kiểm tra nếu chưa đăng nhập
+    if (!token) {
+        alert("Bạn chưa đăng nhập!");
+        window.location.href = "/login.html";
+        return;
+    }
+
+    console.log("📌 Token từ localStorage:", token);
+
+    const hocKy = document.getElementById("semester-filter-chart").value;
+    const namHoc = document.getElementById("year-filter-chart").value;
+
+    const params = new URLSearchParams();
+    if (hocKy) params.append("hocKy", hocKy);
+    if (namHoc) params.append("namHoc", namHoc);
+
+    const url = `http://127.0.0.1:3000/thongkesv/api?${params.toString()}`;
+
+    try {
+        const response = await fetch(url, {
+            method: "GET",
+            headers: { 
+                "Authorization": `Bearer ${token}`,
+                "Content-Type": "application/json"
+            }
+        });
+
+        if (!response.ok) {
+            throw new Error("Lỗi khi tải dữ liệu. Có thể token không hợp lệ!");
+        }
+
+        const data = await response.json();
+        console.log("📩 Dữ liệu API nhận được:", data); 
+
+        const sinhVienList = data.query;
+        const semesterData = data.semesterData || [];
+        const drlData = data.drlData || [];
+
+        if (!Array.isArray(sinhVienList)) {
+            throw new Error("Dữ liệu từ API không hợp lệ");
+        }
+
+        const lopName = sinhVienList.length > 0 ? sinhVienList[0]?.Ma_Lop || "Không rõ" : "Không có dữ liệu";
+        document.getElementById("class-name").textContent = `Lớp: ${lopName}`;
+
+        const drlMap = {};
+        drlData.forEach(item => {
+            drlMap[item.Ma_Sinh_Vien] = parseFloat(item.Diem_Ren_Luyen) || 0; // Đảm bảo chuyển đổi sang số
+        });
+
+        const studentsWithDrl = sinhVienList.map(student => ({
+            name: student.Ma_Sinh_Vien,
+            gpa: student.GPA,
+            sum_credits: Number(student.Tong_Tin_Chi),
+            drl: drlMap[student.Ma_Sinh_Vien] || 0  // Thêm điểm rèn luyện hoặc 0 nếu không có
+        }));
+
+        return {
+            students: studentsWithDrl,
+            semesters: semesterData,
+            drl: drlData
+        };
+    } catch (error) {
+        console.error("Lỗi khi tải dữ liệu GPA:", error);
+        // Hiển thị thông báo lỗi cho người dùng
+        alert("Lỗi khi tải dữ liệu: " + error.message);
+        return { students: [], semesters: [], drl: [] };
+    }
+};
 // Phân loại GPA theo mức
 const categorizeGPA = (gpaList) => {
     let distribution = { excellent: 0, good: 0, fair: 0, average: 0, weak: 0 };
@@ -163,13 +224,17 @@ const updateStats = (students) => {
 let pieChartInstance;
 let lineChartInstance;
 let drlPieChartInstance;
-
+// render các số liệu thống kê
+const renderStats = async () => {
+    // Lấy dữ liệu GPA sinh viên
+    const { students , semesters } = await fetchGPAData();
+    
+    updateStats(students);
+}
 // Vẽ biểu đồ sau khi lấy dữ liệu từ API
 const renderCharts = async () => {
     // Lấy dữ liệu GPA sinh viên
-    const { students, semesters } = await fetchGPAData();
-    
-    updateStats(students);
+    const { students, semesters } = await fetchGPADataChart();
 
     if (students.length === 0) {
         console.warn("Không có dữ liệu GPA để hiển thị.");
@@ -346,15 +411,22 @@ const renderCharts = async () => {
     }
 };
 
-// Gọi hàm vẽ biểu đồ khi trang tải xong
-document.addEventListener("DOMContentLoaded", renderCharts);
-
-// Cập nhật biểu đồ khi nhấn nút lọc
-document.getElementById("filter-btn").addEventListener("click", renderCharts);
-
-// Đặt lại bộ lọc và cập nhật biểu đồ
-document.getElementById("reset-btn").addEventListener("click", () => {
-    document.getElementById("semester-filter").value = "";
-    document.getElementById("year-filter").value = "";
+document.addEventListener("DOMContentLoaded", () => {
     renderCharts();
+    renderStats();
+
+    document.getElementById("filter-btn").addEventListener("click", renderStats);
+    document.getElementById("filter-btn-chart").addEventListener("click", renderCharts);
+
+    document.getElementById("reset-btn").addEventListener("click", () => {
+        document.getElementById("semester-filter").value = "";
+        document.getElementById("year-filter").value = "";
+        renderStats();
+    });
+
+    document.getElementById("reset-btn-chart").addEventListener("click", () => {
+        document.getElementById("semester-filter-chart").value = "";
+        document.getElementById("year-filter-chart").value = "";
+        renderCharts();
+    });
 });
