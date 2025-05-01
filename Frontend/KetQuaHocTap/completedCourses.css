@@ -48,7 +48,6 @@ body {
     cursor: pointer;
     transition: all 0.2s;
     color: white;
-    /* display: flex; */
     align-items: center;
     gap: 10px;
 }
@@ -67,7 +66,6 @@ body {
     text-align: center;
 }
 
-/* Main content */
 .main-content {
     flex: 1;
     margin-left: var(--sidebar-width);
@@ -100,7 +98,6 @@ header h1::after {
     background: var(--primary);
     border-radius: 3px;
 }
-/* Stats Card */
 .stats-container {
     display: flex;
     gap: 15px;
@@ -155,7 +152,6 @@ header h1::after {
     color: var(--primary);
 }
 
-/* Filter Section */
 .filter-section {
     background: white;
     border-radius: 10px;
@@ -257,7 +253,7 @@ header h1::after {
     border-radius: 12px;
     font-weight: 500;
     font-size: 14px;
-    min-width: 40px; /* Thêm min-width để đảm bảo các ô điểm có cùng kích thước */
+    min-width: 40px; 
     text-align: center;
 }
 
@@ -315,7 +311,6 @@ header h1::after {
         overflow-x: auto;
     }
 }
-/* Responsive */
 @media (max-width: 768px) {
     .sidebar {
         transform: translateX(-100%);

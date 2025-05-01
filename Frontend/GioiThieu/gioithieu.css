@@ -1,11 +1,14 @@
 :root {
     --primary: #6a11cb;
+    --primary-dark: #5a0db3;
     --primary-light: #cdb4e4;
     --secondary: #fa709a;
+    --secondary-dark: #e65b71;
     --dark: #2575fc;
+    --dark-blue: #1a5fe0;
     --light: #f8f9fa;
     --success: #38ef7d;
-    --danger: #ff416c;
+    --danger: #ff4757;
     --warning: #ffb347;
     --info: #4facfe;
 }
@@ -16,38 +19,57 @@ body {
     color: #333;
 }
 
-/* Header Styles */
 .header {
     background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
     color: white;
-    padding: 1rem 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 0.8rem 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     position: sticky;
     top: 0;
     z-index: 1000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
 }
 
 .logo-container {
     display: flex;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover {
+    transform: translateX(5px);
 }
 
 .logo-icon {
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
-    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo-icon i {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover .logo-icon i {
+    transform: rotate(15deg);
 }
 
 .logo-text {
@@ -57,20 +79,103 @@ body {
 
 .logo-main {
     font-weight: 700;
-    font-size: 1.4rem;
-    line-height: 1;
+    font-size: 1.3rem;
+    line-height: 1.2;
     color: white;
     letter-spacing: 0.5px;
+    transition: all 0.3s ease;
 }
 
 .logo-sub {
-    font-weight: 500;
-    font-size: 0.8rem;
-    color: var(--secondary);
-    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
 }
 
-/* Hero Section */
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-btn-login {
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--primary);
+    border: none;
+}
+
+.nav-btn-login:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.nav-btn-register {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn-register:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+/* ========== Updated Button Styles ========== */
+.btn-explore {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--dark-blue) 100%);
+    border: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(90, 13, 179, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-explore:hover {
+    background: linear-gradient(135deg, #4a0ba3 0%, #0a4fd0 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(90, 13, 179, 0.5);
+}
+
+.btn-try {
+    background: linear-gradient(135deg, var(--danger) 0%, var(--secondary-dark) 100%);
+    border: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(255, 71, 87, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-try:hover {
+    background: linear-gradient(135deg, #d63747 0%, #d64b61 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 71, 87, 0.5);
+}
+
+/* ========== Các phần CSS khác giữ nguyên ========== */
 .hero-section {
     background: linear-gradient(135deg, var(--primary) 0%, var(--dark) 100%);
     color: white;
@@ -358,6 +463,28 @@ footer a:hover {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+    .header {
+        padding: 0.6rem 0;
+    }
+    
+    .logo-icon {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .logo-main {
+        font-size: 1rem;
+    }
+    
+    .logo-sub {
+        font-size: 0.6rem;
+    }
+    
+    .nav-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
     .hero-section {
         padding: 3rem 0;
         border-radius: 0 0 20px 20px;
@@ -365,19 +492,6 @@ footer a:hover {
     
     .hero-bot-image {
         max-width: 200px;
-    }
-    
-    .logo-main {
-        font-size: 1.1rem;
-    }
-    
-    .logo-sub {
-        font-size: 0.6rem;
-    }
-    
-    .logo-icon {
-        width: 40px;
-        height: 40px;
     }
     
     .display-4 {
