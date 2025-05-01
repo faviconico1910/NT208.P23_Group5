@@ -125,7 +125,8 @@
                 this.classList.add('active');
             });
         });
-        
+        const urlParams = new URLSearchParams(window.location.search);
+        const mssv = urlParams.get("mssv");
         async function fetchResults() {
             const semester = document.getElementById('semester-filter').value;
             const year = document.getElementById('year-filter').value;
@@ -142,7 +143,8 @@
             `;
             
             try {
-                let url = '/completedCourses';
+                let url = `/completedCourses?mssv=${mssv}`;
+
                 const params = new URLSearchParams();
                 
                 if (semester) params.append('hocKy', semester);

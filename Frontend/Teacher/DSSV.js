@@ -8,16 +8,13 @@ document.addEventListener("DOMContentLoaded", async() => {
         });
 
         const data = await res.json();
-        const noClassMessage = document.getElementById('noClassMessage');
         const studentTable = document.getElementById("main-container");
         const tableBody = document.getElementById('studentTableBody');
-        
-        // Reset
-        noClassMessage.style.display = 'none';
+
         studentTable.style.display = 'none';
         tableBody.innerHTML = '';
         if (Array.isArray(data) && data.length > 0) {
-            noClassMessage.style.display = 'none';
+
             studentTable.style.display = 'table';
             data.forEach(sv => {
                 const row = `
@@ -28,13 +25,13 @@ document.addEventListener("DOMContentLoaded", async() => {
                   <td>${sv.Dien_Thoai || '-'}</td>
                   <td>${sv.SDT_Cha || '-'}</td>
                   <td>${sv.SDT_Me || '-'}</td>
-                  <td><a href="/" class="btn btn-success btn-sm">Xem hồ sơ</a></td>
+                  <td><a href="/KetQuaHocTap/completedCourses.html?mssv=${sv.Ma_Sinh_Vien}" class="btn btn-success btn-sm">Xem hồ sơ</a></td>
                 </tr>`;
                 tableBody.innerHTML += row;
             });
         } else {
             studentTable.style.display = 'none';
-            noClassMessage.style.display = 'block';
+            alert("Không có lớp cố vấn");
         }
     }
     catch (error) {
