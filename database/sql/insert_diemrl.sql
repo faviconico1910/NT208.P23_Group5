@@ -1,5000 +1,5001 @@
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520001', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 5, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520002', 8, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 7, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520003', 8, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 7, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520004', 8, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 5, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 7, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520005', 8, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 7, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520006', 8, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 6, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 7, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520007', 8, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 7, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520008', 8, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 6, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 7, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520009', 8, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 6, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 7, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520010', 8, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 5, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 6, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 7, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520011', 8, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 5, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 6, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520012', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 6, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 7, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520013', 8, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 7, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520014', 8, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 6, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 7, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520015', 8, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 7, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520016', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520017', 8, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 7, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520018', 8, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520019', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 7, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520020', 8, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 6, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 7, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520021', 8, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 5, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 6, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 7, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520022', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 3, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 7, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520023', 8, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 7, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520024', 8, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 7, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520025', 8, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 5, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 7, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520026', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 5, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 6, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 7, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520027', 8, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 7, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520028', 8, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 7, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520029', 8, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 6, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 7, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520030', 8, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 7, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520031', 8, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 5, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 6, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 7, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520032', 8, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 6, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520033', 8, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 7, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520034', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 6, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 7, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520035', 8, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 5, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 6, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 7, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520036', 8, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 7, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520037', 8, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 7, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520038', 8, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520039', 8, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520040', 8, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 5, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 7, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520041', 8, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520042', 8, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 7, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520043', 8, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 7, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520044', 8, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 7, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520045', 8, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 5, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 7, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520046', 8, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 7, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520047', 8, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 6, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 7, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520048', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 7, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520049', 8, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520050', 8, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 7, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520051', 8, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 6, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520052', 8, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 6, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 7, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520053', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 5, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 7, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520054', 8, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 7, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520055', 8, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 5, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 7, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520056', 8, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520057', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 7, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520058', 8, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520059', 8, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 7, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520060', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 7, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520061', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520062', 8, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 5, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 7, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520063', 8, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 7, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520064', 8, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 7, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520065', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 7, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520066', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 7, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520067', 8, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 5, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 6, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 7, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520068', 8, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 7, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520069', 8, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 7, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520070', 8, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520071', 8, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 6, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 7, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520072', 8, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 7, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520073', 8, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 7, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520074', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 6, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 7, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520075', 8, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 7, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520076', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 5, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 6, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520077', 8, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 5, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 6, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 7, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520078', 8, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 7, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520079', 8, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 7, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520080', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 7, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520081', 8, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 4, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 5, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 7, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520082', 8, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 7, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520083', 8, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 6, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 7, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520084', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 7, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520085', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 6, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 7, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520086', 8, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 7, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520087', 8, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 7, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520088', 8, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 4, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 7, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520089', 8, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 7, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520090', 8, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520091', 8, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 5, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 7, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520092', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 6, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520093', 8, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 5, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520094', 8, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 7, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520095', 8, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 4, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 7, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520096', 8, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520097', 8, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 6, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 7, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520098', 8, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 7, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520099', 8, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 7, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520100', 8, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 7, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520101', 8, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 7, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520102', 8, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 7, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520103', 8, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 7, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520104', 8, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 7, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520105', 8, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 7, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520106', 8, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 7, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520107', 8, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 7, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520108', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 7, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520109', 8, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 5, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 7, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520110', 8, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 6, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 7, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520111', 8, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 7, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520112', 8, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 7, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520113', 8, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 7, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520114', 8, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 7, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520115', 8, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 7, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520116', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 6, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 7, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520117', 8, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 7, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520118', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 6, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 7, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520119', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 7, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520120', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 7, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520121', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 3, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 7, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520122', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 4, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 5, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 7, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520123', 8, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 7, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520124', 8, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 6, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 7, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520125', 8, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 6, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 7, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520126', 8, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 6, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 7, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520127', 8, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 7, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520128', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 7, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520129', 8, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 7, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520130', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 6, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 7, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520131', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 7, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520132', 8, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 7, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520133', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 5, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 7, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520134', 8, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 5, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520135', 8, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 7, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520136', 8, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520137', 8, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520138', 8, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 3, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 7, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520139', 8, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 5, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 6, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520140', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 7, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520141', 8, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 7, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520142', 8, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 6, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 7, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520143', 8, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 7, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520144', 8, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 3, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 7, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520145', 8, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 7, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520146', 8, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 7, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520147', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 7, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520148', 8, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 7, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520149', 8, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 7, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520150', 8, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 7, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520151', 8, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 7, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520152', 8, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 7, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520153', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 6, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 7, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520154', 8, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 7, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520155', 8, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 7, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520156', 8, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 5, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 7, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520157', 8, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 7, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520158', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 7, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520159', 8, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 6, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520160', 8, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 7, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520161', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 7, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520162', 8, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 5, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 7, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520163', 8, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 7, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520164', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 5, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 6, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 7, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520165', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 7, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520166', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 7, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520167', 8, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 7, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520168', 8, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 7, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520169', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 7, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520170', 8, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 6, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 7, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520171', 8, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 7, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520172', 8, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 6, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 7, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520173', 8, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 6, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 7, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520174', 8, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 7, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520175', 8, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 4, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 6, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 7, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520176', 8, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 7, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520177', 8, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 7, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520178', 8, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 7, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520179', 8, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 7, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520180', 8, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 7, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520181', 8, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 7, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520182', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 7, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520183', 8, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 6, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 7, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520184', 8, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 6, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 7, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520185', 8, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520186', 8, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 7, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520187', 8, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 7, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520188', 8, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 7, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520189', 8, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 7, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520190', 8, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 4, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 7, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520191', 8, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 3, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 5, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 7, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520192', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 7, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520193', 8, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 7, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520194', 8, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 7, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520195', 8, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 5, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 7, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520196', 8, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 3, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 7, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520197', 8, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 7, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520198', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 5, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520199', 8, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 7, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520200', 8, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 7, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520201', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 7, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520202', 8, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 7, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520203', 8, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 5, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520204', 8, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 6, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 7, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520205', 8, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 7, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520206', 8, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 7, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520207', 8, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 7, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520208', 8, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 6, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 7, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520209', 8, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 7, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520210', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 7, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520211', 8, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 7, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520212', 8, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 7, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520213', 8, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 7, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520214', 8, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 5, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 6, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 7, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520215', 8, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520216', 8, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 7, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520217', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 7, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520218', 8, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 7, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520219', 8, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 7, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520220', 8, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520221', 8, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 7, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520222', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 5, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 6, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 7, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520223', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 6, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 7, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520224', 8, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 6, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520225', 8, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 7, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520226', 8, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 7, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520227', 8, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 5, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 7, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520228', 8, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 5, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 7, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520229', 8, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520230', 8, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 7, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520231', 8, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 6, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 7, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520232', 8, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 7, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520233', 8, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 7, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520234', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 6, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 7, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520235', 8, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 6, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 7, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520236', 8, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 6, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 7, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520237', 8, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 7, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520238', 8, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 7, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520239', 8, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 7, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520240', 8, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 5, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 7, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520241', 8, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 7, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520242', 8, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 5, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 7, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520243', 8, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 7, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520244', 8, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 7, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520245', 8, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 6, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 7, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520246', 8, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 7, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520247', 8, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 7, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520248', 8, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 5, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 7, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520249', 8, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 7, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('21520250', 8, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520001', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520001', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520001', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520001', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520001', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520001', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520002', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520002', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520002', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520002', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520002', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520002', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520003', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520003', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520003', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520003', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520003', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520003', 6, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520004', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520004', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520004', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520004', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520004', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520004', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520005', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520005', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520005', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520005', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520005', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520005', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520006', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520006', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520006', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520006', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520006', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520006', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520007', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520007', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520007', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520007', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520007', 5, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520007', 6, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520008', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520008', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520008', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520008', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520008', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520008', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520009', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520009', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520009', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520009', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520009', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520009', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520010', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520010', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520010', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520010', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520010', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520010', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520011', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520011', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520011', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520011', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520011', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520011', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520012', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520012', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520012', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520012', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520012', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520012', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520013', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520013', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520013', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520013', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520013', 5, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520013', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520014', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520014', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520014', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520014', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520014', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520014', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520015', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520015', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520015', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520015', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520015', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520015', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520016', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520016', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520016', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520016', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520016', 5, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520016', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520017', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520017', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520017', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520017', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520017', 5, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520017', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520018', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520018', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520018', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520018', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520018', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520018', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520019', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520019', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520019', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520019', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520019', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520019', 6, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520020', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520020', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520020', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520020', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520020', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520020', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520021', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520021', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520021', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520021', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520021', 5, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520021', 6, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520022', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520022', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520022', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520022', 4, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520022', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520022', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520023', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520023', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520023', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520023', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520023', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520023', 6, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520024', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520024', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520024', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520024', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520024', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520024', 6, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520025', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520025', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520025', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520025', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520025', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520025', 6, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520026', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520026', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520026', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520026', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520026', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520026', 6, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520027', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520027', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520027', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520027', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520027', 5, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520027', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520028', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520028', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520028', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520028', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520028', 5, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520028', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520029', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520029', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520029', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520029', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520029', 5, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520029', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520030', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520030', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520030', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520030', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520030', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520030', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520031', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520031', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520031', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520031', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520031', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520031', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520032', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520032', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520032', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520032', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520032', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520032', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520033', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520033', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520033', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520033', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520033', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520033', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520034', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520034', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520034', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520034', 4, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520034', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520034', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520035', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520035', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520035', 3, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520035', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520035', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520035', 6, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520036', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520036', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520036', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520036', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520036', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520036', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520037', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520037', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520037', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520037', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520037', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520037', 6, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520038', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520038', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520038', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520038', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520038', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520038', 6, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520039', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520039', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520039', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520039', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520039', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520039', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520040', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520040', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520040', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520040', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520040', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520040', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520041', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520041', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520041', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520041', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520041', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520041', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520042', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520042', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520042', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520042', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520042', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520042', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520043', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520043', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520043', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520043', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520043', 5, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520043', 6, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520044', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520044', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520044', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520044', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520044', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520044', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520045', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520045', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520045', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520045', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520045', 5, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520045', 6, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520046', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520046', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520046', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520046', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520046', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520046', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520047', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520047', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520047', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520047', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520047', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520047', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520048', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520048', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520048', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520048', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520048', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520048', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520049', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520049', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520049', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520049', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520049', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520049', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520050', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520050', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520050', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520050', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520050', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520050', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520051', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520051', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520051', 3, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520051', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520051', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520051', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520052', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520052', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520052', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520052', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520052', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520052', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520053', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520053', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520053', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520053', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520053', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520053', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520054', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520054', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520054', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520054', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520054', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520054', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520055', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520055', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520055', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520055', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520055', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520055', 6, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520056', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520056', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520056', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520056', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520056', 5, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520056', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520057', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520057', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520057', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520057', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520057', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520057', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520058', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520058', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520058', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520058', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520058', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520058', 6, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520059', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520059', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520059', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520059', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520059', 5, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520059', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520060', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520060', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520060', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520060', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520060', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520060', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520061', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520061', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520061', 3, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520061', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520061', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520061', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520062', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520062', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520062', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520062', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520062', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520062', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520063', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520063', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520063', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520063', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520063', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520063', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520064', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520064', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520064', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520064', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520064', 5, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520064', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520065', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520065', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520065', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520065', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520065', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520065', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520066', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520066', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520066', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520066', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520066', 5, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520066', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520067', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520067', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520067', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520067', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520067', 5, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520067', 6, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520068', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520068', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520068', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520068', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520068', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520068', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520069', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520069', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520069', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520069', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520069', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520069', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520070', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520070', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520070', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520070', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520070', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520070', 6, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520071', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520071', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520071', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520071', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520071', 5, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520071', 6, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520072', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520072', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520072', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520072', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520072', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520072', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520073', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520073', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520073', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520073', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520073', 5, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520073', 6, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520074', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520074', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520074', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520074', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520074', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520074', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520075', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520075', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520075', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520075', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520075', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520075', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520076', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520076', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520076', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520076', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520076', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520076', 6, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520077', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520077', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520077', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520077', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520077', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520077', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520078', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520078', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520078', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520078', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520078', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520078', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520079', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520079', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520079', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520079', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520079', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520079', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520080', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520080', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520080', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520080', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520080', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520080', 6, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520081', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520081', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520081', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520081', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520081', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520081', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520082', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520082', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520082', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520082', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520082', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520082', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520083', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520083', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520083', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520083', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520083', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520083', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520084', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520084', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520084', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520084', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520084', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520084', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520085', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520085', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520085', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520085', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520085', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520085', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520086', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520086', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520086', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520086', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520086', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520086', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520087', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520087', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520087', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520087', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520087', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520087', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520088', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520088', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520088', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520088', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520088', 5, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520088', 6, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520089', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520089', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520089', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520089', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520089', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520089', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520090', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520090', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520090', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520090', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520090', 5, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520090', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520091', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520091', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520091', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520091', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520091', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520091', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520092', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520092', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520092', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520092', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520092', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520092', 6, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520093', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520093', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520093', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520093', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520093', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520093', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520094', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520094', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520094', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520094', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520094', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520094', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520095', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520095', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520095', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520095', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520095', 5, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520095', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520096', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520096', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520096', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520096', 4, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520096', 5, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520096', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520097', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520097', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520097', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520097', 4, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520097', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520097', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520098', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520098', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520098', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520098', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520098', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520098', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520099', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520099', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520099', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520099', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520099', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520099', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520100', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520100', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520100', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520100', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520100', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520100', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520101', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520101', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520101', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520101', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520101', 5, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520101', 6, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520102', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520102', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520102', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520102', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520102', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520102', 6, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520103', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520103', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520103', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520103', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520103', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520103', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520104', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520104', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520104', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520104', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520104', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520104', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520105', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520105', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520105', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520105', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520105', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520105', 6, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520106', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520106', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520106', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520106', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520106', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520106', 6, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520107', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520107', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520107', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520107', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520107', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520107', 6, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520108', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520108', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520108', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520108', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520108', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520108', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520109', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520109', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520109', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520109', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520109', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520109', 6, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520110', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520110', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520110', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520110', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520110', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520110', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520111', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520111', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520111', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520111', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520111', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520111', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520112', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520112', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520112', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520112', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520112', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520112', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520113', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520113', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520113', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520113', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520113', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520113', 6, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520114', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520114', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520114', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520114', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520114', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520114', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520115', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520115', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520115', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520115', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520115', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520115', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520116', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520116', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520116', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520116', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520116', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520116', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520117', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520117', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520117', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520117', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520117', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520117', 6, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520118', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520118', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520118', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520118', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520118', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520118', 6, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520119', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520119', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520119', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520119', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520119', 5, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520119', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520120', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520120', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520120', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520120', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520120', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520120', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520121', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520121', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520121', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520121', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520121', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520121', 6, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520122', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520122', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520122', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520122', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520122', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520122', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520123', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520123', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520123', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520123', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520123', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520123', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520124', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520124', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520124', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520124', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520124', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520124', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520125', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520125', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520125', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520125', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520125', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520125', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520126', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520126', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520126', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520126', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520126', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520126', 6, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520127', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520127', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520127', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520127', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520127', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520127', 6, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520128', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520128', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520128', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520128', 4, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520128', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520128', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520129', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520129', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520129', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520129', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520129', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520129', 6, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520130', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520130', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520130', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520130', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520130', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520130', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520131', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520131', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520131', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520131', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520131', 5, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520131', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520132', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520132', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520132', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520132', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520132', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520132', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520133', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520133', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520133', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520133', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520133', 5, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520133', 6, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520134', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520134', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520134', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520134', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520134', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520134', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520135', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520135', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520135', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520135', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520135', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520135', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520136', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520136', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520136', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520136', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520136', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520136', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520137', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520137', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520137', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520137', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520137', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520137', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520138', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520138', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520138', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520138', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520138', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520138', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520139', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520139', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520139', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520139', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520139', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520139', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520140', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520140', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520140', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520140', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520140', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520140', 6, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520141', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520141', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520141', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520141', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520141', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520141', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520142', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520142', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520142', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520142', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520142', 5, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520142', 6, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520143', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520143', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520143', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520143', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520143', 5, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520143', 6, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520144', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520144', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520144', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520144', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520144', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520144', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520145', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520145', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520145', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520145', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520145', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520145', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520146', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520146', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520146', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520146', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520146', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520146', 6, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520147', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520147', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520147', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520147', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520147', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520147', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520148', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520148', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520148', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520148', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520148', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520148', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520149', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520149', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520149', 3, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520149', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520149', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520149', 6, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520150', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520150', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520150', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520150', 4, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520150', 5, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520150', 6, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520151', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520151', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520151', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520151', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520151', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520151', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520152', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520152', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520152', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520152', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520152', 5, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520152', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520153', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520153', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520153', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520153', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520153', 5, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520153', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520154', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520154', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520154', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520154', 4, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520154', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520154', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520155', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520155', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520155', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520155', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520155', 5, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520155', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520156', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520156', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520156', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520156', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520156', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520156', 6, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520157', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520157', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520157', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520157', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520157', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520157', 6, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520158', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520158', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520158', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520158', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520158', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520158', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520159', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520159', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520159', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520159', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520159', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520159', 6, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520160', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520160', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520160', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520160', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520160', 5, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520160', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520161', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520161', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520161', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520161', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520161', 5, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520161', 6, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520162', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520162', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520162', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520162', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520162', 5, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520162', 6, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520163', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520163', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520163', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520163', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520163', 5, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520163', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520164', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520164', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520164', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520164', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520164', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520164', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520165', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520165', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520165', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520165', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520165', 5, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520165', 6, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520166', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520166', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520166', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520166', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520166', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520166', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520167', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520167', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520167', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520167', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520167', 5, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520167', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520168', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520168', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520168', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520168', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520168', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520168', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520169', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520169', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520169', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520169', 4, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520169', 5, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520169', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520170', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520170', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520170', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520170', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520170', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520170', 6, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520171', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520171', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520171', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520171', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520171', 5, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520171', 6, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520172', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520172', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520172', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520172', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520172', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520172', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520173', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520173', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520173', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520173', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520173', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520173', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520174', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520174', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520174', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520174', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520174', 5, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520174', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520175', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520175', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520175', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520175', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520175', 5, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520175', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520176', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520176', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520176', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520176', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520176', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520176', 6, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520177', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520177', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520177', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520177', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520177', 5, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520177', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520178', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520178', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520178', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520178', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520178', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520178', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520179', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520179', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520179', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520179', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520179', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520179', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520180', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520180', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520180', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520180', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520180', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520180', 6, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520181', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520181', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520181', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520181', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520181', 5, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520181', 6, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520182', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520182', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520182', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520182', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520182', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520182', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520183', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520183', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520183', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520183', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520183', 5, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520183', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520184', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520184', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520184', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520184', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520184', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520184', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520185', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520185', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520185', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520185', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520185', 5, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520185', 6, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520186', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520186', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520186', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520186', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520186', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520186', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520187', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520187', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520187', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520187', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520187', 5, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520187', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520188', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520188', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520188', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520188', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520188', 5, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520188', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520189', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520189', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520189', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520189', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520189', 5, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520189', 6, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520190', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520190', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520190', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520190', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520190', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520190', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520191', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520191', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520191', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520191', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520191', 5, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520191', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520192', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520192', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520192', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520192', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520192', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520192', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520193', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520193', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520193', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520193', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520193', 5, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520193', 6, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520194', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520194', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520194', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520194', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520194', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520194', 6, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520195', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520195', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520195', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520195', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520195', 5, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520195', 6, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520196', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520196', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520196', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520196', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520196', 5, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520196', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520197', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520197', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520197', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520197', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520197', 5, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520197', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520198', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520198', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520198', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520198', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520198', 5, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520198', 6, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520199', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520199', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520199', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520199', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520199', 5, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520199', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520200', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520200', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520200', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520200', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520200', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520200', 6, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520201', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520201', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520201', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520201', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520201', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520201', 6, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520202', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520202', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520202', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520202', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520202', 5, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520202', 6, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520203', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520203', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520203', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520203', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520203', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520203', 6, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520204', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520204', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520204', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520204', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520204', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520204', 6, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520205', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520205', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520205', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520205', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520205', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520205', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520206', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520206', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520206', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520206', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520206', 5, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520206', 6, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520207', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520207', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520207', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520207', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520207', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520207', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520208', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520208', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520208', 3, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520208', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520208', 5, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520208', 6, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520209', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520209', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520209', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520209', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520209', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520209', 6, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520210', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520210', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520210', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520210', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520210', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520210', 6, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520211', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520211', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520211', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520211', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520211', 5, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520211', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520212', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520212', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520212', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520212', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520212', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520212', 6, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520213', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520213', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520213', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520213', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520213', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520213', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520214', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520214', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520214', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520214', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520214', 5, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520214', 6, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520215', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520215', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520215', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520215', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520215', 5, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520215', 6, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520216', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520216', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520216', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520216', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520216', 5, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520216', 6, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520217', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520217', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520217', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520217', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520217', 5, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520217', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520218', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520218', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520218', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520218', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520218', 5, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520218', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520219', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520219', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520219', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520219', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520219', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520219', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520220', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520220', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520220', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520220', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520220', 5, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520220', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520221', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520221', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520221', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520221', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520221', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520221', 6, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520222', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520222', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520222', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520222', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520222', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520222', 6, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520223', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520223', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520223', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520223', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520223', 5, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520223', 6, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520224', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520224', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520224', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520224', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520224', 5, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520224', 6, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520225', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520225', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520225', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520225', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520225', 5, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520225', 6, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520226', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520226', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520226', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520226', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520226', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520226', 6, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520227', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520227', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520227', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520227', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520227', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520227', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520228', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520228', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520228', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520228', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520228', 5, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520228', 6, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520229', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520229', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520229', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520229', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520229', 5, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520229', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520230', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520230', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520230', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520230', 4, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520230', 5, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520230', 6, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520231', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520231', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520231', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520231', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520231', 5, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520231', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520232', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520232', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520232', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520232', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520232', 5, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520232', 6, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520233', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520233', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520233', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520233', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520233', 5, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520233', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520234', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520234', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520234', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520234', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520234', 5, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520234', 6, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520235', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520235', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520235', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520235', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520235', 5, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520235', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520236', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520236', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520236', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520236', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520236', 5, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520236', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520237', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520237', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520237', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520237', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520237', 5, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520237', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520238', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520238', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520238', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520238', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520238', 5, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520238', 6, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520239', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520239', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520239', 3, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520239', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520239', 5, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520239', 6, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520240', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520240', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520240', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520240', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520240', 5, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520240', 6, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520241', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520241', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520241', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520241', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520241', 5, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520241', 6, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520242', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520242', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520242', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520242', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520242', 5, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520242', 6, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520243', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520243', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520243', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520243', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520243', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520243', 6, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520244', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520244', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520244', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520244', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520244', 5, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520244', 6, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520245', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520245', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520245', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520245', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520245', 5, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520245', 6, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520246', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520246', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520246', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520246', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520246', 5, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520246', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520247', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520247', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520247', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520247', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520247', 5, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520247', 6, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520248', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520248', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520248', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520248', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520248', 5, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520248', 6, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520249', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520249', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520249', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520249', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520249', 5, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520249', 6, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520250', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520250', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520250', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520250', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520250', 5, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('22520250', 6, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520001', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520001', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520001', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520001', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520002', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520002', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520002', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520002', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520003', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520003', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520003', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520003', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520004', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520004', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520004', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520004', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520005', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520005', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520005', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520005', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520006', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520006', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520006', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520006', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520007', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520007', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520007', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520007', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520008', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520008', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520008', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520008', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520009', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520009', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520009', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520009', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520010', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520010', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520010', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520010', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520011', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520011', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520011', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520011', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520012', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520012', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520012', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520012', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520013', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520013', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520013', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520013', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520014', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520014', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520014', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520014', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520015', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520015', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520015', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520015', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520016', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520016', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520016', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520016', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520017', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520017', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520017', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520017', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520018', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520018', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520018', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520018', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520019', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520019', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520019', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520019', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520020', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520020', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520020', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520020', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520021', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520021', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520021', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520021', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520022', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520022', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520022', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520022', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520023', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520023', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520023', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520023', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520024', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520024', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520024', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520024', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520025', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520025', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520025', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520025', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520026', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520026', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520026', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520026', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520027', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520027', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520027', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520027', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520028', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520028', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520028', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520028', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520029', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520029', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520029', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520029', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520030', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520030', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520030', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520030', 4, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520031', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520031', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520031', 3, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520031', 4, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520032', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520032', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520032', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520032', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520033', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520033', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520033', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520033', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520034', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520034', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520034', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520034', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520035', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520035', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520035', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520035', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520036', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520036', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520036', 3, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520036', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520037', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520037', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520037', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520037', 4, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520038', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520038', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520038', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520038', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520039', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520039', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520039', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520039', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520040', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520040', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520040', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520040', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520041', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520041', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520041', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520041', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520042', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520042', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520042', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520042', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520043', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520043', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520043', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520043', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520044', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520044', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520044', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520044', 4, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520045', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520045', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520045', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520045', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520046', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520046', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520046', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520046', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520047', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520047', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520047', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520047', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520048', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520048', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520048', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520048', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520049', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520049', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520049', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520049', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520050', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520050', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520050', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520050', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520051', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520051', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520051', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520051', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520052', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520052', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520052', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520052', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520053', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520053', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520053', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520053', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520054', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520054', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520054', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520054', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520055', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520055', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520055', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520055', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520056', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520056', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520056', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520056', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520057', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520057', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520057', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520057', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520058', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520058', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520058', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520058', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520059', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520059', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520059', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520059', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520060', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520060', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520060', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520060', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520061', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520061', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520061', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520061', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520062', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520062', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520062', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520062', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520063', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520063', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520063', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520063', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520064', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520064', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520064', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520064', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520065', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520065', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520065', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520065', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520066', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520066', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520066', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520066', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520067', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520067', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520067', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520067', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520068', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520068', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520068', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520068', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520069', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520069', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520069', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520069', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520070', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520070', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520070', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520070', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520071', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520071', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520071', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520071', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520072', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520072', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520072', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520072', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520073', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520073', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520073', 3, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520073', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520074', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520074', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520074', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520074', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520075', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520075', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520075', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520075', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520076', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520076', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520076', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520076', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520077', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520077', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520077', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520077', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520078', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520078', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520078', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520078', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520079', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520079', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520079', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520079', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520080', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520080', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520080', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520080', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520081', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520081', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520081', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520081', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520082', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520082', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520082', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520082', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520083', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520083', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520083', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520083', 4, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520084', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520084', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520084', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520084', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520085', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520085', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520085', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520085', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520086', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520086', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520086', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520086', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520087', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520087', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520087', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520087', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520088', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520088', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520088', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520088', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520089', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520089', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520089', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520089', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520090', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520090', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520090', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520090', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520091', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520091', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520091', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520091', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520092', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520092', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520092', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520092', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520093', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520093', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520093', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520093', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520094', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520094', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520094', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520094', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520095', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520095', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520095', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520095', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520096', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520096', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520096', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520096', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520097', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520097', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520097', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520097', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520098', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520098', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520098', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520098', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520099', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520099', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520099', 3, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520099', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520100', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520100', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520100', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520100', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520101', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520101', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520101', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520101', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520102', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520102', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520102', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520102', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520103', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520103', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520103', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520103', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520104', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520104', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520104', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520104', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520105', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520105', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520105', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520105', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520106', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520106', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520106', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520106', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520107', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520107', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520107', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520107', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520108', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520108', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520108', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520108', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520109', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520109', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520109', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520109', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520110', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520110', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520110', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520110', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520111', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520111', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520111', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520111', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520112', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520112', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520112', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520112', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520113', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520113', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520113', 3, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520113', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520114', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520114', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520114', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520114', 4, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520115', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520115', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520115', 3, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520115', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520116', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520116', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520116', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520116', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520117', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520117', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520117', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520117', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520118', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520118', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520118', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520118', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520119', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520119', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520119', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520119', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520120', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520120', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520120', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520120', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520121', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520121', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520121', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520121', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520122', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520122', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520122', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520122', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520123', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520123', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520123', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520123', 4, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520124', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520124', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520124', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520124', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520125', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520125', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520125', 3, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520125', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520126', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520126', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520126', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520126', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520127', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520127', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520127', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520127', 4, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520128', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520128', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520128', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520128', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520129', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520129', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520129', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520129', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520130', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520130', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520130', 3, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520130', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520131', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520131', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520131', 3, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520131', 4, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520132', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520132', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520132', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520132', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520133', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520133', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520133', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520133', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520134', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520134', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520134', 3, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520134', 4, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520135', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520135', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520135', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520135', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520136', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520136', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520136', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520136', 4, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520137', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520137', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520137', 3, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520137', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520138', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520138', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520138', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520138', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520139', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520139', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520139', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520139', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520140', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520140', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520140', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520140', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520141', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520141', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520141', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520141', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520142', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520142', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520142', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520142', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520143', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520143', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520143', 3, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520143', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520144', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520144', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520144', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520144', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520145', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520145', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520145', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520145', 4, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520146', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520146', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520146', 3, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520146', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520147', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520147', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520147', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520147', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520148', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520148', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520148', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520148', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520149', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520149', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520149', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520149', 4, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520150', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520150', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520150', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520150', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520151', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520151', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520151', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520151', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520152', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520152', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520152', 3, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520152', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520153', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520153', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520153', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520153', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520154', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520154', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520154', 3, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520154', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520155', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520155', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520155', 3, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520155', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520156', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520156', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520156', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520156', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520157', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520157', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520157', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520157', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520158', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520158', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520158', 3, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520158', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520159', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520159', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520159', 3, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520159', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520160', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520160', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520160', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520160', 4, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520161', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520161', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520161', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520161', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520162', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520162', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520162', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520162', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520163', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520163', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520163', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520163', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520164', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520164', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520164', 3, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520164', 4, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520165', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520165', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520165', 3, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520165', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520166', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520166', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520166', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520166', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520167', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520167', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520167', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520167', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520168', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520168', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520168', 3, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520168', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520169', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520169', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520169', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520169', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520170', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520170', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520170', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520170', 4, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520171', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520171', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520171', 3, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520171', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520172', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520172', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520172', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520172', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520173', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520173', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520173', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520173', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520174', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520174', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520174', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520174', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520175', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520175', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520175', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520175', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520176', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520176', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520176', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520176', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520177', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520177', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520177', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520177', 4, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520178', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520178', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520178', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520178', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520179', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520179', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520179', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520179', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520180', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520180', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520180', 3, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520180', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520181', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520181', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520181', 3, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520181', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520182', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520182', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520182', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520182', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520183', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520183', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520183', 3, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520183', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520184', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520184', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520184', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520184', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520185', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520185', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520185', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520185', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520186', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520186', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520186', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520186', 4, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520187', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520187', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520187', 3, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520187', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520188', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520188', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520188', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520188', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520189', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520189', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520189', 3, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520189', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520190', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520190', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520190', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520190', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520191', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520191', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520191', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520191', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520192', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520192', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520192', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520192', 4, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520193', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520193', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520193', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520193', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520194', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520194', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520194', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520194', 4, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520195', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520195', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520195', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520195', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520196', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520196', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520196', 3, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520196', 4, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520197', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520197', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520197', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520197', 4, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520198', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520198', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520198', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520198', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520199', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520199', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520199', 3, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520199', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520200', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520200', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520200', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520200', 4, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520201', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520201', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520201', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520201', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520202', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520202', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520202', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520202', 4, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520203', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520203', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520203', 3, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520203', 4, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520204', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520204', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520204', 3, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520204', 4, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520205', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520205', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520205', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520205', 4, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520206', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520206', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520206', 3, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520206', 4, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520207', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520207', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520207', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520207', 4, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520208', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520208', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520208', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520208', 4, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520209', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520209', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520209', 3, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520209', 4, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520210', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520210', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520210', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520210', 4, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520211', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520211', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520211', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520211', 4, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520212', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520212', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520212', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520212', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520213', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520213', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520213', 3, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520213', 4, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520214', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520214', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520214', 3, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520214', 4, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520215', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520215', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520215', 3, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520215', 4, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520216', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520216', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520216', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520216', 4, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520217', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520217', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520217', 3, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520217', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520218', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520218', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520218', 3, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520218', 4, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520219', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520219', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520219', 3, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520219', 4, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520220', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520220', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520220', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520220', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520221', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520221', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520221', 3, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520221', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520222', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520222', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520222', 3, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520222', 4, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520223', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520223', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520223', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520223', 4, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520224', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520224', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520224', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520224', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520225', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520225', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520225', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520225', 4, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520226', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520226', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520226', 3, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520226', 4, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520227', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520227', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520227', 3, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520227', 4, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520228', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520228', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520228', 3, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520228', 4, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520229', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520229', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520229', 3, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520229', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520230', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520230', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520230', 3, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520230', 4, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520231', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520231', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520231', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520231', 4, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520232', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520232', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520232', 3, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520232', 4, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520233', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520233', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520233', 3, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520233', 4, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520234', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520234', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520234', 3, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520234', 4, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520235', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520235', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520235', 3, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520235', 4, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520236', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520236', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520236', 3, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520236', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520237', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520237', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520237', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520237', 4, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520238', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520238', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520238', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520238', 4, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520239', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520239', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520239', 3, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520239', 4, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520240', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520240', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520240', 3, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520240', 4, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520241', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520241', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520241', 3, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520241', 4, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520242', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520242', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520242', 3, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520242', 4, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520243', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520243', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520243', 3, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520243', 4, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520244', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520244', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520244', 3, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520244', 4, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520245', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520245', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520245', 3, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520245', 4, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520246', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520246', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520246', 3, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520246', 4, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520247', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520247', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520247', 3, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520247', 4, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520248', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520248', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520248', 3, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520248', 4, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520249', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520249', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520249', 3, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520249', 4, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520250', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520250', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520250', 3, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('23520250', 4, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520001', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520001', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520002', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520002', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520003', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520003', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520004', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520004', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520005', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520005', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520006', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520006', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520007', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520007', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520008', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520008', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520009', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520009', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520010', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520010', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520011', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520011', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520012', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520012', 2, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520013', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520013', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520014', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520014', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520015', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520015', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520016', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520016', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520017', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520017', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520018', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520018', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520019', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520019', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520020', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520020', 2, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520021', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520021', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520022', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520022', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520023', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520023', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520024', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520024', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520025', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520025', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520026', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520026', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520027', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520027', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520028', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520028', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520029', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520029', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520030', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520030', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520031', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520031', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520032', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520032', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520033', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520033', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520034', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520034', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520035', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520035', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520036', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520036', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520037', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520037', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520038', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520038', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520039', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520039', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520040', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520040', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520041', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520041', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520042', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520042', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520043', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520043', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520044', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520044', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520045', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520045', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520046', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520046', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520047', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520047', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520048', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520048', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520049', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520049', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520050', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520050', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520051', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520051', 2, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520052', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520052', 2, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520053', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520053', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520054', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520054', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520055', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520055', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520056', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520056', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520057', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520057', 2, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520058', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520058', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520059', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520059', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520060', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520060', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520061', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520061', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520062', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520062', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520063', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520063', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520064', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520064', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520065', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520065', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520066', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520066', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520067', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520067', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520068', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520068', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520069', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520069', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520070', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520070', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520071', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520071', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520072', 1, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520072', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520073', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520073', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520074', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520074', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520075', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520075', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520076', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520076', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520077', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520077', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520078', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520078', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520079', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520079', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520080', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520080', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520081', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520081', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520082', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520082', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520083', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520083', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520084', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520084', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520085', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520085', 2, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520086', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520086', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520087', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520087', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520088', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520088', 2, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520089', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520089', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520090', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520090', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520091', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520091', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520092', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520092', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520093', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520093', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520094', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520094', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520095', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520095', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520096', 1, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520096', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520097', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520097', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520098', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520098', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520099', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520099', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520100', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520100', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520101', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520101', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520102', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520102', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520103', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520103', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520104', 1, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520104', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520105', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520105', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520106', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520106', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520107', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520107', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520108', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520108', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520109', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520109', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520110', 1, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520110', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520111', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520111', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520112', 1, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520112', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520113', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520113', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520114', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520114', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520115', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520115', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520116', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520116', 2, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520117', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520117', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520118', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520118', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520119', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520119', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520120', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520120', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520121', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520121', 2, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520122', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520122', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520123', 1, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520123', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520124', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520124', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520125', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520125', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520126', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520126', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520127', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520127', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520128', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520128', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520129', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520129', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520130', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520130', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520131', 1, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520131', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520132', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520132', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520133', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520133', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520134', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520134', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520135', 1, 97);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520135', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520136', 1, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520136', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520137', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520137', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520138', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520138', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520139', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520139', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520140', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520140', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520141', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520141', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520142', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520142', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520143', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520143', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520144', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520144', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520145', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520145', 2, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520146', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520146', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520147', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520147', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520148', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520148', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520149', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520149', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520150', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520150', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520151', 1, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520151', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520152', 1, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520152', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520153', 1, 85);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520153', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520154', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520154', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520155', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520155', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520156', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520156', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520157', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520157', 2, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520158', 1, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520158', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520159', 1, 58);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520159', 2, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520160', 1, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520160', 2, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520161', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520161', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520162', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520162', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520163', 1, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520163', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520164', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520164', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520165', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520165', 2, 56);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520166', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520166', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520167', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520167', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520168', 1, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520168', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520169', 1, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520169', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520170', 1, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520170', 2, 83);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520171', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520171', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520172', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520172', 2, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520173', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520173', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520174', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520174', 2, 76);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520175', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520175', 2, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520176', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520176', 2, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520177', 1, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520177', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520178', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520178', 2, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520179', 1, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520179', 2, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520180', 1, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520180', 2, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520181', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520181', 2, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520182', 1, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520182', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520183', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520183', 2, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520184', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520184', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520185', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520185', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520186', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520186', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520187', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520187', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520188', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520188', 2, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520189', 1, 41);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520189', 2, 67);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520190', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520190', 2, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520191', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520191', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520192', 1, 81);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520192', 2, 86);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520193', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520193', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520194', 1, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520194', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520195', 1, 92);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520195', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520196', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520196', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520197', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520197', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520198', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520198', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520199', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520199', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520200', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520200', 2, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520201', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520201', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520202', 1, 90);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520202', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520203', 1, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520203', 2, 94);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520204', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520204', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520205', 1, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520205', 2, 54);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520206', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520206', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520207', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520207', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520208', 1, 71);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520208', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520209', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520209', 2, 42);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520210', 1, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520210', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520211', 1, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520211', 2, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520212', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520212', 2, 48);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520213', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520213', 2, 40);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520214', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520214', 2, 49);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520215', 1, 77);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520215', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520216', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520216', 2, 47);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520217', 1, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520217', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520218', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520218', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520219', 1, 89);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520219', 2, 95);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520220', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520220', 2, 43);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520221', 1, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520221', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520222', 1, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520222', 2, 74);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520223', 1, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520223', 2, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520224', 1, 79);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520224', 2, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520225', 1, 62);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520225', 2, 88);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520226', 1, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520226', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520227', 1, 55);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520227', 2, 80);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520228', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520228', 2, 63);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520229', 1, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520229', 2, 99);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520230', 1, 44);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520230', 2, 59);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520231', 1, 45);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520231', 2, 50);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520232', 1, 69);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520232', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520233', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520233', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520234', 1, 82);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520234', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520235', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520235', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520236', 1, 57);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520236', 2, 64);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520237', 1, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520237', 2, 60);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520238', 1, 78);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520238', 2, 87);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520239', 1, 68);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520239', 2, 46);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520240', 1, 96);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520240', 2, 53);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520241', 1, 100);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520241', 2, 84);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520242', 1, 98);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520242', 2, 61);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520243', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520243', 2, 72);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520244', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520244', 2, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520245', 1, 65);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520245', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520246', 1, 73);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520246', 2, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520247', 1, 70);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520247', 2, 51);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520248', 1, 75);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520248', 2, 91);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520249', 1, 52);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520249', 2, 93);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520250', 1, 66);
-INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES ('24520250', 2, 41);
+INSERT INTO DIEMRL (Ma_Sinh_Vien, Hoc_Ky, Diem_Ren_Luyen) VALUES 
+('21520001', 1, 71),
+('21520001', 2, 76),
+('21520001', 3, 51),
+('21520001', 4, 77),
+('21520001', 5, 83),
+('21520001', 6, 62),
+('21520001', 7, 72),
+('21520001', 8, 61),
+('21520002', 1, 100),
+('21520002', 2, 42),
+('21520002', 3, 94),
+('21520002', 4, 43),
+('21520002', 5, 100),
+('21520002', 6, 40),
+('21520002', 7, 41),
+('21520002', 8, 93),
+('21520003', 1, 92),
+('21520003', 2, 56),
+('21520003', 3, 47),
+('21520003', 4, 79),
+('21520003', 5, 86),
+('21520003', 6, 72),
+('21520003', 7, 61),
+('21520003', 8, 72),
+('21520004', 1, 76),
+('21520004', 2, 59),
+('21520004', 3, 45),
+('21520004', 4, 60),
+('21520004', 5, 69),
+('21520004', 6, 72),
+('21520004', 7, 98),
+('21520004', 8, 73),
+('21520005', 1, 72),
+('21520005', 2, 80),
+('21520005', 3, 72),
+('21520005', 4, 54),
+('21520005', 5, 90),
+('21520005', 6, 78),
+('21520005', 7, 86),
+('21520005', 8, 97),
+('21520006', 1, 43),
+('21520006', 2, 99),
+('21520006', 3, 72),
+('21520006', 4, 77),
+('21520006', 5, 85),
+('21520006', 6, 50),
+('21520006', 7, 70),
+('21520006', 8, 97),
+('21520007', 1, 51),
+('21520007', 2, 42),
+('21520007', 3, 59),
+('21520007', 4, 52),
+('21520007', 5, 75),
+('21520007', 6, 52),
+('21520007', 7, 62),
+('21520007', 8, 49),
+('21520008', 1, 77),
+('21520008', 2, 91),
+('21520008', 3, 42),
+('21520008', 4, 97),
+('21520008', 5, 83),
+('21520008', 6, 71),
+('21520008', 7, 98),
+('21520008', 8, 78),
+('21520009', 1, 89),
+('21520009', 2, 57),
+('21520009', 3, 52),
+('21520009', 4, 50),
+('21520009', 5, 41),
+('21520009', 6, 66),
+('21520009', 7, 40),
+('21520009', 8, 42),
+('21520010', 1, 43),
+('21520010', 2, 48),
+('21520010', 3, 51),
+('21520010', 4, 49),
+('21520010', 5, 53),
+('21520010', 6, 59),
+('21520010', 7, 47),
+('21520010', 8, 45),
+('21520011', 1, 40),
+('21520011', 2, 80),
+('21520011', 3, 76),
+('21520011', 4, 71),
+('21520011', 5, 94),
+('21520011', 6, 95),
+('21520011', 7, 55),
+('21520011', 8, 51),
+('21520012', 1, 61),
+('21520012', 2, 95),
+('21520012', 3, 88),
+('21520012', 4, 77),
+('21520012', 5, 90),
+('21520012', 6, 66),
+('21520012', 7, 72),
+('21520012', 8, 99),
+('21520013', 1, 89),
+('21520013', 2, 47),
+('21520013', 3, 66),
+('21520013', 4, 52),
+('21520013', 5, 98),
+('21520013', 6, 44),
+('21520013', 7, 74),
+('21520013', 8, 42),
+('21520014', 1, 46),
+('21520014', 2, 70),
+('21520014', 3, 78),
+('21520014', 4, 57),
+('21520014', 5, 61),
+('21520014', 6, 50),
+('21520014', 7, 94),
+('21520014', 8, 100),
+('21520015', 1, 58),
+('21520015', 2, 50),
+('21520015', 3, 67),
+('21520015', 4, 82),
+('21520015', 5, 55),
+('21520015', 6, 59),
+('21520015', 7, 62),
+('21520015', 8, 68),
+('21520016', 1, 58),
+('21520016', 2, 80),
+('21520016', 3, 75),
+('21520016', 4, 58),
+('21520016', 5, 71),
+('21520016', 6, 43),
+('21520016', 7, 97),
+('21520016', 8, 65),
+('21520017', 1, 68),
+('21520017', 2, 97),
+('21520017', 3, 84),
+('21520017', 4, 92),
+('21520017', 5, 50),
+('21520017', 6, 45),
+('21520017', 7, 72),
+('21520017', 8, 68),
+('21520018', 1, 67),
+('21520018', 2, 94),
+('21520018', 3, 55),
+('21520018', 4, 74),
+('21520018', 5, 92),
+('21520018', 6, 77),
+('21520018', 7, 67),
+('21520018', 8, 80),
+('21520019', 1, 65),
+('21520019', 2, 93),
+('21520019', 3, 62),
+('21520019', 4, 68),
+('21520019', 5, 91),
+('21520019', 6, 64),
+('21520019', 7, 41),
+('21520019', 8, 71),
+('21520020', 1, 57),
+('21520020', 2, 88),
+('21520020', 3, 88),
+('21520020', 4, 47),
+('21520020', 5, 76),
+('21520020', 6, 87),
+('21520020', 7, 97),
+('21520020', 8, 63),
+('21520021', 1, 60),
+('21520021', 2, 62),
+('21520021', 3, 44),
+('21520021', 4, 53),
+('21520021', 5, 96),
+('21520021', 6, 82),
+('21520021', 7, 40),
+('21520021', 8, 53),
+('21520022', 1, 87),
+('21520022', 2, 77),
+('21520022', 3, 95),
+('21520022', 4, 71),
+('21520022', 5, 67),
+('21520022', 6, 54),
+('21520022', 7, 69),
+('21520022', 8, 71),
+('21520023', 1, 65),
+('21520023', 2, 48),
+('21520023', 3, 97),
+('21520023', 4, 41),
+('21520023', 5, 47),
+('21520023', 6, 64),
+('21520023', 7, 51),
+('21520023', 8, 86),
+('21520024', 1, 99),
+('21520024', 2, 93),
+('21520024', 3, 99),
+('21520024', 4, 84),
+('21520024', 5, 57),
+('21520024', 6, 73),
+('21520024', 7, 43),
+('21520024', 8, 77),
+('21520025', 1, 98),
+('21520025', 2, 41),
+('21520025', 3, 73),
+('21520025', 4, 85),
+('21520025', 5, 92),
+('21520025', 6, 83),
+('21520025', 7, 93),
+('21520025', 8, 45),
+('21520026', 1, 99),
+('21520026', 2, 45),
+('21520026', 3, 49),
+('21520026', 4, 89),
+('21520026', 5, 81),
+('21520026', 6, 85),
+('21520026', 7, 100),
+('21520026', 8, 61),
+('21520027', 1, 90),
+('21520027', 2, 63),
+('21520027', 3, 48),
+('21520027', 4, 57),
+('21520027', 5, 79),
+('21520027', 6, 82),
+('21520027', 7, 51),
+('21520027', 8, 92),
+('21520028', 1, 72),
+('21520028', 2, 88),
+('21520028', 3, 44),
+('21520028', 4, 78),
+('21520028', 5, 83),
+('21520028', 6, 86),
+('21520028', 7, 95),
+('21520028', 8, 90),
+('21520029', 1, 94),
+('21520029', 2, 88),
+('21520029', 3, 76),
+('21520029', 4, 60),
+('21520029', 5, 82),
+('21520029', 6, 48),
+('21520029', 7, 55),
+('21520029', 8, 54),
+('21520030', 1, 71),
+('21520030', 2, 55),
+('21520030', 3, 40),
+('21520030', 4, 78),
+('21520030', 5, 46),
+('21520030', 6, 53),
+('21520030', 7, 44),
+('21520030', 8, 57),
+('21520031', 1, 63),
+('21520031', 2, 67),
+('21520031', 3, 57),
+('21520031', 4, 79),
+('21520031', 5, 43),
+('21520031', 6, 41),
+('21520031', 7, 66),
+('21520031', 8, 96),
+('21520032', 1, 94),
+('21520032', 2, 100),
+('21520032', 3, 60),
+('21520032', 4, 55),
+('21520032', 5, 54),
+('21520032', 6, 91),
+('21520032', 7, 59),
+('21520032', 8, 81),
+('21520033', 1, 92),
+('21520033', 2, 62),
+('21520033', 3, 94),
+('21520033', 4, 93),
+('21520033', 5, 78),
+('21520033', 6, 54),
+('21520033', 7, 72),
+('21520033', 8, 90),
+('21520034', 1, 86),
+('21520034', 2, 90),
+('21520034', 3, 44),
+('21520034', 4, 75),
+('21520034', 5, 65),
+('21520034', 6, 63),
+('21520034', 7, 86),
+('21520034', 8, 76),
+('21520035', 1, 94),
+('21520035', 2, 81),
+('21520035', 3, 86),
+('21520035', 4, 95),
+('21520035', 5, 98),
+('21520035', 6, 54),
+('21520035', 7, 58),
+('21520035', 8, 42),
+('21520036', 1, 47),
+('21520036', 2, 59),
+('21520036', 3, 62),
+('21520036', 4, 98),
+('21520036', 5, 99),
+('21520036', 6, 99),
+('21520036', 7, 54),
+('21520036', 8, 45),
+('21520037', 1, 78),
+('21520037', 2, 58),
+('21520037', 3, 66),
+('21520037', 4, 50),
+('21520037', 5, 50),
+('21520037', 6, 42),
+('21520037', 7, 82),
+('21520037', 8, 49),
+('21520038', 1, 74),
+('21520038', 2, 40),
+('21520038', 3, 94),
+('21520038', 4, 92),
+('21520038', 5, 87),
+('21520038', 6, 97),
+('21520038', 7, 92),
+('21520038', 8, 84),
+('21520039', 1, 76),
+('21520039', 2, 74),
+('21520039', 3, 76),
+('21520039', 4, 73),
+('21520039', 5, 76),
+('21520039', 6, 58),
+('21520039', 7, 90),
+('21520039', 8, 89),
+('21520040', 1, 69),
+('21520040', 2, 83),
+('21520040', 3, 41),
+('21520040', 4, 95),
+('21520040', 5, 63),
+('21520040', 6, 56),
+('21520040', 7, 90),
+('21520040', 8, 46),
+('21520041', 1, 55),
+('21520041', 2, 50),
+('21520041', 3, 84),
+('21520041', 4, 83),
+('21520041', 5, 73),
+('21520041', 6, 70),
+('21520041', 7, 52),
+('21520041', 8, 45),
+('21520042', 1, 43),
+('21520042', 2, 89),
+('21520042', 3, 56),
+('21520042', 4, 82),
+('21520042', 5, 75),
+('21520042', 6, 43),
+('21520042', 7, 72),
+('21520042', 8, 68),
+('21520043', 1, 84),
+('21520043', 2, 43),
+('21520043', 3, 62),
+('21520043', 4, 69),
+('21520043', 5, 83),
+('21520043', 6, 49),
+('21520043', 7, 42),
+('21520043', 8, 91),
+('21520044', 1, 59),
+('21520044', 2, 46),
+('21520044', 3, 58),
+('21520044', 4, 43),
+('21520044', 5, 78),
+('21520044', 6, 41),
+('21520044', 7, 69),
+('21520044', 8, 89),
+('21520045', 1, 42),
+('21520045', 2, 74),
+('21520045', 3, 71),
+('21520045', 4, 97),
+('21520045', 5, 70),
+('21520045', 6, 80),
+('21520045', 7, 66),
+('21520045', 8, 52),
+('21520046', 1, 85),
+('21520046', 2, 98),
+('21520046', 3, 54),
+('21520046', 4, 80),
+('21520046', 5, 40),
+('21520046', 6, 97),
+('21520046', 7, 59),
+('21520046', 8, 62),
+('21520047', 1, 65),
+('21520047', 2, 92),
+('21520047', 3, 95),
+('21520047', 4, 42),
+('21520047', 5, 71),
+('21520047', 6, 43),
+('21520047', 7, 44),
+('21520047', 8, 56),
+('21520048', 1, 69),
+('21520048', 2, 61),
+('21520048', 3, 69),
+('21520048', 4, 100),
+('21520048', 5, 80),
+('21520048', 6, 84),
+('21520048', 7, 93),
+('21520048', 8, 61),
+('21520049', 1, 83),
+('21520049', 2, 46),
+('21520049', 3, 90),
+('21520049', 4, 64),
+('21520049', 5, 53),
+('21520049', 6, 62),
+('21520049', 7, 43),
+('21520049', 8, 83),
+('21520050', 1, 86),
+('21520050', 2, 82),
+('21520050', 3, 80),
+('21520050', 4, 73),
+('21520050', 5, 57),
+('21520050', 6, 90),
+('21520050', 7, 88),
+('21520050', 8, 62),
+('21520051', 1, 61),
+('21520051', 2, 90),
+('21520051', 3, 69),
+('21520051', 4, 44),
+('21520051', 5, 57),
+('21520051', 6, 83),
+('21520051', 7, 80),
+('21520051', 8, 92),
+('21520052', 1, 60),
+('21520052', 2, 98),
+('21520052', 3, 98),
+('21520052', 4, 67),
+('21520052', 5, 45),
+('21520052', 6, 69),
+('21520052', 7, 41),
+('21520052', 8, 56),
+('21520053', 1, 92),
+('21520053', 2, 47),
+('21520053', 3, 77),
+('21520053', 4, 61),
+('21520053', 5, 91),
+('21520053', 6, 95),
+('21520053', 7, 89),
+('21520053', 8, 99),
+('21520054', 1, 41),
+('21520054', 2, 64),
+('21520054', 3, 58),
+('21520054', 4, 78),
+('21520054', 5, 100),
+('21520054', 6, 90),
+('21520054', 7, 48),
+('21520054', 8, 50),
+('21520055', 1, 91),
+('21520055', 2, 61),
+('21520055', 3, 48),
+('21520055', 4, 67),
+('21520055', 5, 49),
+('21520055', 6, 72),
+('21520055', 7, 96),
+('21520055', 8, 100),
+('21520056', 1, 69),
+('21520056', 2, 40),
+('21520056', 3, 66),
+('21520056', 4, 73),
+('21520056', 5, 67),
+('21520056', 6, 57),
+('21520056', 7, 63),
+('21520056', 8, 86),
+('21520057', 1, 55),
+('21520057', 2, 97),
+('21520057', 3, 87),
+('21520057', 4, 91),
+('21520057', 5, 93),
+('21520057', 6, 63),
+('21520057', 7, 73),
+('21520057', 8, 65),
+('21520058', 1, 99),
+('21520058', 2, 68),
+('21520058', 3, 88),
+('21520058', 4, 48),
+('21520058', 5, 76),
+('21520058', 6, 50),
+('21520058', 7, 50),
+('21520058', 8, 53),
+('21520059', 1, 95),
+('21520059', 2, 90),
+('21520059', 3, 85),
+('21520059', 4, 84),
+('21520059', 5, 76),
+('21520059', 6, 49),
+('21520059', 7, 90),
+('21520059', 8, 82),
+('21520060', 1, 45),
+('21520060', 2, 77),
+('21520060', 3, 74),
+('21520060', 4, 74),
+('21520060', 5, 63),
+('21520060', 6, 72),
+('21520060', 7, 76),
+('21520060', 8, 65),
+('21520061', 1, 76),
+('21520061', 2, 96),
+('21520061', 3, 76),
+('21520061', 4, 55),
+('21520061', 5, 50),
+('21520061', 6, 47),
+('21520061', 7, 46),
+('21520061', 8, 65),
+('21520062', 1, 56),
+('21520062', 2, 52),
+('21520062', 3, 55),
+('21520062', 4, 44),
+('21520062', 5, 48),
+('21520062', 6, 42),
+('21520062', 7, 88),
+('21520062', 8, 83),
+('21520063', 1, 57),
+('21520063', 2, 49),
+('21520063', 3, 79),
+('21520063', 4, 57),
+('21520063', 5, 68),
+('21520063', 6, 85),
+('21520063', 7, 97),
+('21520063', 8, 56),
+('21520064', 1, 90),
+('21520064', 2, 46),
+('21520064', 3, 93),
+('21520064', 4, 64),
+('21520064', 5, 83),
+('21520064', 6, 49),
+('21520064', 7, 84),
+('21520064', 8, 44),
+('21520065', 1, 71),
+('21520065', 2, 86),
+('21520065', 3, 50),
+('21520065', 4, 89),
+('21520065', 5, 93),
+('21520065', 6, 63),
+('21520065', 7, 78),
+('21520065', 8, 99),
+('21520066', 1, 70),
+('21520066', 2, 60),
+('21520066', 3, 55),
+('21520066', 4, 68),
+('21520066', 5, 87),
+('21520066', 6, 72),
+('21520066', 7, 55),
+('21520066', 8, 59),
+('21520067', 1, 49),
+('21520067', 2, 52),
+('21520067', 3, 80),
+('21520067', 4, 45),
+('21520067', 5, 84),
+('21520067', 6, 81),
+('21520067', 7, 77),
+('21520067', 8, 91),
+('21520068', 1, 52),
+('21520068', 2, 64),
+('21520068', 3, 43),
+('21520068', 4, 78),
+('21520068', 5, 68),
+('21520068', 6, 68),
+('21520068', 7, 91),
+('21520068', 8, 100),
+('21520069', 1, 76),
+('21520069', 2, 74),
+('21520069', 3, 44),
+('21520069', 4, 46),
+('21520069', 5, 96),
+('21520069', 6, 40),
+('21520069', 7, 66),
+('21520069', 8, 83),
+('21520070', 1, 60),
+('21520070', 2, 44),
+('21520070', 3, 63),
+('21520070', 4, 42),
+('21520070', 5, 84),
+('21520070', 6, 60),
+('21520070', 7, 96),
+('21520070', 8, 49),
+('21520071', 1, 62),
+('21520071', 2, 42),
+('21520071', 3, 54),
+('21520071', 4, 49),
+('21520071', 5, 70),
+('21520071', 6, 45),
+('21520071', 7, 73),
+('21520071', 8, 74),
+('21520072', 1, 93),
+('21520072', 2, 59),
+('21520072', 3, 41),
+('21520072', 4, 59),
+('21520072', 5, 87),
+('21520072', 6, 95),
+('21520072', 7, 85),
+('21520072', 8, 72),
+('21520073', 1, 54),
+('21520073', 2, 43),
+('21520073', 3, 61),
+('21520073', 4, 40),
+('21520073', 5, 57),
+('21520073', 6, 90),
+('21520073', 7, 87),
+('21520073', 8, 55),
+('21520074', 1, 51),
+('21520074', 2, 63),
+('21520074', 3, 73),
+('21520074', 4, 85),
+('21520074', 5, 75),
+('21520074', 6, 48),
+('21520074', 7, 99),
+('21520074', 8, 85),
+('21520075', 1, 47),
+('21520075', 2, 86),
+('21520075', 3, 58),
+('21520075', 4, 74),
+('21520075', 5, 65),
+('21520075', 6, 92),
+('21520075', 7, 56),
+('21520075', 8, 97),
+('21520076', 1, 41),
+('21520076', 2, 84),
+('21520076', 3, 92),
+('21520076', 4, 82),
+('21520076', 5, 53),
+('21520076', 6, 46),
+('21520076', 7, 89),
+('21520076', 8, 59),
+('21520077', 1, 56),
+('21520077', 2, 81),
+('21520077', 3, 90),
+('21520077', 4, 94),
+('21520077', 5, 40),
+('21520077', 6, 99),
+('21520077', 7, 72),
+('21520077', 8, 50),
+('21520078', 1, 45),
+('21520078', 2, 70),
+('21520078', 3, 90),
+('21520078', 4, 44),
+('21520078', 5, 54),
+('21520078', 6, 100),
+('21520078', 7, 95),
+('21520078', 8, 64),
+('21520079', 1, 71),
+('21520079', 2, 67),
+('21520079', 3, 72),
+('21520079', 4, 90),
+('21520079', 5, 45),
+('21520079', 6, 48),
+('21520079', 7, 58),
+('21520079', 8, 92),
+('21520080', 1, 86),
+('21520080', 2, 47),
+('21520080', 3, 92),
+('21520080', 4, 61),
+('21520080', 5, 78),
+('21520080', 6, 76),
+('21520080', 7, 77),
+('21520080', 8, 65),
+('21520081', 1, 77),
+('21520081', 2, 77),
+('21520081', 3, 95),
+('21520081', 4, 86),
+('21520081', 5, 88),
+('21520081', 6, 73),
+('21520081', 7, 65),
+('21520081', 8, 60),
+('21520082', 1, 72),
+('21520082', 2, 59),
+('21520082', 3, 61),
+('21520082', 4, 66),
+('21520082', 5, 58),
+('21520082', 6, 64),
+('21520082', 7, 60),
+('21520082', 8, 52),
+('21520083', 1, 91),
+('21520083', 2, 86),
+('21520083', 3, 62),
+('21520083', 4, 88),
+('21520083', 5, 45),
+('21520083', 6, 41),
+('21520083', 7, 66),
+('21520083', 8, 96),
+('21520084', 1, 76),
+('21520084', 2, 76),
+('21520084', 3, 53),
+('21520084', 4, 48),
+('21520084', 5, 64),
+('21520084', 6, 52),
+('21520084', 7, 100),
+('21520084', 8, 61),
+('21520085', 1, 56),
+('21520085', 2, 53),
+('21520085', 3, 92),
+('21520085', 4, 85),
+('21520085', 5, 52),
+('21520085', 6, 48),
+('21520085', 7, 85),
+('21520085', 8, 85),
+('21520086', 1, 81),
+('21520086', 2, 45),
+('21520086', 3, 94),
+('21520086', 4, 68),
+('21520086', 5, 44),
+('21520086', 6, 99),
+('21520086', 7, 47),
+('21520086', 8, 58),
+('21520087', 1, 84),
+('21520087', 2, 47),
+('21520087', 3, 72),
+('21520087', 4, 97),
+('21520087', 5, 89),
+('21520087', 6, 57),
+('21520087', 7, 53),
+('21520087', 8, 88),
+('21520088', 1, 55),
+('21520088', 2, 93),
+('21520088', 3, 58),
+('21520088', 4, 52),
+('21520088', 5, 87),
+('21520088', 6, 62),
+('21520088', 7, 43),
+('21520088', 8, 79),
+('21520089', 1, 81),
+('21520089', 2, 69),
+('21520089', 3, 68),
+('21520089', 4, 66),
+('21520089', 5, 51),
+('21520089', 6, 80),
+('21520089', 7, 94),
+('21520089', 8, 56),
+('21520090', 1, 57),
+('21520090', 2, 55),
+('21520090', 3, 79),
+('21520090', 4, 75),
+('21520090', 5, 77),
+('21520090', 6, 73),
+('21520090', 7, 95),
+('21520090', 8, 40),
+('21520091', 1, 91),
+('21520091', 2, 98),
+('21520091', 3, 98),
+('21520091', 4, 73),
+('21520091', 5, 41),
+('21520091', 6, 78),
+('21520091', 7, 88),
+('21520091', 8, 91),
+('21520092', 1, 75),
+('21520092', 2, 62),
+('21520092', 3, 93),
+('21520092', 4, 70),
+('21520092', 5, 81),
+('21520092', 6, 77),
+('21520092', 7, 66),
+('21520092', 8, 99),
+('21520093', 1, 66),
+('21520093', 2, 90),
+('21520093', 3, 60),
+('21520093', 4, 79),
+('21520093', 5, 89),
+('21520093', 6, 95),
+('21520093', 7, 73),
+('21520093', 8, 75),
+('21520094', 1, 45),
+('21520094', 2, 90),
+('21520094', 3, 98),
+('21520094', 4, 95),
+('21520094', 5, 99),
+('21520094', 6, 96),
+('21520094', 7, 73),
+('21520094', 8, 98),
+('21520095', 1, 80),
+('21520095', 2, 44),
+('21520095', 3, 59),
+('21520095', 4, 100),
+('21520095', 5, 72),
+('21520095', 6, 76),
+('21520095', 7, 56),
+('21520095', 8, 73),
+('21520096', 1, 70),
+('21520096', 2, 76),
+('21520096', 3, 41),
+('21520096', 4, 66),
+('21520096', 5, 50),
+('21520096', 6, 50),
+('21520096', 7, 59),
+('21520096', 8, 60),
+('21520097', 1, 53),
+('21520097', 2, 79),
+('21520097', 3, 63),
+('21520097', 4, 47),
+('21520097', 5, 70),
+('21520097', 6, 97),
+('21520097', 7, 41),
+('21520097', 8, 54),
+('21520098', 1, 84),
+('21520098', 2, 52),
+('21520098', 3, 80),
+('21520098', 4, 48),
+('21520098', 5, 92),
+('21520098', 6, 61),
+('21520098', 7, 48),
+('21520098', 8, 95),
+('21520099', 1, 65),
+('21520099', 2, 90),
+('21520099', 3, 82),
+('21520099', 4, 81),
+('21520099', 5, 82),
+('21520099', 6, 45),
+('21520099', 7, 42),
+('21520099', 8, 47),
+('21520100', 1, 54),
+('21520100', 2, 62),
+('21520100', 3, 95),
+('21520100', 4, 81),
+('21520100', 5, 47),
+('21520100', 6, 40),
+('21520100', 7, 44),
+('21520100', 8, 84),
+('21520101', 1, 80),
+('21520101', 2, 65),
+('21520101', 3, 57),
+('21520101', 4, 98),
+('21520101', 5, 44),
+('21520101', 6, 40),
+('21520101', 7, 69),
+('21520101', 8, 78),
+('21520102', 1, 53),
+('21520102', 2, 47),
+('21520102', 3, 47),
+('21520102', 4, 84),
+('21520102', 5, 78),
+('21520102', 6, 60),
+('21520102', 7, 85),
+('21520102', 8, 77),
+('21520103', 1, 85),
+('21520103', 2, 71),
+('21520103', 3, 50),
+('21520103', 4, 52),
+('21520103', 5, 51),
+('21520103', 6, 70),
+('21520103', 7, 98),
+('21520103', 8, 72),
+('21520104', 1, 40),
+('21520104', 2, 72),
+('21520104', 3, 91),
+('21520104', 4, 81),
+('21520104', 5, 55),
+('21520104', 6, 62),
+('21520104', 7, 57),
+('21520104', 8, 75),
+('21520105', 1, 62),
+('21520105', 2, 97),
+('21520105', 3, 85),
+('21520105', 4, 49),
+('21520105', 5, 49),
+('21520105', 6, 74),
+('21520105', 7, 74),
+('21520105', 8, 46),
+('21520106', 1, 97),
+('21520106', 2, 56),
+('21520106', 3, 69),
+('21520106', 4, 49),
+('21520106', 5, 88),
+('21520106', 6, 40),
+('21520106', 7, 85),
+('21520106', 8, 48),
+('21520107', 1, 54),
+('21520107', 2, 99),
+('21520107', 3, 93),
+('21520107', 4, 81),
+('21520107', 5, 85),
+('21520107', 6, 46),
+('21520107', 7, 40),
+('21520107', 8, 55),
+('21520108', 1, 41),
+('21520108', 2, 73),
+('21520108', 3, 59),
+('21520108', 4, 50),
+('21520108', 5, 64),
+('21520108', 6, 94),
+('21520108', 7, 86),
+('21520108', 8, 71),
+('21520109', 1, 58),
+('21520109', 2, 53),
+('21520109', 3, 45),
+('21520109', 4, 78),
+('21520109', 5, 89),
+('21520109', 6, 86),
+('21520109', 7, 54),
+('21520109', 8, 54),
+('21520110', 1, 47),
+('21520110', 2, 55),
+('21520110', 3, 87),
+('21520110', 4, 76),
+('21520110', 5, 73),
+('21520110', 6, 46),
+('21520110', 7, 45),
+('21520110', 8, 98),
+('21520111', 1, 66),
+('21520111', 2, 99),
+('21520111', 3, 67),
+('21520111', 4, 100),
+('21520111', 5, 60),
+('21520111', 6, 68),
+('21520111', 7, 56),
+('21520111', 8, 89),
+('21520112', 1, 56),
+('21520112', 2, 60),
+('21520112', 3, 73),
+('21520112', 4, 95),
+('21520112', 5, 95),
+('21520112', 6, 40),
+('21520112', 7, 67),
+('21520112', 8, 82),
+('21520113', 1, 42),
+('21520113', 2, 78),
+('21520113', 3, 50),
+('21520113', 4, 81),
+('21520113', 5, 85),
+('21520113', 6, 71),
+('21520113', 7, 51),
+('21520113', 8, 95),
+('21520114', 1, 67),
+('21520114', 2, 88),
+('21520114', 3, 78),
+('21520114', 4, 73),
+('21520114', 5, 70),
+('21520114', 6, 87),
+('21520114', 7, 52),
+('21520114', 8, 89),
+('21520115', 1, 64),
+('21520115', 2, 87),
+('21520115', 3, 52),
+('21520115', 4, 86),
+('21520115', 5, 63),
+('21520115', 6, 57),
+('21520115', 7, 78),
+('21520115', 8, 72),
+('21520116', 1, 87),
+('21520116', 2, 78),
+('21520116', 3, 49),
+('21520116', 4, 95),
+('21520116', 5, 55),
+('21520116', 6, 76),
+('21520116', 7, 68),
+('21520116', 8, 59),
+('21520117', 1, 94),
+('21520117', 2, 94),
+('21520117', 3, 66),
+('21520117', 4, 51),
+('21520117', 5, 52),
+('21520117', 6, 84),
+('21520117', 7, 80),
+('21520117', 8, 87),
+('21520118', 1, 85),
+('21520118', 2, 41),
+('21520118', 3, 63),
+('21520118', 4, 41),
+('21520118', 5, 49),
+('21520118', 6, 42),
+('21520118', 7, 55),
+('21520118', 8, 71),
+('21520119', 1, 68),
+('21520119', 2, 64),
+('21520119', 3, 64),
+('21520119', 4, 91),
+('21520119', 5, 42),
+('21520119', 6, 66),
+('21520119', 7, 84),
+('21520119', 8, 76),
+('21520120', 1, 43),
+('21520120', 2, 55),
+('21520120', 3, 92),
+('21520120', 4, 92),
+('21520120', 5, 95),
+('21520120', 6, 67),
+('21520120', 7, 70),
+('21520120', 8, 99),
+('21520121', 1, 86),
+('21520121', 2, 84),
+('21520121', 3, 70),
+('21520121', 4, 53),
+('21520121', 5, 71),
+('21520121', 6, 46),
+('21520121', 7, 77),
+('21520121', 8, 59),
+('21520122', 1, 87),
+('21520122', 2, 67),
+('21520122', 3, 96),
+('21520122', 4, 45),
+('21520122', 5, 98),
+('21520122', 6, 41),
+('21520122', 7, 54),
+('21520122', 8, 71),
+('21520123', 1, 54),
+('21520123', 2, 56),
+('21520123', 3, 81),
+('21520123', 4, 56),
+('21520123', 5, 62),
+('21520123', 6, 78),
+('21520123', 7, 64),
+('21520123', 8, 63),
+('21520124', 1, 45),
+('21520124', 2, 65),
+('21520124', 3, 67),
+('21520124', 4, 96),
+('21520124', 5, 98),
+('21520124', 6, 86),
+('21520124', 7, 89),
+('21520124', 8, 72),
+('21520125', 1, 69),
+('21520125', 2, 76),
+('21520125', 3, 50),
+('21520125', 4, 90),
+('21520125', 5, 43),
+('21520125', 6, 100),
+('21520125', 7, 40),
+('21520125', 8, 40),
+('21520126', 1, 50),
+('21520126', 2, 94),
+('21520126', 3, 48),
+('21520126', 4, 88),
+('21520126', 5, 80),
+('21520126', 6, 54),
+('21520126', 7, 99),
+('21520126', 8, 53),
+('21520127', 1, 55),
+('21520127', 2, 57),
+('21520127', 3, 81),
+('21520127', 4, 59),
+('21520127', 5, 86),
+('21520127', 6, 69),
+('21520127', 7, 61),
+('21520127', 8, 83),
+('21520128', 1, 96),
+('21520128', 2, 49),
+('21520128', 3, 71),
+('21520128', 4, 46),
+('21520128', 5, 95),
+('21520128', 6, 45),
+('21520128', 7, 78),
+('21520128', 8, 76),
+('21520129', 1, 63),
+('21520129', 2, 64),
+('21520129', 3, 73),
+('21520129', 4, 51),
+('21520129', 5, 83),
+('21520129', 6, 81),
+('21520129', 7, 46),
+('21520129', 8, 46),
+('21520130', 1, 45),
+('21520130', 2, 69),
+('21520130', 3, 67),
+('21520130', 4, 69),
+('21520130', 5, 51),
+('21520130', 6, 80),
+('21520130', 7, 84),
+('21520130', 8, 71),
+('21520131', 1, 81),
+('21520131', 2, 52),
+('21520131', 3, 52),
+('21520131', 4, 86),
+('21520131', 5, 77),
+('21520131', 6, 93),
+('21520131', 7, 89),
+('21520131', 8, 61),
+('21520132', 1, 63),
+('21520132', 2, 90),
+('21520132', 3, 93),
+('21520132', 4, 61),
+('21520132', 5, 41),
+('21520132', 6, 55),
+('21520132', 7, 53),
+('21520132', 8, 55),
+('21520133', 1, 49),
+('21520133', 2, 97),
+('21520133', 3, 64),
+('21520133', 4, 99),
+('21520133', 5, 76),
+('21520133', 6, 67),
+('21520133', 7, 91),
+('21520133', 8, 65),
+('21520134', 1, 81),
+('21520134', 2, 60),
+('21520134', 3, 42),
+('21520134', 4, 75),
+('21520134', 5, 56),
+('21520134', 6, 96),
+('21520134', 7, 96),
+('21520134', 8, 87),
+('21520135', 1, 40),
+('21520135', 2, 94),
+('21520135', 3, 80),
+('21520135', 4, 85),
+('21520135', 5, 54),
+('21520135', 6, 71),
+('21520135', 7, 90),
+('21520135', 8, 90),
+('21520136', 1, 52),
+('21520136', 2, 75),
+('21520136', 3, 67),
+('21520136', 4, 43),
+('21520136', 5, 82),
+('21520136', 6, 50),
+('21520136', 7, 62),
+('21520136', 8, 56),
+('21520137', 1, 80),
+('21520137', 2, 90),
+('21520137', 3, 83),
+('21520137', 4, 58),
+('21520137', 5, 91),
+('21520137', 6, 97),
+('21520137', 7, 41),
+('21520137', 8, 51),
+('21520138', 1, 57),
+('21520138', 2, 52),
+('21520138', 3, 68),
+('21520138', 4, 57),
+('21520138', 5, 78),
+('21520138', 6, 80),
+('21520138', 7, 41),
+('21520138', 8, 92),
+('21520139', 1, 78),
+('21520139', 2, 45),
+('21520139', 3, 65),
+('21520139', 4, 73),
+('21520139', 5, 80),
+('21520139', 6, 40),
+('21520139', 7, 62),
+('21520139', 8, 84),
+('21520140', 1, 95),
+('21520140', 2, 55),
+('21520140', 3, 67),
+('21520140', 4, 64),
+('21520140', 5, 67),
+('21520140', 6, 75),
+('21520140', 7, 41),
+('21520140', 8, 59),
+('21520141', 1, 41),
+('21520141', 2, 69),
+('21520141', 3, 66),
+('21520141', 4, 58),
+('21520141', 5, 46),
+('21520141', 6, 46),
+('21520141', 7, 46),
+('21520141', 8, 64),
+('21520142', 1, 92),
+('21520142', 2, 40),
+('21520142', 3, 87),
+('21520142', 4, 42),
+('21520142', 5, 45),
+('21520142', 6, 50),
+('21520142', 7, 45),
+('21520142', 8, 60),
+('21520143', 1, 96),
+('21520143', 2, 73),
+('21520143', 3, 88),
+('21520143', 4, 57),
+('21520143', 5, 93),
+('21520143', 6, 53),
+('21520143', 7, 48),
+('21520143', 8, 86),
+('21520144', 1, 45),
+('21520144', 2, 73),
+('21520144', 3, 87),
+('21520144', 4, 76),
+('21520144', 5, 96),
+('21520144', 6, 77),
+('21520144', 7, 89),
+('21520144', 8, 75),
+('21520145', 1, 100),
+('21520145', 2, 100),
+('21520145', 3, 97),
+('21520145', 4, 42),
+('21520145', 5, 61),
+('21520145', 6, 90),
+('21520145', 7, 44),
+('21520145', 8, 54),
+('21520146', 1, 85),
+('21520146', 2, 56),
+('21520146', 3, 49),
+('21520146', 4, 92),
+('21520146', 5, 72),
+('21520146', 6, 79),
+('21520146', 7, 78),
+('21520146', 8, 67),
+('21520147', 1, 61),
+('21520147', 2, 92),
+('21520147', 3, 73),
+('21520147', 4, 57),
+('21520147', 5, 52),
+('21520147', 6, 62),
+('21520147', 7, 61),
+('21520147', 8, 71),
+('21520148', 1, 40),
+('21520148', 2, 63),
+('21520148', 3, 95),
+('21520148', 4, 97),
+('21520148', 5, 59),
+('21520148', 6, 43),
+('21520148', 7, 85),
+('21520148', 8, 92),
+('21520149', 1, 92),
+('21520149', 2, 85),
+('21520149', 3, 47),
+('21520149', 4, 60),
+('21520149', 5, 47),
+('21520149', 6, 45),
+('21520149', 7, 52),
+('21520149', 8, 73),
+('21520150', 1, 96),
+('21520150', 2, 95),
+('21520150', 3, 98),
+('21520150', 4, 52),
+('21520150', 5, 63),
+('21520150', 6, 96),
+('21520150', 7, 95),
+('21520150', 8, 40),
+('21520151', 1, 100),
+('21520151', 2, 55),
+('21520151', 3, 48),
+('21520151', 4, 68),
+('21520151', 5, 46),
+('21520151', 6, 64),
+('21520151', 7, 82),
+('21520151', 8, 43),
+('21520152', 1, 78),
+('21520152', 2, 58),
+('21520152', 3, 93),
+('21520152', 4, 61),
+('21520152', 5, 80),
+('21520152', 6, 64),
+('21520152', 7, 95),
+('21520152', 8, 63),
+('21520153', 1, 70),
+('21520153', 2, 40),
+('21520153', 3, 83),
+('21520153', 4, 88),
+('21520153', 5, 77),
+('21520153', 6, 81),
+('21520153', 7, 68),
+('21520153', 8, 76),
+('21520154', 1, 69),
+('21520154', 2, 76),
+('21520154', 3, 62),
+('21520154', 4, 97),
+('21520154', 5, 72),
+('21520154', 6, 84),
+('21520154', 7, 57),
+('21520154', 8, 94),
+('21520155', 1, 67),
+('21520155', 2, 49),
+('21520155', 3, 58),
+('21520155', 4, 82),
+('21520155', 5, 69),
+('21520155', 6, 63),
+('21520155', 7, 41),
+('21520155', 8, 66),
+('21520156', 1, 77),
+('21520156', 2, 77),
+('21520156', 3, 98),
+('21520156', 4, 82),
+('21520156', 5, 97),
+('21520156', 6, 47),
+('21520156', 7, 48),
+('21520156', 8, 50),
+('21520157', 1, 99),
+('21520157', 2, 73),
+('21520157', 3, 43),
+('21520157', 4, 82),
+('21520157', 5, 100),
+('21520157', 6, 46),
+('21520157', 7, 78),
+('21520157', 8, 96),
+('21520158', 1, 70),
+('21520158', 2, 87),
+('21520158', 3, 75),
+('21520158', 4, 80),
+('21520158', 5, 70),
+('21520158', 6, 94),
+('21520158', 7, 45),
+('21520158', 8, 61),
+('21520159', 1, 58),
+('21520159', 2, 59),
+('21520159', 3, 45),
+('21520159', 4, 52),
+('21520159', 5, 44),
+('21520159', 6, 46),
+('21520159', 7, 56),
+('21520159', 8, 67),
+('21520160', 1, 86),
+('21520160', 2, 57),
+('21520160', 3, 49),
+('21520160', 4, 76),
+('21520160', 5, 93),
+('21520160', 6, 51),
+('21520160', 7, 90),
+('21520160', 8, 81),
+('21520161', 1, 61),
+('21520161', 2, 46),
+('21520161', 3, 86),
+('21520161', 4, 52),
+('21520161', 5, 65),
+('21520161', 6, 83),
+('21520161', 7, 87),
+('21520161', 8, 59),
+('21520162', 1, 66),
+('21520162', 2, 73),
+('21520162', 3, 92),
+('21520162', 4, 71),
+('21520162', 5, 63),
+('21520162', 6, 80),
+('21520162', 7, 72),
+('21520162', 8, 96),
+('21520163', 1, 89),
+('21520163', 2, 57),
+('21520163', 3, 85),
+('21520163', 4, 54),
+('21520163', 5, 54),
+('21520163', 6, 45),
+('21520163', 7, 93),
+('21520163', 8, 86),
+('21520164', 1, 86),
+('21520164', 2, 98),
+('21520164', 3, 100),
+('21520164', 4, 89),
+('21520164', 5, 98),
+('21520164', 6, 46),
+('21520164', 7, 75),
+('21520164', 8, 85),
+('21520165', 1, 54),
+('21520165', 2, 45),
+('21520165', 3, 77),
+('21520165', 4, 51),
+('21520165', 5, 74),
+('21520165', 6, 91),
+('21520165', 7, 64),
+('21520165', 8, 99),
+('21520166', 1, 59),
+('21520166', 2, 83),
+('21520166', 3, 60),
+('21520166', 4, 86),
+('21520166', 5, 85),
+('21520166', 6, 96),
+('21520166', 7, 87),
+('21520166', 8, 85),
+('21520167', 1, 41),
+('21520167', 2, 92),
+('21520167', 3, 98),
+('21520167', 4, 78),
+('21520167', 5, 83),
+('21520167', 6, 67),
+('21520167', 7, 86),
+('21520167', 8, 67),
+('21520168', 1, 80),
+('21520168', 2, 99),
+('21520168', 3, 46),
+('21520168', 4, 47),
+('21520168', 5, 44),
+('21520168', 6, 55),
+('21520168', 7, 58),
+('21520168', 8, 81),
+('21520169', 1, 75),
+('21520169', 2, 76),
+('21520169', 3, 94),
+('21520169', 4, 64),
+('21520169', 5, 44),
+('21520169', 6, 48),
+('21520169', 7, 45),
+('21520169', 8, 65),
+('21520170', 1, 66),
+('21520170', 2, 92),
+('21520170', 3, 48),
+('21520170', 4, 51),
+('21520170', 5, 61),
+('21520170', 6, 81),
+('21520170', 7, 55),
+('21520170', 8, 94),
+('21520171', 1, 76),
+('21520171', 2, 45),
+('21520171', 3, 56),
+('21520171', 4, 90),
+('21520171', 5, 87),
+('21520171', 6, 65),
+('21520171', 7, 98),
+('21520171', 8, 54),
+('21520172', 1, 41),
+('21520172', 2, 52),
+('21520172', 3, 91),
+('21520172', 4, 43),
+('21520172', 5, 77),
+('21520172', 6, 74),
+('21520172', 7, 87),
+('21520172', 8, 78),
+('21520173', 1, 53),
+('21520173', 2, 89),
+('21520173', 3, 62),
+('21520173', 4, 89),
+('21520173', 5, 61),
+('21520173', 6, 89),
+('21520173', 7, 100),
+('21520173', 8, 77),
+('21520174', 1, 90),
+('21520174', 2, 91),
+('21520174', 3, 82),
+('21520174', 4, 75),
+('21520174', 5, 57),
+('21520174', 6, 66),
+('21520174', 7, 94),
+('21520174', 8, 79),
+('21520175', 1, 79),
+('21520175', 2, 81),
+('21520175', 3, 81),
+('21520175', 4, 69),
+('21520175', 5, 98),
+('21520175', 6, 71),
+('21520175', 7, 96),
+('21520175', 8, 95),
+('21520176', 1, 57),
+('21520176', 2, 48),
+('21520176', 3, 55),
+('21520176', 4, 63),
+('21520176', 5, 47),
+('21520176', 6, 65),
+('21520176', 7, 43),
+('21520176', 8, 87),
+('21520177', 1, 92),
+('21520177', 2, 46),
+('21520177', 3, 50),
+('21520177', 4, 75),
+('21520177', 5, 72),
+('21520177', 6, 70),
+('21520177', 7, 49),
+('21520177', 8, 43),
+('21520178', 1, 54),
+('21520178', 2, 76),
+('21520178', 3, 89),
+('21520178', 4, 79),
+('21520178', 5, 78),
+('21520178', 6, 97),
+('21520178', 7, 77),
+('21520178', 8, 78),
+('21520179', 1, 48),
+('21520179', 2, 55),
+('21520179', 3, 54),
+('21520179', 4, 99),
+('21520179', 5, 60),
+('21520179', 6, 88),
+('21520179', 7, 46),
+('21520179', 8, 56),
+('21520180', 1, 97),
+('21520180', 2, 100),
+('21520180', 3, 89),
+('21520180', 4, 47),
+('21520180', 5, 44),
+('21520180', 6, 43),
+('21520180', 7, 82),
+('21520180', 8, 79),
+('21520181', 1, 71),
+('21520181', 2, 47),
+('21520181', 3, 91),
+('21520181', 4, 54),
+('21520181', 5, 47),
+('21520181', 6, 71),
+('21520181', 7, 46),
+('21520181', 8, 87),
+('21520182', 1, 91),
+('21520182', 2, 87),
+('21520182', 3, 68),
+('21520182', 4, 46),
+('21520182', 5, 52),
+('21520182', 6, 76),
+('21520182', 7, 59),
+('21520182', 8, 71),
+('21520183', 1, 69),
+('21520183', 2, 74),
+('21520183', 3, 80),
+('21520183', 4, 41),
+('21520183', 5, 60),
+('21520183', 6, 80),
+('21520183', 7, 96),
+('21520183', 8, 81),
+('21520184', 1, 89),
+('21520184', 2, 42),
+('21520184', 3, 89),
+('21520184', 4, 86),
+('21520184', 5, 75),
+('21520184', 6, 84),
+('21520184', 7, 99),
+('21520184', 8, 92),
+('21520185', 1, 96),
+('21520185', 2, 78),
+('21520185', 3, 67),
+('21520185', 4, 98),
+('21520185', 5, 89),
+('21520185', 6, 82),
+('21520185', 7, 93),
+('21520185', 8, 60),
+('21520186', 1, 59),
+('21520186', 2, 74),
+('21520186', 3, 76),
+('21520186', 4, 79),
+('21520186', 5, 89),
+('21520186', 6, 64),
+('21520186', 7, 73),
+('21520186', 8, 47),
+('21520187', 1, 50),
+('21520187', 2, 45),
+('21520187', 3, 92),
+('21520187', 4, 90),
+('21520187', 5, 65),
+('21520187', 6, 79),
+('21520187', 7, 87),
+('21520187', 8, 45),
+('21520188', 1, 56),
+('21520188', 2, 96),
+('21520188', 3, 71),
+('21520188', 4, 64),
+('21520188', 5, 65),
+('21520188', 6, 83),
+('21520188', 7, 84),
+('21520188', 8, 57),
+('21520189', 1, 45),
+('21520189', 2, 43),
+('21520189', 3, 63),
+('21520189', 4, 88),
+('21520189', 5, 60),
+('21520189', 6, 57),
+('21520189', 7, 92),
+('21520189', 8, 77),
+('21520190', 1, 83),
+('21520190', 2, 98),
+('21520190', 3, 47),
+('21520190', 4, 82),
+('21520190', 5, 61),
+('21520190', 6, 43),
+('21520190', 7, 100),
+('21520190', 8, 95),
+('21520191', 1, 98),
+('21520191', 2, 49),
+('21520191', 3, 68),
+('21520191', 4, 63),
+('21520191', 5, 95),
+('21520191', 6, 55),
+('21520191', 7, 49),
+('21520191', 8, 48),
+('21520192', 1, 48),
+('21520192', 2, 62),
+('21520192', 3, 65),
+('21520192', 4, 73),
+('21520192', 5, 66),
+('21520192', 6, 47),
+('21520192', 7, 97),
+('21520192', 8, 85),
+('21520193', 1, 83),
+('21520193', 2, 51),
+('21520193', 3, 83),
+('21520193', 4, 59),
+('21520193', 5, 52),
+('21520193', 6, 80),
+('21520193', 7, 54),
+('21520193', 8, 49),
+('21520194', 1, 77),
+('21520194', 2, 75),
+('21520194', 3, 43),
+('21520194', 4, 90),
+('21520194', 5, 77),
+('21520194', 6, 64),
+('21520194', 7, 83),
+('21520194', 8, 43),
+('21520195', 1, 47),
+('21520195', 2, 66),
+('21520195', 3, 92),
+('21520195', 4, 80),
+('21520195', 5, 64),
+('21520195', 6, 87),
+('21520195', 7, 51),
+('21520195', 8, 80),
+('21520196', 1, 50),
+('21520196', 2, 99),
+('21520196', 3, 58),
+('21520196', 4, 57),
+('21520196', 5, 90),
+('21520196', 6, 78),
+('21520196', 7, 84),
+('21520196', 8, 40),
+('21520197', 1, 82),
+('21520197', 2, 97),
+('21520197', 3, 96),
+('21520197', 4, 43),
+('21520197', 5, 59),
+('21520197', 6, 81),
+('21520197', 7, 43),
+('21520197', 8, 54),
+('21520198', 1, 52),
+('21520198', 2, 66),
+('21520198', 3, 61),
+('21520198', 4, 59),
+('21520198', 5, 77),
+('21520198', 6, 43),
+('21520198', 7, 84),
+('21520198', 8, 76),
+('21520199', 1, 62),
+('21520199', 2, 48),
+('21520199', 3, 75),
+('21520199', 4, 47),
+('21520199', 5, 74),
+('21520199', 6, 97),
+('21520199', 7, 88),
+('21520199', 8, 44),
+('21520200', 1, 53),
+('21520200', 2, 58),
+('21520200', 3, 44),
+('21520200', 4, 65),
+('21520200', 5, 97),
+('21520200', 6, 70),
+('21520200', 7, 80),
+('21520200', 8, 50),
+('21520201', 1, 57),
+('21520201', 2, 58),
+('21520201', 3, 84),
+('21520201', 4, 44),
+('21520201', 5, 76),
+('21520201', 6, 83),
+('21520201', 7, 97),
+('21520201', 8, 61),
+('21520202', 1, 68),
+('21520202', 2, 84),
+('21520202', 3, 69),
+('21520202', 4, 67),
+('21520202', 5, 91),
+('21520202', 6, 62),
+('21520202', 7, 82),
+('21520202', 8, 46),
+('21520203', 1, 50),
+('21520203', 2, 80),
+('21520203', 3, 75),
+('21520203', 4, 47),
+('21520203', 5, 71),
+('21520203', 6, 87),
+('21520203', 7, 52),
+('21520203', 8, 44),
+('21520204', 1, 68),
+('21520204', 2, 78),
+('21520204', 3, 57),
+('21520204', 4, 96),
+('21520204', 5, 79),
+('21520204', 6, 67),
+('21520204', 7, 90),
+('21520204', 8, 83),
+('21520205', 1, 73),
+('21520205', 2, 89),
+('21520205', 3, 94),
+('21520205', 4, 80),
+('21520205', 5, 75),
+('21520205', 6, 98),
+('21520205', 7, 59),
+('21520205', 8, 67),
+('21520206', 1, 87),
+('21520206', 2, 65),
+('21520206', 3, 84),
+('21520206', 4, 83),
+('21520206', 5, 50),
+('21520206', 6, 55),
+('21520206', 7, 99),
+('21520206', 8, 51),
+('21520207', 1, 64),
+('21520207', 2, 70),
+('21520207', 3, 79),
+('21520207', 4, 74),
+('21520207', 5, 86),
+('21520207', 6, 48),
+('21520207', 7, 44),
+('21520207', 8, 84),
+('21520208', 1, 99),
+('21520208', 2, 67),
+('21520208', 3, 95),
+('21520208', 4, 55),
+('21520208', 5, 59),
+('21520208', 6, 55),
+('21520208', 7, 95),
+('21520208', 8, 72),
+('21520209', 1, 58),
+('21520209', 2, 50),
+('21520209', 3, 49),
+('21520209', 4, 43),
+('21520209', 5, 88),
+('21520209', 6, 92),
+('21520209', 7, 50),
+('21520209', 8, 80),
+('21520210', 1, 62),
+('21520210', 2, 91),
+('21520210', 3, 48),
+('21520210', 4, 64),
+('21520210', 5, 55),
+('21520210', 6, 94),
+('21520210', 7, 49),
+('21520210', 8, 85),
+('21520211', 1, 60),
+('21520211', 2, 72),
+('21520211', 3, 83),
+('21520211', 4, 86),
+('21520211', 5, 46),
+('21520211', 6, 67),
+('21520211', 7, 86),
+('21520211', 8, 68),
+('21520212', 1, 57),
+('21520212', 2, 86),
+('21520212', 3, 41),
+('21520212', 4, 98),
+('21520212', 5, 86),
+('21520212', 6, 73),
+('21520212', 7, 76),
+('21520212', 8, 80),
+('21520213', 1, 64),
+('21520213', 2, 71),
+('21520213', 3, 94),
+('21520213', 4, 83),
+('21520213', 5, 69),
+('21520213', 6, 47),
+('21520213', 7, 75),
+('21520213', 8, 58),
+('21520214', 1, 84),
+('21520214', 2, 51),
+('21520214', 3, 92),
+('21520214', 4, 52),
+('21520214', 5, 59),
+('21520214', 6, 64),
+('21520214', 7, 77),
+('21520214', 8, 65),
+('21520215', 1, 76),
+('21520215', 2, 91),
+('21520215', 3, 86),
+('21520215', 4, 54),
+('21520215', 5, 62),
+('21520215', 6, 52),
+('21520215', 7, 99),
+('21520215', 8, 97),
+('21520216', 1, 46),
+('21520216', 2, 80),
+('21520216', 3, 54),
+('21520216', 4, 90),
+('21520216', 5, 84),
+('21520216', 6, 48),
+('21520216', 7, 73),
+('21520216', 8, 58),
+('21520217', 1, 98),
+('21520217', 2, 84),
+('21520217', 3, 86),
+('21520217', 4, 42),
+('21520217', 5, 70),
+('21520217', 6, 79),
+('21520217', 7, 49),
+('21520217', 8, 59),
+('21520218', 1, 85),
+('21520218', 2, 57),
+('21520218', 3, 92),
+('21520218', 4, 62),
+('21520218', 5, 59),
+('21520218', 6, 70),
+('21520218', 7, 44),
+('21520218', 8, 44),
+('21520219', 1, 85),
+('21520219', 2, 47),
+('21520219', 3, 78),
+('21520219', 4, 64),
+('21520219', 5, 53),
+('21520219', 6, 42),
+('21520219', 7, 53),
+('21520219', 8, 42),
+('21520220', 1, 55),
+('21520220', 2, 86),
+('21520220', 3, 67),
+('21520220', 4, 95),
+('21520220', 5, 78),
+('21520220', 6, 60),
+('21520220', 7, 67),
+('21520220', 8, 59),
+('21520221', 1, 77),
+('21520221', 2, 57),
+('21520221', 3, 80),
+('21520221', 4, 89),
+('21520221', 5, 63),
+('21520221', 6, 47),
+('21520221', 7, 90),
+('21520221', 8, 51),
+('21520222', 1, 83),
+('21520222', 2, 56),
+('21520222', 3, 71),
+('21520222', 4, 75),
+('21520222', 5, 71),
+('21520222', 6, 43),
+('21520222', 7, 76),
+('21520222', 8, 76),
+('21520223', 1, 90),
+('21520223', 2, 85),
+('21520223', 3, 95),
+('21520223', 4, 47),
+('21520223', 5, 58),
+('21520223', 6, 68),
+('21520223', 7, 61),
+('21520223', 8, 61),
+('21520224', 1, 77),
+('21520224', 2, 85),
+('21520224', 3, 86),
+('21520224', 4, 55),
+('21520224', 5, 51),
+('21520224', 6, 68),
+('21520224', 7, 94),
+('21520224', 8, 95),
+('21520225', 1, 47),
+('21520225', 2, 93),
+('21520225', 3, 68),
+('21520225', 4, 45),
+('21520225', 5, 49),
+('21520225', 6, 59),
+('21520225', 7, 88),
+('21520225', 8, 75),
+('21520226', 1, 82),
+('21520226', 2, 52),
+('21520226', 3, 86),
+('21520226', 4, 50),
+('21520226', 5, 85),
+('21520226', 6, 56),
+('21520226', 7, 60),
+('21520226', 8, 99),
+('21520227', 1, 46),
+('21520227', 2, 70),
+('21520227', 3, 55),
+('21520227', 4, 68),
+('21520227', 5, 46),
+('21520227', 6, 90),
+('21520227', 7, 51),
+('21520227', 8, 68),
+('21520228', 1, 98),
+('21520228', 2, 92),
+('21520228', 3, 68),
+('21520228', 4, 91),
+('21520228', 5, 99),
+('21520228', 6, 85),
+('21520228', 7, 64),
+('21520228', 8, 62),
+('21520229', 1, 99),
+('21520229', 2, 78),
+('21520229', 3, 77),
+('21520229', 4, 42),
+('21520229', 5, 58),
+('21520229', 6, 73),
+('21520229', 7, 65),
+('21520229', 8, 61),
+('21520230', 1, 85),
+('21520230', 2, 95),
+('21520230', 3, 82),
+('21520230', 4, 40),
+('21520230', 5, 84),
+('21520230', 6, 58),
+('21520230', 7, 88),
+('21520230', 8, 46),
+('21520231', 1, 55),
+('21520231', 2, 78),
+('21520231', 3, 54),
+('21520231', 4, 70),
+('21520231', 5, 42),
+('21520231', 6, 62),
+('21520231', 7, 79),
+('21520231', 8, 81),
+('21520232', 1, 75),
+('21520232', 2, 46),
+('21520232', 3, 62),
+('21520232', 4, 76),
+('21520232', 5, 78),
+('21520232', 6, 92),
+('21520232', 7, 96),
+('21520232', 8, 89),
+('21520233', 1, 63),
+('21520233', 2, 79),
+('21520233', 3, 52),
+('21520233', 4, 92),
+('21520233', 5, 48),
+('21520233', 6, 86),
+('21520233', 7, 63),
+('21520233', 8, 76),
+('21520234', 1, 54),
+('21520234', 2, 58),
+('21520234', 3, 73),
+('21520234', 4, 47),
+('21520234', 5, 45),
+('21520234', 6, 80),
+('21520234', 7, 86),
+('21520234', 8, 85),
+('21520235', 1, 47),
+('21520235', 2, 60),
+('21520235', 3, 89),
+('21520235', 4, 45),
+('21520235', 5, 88),
+('21520235', 6, 51),
+('21520235', 7, 80),
+('21520235', 8, 85),
+('21520236', 1, 46),
+('21520236', 2, 84),
+('21520236', 3, 79),
+('21520236', 4, 54),
+('21520236', 5, 96),
+('21520236', 6, 68),
+('21520236', 7, 87),
+('21520236', 8, 81),
+('21520237', 1, 65),
+('21520237', 2, 64),
+('21520237', 3, 61),
+('21520237', 4, 44),
+('21520237', 5, 77),
+('21520237', 6, 89),
+('21520237', 7, 81),
+('21520237', 8, 84),
+('21520238', 1, 83),
+('21520238', 2, 51),
+('21520238', 3, 50),
+('21520238', 4, 61),
+('21520238', 5, 78),
+('21520238', 6, 57),
+('21520238', 7, 98),
+('21520238', 8, 40),
+('21520239', 1, 84),
+('21520239', 2, 47),
+('21520239', 3, 95),
+('21520239', 4, 75),
+('21520239', 5, 88),
+('21520239', 6, 58),
+('21520239', 7, 40),
+('21520239', 8, 43),
+('21520240', 1, 93),
+('21520240', 2, 96),
+('21520240', 3, 43),
+('21520240', 4, 48),
+('21520240', 5, 77),
+('21520240', 6, 86),
+('21520240', 7, 78),
+('21520240', 8, 49),
+('21520241', 1, 75),
+('21520241', 2, 58),
+('21520241', 3, 69),
+('21520241', 4, 44),
+('21520241', 5, 66),
+('21520241', 6, 47),
+('21520241', 7, 76),
+('21520241', 8, 70),
+('21520242', 1, 64),
+('21520242', 2, 51),
+('21520242', 3, 77),
+('21520242', 4, 79),
+('21520242', 5, 53),
+('21520242', 6, 42),
+('21520242', 7, 47),
+('21520242', 8, 98),
+('21520243', 1, 79),
+('21520243', 2, 42),
+('21520243', 3, 69),
+('21520243', 4, 52),
+('21520243', 5, 74),
+('21520243', 6, 47),
+('21520243', 7, 70),
+('21520243', 8, 98),
+('21520244', 1, 95),
+('21520244', 2, 84),
+('21520244', 3, 44),
+('21520244', 4, 44),
+('21520244', 5, 46),
+('21520244', 6, 64),
+('21520244', 7, 74),
+('21520244', 8, 90),
+('21520245', 1, 53),
+('21520245', 2, 46),
+('21520245', 3, 100),
+('21520245', 4, 77),
+('21520245', 5, 48),
+('21520245', 6, 56),
+('21520245', 7, 90),
+('21520245', 8, 57),
+('21520246', 1, 48),
+('21520246', 2, 62),
+('21520246', 3, 87),
+('21520246', 4, 73),
+('21520246', 5, 51),
+('21520246', 6, 59),
+('21520246', 7, 71),
+('21520246', 8, 71),
+('21520247', 1, 47),
+('21520247', 2, 66),
+('21520247', 3, 58),
+('21520247', 4, 93),
+('21520247', 5, 45),
+('21520247', 6, 42),
+('21520247', 7, 52),
+('21520247', 8, 97),
+('21520248', 1, 53),
+('21520248', 2, 48),
+('21520248', 3, 88),
+('21520248', 4, 87),
+('21520248', 5, 64),
+('21520248', 6, 97),
+('21520248', 7, 52),
+('21520248', 8, 84),
+('21520249', 1, 96),
+('21520249', 2, 43),
+('21520249', 3, 78),
+('21520249', 4, 73),
+('21520249', 5, 66),
+('21520249', 6, 94),
+('21520249', 7, 73),
+('21520249', 8, 82),
+('21520250', 1, 81),
+('21520250', 2, 84),
+('21520250', 3, 62),
+('21520250', 4, 62),
+('21520250', 5, 77),
+('21520250', 6, 96),
+('21520250', 7, 88),
+('21520250', 8, 89),
+('22520001', 1, 66),
+('22520001', 2, 80),
+('22520001', 3, 84),
+('22520001', 4, 74),
+('22520001', 5, 65),
+('22520001', 6, 46),
+('22520002', 1, 56),
+('22520002', 2, 66),
+('22520002', 3, 51),
+('22520002', 4, 79),
+('22520002', 5, 93),
+('22520002', 6, 97),
+('22520003', 1, 97),
+('22520003', 2, 93),
+('22520003', 3, 64),
+('22520003', 4, 73),
+('22520003', 5, 51),
+('22520003', 6, 92),
+('22520004', 1, 69),
+('22520004', 2, 47),
+('22520004', 3, 41),
+('22520004', 4, 83),
+('22520004', 5, 61),
+('22520004', 6, 80),
+('22520005', 1, 69),
+('22520005', 2, 49),
+('22520005', 3, 75),
+('22520005', 4, 50),
+('22520005', 5, 88),
+('22520005', 6, 47),
+('22520006', 1, 66),
+('22520006', 2, 46),
+('22520006', 3, 59),
+('22520006', 4, 95),
+('22520006', 5, 48),
+('22520006', 6, 71),
+('22520007', 1, 65),
+('22520007', 2, 55),
+('22520007', 3, 62),
+('22520007', 4, 89),
+('22520007', 5, 67),
+('22520007', 6, 61),
+('22520008', 1, 66),
+('22520008', 2, 60),
+('22520008', 3, 82),
+('22520008', 4, 84),
+('22520008', 5, 76),
+('22520008', 6, 70),
+('22520009', 1, 67),
+('22520009', 2, 97),
+('22520009', 3, 70),
+('22520009', 4, 94),
+('22520009', 5, 49),
+('22520009', 6, 86),
+('22520010', 1, 48),
+('22520010', 2, 65),
+('22520010', 3, 78),
+('22520010', 4, 92),
+('22520010', 5, 61),
+('22520010', 6, 97),
+('22520011', 1, 82),
+('22520011', 2, 82),
+('22520011', 3, 68),
+('22520011', 4, 64),
+('22520011', 5, 80),
+('22520011', 6, 77),
+('22520012', 1, 88),
+('22520012', 2, 69),
+('22520012', 3, 41),
+('22520012', 4, 71),
+('22520012', 5, 47),
+('22520012', 6, 55),
+('22520013', 1, 72),
+('22520013', 2, 65),
+('22520013', 3, 52),
+('22520013', 4, 53),
+('22520013', 5, 90),
+('22520013', 6, 86),
+('22520014', 1, 63),
+('22520014', 2, 69),
+('22520014', 3, 76),
+('22520014', 4, 61),
+('22520014', 5, 63),
+('22520014', 6, 42),
+('22520015', 1, 47),
+('22520015', 2, 57),
+('22520015', 3, 55),
+('22520015', 4, 51),
+('22520015', 5, 91),
+('22520015', 6, 76),
+('22520016', 1, 75),
+('22520016', 2, 66),
+('22520016', 3, 86),
+('22520016', 4, 73),
+('22520016', 5, 56),
+('22520016', 6, 77),
+('22520017', 1, 49),
+('22520017', 2, 40),
+('22520017', 3, 41),
+('22520017', 4, 87),
+('22520017', 5, 63),
+('22520017', 6, 83),
+('22520018', 1, 61),
+('22520018', 2, 40),
+('22520018', 3, 62),
+('22520018', 4, 45),
+('22520018', 5, 51),
+('22520018', 6, 94),
+('22520019', 1, 58),
+('22520019', 2, 93),
+('22520019', 3, 99),
+('22520019', 4, 61),
+('22520019', 5, 78),
+('22520019', 6, 52),
+('22520020', 1, 72),
+('22520020', 2, 66),
+('22520020', 3, 98),
+('22520020', 4, 92),
+('22520020', 5, 51),
+('22520020', 6, 41),
+('22520021', 1, 82),
+('22520021', 2, 68),
+('22520021', 3, 95),
+('22520021', 4, 65),
+('22520021', 5, 54),
+('22520021', 6, 95),
+('22520022', 1, 86),
+('22520022', 2, 84),
+('22520022', 3, 48),
+('22520022', 4, 63),
+('22520022', 5, 84),
+('22520022', 6, 77),
+('22520023', 1, 54),
+('22520023', 2, 96),
+('22520023', 3, 60),
+('22520023', 4, 50),
+('22520023', 5, 77),
+('22520023', 6, 53),
+('22520024', 1, 43),
+('22520024', 2, 60),
+('22520024', 3, 51),
+('22520024', 4, 51),
+('22520024', 5, 64),
+('22520024', 6, 100),
+('22520025', 1, 78),
+('22520025', 2, 83),
+('22520025', 3, 100),
+('22520025', 4, 96),
+('22520025', 5, 60),
+('22520025', 6, 93),
+('22520026', 1, 62),
+('22520026', 2, 61),
+('22520026', 3, 53),
+('22520026', 4, 49),
+('22520026', 5, 96),
+('22520026', 6, 99),
+('22520027', 1, 62),
+('22520027', 2, 57),
+('22520027', 3, 60),
+('22520027', 4, 73),
+('22520027', 5, 81),
+('22520027', 6, 78),
+('22520028', 1, 52),
+('22520028', 2, 62),
+('22520028', 3, 98),
+('22520028', 4, 65),
+('22520028', 5, 100),
+('22520028', 6, 90),
+('22520029', 1, 99),
+('22520029', 2, 87),
+('22520029', 3, 68),
+('22520029', 4, 50),
+('22520029', 5, 56),
+('22520029', 6, 49),
+('22520030', 1, 41),
+('22520030', 2, 43),
+('22520030', 3, 78),
+('22520030', 4, 60),
+('22520030', 5, 75),
+('22520030', 6, 49),
+('22520031', 1, 91),
+('22520031', 2, 97),
+('22520031', 3, 69),
+('22520031', 4, 41),
+('22520031', 5, 92),
+('22520031', 6, 56),
+('22520032', 1, 56),
+('22520032', 2, 53),
+('22520032', 3, 40),
+('22520032', 4, 47),
+('22520032', 5, 49),
+('22520032', 6, 67),
+('22520033', 1, 49),
+('22520033', 2, 94),
+('22520033', 3, 100),
+('22520033', 4, 80),
+('22520033', 5, 45),
+('22520033', 6, 90),
+('22520034', 1, 51),
+('22520034', 2, 81),
+('22520034', 3, 73),
+('22520034', 4, 72),
+('22520034', 5, 41),
+('22520034', 6, 81),
+('22520035', 1, 88),
+('22520035', 2, 73),
+('22520035', 3, 65),
+('22520035', 4, 77),
+('22520035', 5, 42),
+('22520035', 6, 75),
+('22520036', 1, 75),
+('22520036', 2, 43),
+('22520036', 3, 74),
+('22520036', 4, 78),
+('22520036', 5, 96),
+('22520036', 6, 80),
+('22520037', 1, 69),
+('22520037', 2, 89),
+('22520037', 3, 62),
+('22520037', 4, 93),
+('22520037', 5, 75),
+('22520037', 6, 75),
+('22520038', 1, 41),
+('22520038', 2, 90),
+('22520038', 3, 100),
+('22520038', 4, 78),
+('22520038', 5, 70),
+('22520038', 6, 53),
+('22520039', 1, 64),
+('22520039', 2, 69),
+('22520039', 3, 55),
+('22520039', 4, 41),
+('22520039', 5, 98),
+('22520039', 6, 56),
+('22520040', 1, 99),
+('22520040', 2, 56),
+('22520040', 3, 53),
+('22520040', 4, 84),
+('22520040', 5, 55),
+('22520040', 6, 58),
+('22520041', 1, 74),
+('22520041', 2, 78),
+('22520041', 3, 54),
+('22520041', 4, 67),
+('22520041', 5, 53),
+('22520041', 6, 90),
+('22520042', 1, 51),
+('22520042', 2, 55),
+('22520042', 3, 69),
+('22520042', 4, 76),
+('22520042', 5, 42),
+('22520042', 6, 64),
+('22520043', 1, 61),
+('22520043', 2, 68),
+('22520043', 3, 67),
+('22520043', 4, 64),
+('22520043', 5, 94),
+('22520043', 6, 69),
+('22520044', 1, 65),
+('22520044', 2, 43),
+('22520044', 3, 84),
+('22520044', 4, 40),
+('22520044', 5, 86),
+('22520044', 6, 63),
+('22520045', 1, 76),
+('22520045', 2, 94),
+('22520045', 3, 85),
+('22520045', 4, 43),
+('22520045', 5, 79),
+('22520045', 6, 89),
+('22520046', 1, 81),
+('22520046', 2, 86),
+('22520046', 3, 69),
+('22520046', 4, 51),
+('22520046', 5, 41),
+('22520046', 6, 88),
+('22520047', 1, 49),
+('22520047', 2, 64),
+('22520047', 3, 57),
+('22520047', 4, 96),
+('22520047', 5, 71),
+('22520047', 6, 58),
+('22520048', 1, 89),
+('22520048', 2, 97),
+('22520048', 3, 66),
+('22520048', 4, 78),
+('22520048', 5, 83),
+('22520048', 6, 76),
+('22520049', 1, 49),
+('22520049', 2, 63),
+('22520049', 3, 42),
+('22520049', 4, 82),
+('22520049', 5, 60),
+('22520049', 6, 74),
+('22520050', 1, 59),
+('22520050', 2, 62),
+('22520050', 3, 90),
+('22520050', 4, 73),
+('22520050', 5, 91),
+('22520050', 6, 56),
+('22520051', 1, 84),
+('22520051', 2, 70),
+('22520051', 3, 97),
+('22520051', 4, 71),
+('22520051', 5, 71),
+('22520051', 6, 87),
+('22520052', 1, 62),
+('22520052', 2, 46),
+('22520052', 3, 79),
+('22520052', 4, 59),
+('22520052', 5, 92),
+('22520052', 6, 56),
+('22520053', 1, 42),
+('22520053', 2, 53),
+('22520053', 3, 45),
+('22520053', 4, 40),
+('22520053', 5, 87),
+('22520053', 6, 74),
+('22520054', 1, 61),
+('22520054', 2, 87),
+('22520054', 3, 74),
+('22520054', 4, 93),
+('22520054', 5, 42),
+('22520054', 6, 40),
+('22520055', 1, 82),
+('22520055', 2, 94),
+('22520055', 3, 61),
+('22520055', 4, 50),
+('22520055', 5, 76),
+('22520055', 6, 82),
+('22520056', 1, 56),
+('22520056', 2, 53),
+('22520056', 3, 63),
+('22520056', 4, 86),
+('22520056', 5, 58),
+('22520056', 6, 90),
+('22520057', 1, 47),
+('22520057', 2, 45),
+('22520057', 3, 72),
+('22520057', 4, 84),
+('22520057', 5, 55),
+('22520057', 6, 41),
+('22520058', 1, 52),
+('22520058', 2, 40),
+('22520058', 3, 91),
+('22520058', 4, 95),
+('22520058', 5, 85),
+('22520058', 6, 53),
+('22520059', 1, 63),
+('22520059', 2, 99),
+('22520059', 3, 60),
+('22520059', 4, 64),
+('22520059', 5, 90),
+('22520059', 6, 71),
+('22520060', 1, 45),
+('22520060', 2, 65),
+('22520060', 3, 98),
+('22520060', 4, 65),
+('22520060', 5, 57),
+('22520060', 6, 56),
+('22520061', 1, 89),
+('22520061', 2, 81),
+('22520061', 3, 96),
+('22520061', 4, 99),
+('22520061', 5, 87),
+('22520061', 6, 55),
+('22520062', 1, 75),
+('22520062', 2, 58),
+('22520062', 3, 46),
+('22520062', 4, 76),
+('22520062', 5, 98),
+('22520062', 6, 74),
+('22520063', 1, 98),
+('22520063', 2, 47),
+('22520063', 3, 82),
+('22520063', 4, 43),
+('22520063', 5, 78),
+('22520063', 6, 47),
+('22520064', 1, 91),
+('22520064', 2, 96),
+('22520064', 3, 62),
+('22520064', 4, 77),
+('22520064', 5, 96),
+('22520064', 6, 79),
+('22520065', 1, 95),
+('22520065', 2, 72),
+('22520065', 3, 47),
+('22520065', 4, 91),
+('22520065', 5, 45),
+('22520065', 6, 88),
+('22520066', 1, 61),
+('22520066', 2, 81),
+('22520066', 3, 60),
+('22520066', 4, 41),
+('22520066', 5, 99),
+('22520066', 6, 87),
+('22520067', 1, 91),
+('22520067', 2, 45),
+('22520067', 3, 45),
+('22520067', 4, 54),
+('22520067', 5, 68),
+('22520067', 6, 91),
+('22520068', 1, 52),
+('22520068', 2, 84),
+('22520068', 3, 74),
+('22520068', 4, 49),
+('22520068', 5, 76),
+('22520068', 6, 50),
+('22520069', 1, 71),
+('22520069', 2, 71),
+('22520069', 3, 59),
+('22520069', 4, 86),
+('22520069', 5, 92),
+('22520069', 6, 46),
+('22520070', 1, 52),
+('22520070', 2, 97),
+('22520070', 3, 59),
+('22520070', 4, 77),
+('22520070', 5, 64),
+('22520070', 6, 65),
+('22520071', 1, 61),
+('22520071', 2, 90),
+('22520071', 3, 67),
+('22520071', 4, 71),
+('22520071', 5, 85),
+('22520071', 6, 52),
+('22520072', 1, 54),
+('22520072', 2, 67),
+('22520072', 3, 68),
+('22520072', 4, 40),
+('22520072', 5, 77),
+('22520072', 6, 78),
+('22520073', 1, 74),
+('22520073', 2, 67),
+('22520073', 3, 90),
+('22520073', 4, 85),
+('22520073', 5, 79),
+('22520073', 6, 44),
+('22520074', 1, 63),
+('22520074', 2, 41),
+('22520074', 3, 46),
+('22520074', 4, 41),
+('22520074', 5, 71),
+('22520074', 6, 45),
+('22520075', 1, 97),
+('22520075', 2, 93),
+('22520075', 3, 49),
+('22520075', 4, 85),
+('22520075', 5, 78),
+('22520075', 6, 67),
+('22520076', 1, 97),
+('22520076', 2, 62),
+('22520076', 3, 88),
+('22520076', 4, 41),
+('22520076', 5, 52),
+('22520076', 6, 69),
+('22520077', 1, 53),
+('22520077', 2, 50),
+('22520077', 3, 60),
+('22520077', 4, 77),
+('22520077', 5, 59),
+('22520077', 6, 47),
+('22520078', 1, 62),
+('22520078', 2, 90),
+('22520078', 3, 82),
+('22520078', 4, 69),
+('22520078', 5, 65),
+('22520078', 6, 96),
+('22520079', 1, 88),
+('22520079', 2, 57),
+('22520079', 3, 88),
+('22520079', 4, 52),
+('22520079', 5, 64),
+('22520079', 6, 85),
+('22520080', 1, 73),
+('22520080', 2, 95),
+('22520080', 3, 55),
+('22520080', 4, 50),
+('22520080', 5, 69),
+('22520080', 6, 61),
+('22520081', 1, 73),
+('22520081', 2, 79),
+('22520081', 3, 48),
+('22520081', 4, 70),
+('22520081', 5, 48),
+('22520081', 6, 88),
+('22520082', 1, 94),
+('22520082', 2, 62),
+('22520082', 3, 77),
+('22520082', 4, 73),
+('22520082', 5, 42),
+('22520082', 6, 73),
+('22520083', 1, 44),
+('22520083', 2, 92),
+('22520083', 3, 84),
+('22520083', 4, 87),
+('22520083', 5, 88),
+('22520083', 6, 48),
+('22520084', 1, 63),
+('22520084', 2, 71),
+('22520084', 3, 61),
+('22520084', 4, 93),
+('22520084', 5, 44),
+('22520084', 6, 40),
+('22520085', 1, 79),
+('22520085', 2, 80),
+('22520085', 3, 54),
+('22520085', 4, 91),
+('22520085', 5, 82),
+('22520085', 6, 58),
+('22520086', 1, 53),
+('22520086', 2, 88),
+('22520086', 3, 98),
+('22520086', 4, 92),
+('22520086', 5, 97),
+('22520086', 6, 94),
+('22520087', 1, 97),
+('22520087', 2, 79),
+('22520087', 3, 94),
+('22520087', 4, 60),
+('22520087', 5, 41),
+('22520087', 6, 41),
+('22520088', 1, 43),
+('22520088', 2, 46),
+('22520088', 3, 84),
+('22520088', 4, 54),
+('22520088', 5, 46),
+('22520088', 6, 93),
+('22520089', 1, 65),
+('22520089', 2, 56),
+('22520089', 3, 93),
+('22520089', 4, 86),
+('22520089', 5, 51),
+('22520089', 6, 58),
+('22520090', 1, 91),
+('22520090', 2, 100),
+('22520090', 3, 50),
+('22520090', 4, 68),
+('22520090', 5, 56),
+('22520090', 6, 49),
+('22520091', 1, 40),
+('22520091', 2, 75),
+('22520091', 3, 56),
+('22520091', 4, 43),
+('22520091', 5, 64),
+('22520091', 6, 63),
+('22520092', 1, 77),
+('22520092', 2, 84),
+('22520092', 3, 88),
+('22520092', 4, 54),
+('22520092', 5, 59),
+('22520092', 6, 59),
+('22520093', 1, 63),
+('22520093', 2, 74),
+('22520093', 3, 44),
+('22520093', 4, 80),
+('22520093', 5, 71),
+('22520093', 6, 88),
+('22520094', 1, 61),
+('22520094', 2, 44),
+('22520094', 3, 92),
+('22520094', 4, 45),
+('22520094', 5, 65),
+('22520094', 6, 87),
+('22520095', 1, 88),
+('22520095', 2, 61),
+('22520095', 3, 67),
+('22520095', 4, 65),
+('22520095', 5, 99),
+('22520095', 6, 57),
+('22520096', 1, 67),
+('22520096', 2, 64),
+('22520096', 3, 75),
+('22520096', 4, 72),
+('22520096', 5, 56),
+('22520096', 6, 41),
+('22520097', 1, 72),
+('22520097', 2, 68),
+('22520097', 3, 95),
+('22520097', 4, 63),
+('22520097', 5, 59),
+('22520097', 6, 67),
+('22520098', 1, 59),
+('22520098', 2, 100),
+('22520098', 3, 95),
+('22520098', 4, 89),
+('22520098', 5, 70),
+('22520098', 6, 70),
+('22520099', 1, 66),
+('22520099', 2, 66),
+('22520099', 3, 72),
+('22520099', 4, 80),
+('22520099', 5, 53),
+('22520099', 6, 85),
+('22520100', 1, 48),
+('22520100', 2, 64),
+('22520100', 3, 43),
+('22520100', 4, 90),
+('22520100', 5, 75),
+('22520100', 6, 73),
+('22520101', 1, 82),
+('22520101', 2, 44),
+('22520101', 3, 91),
+('22520101', 4, 61),
+('22520101', 5, 77),
+('22520101', 6, 40),
+('22520102', 1, 82),
+('22520102', 2, 82),
+('22520102', 3, 41),
+('22520102', 4, 71),
+('22520102', 5, 76),
+('22520102', 6, 62),
+('22520103', 1, 71),
+('22520103', 2, 55),
+('22520103', 3, 49),
+('22520103', 4, 65),
+('22520103', 5, 53),
+('22520103', 6, 71),
+('22520104', 1, 66),
+('22520104', 2, 74),
+('22520104', 3, 68),
+('22520104', 4, 99),
+('22520104', 5, 60),
+('22520104', 6, 88),
+('22520105', 1, 43),
+('22520105', 2, 55),
+('22520105', 3, 79),
+('22520105', 4, 95),
+('22520105', 5, 76),
+('22520105', 6, 44),
+('22520106', 1, 55),
+('22520106', 2, 64),
+('22520106', 3, 79),
+('22520106', 4, 93),
+('22520106', 5, 97),
+('22520106', 6, 44),
+('22520107', 1, 91),
+('22520107', 2, 62),
+('22520107', 3, 81),
+('22520107', 4, 86),
+('22520107', 5, 43),
+('22520107', 6, 51),
+('22520108', 1, 90),
+('22520108', 2, 97),
+('22520108', 3, 50),
+('22520108', 4, 77),
+('22520108', 5, 89),
+('22520108', 6, 60),
+('22520109', 1, 84),
+('22520109', 2, 88),
+('22520109', 3, 87),
+('22520109', 4, 86),
+('22520109', 5, 41),
+('22520109', 6, 69),
+('22520110', 1, 96),
+('22520110', 2, 80),
+('22520110', 3, 45),
+('22520110', 4, 46),
+('22520110', 5, 41),
+('22520110', 6, 81),
+('22520111', 1, 80),
+('22520111', 2, 85),
+('22520111', 3, 57),
+('22520111', 4, 100),
+('22520111', 5, 43),
+('22520111', 6, 74),
+('22520112', 1, 66),
+('22520112', 2, 89),
+('22520112', 3, 43),
+('22520112', 4, 99),
+('22520112', 5, 52),
+('22520112', 6, 41),
+('22520113', 1, 69),
+('22520113', 2, 40),
+('22520113', 3, 53),
+('22520113', 4, 95),
+('22520113', 5, 82),
+('22520113', 6, 84),
+('22520114', 1, 91),
+('22520114', 2, 73),
+('22520114', 3, 57),
+('22520114', 4, 79),
+('22520114', 5, 86),
+('22520114', 6, 56),
+('22520115', 1, 40),
+('22520115', 2, 95),
+('22520115', 3, 72),
+('22520115', 4, 78),
+('22520115', 5, 78),
+('22520115', 6, 88),
+('22520116', 1, 85),
+('22520116', 2, 41),
+('22520116', 3, 89),
+('22520116', 4, 87),
+('22520116', 5, 53),
+('22520116', 6, 96),
+('22520117', 1, 73),
+('22520117', 2, 67),
+('22520117', 3, 51),
+('22520117', 4, 84),
+('22520117', 5, 52),
+('22520117', 6, 69),
+('22520118', 1, 43),
+('22520118', 2, 71),
+('22520118', 3, 83),
+('22520118', 4, 60),
+('22520118', 5, 97),
+('22520118', 6, 95),
+('22520119', 1, 51),
+('22520119', 2, 71),
+('22520119', 3, 77),
+('22520119', 4, 75),
+('22520119', 5, 70),
+('22520119', 6, 71),
+('22520120', 1, 89),
+('22520120', 2, 65),
+('22520120', 3, 77),
+('22520120', 4, 87),
+('22520120', 5, 87),
+('22520120', 6, 76),
+('22520121', 1, 100),
+('22520121', 2, 49),
+('22520121', 3, 40),
+('22520121', 4, 95),
+('22520121', 5, 69),
+('22520121', 6, 47),
+('22520122', 1, 87),
+('22520122', 2, 52),
+('22520122', 3, 86),
+('22520122', 4, 69),
+('22520122', 5, 72),
+('22520122', 6, 55),
+('22520123', 1, 71),
+('22520123', 2, 59),
+('22520123', 3, 57),
+('22520123', 4, 69),
+('22520123', 5, 50),
+('22520123', 6, 96),
+('22520124', 1, 45),
+('22520124', 2, 65),
+('22520124', 3, 82),
+('22520124', 4, 57),
+('22520124', 5, 76),
+('22520124', 6, 67),
+('22520125', 1, 41),
+('22520125', 2, 41),
+('22520125', 3, 63),
+('22520125', 4, 44),
+('22520125', 5, 53),
+('22520125', 6, 74),
+('22520126', 1, 98),
+('22520126', 2, 85),
+('22520126', 3, 61),
+('22520126', 4, 53),
+('22520126', 5, 42),
+('22520126', 6, 65),
+('22520127', 1, 61),
+('22520127', 2, 80),
+('22520127', 3, 83),
+('22520127', 4, 76),
+('22520127', 5, 71),
+('22520127', 6, 89),
+('22520128', 1, 51),
+('22520128', 2, 40),
+('22520128', 3, 87),
+('22520128', 4, 72),
+('22520128', 5, 60),
+('22520128', 6, 55),
+('22520129', 1, 41),
+('22520129', 2, 80),
+('22520129', 3, 86),
+('22520129', 4, 58),
+('22520129', 5, 52),
+('22520129', 6, 91),
+('22520130', 1, 81),
+('22520130', 2, 49),
+('22520130', 3, 68),
+('22520130', 4, 50),
+('22520130', 5, 48),
+('22520130', 6, 55),
+('22520131', 1, 81),
+('22520131', 2, 66),
+('22520131', 3, 62),
+('22520131', 4, 62),
+('22520131', 5, 68),
+('22520131', 6, 46),
+('22520132', 1, 46),
+('22520132', 2, 46),
+('22520132', 3, 73),
+('22520132', 4, 80),
+('22520132', 5, 84),
+('22520132', 6, 87),
+('22520133', 1, 42),
+('22520133', 2, 87),
+('22520133', 3, 92),
+('22520133', 4, 70),
+('22520133', 5, 74),
+('22520133', 6, 82),
+('22520134', 1, 41),
+('22520134', 2, 51),
+('22520134', 3, 89),
+('22520134', 4, 84),
+('22520134', 5, 83),
+('22520134', 6, 86),
+('22520135', 1, 54),
+('22520135', 2, 95),
+('22520135', 3, 66),
+('22520135', 4, 79),
+('22520135', 5, 64),
+('22520135', 6, 85),
+('22520136', 1, 62),
+('22520136', 2, 91),
+('22520136', 3, 84),
+('22520136', 4, 68),
+('22520136', 5, 48),
+('22520136', 6, 96),
+('22520137', 1, 43),
+('22520137', 2, 57),
+('22520137', 3, 49),
+('22520137', 4, 54),
+('22520137', 5, 55),
+('22520137', 6, 57),
+('22520138', 1, 51),
+('22520138', 2, 95),
+('22520138', 3, 70),
+('22520138', 4, 70),
+('22520138', 5, 71),
+('22520138', 6, 57),
+('22520139', 1, 92),
+('22520139', 2, 74),
+('22520139', 3, 66),
+('22520139', 4, 86),
+('22520139', 5, 60),
+('22520139', 6, 71),
+('22520140', 1, 90),
+('22520140', 2, 52),
+('22520140', 3, 93),
+('22520140', 4, 42),
+('22520140', 5, 88),
+('22520140', 6, 93),
+('22520141', 1, 93),
+('22520141', 2, 60),
+('22520141', 3, 84),
+('22520141', 4, 99),
+('22520141', 5, 93),
+('22520141', 6, 45),
+('22520142', 1, 100),
+('22520142', 2, 92),
+('22520142', 3, 43),
+('22520142', 4, 50),
+('22520142', 5, 67),
+('22520142', 6, 82),
+('22520143', 1, 45),
+('22520143', 2, 87),
+('22520143', 3, 84),
+('22520143', 4, 85),
+('22520143', 5, 68),
+('22520143', 6, 90),
+('22520144', 1, 74),
+('22520144', 2, 44),
+('22520144', 3, 93),
+('22520144', 4, 55),
+('22520144', 5, 89),
+('22520144', 6, 74),
+('22520145', 1, 94),
+('22520145', 2, 70),
+('22520145', 3, 43),
+('22520145', 4, 83),
+('22520145', 5, 57),
+('22520145', 6, 78),
+('22520146', 1, 44),
+('22520146', 2, 64),
+('22520146', 3, 92),
+('22520146', 4, 69),
+('22520146', 5, 83),
+('22520146', 6, 45),
+('22520147', 1, 55),
+('22520147', 2, 86),
+('22520147', 3, 69),
+('22520147', 4, 94),
+('22520147', 5, 89),
+('22520147', 6, 72),
+('22520148', 1, 63),
+('22520148', 2, 68),
+('22520148', 3, 72),
+('22520148', 4, 96),
+('22520148', 5, 76),
+('22520148', 6, 96),
+('22520149', 1, 55),
+('22520149', 2, 61),
+('22520149', 3, 65),
+('22520149', 4, 98),
+('22520149', 5, 80),
+('22520149', 6, 75),
+('22520150', 1, 61),
+('22520150', 2, 44),
+('22520150', 3, 72),
+('22520150', 4, 66),
+('22520150', 5, 58),
+('22520150', 6, 51),
+('22520151', 1, 79),
+('22520151', 2, 42),
+('22520151', 3, 52),
+('22520151', 4, 80),
+('22520151', 5, 92),
+('22520151', 6, 60),
+('22520152', 1, 64),
+('22520152', 2, 82),
+('22520152', 3, 52),
+('22520152', 4, 82),
+('22520152', 5, 81),
+('22520152', 6, 88),
+('22520153', 1, 85),
+('22520153', 2, 83),
+('22520153', 3, 69),
+('22520153', 4, 46),
+('22520153', 5, 81),
+('22520153', 6, 79),
+('22520154', 1, 89),
+('22520154', 2, 91),
+('22520154', 3, 66),
+('22520154', 4, 47),
+('22520154', 5, 72),
+('22520154', 6, 79),
+('22520155', 1, 40),
+('22520155', 2, 88),
+('22520155', 3, 58),
+('22520155', 4, 65),
+('22520155', 5, 66),
+('22520155', 6, 57),
+('22520156', 1, 81),
+('22520156', 2, 42),
+('22520156', 3, 67),
+('22520156', 4, 84),
+('22520156', 5, 64),
+('22520156', 6, 92),
+('22520157', 1, 96),
+('22520157', 2, 70),
+('22520157', 3, 98),
+('22520157', 4, 95),
+('22520157', 5, 91),
+('22520157', 6, 51),
+('22520158', 1, 44),
+('22520158', 2, 43),
+('22520158', 3, 58),
+('22520158', 4, 40),
+('22520158', 5, 44),
+('22520158', 6, 74),
+('22520159', 1, 100),
+('22520159', 2, 45),
+('22520159', 3, 71),
+('22520159', 4, 74),
+('22520159', 5, 76),
+('22520159', 6, 75),
+('22520160', 1, 49),
+('22520160', 2, 96),
+('22520160', 3, 52),
+('22520160', 4, 60),
+('22520160', 5, 72),
+('22520160', 6, 73),
+('22520161', 1, 72),
+('22520161', 2, 47),
+('22520161', 3, 71),
+('22520161', 4, 96),
+('22520161', 5, 56),
+('22520161', 6, 51),
+('22520162', 1, 45),
+('22520162', 2, 93),
+('22520162', 3, 87),
+('22520162', 4, 40),
+('22520162', 5, 40),
+('22520162', 6, 61),
+('22520163', 1, 74),
+('22520163', 2, 75),
+('22520163', 3, 42),
+('22520163', 4, 90),
+('22520163', 5, 73),
+('22520163', 6, 46),
+('22520164', 1, 47),
+('22520164', 2, 50),
+('22520164', 3, 47),
+('22520164', 4, 88),
+('22520164', 5, 97),
+('22520164', 6, 46),
+('22520165', 1, 91),
+('22520165', 2, 69),
+('22520165', 3, 50),
+('22520165', 4, 51),
+('22520165', 5, 44),
+('22520165', 6, 97),
+('22520166', 1, 59),
+('22520166', 2, 54),
+('22520166', 3, 68),
+('22520166', 4, 75),
+('22520166', 5, 83),
+('22520166', 6, 67),
+('22520167', 1, 84),
+('22520167', 2, 49),
+('22520167', 3, 93),
+('22520167', 4, 82),
+('22520167', 5, 78),
+('22520167', 6, 67),
+('22520168', 1, 41),
+('22520168', 2, 52),
+('22520168', 3, 50),
+('22520168', 4, 93),
+('22520168', 5, 50),
+('22520168', 6, 86),
+('22520169', 1, 76),
+('22520169', 2, 49),
+('22520169', 3, 42),
+('22520169', 4, 56),
+('22520169', 5, 73),
+('22520169', 6, 55),
+('22520170', 1, 97),
+('22520170', 2, 81),
+('22520170', 3, 99),
+('22520170', 4, 76),
+('22520170', 5, 55),
+('22520170', 6, 42),
+('22520171', 1, 51),
+('22520171', 2, 60),
+('22520171', 3, 46),
+('22520171', 4, 77),
+('22520171', 5, 50),
+('22520171', 6, 59),
+('22520172', 1, 88),
+('22520172', 2, 48),
+('22520172', 3, 44),
+('22520172', 4, 85),
+('22520172', 5, 49),
+('22520172', 6, 48),
+('22520173', 1, 40),
+('22520173', 2, 65),
+('22520173', 3, 69),
+('22520173', 4, 41),
+('22520173', 5, 89),
+('22520173', 6, 50),
+('22520174', 1, 47),
+('22520174', 2, 67),
+('22520174', 3, 84),
+('22520174', 4, 75),
+('22520174', 5, 57),
+('22520174', 6, 87),
+('22520175', 1, 89),
+('22520175', 2, 41),
+('22520175', 3, 68),
+('22520175', 4, 53),
+('22520175', 5, 47),
+('22520175', 6, 41),
+('22520176', 1, 100),
+('22520176', 2, 41),
+('22520176', 3, 44),
+('22520176', 4, 77),
+('22520176', 5, 52),
+('22520176', 6, 68),
+('22520177', 1, 67),
+('22520177', 2, 87),
+('22520177', 3, 61),
+('22520177', 4, 58),
+('22520177', 5, 97),
+('22520177', 6, 41),
+('22520178', 1, 43),
+('22520178', 2, 86),
+('22520178', 3, 44),
+('22520178', 4, 67),
+('22520178', 5, 82),
+('22520178', 6, 49),
+('22520179', 1, 74),
+('22520179', 2, 51),
+('22520179', 3, 44),
+('22520179', 4, 57),
+('22520179', 5, 98),
+('22520179', 6, 67),
+('22520180', 1, 62),
+('22520180', 2, 90),
+('22520180', 3, 75),
+('22520180', 4, 87),
+('22520180', 5, 59),
+('22520180', 6, 89),
+('22520181', 1, 58),
+('22520181', 2, 43),
+('22520181', 3, 81),
+('22520181', 4, 53),
+('22520181', 5, 65),
+('22520181', 6, 77),
+('22520182', 1, 50),
+('22520182', 2, 90),
+('22520182', 3, 83),
+('22520182', 4, 97),
+('22520182', 5, 52),
+('22520182', 6, 96),
+('22520183', 1, 73),
+('22520183', 2, 78),
+('22520183', 3, 79),
+('22520183', 4, 57),
+('22520183', 5, 51),
+('22520183', 6, 60),
+('22520184', 1, 76),
+('22520184', 2, 49),
+('22520184', 3, 42),
+('22520184', 4, 94),
+('22520184', 5, 82),
+('22520184', 6, 55),
+('22520185', 1, 94),
+('22520185', 2, 62),
+('22520185', 3, 90),
+('22520185', 4, 97),
+('22520185', 5, 92),
+('22520185', 6, 93),
+('22520186', 1, 73),
+('22520186', 2, 81),
+('22520186', 3, 89),
+('22520186', 4, 84),
+('22520186', 5, 52),
+('22520186', 6, 58),
+('22520187', 1, 87),
+('22520187', 2, 43),
+('22520187', 3, 98),
+('22520187', 4, 57),
+('22520187', 5, 58),
+('22520187', 6, 60),
+('22520188', 1, 96),
+('22520188', 2, 64),
+('22520188', 3, 98),
+('22520188', 4, 83),
+('22520188', 5, 81),
+('22520188', 6, 48),
+('22520189', 1, 60),
+('22520189', 2, 57),
+('22520189', 3, 100),
+('22520189', 4, 99),
+('22520189', 5, 62),
+('22520189', 6, 96),
+('22520190', 1, 97),
+('22520190', 2, 88),
+('22520190', 3, 90),
+('22520190', 4, 71),
+('22520190', 5, 60),
+('22520190', 6, 76),
+('22520191', 1, 71),
+('22520191', 2, 69),
+('22520191', 3, 40),
+('22520191', 4, 54),
+('22520191', 5, 60),
+('22520191', 6, 71),
+('22520192', 1, 79),
+('22520192', 2, 86),
+('22520192', 3, 43),
+('22520192', 4, 68),
+('22520192', 5, 49),
+('22520192', 6, 41),
+('22520193', 1, 69),
+('22520193', 2, 92),
+('22520193', 3, 72),
+('22520193', 4, 62),
+('22520193', 5, 42),
+('22520193', 6, 43),
+('22520194', 1, 89),
+('22520194', 2, 68),
+('22520194', 3, 79),
+('22520194', 4, 46),
+('22520194', 5, 87),
+('22520194', 6, 44),
+('22520195', 1, 82),
+('22520195', 2, 90),
+('22520195', 3, 59),
+('22520195', 4, 67),
+('22520195', 5, 53),
+('22520195', 6, 46),
+('22520196', 1, 66),
+('22520196', 2, 59),
+('22520196', 3, 67),
+('22520196', 4, 95),
+('22520196', 5, 86),
+('22520196', 6, 57),
+('22520197', 1, 95),
+('22520197', 2, 86),
+('22520197', 3, 73),
+('22520197', 4, 62),
+('22520197', 5, 68),
+('22520197', 6, 85),
+('22520198', 1, 58),
+('22520198', 2, 50),
+('22520198', 3, 47),
+('22520198', 4, 97),
+('22520198', 5, 93),
+('22520198', 6, 50),
+('22520199', 1, 90),
+('22520199', 2, 65),
+('22520199', 3, 87),
+('22520199', 4, 49),
+('22520199', 5, 83),
+('22520199', 6, 85),
+('22520200', 1, 49),
+('22520200', 2, 94),
+('22520200', 3, 45),
+('22520200', 4, 81),
+('22520200', 5, 84),
+('22520200', 6, 64),
+('22520201', 1, 89),
+('22520201', 2, 90),
+('22520201', 3, 98),
+('22520201', 4, 53),
+('22520201', 5, 43),
+('22520201', 6, 93),
+('22520202', 1, 55),
+('22520202', 2, 67),
+('22520202', 3, 52),
+('22520202', 4, 84),
+('22520202', 5, 88),
+('22520202', 6, 80),
+('22520203', 1, 58),
+('22520203', 2, 62),
+('22520203', 3, 47),
+('22520203', 4, 81),
+('22520203', 5, 41),
+('22520203', 6, 98),
+('22520204', 1, 76),
+('22520204', 2, 73),
+('22520204', 3, 41),
+('22520204', 4, 45),
+('22520204', 5, 87),
+('22520204', 6, 88),
+('22520205', 1, 93),
+('22520205', 2, 47),
+('22520205', 3, 72),
+('22520205', 4, 40),
+('22520205', 5, 69),
+('22520205', 6, 48),
+('22520206', 1, 69),
+('22520206', 2, 72),
+('22520206', 3, 47),
+('22520206', 4, 92),
+('22520206', 5, 61),
+('22520206', 6, 76),
+('22520207', 1, 92),
+('22520207', 2, 77),
+('22520207', 3, 46),
+('22520207', 4, 49),
+('22520207', 5, 64),
+('22520207', 6, 94),
+('22520208', 1, 62),
+('22520208', 2, 65),
+('22520208', 3, 96),
+('22520208', 4, 46),
+('22520208', 5, 40),
+('22520208', 6, 60),
+('22520209', 1, 69),
+('22520209', 2, 76),
+('22520209', 3, 88),
+('22520209', 4, 42),
+('22520209', 5, 43),
+('22520209', 6, 100),
+('22520210', 1, 78),
+('22520210', 2, 89),
+('22520210', 3, 71),
+('22520210', 4, 60),
+('22520210', 5, 91),
+('22520210', 6, 74),
+('22520211', 1, 99),
+('22520211', 2, 78),
+('22520211', 3, 78),
+('22520211', 4, 88),
+('22520211', 5, 79),
+('22520211', 6, 70),
+('22520212', 1, 75),
+('22520212', 2, 46),
+('22520212', 3, 83),
+('22520212', 4, 71),
+('22520212', 5, 95),
+('22520212', 6, 81),
+('22520213', 1, 96),
+('22520213', 2, 70),
+('22520213', 3, 68),
+('22520213', 4, 80),
+('22520213', 5, 71),
+('22520213', 6, 83),
+('22520214', 1, 46),
+('22520214', 2, 69),
+('22520214', 3, 50),
+('22520214', 4, 76),
+('22520214', 5, 73),
+('22520214', 6, 49),
+('22520215', 1, 40),
+('22520215', 2, 81),
+('22520215', 3, 57),
+('22520215', 4, 60),
+('22520215', 5, 64),
+('22520215', 6, 83),
+('22520216', 1, 96),
+('22520216', 2, 55),
+('22520216', 3, 66),
+('22520216', 4, 69),
+('22520216', 5, 41),
+('22520216', 6, 73),
+('22520217', 1, 47),
+('22520217', 2, 91),
+('22520217', 3, 45),
+('22520217', 4, 79),
+('22520217', 5, 66),
+('22520217', 6, 56),
+('22520218', 1, 59),
+('22520218', 2, 63),
+('22520218', 3, 85),
+('22520218', 4, 93),
+('22520218', 5, 49),
+('22520218', 6, 41),
+('22520219', 1, 89),
+('22520219', 2, 52),
+('22520219', 3, 92),
+('22520219', 4, 82),
+('22520219', 5, 48),
+('22520219', 6, 78),
+('22520220', 1, 88),
+('22520220', 2, 68),
+('22520220', 3, 99),
+('22520220', 4, 48),
+('22520220', 5, 54),
+('22520220', 6, 85),
+('22520221', 1, 71),
+('22520221', 2, 96),
+('22520221', 3, 93),
+('22520221', 4, 76),
+('22520221', 5, 84),
+('22520221', 6, 66),
+('22520222', 1, 89),
+('22520222', 2, 41),
+('22520222', 3, 66),
+('22520222', 4, 44),
+('22520222', 5, 95),
+('22520222', 6, 48),
+('22520223', 1, 41),
+('22520223', 2, 63),
+('22520223', 3, 74),
+('22520223', 4, 71),
+('22520223', 5, 67),
+('22520223', 6, 63),
+('22520224', 1, 49),
+('22520224', 2, 84),
+('22520224', 3, 93),
+('22520224', 4, 87),
+('22520224', 5, 98),
+('22520224', 6, 67),
+('22520225', 1, 97),
+('22520225', 2, 82),
+('22520225', 3, 76),
+('22520225', 4, 85),
+('22520225', 5, 76),
+('22520225', 6, 94),
+('22520226', 1, 92),
+('22520226', 2, 66),
+('22520226', 3, 42),
+('22520226', 4, 43),
+('22520226', 5, 52),
+('22520226', 6, 98),
+('22520227', 1, 89),
+('22520227', 2, 86),
+('22520227', 3, 95),
+('22520227', 4, 48),
+('22520227', 5, 82),
+('22520227', 6, 72),
+('22520228', 1, 82),
+('22520228', 2, 58),
+('22520228', 3, 56),
+('22520228', 4, 92),
+('22520228', 5, 84),
+('22520228', 6, 85),
+('22520229', 1, 48),
+('22520229', 2, 46),
+('22520229', 3, 93),
+('22520229', 4, 76),
+('22520229', 5, 40),
+('22520229', 6, 58),
+('22520230', 1, 81),
+('22520230', 2, 48),
+('22520230', 3, 47),
+('22520230', 4, 56),
+('22520230', 5, 48),
+('22520230', 6, 41),
+('22520231', 1, 72),
+('22520231', 2, 73),
+('22520231', 3, 99),
+('22520231', 4, 91),
+('22520231', 5, 80),
+('22520231', 6, 87),
+('22520232', 1, 40),
+('22520232', 2, 70),
+('22520232', 3, 64),
+('22520232', 4, 90),
+('22520232', 5, 91),
+('22520232', 6, 56),
+('22520233', 1, 59),
+('22520233', 2, 53),
+('22520233', 3, 91),
+('22520233', 4, 50),
+('22520233', 5, 69),
+('22520233', 6, 57),
+('22520234', 1, 81),
+('22520234', 2, 87),
+('22520234', 3, 53),
+('22520234', 4, 52),
+('22520234', 5, 59),
+('22520234', 6, 72),
+('22520235', 1, 70),
+('22520235', 2, 80),
+('22520235', 3, 71),
+('22520235', 4, 64),
+('22520235', 5, 99),
+('22520235', 6, 71),
+('22520236', 1, 49),
+('22520236', 2, 55),
+('22520236', 3, 80),
+('22520236', 4, 59),
+('22520236', 5, 94),
+('22520236', 6, 71),
+('22520237', 1, 87),
+('22520237', 2, 80),
+('22520237', 3, 58),
+('22520237', 4, 42),
+('22520237', 5, 89),
+('22520237', 6, 79),
+('22520238', 1, 71),
+('22520238', 2, 92),
+('22520238', 3, 70),
+('22520238', 4, 60),
+('22520238', 5, 45),
+('22520238', 6, 44),
+('22520239', 1, 91),
+('22520239', 2, 40),
+('22520239', 3, 65),
+('22520239', 4, 53),
+('22520239', 5, 94),
+('22520239', 6, 79),
+('22520240', 1, 71),
+('22520240', 2, 98),
+('22520240', 3, 99),
+('22520240', 4, 42),
+('22520240', 5, 40),
+('22520240', 6, 78),
+('22520241', 1, 44),
+('22520241', 2, 95),
+('22520241', 3, 51),
+('22520241', 4, 71),
+('22520241', 5, 55),
+('22520241', 6, 66),
+('22520242', 1, 76),
+('22520242', 2, 97),
+('22520242', 3, 74),
+('22520242', 4, 97),
+('22520242', 5, 71),
+('22520242', 6, 58),
+('22520243', 1, 76),
+('22520243', 2, 82),
+('22520243', 3, 50),
+('22520243', 4, 85),
+('22520243', 5, 52),
+('22520243', 6, 91),
+('22520244', 1, 62),
+('22520244', 2, 64),
+('22520244', 3, 41),
+('22520244', 4, 50),
+('22520244', 5, 43),
+('22520244', 6, 55),
+('22520245', 1, 67),
+('22520245', 2, 60),
+('22520245', 3, 100),
+('22520245', 4, 69),
+('22520245', 5, 87),
+('22520245', 6, 57),
+('22520246', 1, 58),
+('22520246', 2, 59),
+('22520246', 3, 76),
+('22520246', 4, 94),
+('22520246', 5, 82),
+('22520246', 6, 86),
+('22520247', 1, 46),
+('22520247', 2, 44),
+('22520247', 3, 88),
+('22520247', 4, 53),
+('22520247', 5, 74),
+('22520247', 6, 70),
+('22520248', 1, 89),
+('22520248', 2, 51),
+('22520248', 3, 43),
+('22520248', 4, 75),
+('22520248', 5, 52),
+('22520248', 6, 87),
+('22520249', 1, 77),
+('22520249', 2, 59),
+('22520249', 3, 44),
+('22520249', 4, 91),
+('22520249', 5, 75),
+('22520249', 6, 71),
+('22520250', 1, 56),
+('22520250', 2, 95),
+('22520250', 3, 85),
+('22520250', 4, 55),
+('22520250', 5, 95),
+('22520250', 6, 86),
+('23520001', 1, 50),
+('23520001', 2, 52),
+('23520001', 3, 84),
+('23520001', 4, 98),
+('23520002', 1, 82),
+('23520002', 2, 87),
+('23520002', 3, 41),
+('23520002', 4, 53),
+('23520003', 1, 83),
+('23520003', 2, 66),
+('23520003', 3, 58),
+('23520003', 4, 97),
+('23520004', 1, 82),
+('23520004', 2, 41),
+('23520004', 3, 75),
+('23520004', 4, 92),
+('23520005', 1, 44),
+('23520005', 2, 69),
+('23520005', 3, 78),
+('23520005', 4, 75),
+('23520006', 1, 100),
+('23520006', 2, 67),
+('23520006', 3, 95),
+('23520006', 4, 98),
+('23520007', 1, 78),
+('23520007', 2, 90),
+('23520007', 3, 67),
+('23520007', 4, 45),
+('23520008', 1, 87),
+('23520008', 2, 63),
+('23520008', 3, 75),
+('23520008', 4, 57),
+('23520009', 1, 66),
+('23520009', 2, 51),
+('23520009', 3, 70),
+('23520009', 4, 77),
+('23520010', 1, 50),
+('23520010', 2, 61),
+('23520010', 3, 82),
+('23520010', 4, 57),
+('23520011', 1, 54),
+('23520011', 2, 74),
+('23520011', 3, 76),
+('23520011', 4, 68),
+('23520012', 1, 50),
+('23520012', 2, 86),
+('23520012', 3, 49),
+('23520012', 4, 79),
+('23520013', 1, 74),
+('23520013', 2, 85),
+('23520013', 3, 80),
+('23520013', 4, 86),
+('23520014', 1, 73),
+('23520014', 2, 90),
+('23520014', 3, 42),
+('23520014', 4, 50),
+('23520015', 1, 85),
+('23520015', 2, 58),
+('23520015', 3, 51),
+('23520015', 4, 95),
+('23520016', 1, 81),
+('23520016', 2, 91),
+('23520016', 3, 49),
+('23520016', 4, 96),
+('23520017', 1, 94),
+('23520017', 2, 79),
+('23520017', 3, 70),
+('23520017', 4, 44),
+('23520018', 1, 63),
+('23520018', 2, 60),
+('23520018', 3, 44),
+('23520018', 4, 60),
+('23520019', 1, 98),
+('23520019', 2, 71),
+('23520019', 3, 58),
+('23520019', 4, 92),
+('23520020', 1, 85),
+('23520020', 2, 55),
+('23520020', 3, 99),
+('23520020', 4, 78),
+('23520021', 1, 55),
+('23520021', 2, 87),
+('23520021', 3, 86),
+('23520021', 4, 67),
+('23520022', 1, 69),
+('23520022', 2, 46),
+('23520022', 3, 55),
+('23520022', 4, 86),
+('23520023', 1, 94),
+('23520023', 2, 47),
+('23520023', 3, 87),
+('23520023', 4, 74),
+('23520024', 1, 57),
+('23520024', 2, 56),
+('23520024', 3, 50),
+('23520024', 4, 99),
+('23520025', 1, 91),
+('23520025', 2, 99),
+('23520025', 3, 50),
+('23520025', 4, 71),
+('23520026', 1, 49),
+('23520026', 2, 85),
+('23520026', 3, 72),
+('23520026', 4, 54),
+('23520027', 1, 47),
+('23520027', 2, 97),
+('23520027', 3, 88),
+('23520027', 4, 85),
+('23520028', 1, 56),
+('23520028', 2, 81),
+('23520028', 3, 51),
+('23520028', 4, 40),
+('23520029', 1, 57),
+('23520029', 2, 64),
+('23520029', 3, 45),
+('23520029', 4, 86),
+('23520030', 1, 50),
+('23520030', 2, 42),
+('23520030', 3, 75),
+('23520030', 4, 72),
+('23520031', 1, 68),
+('23520031', 2, 61),
+('23520031', 3, 79),
+('23520031', 4, 72),
+('23520032', 1, 47),
+('23520032', 2, 84),
+('23520032', 3, 50),
+('23520032', 4, 52),
+('23520033', 1, 40),
+('23520033', 2, 76),
+('23520033', 3, 42),
+('23520033', 4, 81),
+('23520034', 1, 78),
+('23520034', 2, 96),
+('23520034', 3, 75),
+('23520034', 4, 50),
+('23520035', 1, 56),
+('23520035', 2, 85),
+('23520035', 3, 47),
+('23520035', 4, 95),
+('23520036', 1, 86),
+('23520036', 2, 42),
+('23520036', 3, 97),
+('23520036', 4, 82),
+('23520037', 1, 84),
+('23520037', 2, 57),
+('23520037', 3, 67),
+('23520037', 4, 63),
+('23520038', 1, 60),
+('23520038', 2, 55),
+('23520038', 3, 40),
+('23520038', 4, 54),
+('23520039', 1, 71),
+('23520039', 2, 68),
+('23520039', 3, 40),
+('23520039', 4, 62),
+('23520040', 1, 43),
+('23520040', 2, 53),
+('23520040', 3, 81),
+('23520040', 4, 59),
+('23520041', 1, 94),
+('23520041', 2, 66),
+('23520041', 3, 56),
+('23520041', 4, 87),
+('23520042', 1, 56),
+('23520042', 2, 67),
+('23520042', 3, 49),
+('23520042', 4, 100),
+('23520043', 1, 85),
+('23520043', 2, 74),
+('23520043', 3, 80),
+('23520043', 4, 90),
+('23520044', 1, 99),
+('23520044', 2, 78),
+('23520044', 3, 98),
+('23520044', 4, 66),
+('23520045', 1, 44),
+('23520045', 2, 60),
+('23520045', 3, 82),
+('23520045', 4, 48),
+('23520046', 1, 56),
+('23520046', 2, 52),
+('23520046', 3, 71),
+('23520046', 4, 92),
+('23520047', 1, 84),
+('23520047', 2, 53),
+('23520047', 3, 73),
+('23520047', 4, 97),
+('23520048', 1, 86),
+('23520048', 2, 74),
+('23520048', 3, 47),
+('23520048', 4, 49),
+('23520049', 1, 53),
+('23520049', 2, 77),
+('23520049', 3, 78),
+('23520049', 4, 50),
+('23520050', 1, 89),
+('23520050', 2, 76),
+('23520050', 3, 76),
+('23520050', 4, 100),
+('23520051', 1, 85),
+('23520051', 2, 84),
+('23520051', 3, 78),
+('23520051', 4, 92),
+('23520052', 1, 74),
+('23520052', 2, 57),
+('23520052', 3, 74),
+('23520052', 4, 65),
+('23520053', 1, 75),
+('23520053', 2, 54),
+('23520053', 3, 46),
+('23520053', 4, 89),
+('23520054', 1, 86),
+('23520054', 2, 64),
+('23520054', 3, 87),
+('23520054', 4, 96),
+('23520055', 1, 60),
+('23520055', 2, 47),
+('23520055', 3, 75),
+('23520055', 4, 84),
+('23520056', 1, 71),
+('23520056', 2, 72),
+('23520056', 3, 45),
+('23520056', 4, 100),
+('23520057', 1, 43),
+('23520057', 2, 72),
+('23520057', 3, 40),
+('23520057', 4, 44),
+('23520058', 1, 76),
+('23520058', 2, 100),
+('23520058', 3, 83),
+('23520058', 4, 50),
+('23520059', 1, 51),
+('23520059', 2, 54),
+('23520059', 3, 66),
+('23520059', 4, 45),
+('23520060', 1, 61),
+('23520060', 2, 75),
+('23520060', 3, 84),
+('23520060', 4, 100),
+('23520061', 1, 55),
+('23520061', 2, 43),
+('23520061', 3, 84),
+('23520061', 4, 57),
+('23520062', 1, 50),
+('23520062', 2, 55),
+('23520062', 3, 91),
+('23520062', 4, 55),
+('23520063', 1, 78),
+('23520063', 2, 89),
+('23520063', 3, 64),
+('23520063', 4, 91),
+('23520064', 1, 75),
+('23520064', 2, 49),
+('23520064', 3, 66),
+('23520064', 4, 51),
+('23520065', 1, 90),
+('23520065', 2, 42),
+('23520065', 3, 56),
+('23520065', 4, 97),
+('23520066', 1, 48),
+('23520066', 2, 46),
+('23520066', 3, 83),
+('23520066', 4, 97),
+('23520067', 1, 54),
+('23520067', 2, 95),
+('23520067', 3, 71),
+('23520067', 4, 45),
+('23520068', 1, 62),
+('23520068', 2, 53),
+('23520068', 3, 87),
+('23520068', 4, 95),
+('23520069', 1, 58),
+('23520069', 2, 61),
+('23520069', 3, 61),
+('23520069', 4, 99),
+('23520070', 1, 48),
+('23520070', 2, 50),
+('23520070', 3, 45),
+('23520070', 4, 71),
+('23520071', 1, 83),
+('23520071', 2, 68),
+('23520071', 3, 59),
+('23520071', 4, 58),
+('23520072', 1, 83),
+('23520072', 2, 51),
+('23520072', 3, 75),
+('23520072', 4, 45),
+('23520073', 1, 63),
+('23520073', 2, 47),
+('23520073', 3, 97),
+('23520073', 4, 80),
+('23520074', 1, 58),
+('23520074', 2, 42),
+('23520074', 3, 88),
+('23520074', 4, 98),
+('23520075', 1, 61),
+('23520075', 2, 68),
+('23520075', 3, 58),
+('23520075', 4, 85),
+('23520076', 1, 86),
+('23520076', 2, 96),
+('23520076', 3, 70),
+('23520076', 4, 95),
+('23520077', 1, 44),
+('23520077', 2, 47),
+('23520077', 3, 87),
+('23520077', 4, 82),
+('23520078', 1, 54),
+('23520078', 2, 41),
+('23520078', 3, 98),
+('23520078', 4, 79),
+('23520079', 1, 40),
+('23520079', 2, 40),
+('23520079', 3, 72),
+('23520079', 4, 98),
+('23520080', 1, 42),
+('23520080', 2, 59),
+('23520080', 3, 54),
+('23520080', 4, 77),
+('23520081', 1, 45),
+('23520081', 2, 87),
+('23520081', 3, 61),
+('23520081', 4, 61),
+('23520082', 1, 76),
+('23520082', 2, 77),
+('23520082', 3, 61),
+('23520082', 4, 74),
+('23520083', 1, 96),
+('23520083', 2, 62),
+('23520083', 3, 67),
+('23520083', 4, 77),
+('23520084', 1, 91),
+('23520084', 2, 96),
+('23520084', 3, 84),
+('23520084', 4, 64),
+('23520085', 1, 65),
+('23520085', 2, 46),
+('23520085', 3, 94),
+('23520085', 4, 89),
+('23520086', 1, 63),
+('23520086', 2, 87),
+('23520086', 3, 77),
+('23520086', 4, 68),
+('23520087', 1, 70),
+('23520087', 2, 71),
+('23520087', 3, 59),
+('23520087', 4, 65),
+('23520088', 1, 93),
+('23520088', 2, 41),
+('23520088', 3, 87),
+('23520088', 4, 52),
+('23520089', 1, 47),
+('23520089', 2, 98),
+('23520089', 3, 63),
+('23520089', 4, 57),
+('23520090', 1, 49),
+('23520090', 2, 51),
+('23520090', 3, 74),
+('23520090', 4, 95),
+('23520091', 1, 100),
+('23520091', 2, 59),
+('23520091', 3, 100),
+('23520091', 4, 100),
+('23520092', 1, 46),
+('23520092', 2, 59),
+('23520092', 3, 43),
+('23520092', 4, 42),
+('23520093', 1, 51),
+('23520093', 2, 55),
+('23520093', 3, 82),
+('23520093', 4, 57),
+('23520094', 1, 66),
+('23520094', 2, 88),
+('23520094', 3, 90),
+('23520094', 4, 93),
+('23520095', 1, 79),
+('23520095', 2, 95),
+('23520095', 3, 47),
+('23520095', 4, 95),
+('23520096', 1, 49),
+('23520096', 2, 45),
+('23520096', 3, 77),
+('23520096', 4, 92),
+('23520097', 1, 66),
+('23520097', 2, 59),
+('23520097', 3, 55),
+('23520097', 4, 99),
+('23520098', 1, 61),
+('23520098', 2, 95),
+('23520098', 3, 80),
+('23520098', 4, 59),
+('23520099', 1, 68),
+('23520099', 2, 84),
+('23520099', 3, 57),
+('23520099', 4, 64),
+('23520100', 1, 76),
+('23520100', 2, 86),
+('23520100', 3, 81),
+('23520100', 4, 85),
+('23520101', 1, 57),
+('23520101', 2, 96),
+('23520101', 3, 73),
+('23520101', 4, 97),
+('23520102', 1, 72),
+('23520102', 2, 55),
+('23520102', 3, 91),
+('23520102', 4, 84),
+('23520103', 1, 48),
+('23520103', 2, 79),
+('23520103', 3, 72),
+('23520103', 4, 51),
+('23520104', 1, 55),
+('23520104', 2, 77),
+('23520104', 3, 49),
+('23520104', 4, 96),
+('23520105', 1, 48),
+('23520105', 2, 46),
+('23520105', 3, 81),
+('23520105', 4, 76),
+('23520106', 1, 75),
+('23520106', 2, 64),
+('23520106', 3, 91),
+('23520106', 4, 61),
+('23520107', 1, 88),
+('23520107', 2, 81),
+('23520107', 3, 67),
+('23520107', 4, 76),
+('23520108', 1, 67),
+('23520108', 2, 45),
+('23520108', 3, 50),
+('23520108', 4, 88),
+('23520109', 1, 69),
+('23520109', 2, 80),
+('23520109', 3, 95),
+('23520109', 4, 60),
+('23520110', 1, 40),
+('23520110', 2, 49),
+('23520110', 3, 76),
+('23520110', 4, 65),
+('23520111', 1, 67),
+('23520111', 2, 40),
+('23520111', 3, 63),
+('23520111', 4, 88),
+('23520112', 1, 74),
+('23520112', 2, 67),
+('23520112', 3, 89),
+('23520112', 4, 96),
+('23520113', 1, 93),
+('23520113', 2, 81),
+('23520113', 3, 96),
+('23520113', 4, 70),
+('23520114', 1, 48),
+('23520114', 2, 70),
+('23520114', 3, 56),
+('23520114', 4, 95),
+('23520115', 1, 59),
+('23520115', 2, 85),
+('23520115', 3, 55),
+('23520115', 4, 94),
+('23520116', 1, 42),
+('23520116', 2, 53),
+('23520116', 3, 69),
+('23520116', 4, 83),
+('23520117', 1, 76),
+('23520117', 2, 58),
+('23520117', 3, 94),
+('23520117', 4, 88),
+('23520118', 1, 72),
+('23520118', 2, 98),
+('23520118', 3, 43),
+('23520118', 4, 44),
+('23520119', 1, 52),
+('23520119', 2, 57),
+('23520119', 3, 73),
+('23520119', 4, 48),
+('23520120', 1, 100),
+('23520120', 2, 50),
+('23520120', 3, 77),
+('23520120', 4, 80),
+('23520121', 1, 91),
+('23520121', 2, 58),
+('23520121', 3, 95),
+('23520121', 4, 75),
+('23520122', 1, 63),
+('23520122', 2, 67),
+('23520122', 3, 48),
+('23520122', 4, 74),
+('23520123', 1, 79),
+('23520123', 2, 65),
+('23520123', 3, 44),
+('23520123', 4, 51),
+('23520124', 1, 72),
+('23520124', 2, 85),
+('23520124', 3, 40),
+('23520124', 4, 85),
+('23520125', 1, 70),
+('23520125', 2, 74),
+('23520125', 3, 40),
+('23520125', 4, 75),
+('23520126', 1, 76),
+('23520126', 2, 81),
+('23520126', 3, 100),
+('23520126', 4, 94),
+('23520127', 1, 99),
+('23520127', 2, 53),
+('23520127', 3, 68),
+('23520127', 4, 44),
+('23520128', 1, 68),
+('23520128', 2, 72),
+('23520128', 3, 51),
+('23520128', 4, 68),
+('23520129', 1, 56),
+('23520129', 2, 67),
+('23520129', 3, 89),
+('23520129', 4, 64),
+('23520130', 1, 80),
+('23520130', 2, 47),
+('23520130', 3, 99),
+('23520130', 4, 58),
+('23520131', 1, 57),
+('23520131', 2, 45),
+('23520131', 3, 86),
+('23520131', 4, 84),
+('23520132', 1, 50),
+('23520132', 2, 67),
+('23520132', 3, 51),
+('23520132', 4, 65),
+('23520133', 1, 85),
+('23520133', 2, 83),
+('23520133', 3, 90),
+('23520133', 4, 90),
+('23520134', 1, 44),
+('23520134', 2, 46),
+('23520134', 3, 85),
+('23520134', 4, 45),
+('23520135', 1, 63),
+('23520135', 2, 87),
+('23520135', 3, 70),
+('23520135', 4, 60),
+('23520136', 1, 71),
+('23520136', 2, 45),
+('23520136', 3, 70),
+('23520136', 4, 53),
+('23520137', 1, 58),
+('23520137', 2, 73),
+('23520137', 3, 77),
+('23520137', 4, 81),
+('23520138', 1, 73),
+('23520138', 2, 46),
+('23520138', 3, 95),
+('23520138', 4, 57),
+('23520139', 1, 42),
+('23520139', 2, 96),
+('23520139', 3, 63),
+('23520139', 4, 96),
+('23520140', 1, 64),
+('23520140', 2, 47),
+('23520140', 3, 44),
+('23520140', 4, 50),
+('23520141', 1, 97),
+('23520141', 2, 73),
+('23520141', 3, 63),
+('23520141', 4, 82),
+('23520142', 1, 72),
+('23520142', 2, 52),
+('23520142', 3, 49),
+('23520142', 4, 99),
+('23520143', 1, 84),
+('23520143', 2, 94),
+('23520143', 3, 90),
+('23520143', 4, 76),
+('23520144', 1, 87),
+('23520144', 2, 88),
+('23520144', 3, 71),
+('23520144', 4, 89),
+('23520145', 1, 91),
+('23520145', 2, 77),
+('23520145', 3, 52),
+('23520145', 4, 75),
+('23520146', 1, 45),
+('23520146', 2, 40),
+('23520146', 3, 74),
+('23520146', 4, 54),
+('23520147', 1, 58),
+('23520147', 2, 41),
+('23520147', 3, 53),
+('23520147', 4, 59),
+('23520148', 1, 52),
+('23520148', 2, 64),
+('23520148', 3, 51),
+('23520148', 4, 48),
+('23520149', 1, 78),
+('23520149', 2, 82),
+('23520149', 3, 50),
+('23520149', 4, 61),
+('23520150', 1, 93),
+('23520150', 2, 94),
+('23520150', 3, 62),
+('23520150', 4, 48),
+('23520151', 1, 71),
+('23520151', 2, 90),
+('23520151', 3, 95),
+('23520151', 4, 67),
+('23520152', 1, 67),
+('23520152', 2, 46),
+('23520152', 3, 60),
+('23520152', 4, 43),
+('23520153', 1, 48),
+('23520153', 2, 96),
+('23520153', 3, 68),
+('23520153', 4, 71),
+('23520154', 1, 81),
+('23520154', 2, 40),
+('23520154', 3, 73),
+('23520154', 4, 42),
+('23520155', 1, 90),
+('23520155', 2, 91),
+('23520155', 3, 65),
+('23520155', 4, 88),
+('23520156', 1, 81),
+('23520156', 2, 55),
+('23520156', 3, 81),
+('23520156', 4, 65),
+('23520157', 1, 48),
+('23520157', 2, 58),
+('23520157', 3, 45),
+('23520157', 4, 68),
+('23520158', 1, 43),
+('23520158', 2, 83),
+('23520158', 3, 94),
+('23520158', 4, 94),
+('23520159', 1, 53),
+('23520159', 2, 93),
+('23520159', 3, 47),
+('23520159', 4, 73),
+('23520160', 1, 77),
+('23520160', 2, 76),
+('23520160', 3, 50),
+('23520160', 4, 57),
+('23520161', 1, 76),
+('23520161', 2, 54),
+('23520161', 3, 66),
+('23520161', 4, 89),
+('23520162', 1, 78),
+('23520162', 2, 48),
+('23520162', 3, 69),
+('23520162', 4, 64),
+('23520163', 1, 87),
+('23520163', 2, 94),
+('23520163', 3, 81),
+('23520163', 4, 98),
+('23520164', 1, 50),
+('23520164', 2, 47),
+('23520164', 3, 62),
+('23520164', 4, 73),
+('23520165', 1, 44),
+('23520165', 2, 56),
+('23520165', 3, 88),
+('23520165', 4, 91),
+('23520166', 1, 48),
+('23520166', 2, 75),
+('23520166', 3, 42),
+('23520166', 4, 92),
+('23520167', 1, 71),
+('23520167', 2, 42),
+('23520167', 3, 69),
+('23520167', 4, 78),
+('23520168', 1, 76),
+('23520168', 2, 68),
+('23520168', 3, 100),
+('23520168', 4, 97),
+('23520169', 1, 60),
+('23520169', 2, 51),
+('23520169', 3, 76),
+('23520169', 4, 86),
+('23520170', 1, 96),
+('23520170', 2, 42),
+('23520170', 3, 66),
+('23520170', 4, 81),
+('23520171', 1, 72),
+('23520171', 2, 87),
+('23520171', 3, 43),
+('23520171', 4, 42),
+('23520172', 1, 78),
+('23520172', 2, 76),
+('23520172', 3, 93),
+('23520172', 4, 65),
+('23520173', 1, 65),
+('23520173', 2, 70),
+('23520173', 3, 46),
+('23520173', 4, 65),
+('23520174', 1, 52),
+('23520174', 2, 66),
+('23520174', 3, 68),
+('23520174', 4, 67),
+('23520175', 1, 82),
+('23520175', 2, 67),
+('23520175', 3, 53),
+('23520175', 4, 80),
+('23520176', 1, 99),
+('23520176', 2, 58),
+('23520176', 3, 82),
+('23520176', 4, 87),
+('23520177', 1, 58),
+('23520177', 2, 73),
+('23520177', 3, 75),
+('23520177', 4, 59),
+('23520178', 1, 96),
+('23520178', 2, 65),
+('23520178', 3, 84),
+('23520178', 4, 71),
+('23520179', 1, 89),
+('23520179', 2, 57),
+('23520179', 3, 61),
+('23520179', 4, 64),
+('23520180', 1, 72),
+('23520180', 2, 93),
+('23520180', 3, 52),
+('23520180', 4, 48),
+('23520181', 1, 41),
+('23520181', 2, 54),
+('23520181', 3, 76),
+('23520181', 4, 85),
+('23520182', 1, 84),
+('23520182', 2, 66),
+('23520182', 3, 92),
+('23520182', 4, 41),
+('23520183', 1, 77),
+('23520183', 2, 75),
+('23520183', 3, 84),
+('23520183', 4, 88),
+('23520184', 1, 45),
+('23520184', 2, 92),
+('23520184', 3, 50),
+('23520184', 4, 90),
+('23520185', 1, 63),
+('23520185', 2, 77),
+('23520185', 3, 51),
+('23520185', 4, 90),
+('23520186', 1, 49),
+('23520186', 2, 68),
+('23520186', 3, 69),
+('23520186', 4, 67),
+('23520187', 1, 40),
+('23520187', 2, 98),
+('23520187', 3, 67),
+('23520187', 4, 49),
+('23520188', 1, 44),
+('23520188', 2, 76),
+('23520188', 3, 66),
+('23520188', 4, 69),
+('23520189', 1, 80),
+('23520189', 2, 85),
+('23520189', 3, 68),
+('23520189', 4, 43),
+('23520190', 1, 52),
+('23520190', 2, 96),
+('23520190', 3, 95),
+('23520190', 4, 58),
+('23520191', 1, 82),
+('23520191', 2, 81),
+('23520191', 3, 64),
+('23520191', 4, 96),
+('23520192', 1, 79),
+('23520192', 2, 87),
+('23520192', 3, 54),
+('23520192', 4, 98),
+('23520193', 1, 42),
+('23520193', 2, 80),
+('23520193', 3, 95),
+('23520193', 4, 88),
+('23520194', 1, 96),
+('23520194', 2, 48),
+('23520194', 3, 51),
+('23520194', 4, 63),
+('23520195', 1, 49),
+('23520195', 2, 83),
+('23520195', 3, 87),
+('23520195', 4, 60),
+('23520196', 1, 44),
+('23520196', 2, 78),
+('23520196', 3, 75),
+('23520196', 4, 48),
+('23520197', 1, 72),
+('23520197', 2, 59),
+('23520197', 3, 93),
+('23520197', 4, 92),
+('23520198', 1, 71),
+('23520198', 2, 46),
+('23520198', 3, 41),
+('23520198', 4, 58),
+('23520199', 1, 92),
+('23520199', 2, 95),
+('23520199', 3, 80),
+('23520199', 4, 71),
+('23520200', 1, 88),
+('23520200', 2, 80),
+('23520200', 3, 61),
+('23520200', 4, 56),
+('23520201', 1, 78),
+('23520201', 2, 84),
+('23520201', 3, 89),
+('23520201', 4, 94),
+('23520202', 1, 67),
+('23520202', 2, 65),
+('23520202', 3, 82),
+('23520202', 4, 69),
+('23520203', 1, 73),
+('23520203', 2, 84),
+('23520203', 3, 98),
+('23520203', 4, 90),
+('23520204', 1, 82),
+('23520204', 2, 75),
+('23520204', 3, 49),
+('23520204', 4, 76),
+('23520205', 1, 90),
+('23520205', 2, 58),
+('23520205', 3, 51),
+('23520205', 4, 79),
+('23520206', 1, 69),
+('23520206', 2, 51),
+('23520206', 3, 64),
+('23520206', 4, 97),
+('23520207', 1, 43),
+('23520207', 2, 71),
+('23520207', 3, 70),
+('23520207', 4, 93),
+('23520208', 1, 60),
+('23520208', 2, 88),
+('23520208', 3, 78),
+('23520208', 4, 87),
+('23520209', 1, 65),
+('23520209', 2, 55),
+('23520209', 3, 70),
+('23520209', 4, 89),
+('23520210', 1, 62),
+('23520210', 2, 46),
+('23520210', 3, 78),
+('23520210', 4, 91),
+('23520211', 1, 54),
+('23520211', 2, 94),
+('23520211', 3, 46),
+('23520211', 4, 65),
+('23520212', 1, 44),
+('23520212', 2, 66),
+('23520212', 3, 50),
+('23520212', 4, 83),
+('23520213', 1, 83),
+('23520213', 2, 41),
+('23520213', 3, 91),
+('23520213', 4, 40),
+('23520214', 1, 99),
+('23520214', 2, 84),
+('23520214', 3, 82),
+('23520214', 4, 74),
+('23520215', 1, 94),
+('23520215', 2, 58),
+('23520215', 3, 83),
+('23520215', 4, 83),
+('23520216', 1, 68),
+('23520216', 2, 73),
+('23520216', 3, 72),
+('23520216', 4, 96),
+('23520217', 1, 98),
+('23520217', 2, 83),
+('23520217', 3, 50),
+('23520217', 4, 71),
+('23520218', 1, 76),
+('23520218', 2, 47),
+('23520218', 3, 78),
+('23520218', 4, 94),
+('23520219', 1, 100),
+('23520219', 2, 59),
+('23520219', 3, 42),
+('23520219', 4, 49),
+('23520220', 1, 75),
+('23520220', 2, 85),
+('23520220', 3, 48),
+('23520220', 4, 99),
+('23520221', 1, 61),
+('23520221', 2, 57),
+('23520221', 3, 89),
+('23520221', 4, 100),
+('23520222', 1, 72),
+('23520222', 2, 46),
+('23520222', 3, 95),
+('23520222', 4, 55),
+('23520223', 1, 46),
+('23520223', 2, 88),
+('23520223', 3, 61),
+('23520223', 4, 72),
+('23520224', 1, 41),
+('23520224', 2, 54),
+('23520224', 3, 54),
+('23520224', 4, 54),
+('23520225', 1, 50),
+('23520225', 2, 81),
+('23520225', 3, 45),
+('23520225', 4, 71),
+('23520226', 1, 92),
+('23520226', 2, 78),
+('23520226', 3, 48),
+('23520226', 4, 78),
+('23520227', 1, 43),
+('23520227', 2, 70),
+('23520227', 3, 69),
+('23520227', 4, 46),
+('23520228', 1, 75),
+('23520228', 2, 70),
+('23520228', 3, 44),
+('23520228', 4, 70),
+('23520229', 1, 69),
+('23520229', 2, 56),
+('23520229', 3, 71),
+('23520229', 4, 68),
+('23520230', 1, 63),
+('23520230', 2, 49),
+('23520230', 3, 54),
+('23520230', 4, 41),
+('23520231', 1, 41),
+('23520231', 2, 59),
+('23520231', 3, 72),
+('23520231', 4, 85),
+('23520232', 1, 92),
+('23520232', 2, 79),
+('23520232', 3, 66),
+('23520232', 4, 82),
+('23520233', 1, 72),
+('23520233', 2, 66),
+('23520233', 3, 46),
+('23520233', 4, 52),
+('23520234', 1, 90),
+('23520234', 2, 98),
+('23520234', 3, 53),
+('23520234', 4, 64),
+('23520235', 1, 62),
+('23520235', 2, 68),
+('23520235', 3, 92),
+('23520235', 4, 58),
+('23520236', 1, 59),
+('23520236', 2, 58),
+('23520236', 3, 96),
+('23520236', 4, 54),
+('23520237', 1, 68),
+('23520237', 2, 93),
+('23520237', 3, 63),
+('23520237', 4, 99),
+('23520238', 1, 58),
+('23520238', 2, 49),
+('23520238', 3, 72),
+('23520238', 4, 62),
+('23520239', 1, 57),
+('23520239', 2, 91),
+('23520239', 3, 59),
+('23520239', 4, 80),
+('23520240', 1, 72),
+('23520240', 2, 73),
+('23520240', 3, 61),
+('23520240', 4, 88),
+('23520241', 1, 84),
+('23520241', 2, 68),
+('23520241', 3, 72),
+('23520241', 4, 50),
+('23520242', 1, 57),
+('23520242', 2, 72),
+('23520242', 3, 41),
+('23520242', 4, 68),
+('23520243', 1, 41),
+('23520243', 2, 41),
+('23520243', 3, 87),
+('23520243', 4, 56),
+('23520244', 1, 77),
+('23520244', 2, 70),
+('23520244', 3, 51),
+('23520244', 4, 60),
+('23520245', 1, 74),
+('23520245', 2, 62),
+('23520245', 3, 63),
+('23520245', 4, 42),
+('23520246', 1, 54),
+('23520246', 2, 75),
+('23520246', 3, 58),
+('23520246', 4, 100),
+('23520247', 1, 86),
+('23520247', 2, 65),
+('23520247', 3, 81),
+('23520247', 4, 54),
+('23520248', 1, 100),
+('23520248', 2, 86),
+('23520248', 3, 93),
+('23520248', 4, 86),
+('23520249', 1, 72),
+('23520249', 2, 77),
+('23520249', 3, 56),
+('23520249', 4, 43),
+('23520250', 1, 47),
+('23520250', 2, 94),
+('23520250', 3, 45),
+('23520250', 4, 66),
+('24520001', 1, 41),
+('24520001', 2, 60),
+('24520002', 1, 59),
+('24520002', 2, 50),
+('24520003', 1, 99),
+('24520003', 2, 46),
+('24520004', 1, 75),
+('24520004', 2, 76),
+('24520005', 1, 46),
+('24520005', 2, 85),
+('24520006', 1, 41),
+('24520006', 2, 97),
+('24520007', 1, 99),
+('24520007', 2, 83),
+('24520008', 1, 92),
+('24520008', 2, 77),
+('24520009', 1, 43),
+('24520009', 2, 84),
+('24520010', 1, 43),
+('24520010', 2, 53),
+('24520011', 1, 82),
+('24520011', 2, 43),
+('24520012', 1, 42),
+('24520012', 2, 90),
+('24520013', 1, 98),
+('24520013', 2, 46),
+('24520014', 1, 55),
+('24520014', 2, 93),
+('24520015', 1, 72),
+('24520015', 2, 58),
+('24520016', 1, 49),
+('24520016', 2, 48),
+('24520017', 1, 97),
+('24520017', 2, 87),
+('24520018', 1, 49),
+('24520018', 2, 76),
+('24520019', 1, 67),
+('24520019', 2, 81),
+('24520020', 1, 95),
+('24520020', 2, 58),
+('24520021', 1, 98),
+('24520021', 2, 56),
+('24520022', 1, 49),
+('24520022', 2, 44),
+('24520023', 1, 48),
+('24520023', 2, 83),
+('24520024', 1, 53),
+('24520024', 2, 56),
+('24520025', 1, 52),
+('24520025', 2, 57),
+('24520026', 1, 64),
+('24520026', 2, 78),
+('24520027', 1, 45),
+('24520027', 2, 97),
+('24520028', 1, 50),
+('24520028', 2, 77),
+('24520029', 1, 67),
+('24520029', 2, 56),
+('24520030', 1, 76),
+('24520030', 2, 42),
+('24520031', 1, 88),
+('24520031', 2, 93),
+('24520032', 1, 42),
+('24520032', 2, 80),
+('24520033', 1, 81),
+('24520033', 2, 55),
+('24520034', 1, 41),
+('24520034', 2, 91),
+('24520035', 1, 78),
+('24520035', 2, 97),
+('24520036', 1, 52),
+('24520036', 2, 93),
+('24520037', 1, 47),
+('24520037', 2, 71),
+('24520038', 1, 97),
+('24520038', 2, 87),
+('24520039', 1, 88),
+('24520039', 2, 50),
+('24520040', 1, 88),
+('24520040', 2, 76),
+('24520041', 1, 58),
+('24520041', 2, 52),
+('24520042', 1, 65),
+('24520042', 2, 85),
+('24520043', 1, 90),
+('24520043', 2, 57),
+('24520044', 1, 54),
+('24520044', 2, 96),
+('24520045', 1, 75),
+('24520045', 2, 87),
+('24520046', 1, 69),
+('24520046', 2, 52),
+('24520047', 1, 84),
+('24520047', 2, 68),
+('24520048', 1, 83),
+('24520048', 2, 88),
+('24520049', 1, 62),
+('24520049', 2, 64),
+('24520050', 1, 62),
+('24520050', 2, 77),
+('24520051', 1, 79),
+('24520051', 2, 78),
+('24520052', 1, 45),
+('24520052', 2, 65),
+('24520053', 1, 78),
+('24520053', 2, 72),
+('24520054', 1, 61),
+('24520054', 2, 88),
+('24520055', 1, 78),
+('24520055', 2, 67),
+('24520056', 1, 86),
+('24520056', 2, 41),
+('24520057', 1, 48),
+('24520057', 2, 71),
+('24520058', 1, 69),
+('24520058', 2, 56),
+('24520059', 1, 56),
+('24520059', 2, 41),
+('24520060', 1, 66),
+('24520060', 2, 96),
+('24520061', 1, 60),
+('24520061', 2, 77),
+('24520062', 1, 59),
+('24520062', 2, 53),
+('24520063', 1, 60),
+('24520063', 2, 89),
+('24520064', 1, 45),
+('24520064', 2, 89),
+('24520065', 1, 97),
+('24520065', 2, 84),
+('24520066', 1, 40),
+('24520066', 2, 49),
+('24520067', 1, 92),
+('24520067', 2, 82),
+('24520068', 1, 45),
+('24520068', 2, 59),
+('24520069', 1, 87),
+('24520069', 2, 85),
+('24520070', 1, 91),
+('24520070', 2, 72),
+('24520071', 1, 73),
+('24520071', 2, 76),
+('24520072', 1, 76),
+('24520072', 2, 69),
+('24520073', 1, 78),
+('24520073', 2, 97),
+('24520074', 1, 65),
+('24520074', 2, 41),
+('24520075', 1, 46),
+('24520075', 2, 64),
+('24520076', 1, 55),
+('24520076', 2, 63),
+('24520077', 1, 83),
+('24520077', 2, 53),
+('24520078', 1, 43),
+('24520078', 2, 59),
+('24520079', 1, 48),
+('24520079', 2, 50),
+('24520080', 1, 98),
+('24520080', 2, 86),
+('24520081', 1, 85),
+('24520081', 2, 89),
+('24520082', 1, 90),
+('24520082', 2, 59),
+('24520083', 1, 59),
+('24520083', 2, 84),
+('24520084', 1, 56),
+('24520084', 2, 73),
+('24520085', 1, 59),
+('24520085', 2, 45),
+('24520086', 1, 69),
+('24520086', 2, 91),
+('24520087', 1, 67),
+('24520087', 2, 80),
+('24520088', 1, 79),
+('24520088', 2, 68),
+('24520089', 1, 99),
+('24520089', 2, 49),
+('24520090', 1, 51),
+('24520090', 2, 69),
+('24520091', 1, 43),
+('24520091', 2, 87),
+('24520092', 1, 56),
+('24520092', 2, 42),
+('24520093', 1, 72),
+('24520093', 2, 72),
+('24520094', 1, 91),
+('24520094', 2, 42),
+('24520095', 1, 46),
+('24520095', 2, 56),
+('24520096', 1, 43),
+('24520096', 2, 91),
+('24520097', 1, 59),
+('24520097', 2, 63),
+('24520098', 1, 78),
+('24520098', 2, 42),
+('24520099', 1, 87),
+('24520099', 2, 93),
+('24520100', 1, 92),
+('24520100', 2, 67),
+('24520101', 1, 95),
+('24520101', 2, 56),
+('24520102', 1, 64),
+('24520102', 2, 79),
+('24520103', 1, 70),
+('24520103', 2, 66),
+('24520104', 1, 51),
+('24520104', 2, 59),
+('24520105', 1, 65),
+('24520105', 2, 52),
+('24520106', 1, 66),
+('24520106', 2, 49),
+('24520107', 1, 57),
+('24520107', 2, 75),
+('24520108', 1, 59),
+('24520108', 2, 52),
+('24520109', 1, 73),
+('24520109', 2, 79),
+('24520110', 1, 53),
+('24520110', 2, 81),
+('24520111', 1, 77),
+('24520111', 2, 54),
+('24520112', 1, 63),
+('24520112', 2, 57),
+('24520113', 1, 41),
+('24520113', 2, 94),
+('24520114', 1, 91),
+('24520114', 2, 46),
+('24520115', 1, 66),
+('24520115', 2, 69),
+('24520116', 1, 75),
+('24520116', 2, 97),
+('24520117', 1, 82),
+('24520117', 2, 83),
+('24520118', 1, 46),
+('24520118', 2, 60),
+('24520119', 1, 92),
+('24520119', 2, 42),
+('24520120', 1, 87),
+('24520120', 2, 62),
+('24520121', 1, 46),
+('24520121', 2, 79),
+('24520122', 1, 75),
+('24520122', 2, 64),
+('24520123', 1, 49),
+('24520123', 2, 99),
+('24520124', 1, 95),
+('24520124', 2, 100),
+('24520125', 1, 42),
+('24520125', 2, 83),
+('24520126', 1, 45),
+('24520126', 2, 100),
+('24520127', 1, 91),
+('24520127', 2, 77),
+('24520128', 1, 71),
+('24520128', 2, 61),
+('24520129', 1, 83),
+('24520129', 2, 88),
+('24520130', 1, 97),
+('24520130', 2, 95),
+('24520131', 1, 83),
+('24520131', 2, 57),
+('24520132', 1, 61),
+('24520132', 2, 85),
+('24520133', 1, 42),
+('24520133', 2, 44),
+('24520134', 1, 92),
+('24520134', 2, 94),
+('24520135', 1, 97),
+('24520135', 2, 73),
+('24520136', 1, 94),
+('24520136', 2, 77),
+('24520137', 1, 69),
+('24520137', 2, 49),
+('24520138', 1, 88),
+('24520138', 2, 61),
+('24520139', 1, 50),
+('24520139', 2, 50),
+('24520140', 1, 56),
+('24520140', 2, 40),
+('24520141', 1, 62),
+('24520141', 2, 89),
+('24520142', 1, 71),
+('24520142', 2, 80),
+('24520143', 1, 93),
+('24520143', 2, 70),
+('24520144', 1, 64),
+('24520144', 2, 64),
+('24520145', 1, 80),
+('24520145', 2, 85),
+('24520146', 1, 77),
+('24520146', 2, 80),
+('24520147', 1, 66),
+('24520147', 2, 42),
+('24520148', 1, 75),
+('24520148', 2, 100),
+('24520149', 1, 84),
+('24520149', 2, 87),
+('24520150', 1, 41),
+('24520150', 2, 47),
+('24520151', 1, 99),
+('24520151', 2, 100),
+('24520152', 1, 56),
+('24520152', 2, 41),
+('24520153', 1, 85),
+('24520153', 2, 55),
+('24520154', 1, 71),
+('24520154', 2, 100),
+('24520155', 1, 100),
+('24520155', 2, 99),
+('24520156', 1, 50),
+('24520156', 2, 76),
+('24520157', 1, 48),
+('24520157', 2, 77),
+('24520158', 1, 48),
+('24520158', 2, 50),
+('24520159', 1, 58),
+('24520159', 2, 70),
+('24520160', 1, 60),
+('24520160', 2, 81),
+('24520161', 1, 88),
+('24520161', 2, 59),
+('24520162', 1, 90),
+('24520162', 2, 52),
+('24520163', 1, 86),
+('24520163', 2, 80),
+('24520164', 1, 65),
+('24520164', 2, 53),
+('24520165', 1, 95),
+('24520165', 2, 56),
+('24520166', 1, 65),
+('24520166', 2, 76),
+('24520167', 1, 93),
+('24520167', 2, 95),
+('24520168', 1, 67),
+('24520168', 2, 53),
+('24520169', 1, 84),
+('24520169', 2, 67),
+('24520170', 1, 80),
+('24520170', 2, 83),
+('24520171', 1, 55),
+('24520171', 2, 50),
+('24520172', 1, 100),
+('24520172', 2, 92),
+('24520173', 1, 72),
+('24520173', 2, 88),
+('24520174', 1, 59),
+('24520174', 2, 76),
+('24520175', 1, 87),
+('24520175', 2, 82),
+('24520176', 1, 100),
+('24520176', 2, 62),
+('24520177', 1, 91),
+('24520177', 2, 46),
+('24520178', 1, 98),
+('24520178', 2, 69),
+('24520179', 1, 64),
+('24520179', 2, 73),
+('24520180', 1, 47),
+('24520180', 2, 57),
+('24520181', 1, 75),
+('24520181', 2, 41),
+('24520182', 1, 54),
+('24520182', 2, 93),
+('24520183', 1, 77),
+('24520183', 2, 52),
+('24520184', 1, 41),
+('24520184', 2, 51),
+('24520185', 1, 52),
+('24520185', 2, 53),
+('24520186', 1, 79),
+('24520186', 2, 88),
+('24520187', 1, 92),
+('24520187', 2, 80),
+('24520188', 1, 44),
+('24520188', 2, 89),
+('24520189', 1, 41),
+('24520189', 2, 67),
+('24520190', 1, 44),
+('24520190', 2, 44),
+('24520191', 1, 77),
+('24520191', 2, 63),
+('24520192', 1, 81),
+('24520192', 2, 86),
+('24520193', 1, 61),
+('24520193', 2, 88),
+('24520194', 1, 74),
+('24520194', 2, 99),
+('24520195', 1, 92),
+('24520195', 2, 75),
+('24520196', 1, 78),
+('24520196', 2, 50),
+('24520197', 1, 73),
+('24520197', 2, 66),
+('24520198', 1, 82),
+('24520198', 2, 94),
+('24520199', 1, 79),
+('24520199', 2, 99),
+('24520200', 1, 55),
+('24520200', 2, 55),
+('24520201', 1, 55),
+('24520201', 2, 84),
+('24520202', 1, 90),
+('24520202', 2, 98),
+('24520203', 1, 42),
+('24520203', 2, 94),
+('24520204', 1, 72),
+('24520204', 2, 64),
+('24520205', 1, 93),
+('24520205', 2, 54),
+('24520206', 1, 44),
+('24520206', 2, 48),
+('24520207', 1, 95),
+('24520207', 2, 96),
+('24520208', 1, 71),
+('24520208', 2, 74),
+('24520209', 1, 88),
+('24520209', 2, 42),
+('24520210', 1, 88),
+('24520210', 2, 84),
+('24520211', 1, 40),
+('24520211', 2, 98),
+('24520212', 1, 96),
+('24520212', 2, 48),
+('24520213', 1, 78),
+('24520213', 2, 40),
+('24520214', 1, 96),
+('24520214', 2, 49),
+('24520215', 1, 77),
+('24520215', 2, 53),
+('24520216', 1, 73),
+('24520216', 2, 47),
+('24520217', 1, 95),
+('24520217', 2, 75),
+('24520218', 1, 50),
+('24520218', 2, 95),
+('24520219', 1, 89),
+('24520219', 2, 95),
+('24520220', 1, 62),
+('24520220', 2, 43),
+('24520221', 1, 46),
+('24520221', 2, 84),
+('24520222', 1, 50),
+('24520222', 2, 74),
+('24520223', 1, 59),
+('24520223', 2, 100),
+('24520224', 1, 79),
+('24520224', 2, 96),
+('24520225', 1, 62),
+('24520225', 2, 88),
+('24520226', 1, 72),
+('24520226', 2, 61),
+('24520227', 1, 55),
+('24520227', 2, 80),
+('24520228', 1, 69),
+('24520228', 2, 63),
+('24520229', 1, 61),
+('24520229', 2, 99),
+('24520230', 1, 44),
+('24520230', 2, 59),
+('24520231', 1, 45),
+('24520231', 2, 50),
+('24520232', 1, 69),
+('24520232', 2, 61),
+('24520233', 1, 65),
+('24520233', 2, 91),
+('24520234', 1, 82),
+('24520234', 2, 75),
+('24520235', 1, 78),
+('24520235', 2, 61),
+('24520236', 1, 57),
+('24520236', 2, 64),
+('24520237', 1, 87),
+('24520237', 2, 60),
+('24520238', 1, 78),
+('24520238', 2, 87),
+('24520239', 1, 68),
+('24520239', 2, 46),
+('24520240', 1, 96),
+('24520240', 2, 53),
+('24520241', 1, 100),
+('24520241', 2, 84),
+('24520242', 1, 98),
+('24520242', 2, 61),
+('24520243', 1, 65),
+('24520243', 2, 72),
+('24520244', 1, 75),
+('24520244', 2, 66),
+('24520245', 1, 65),
+('24520245', 2, 51),
+('24520246', 1, 73),
+('24520246', 2, 75),
+('24520247', 1, 70),
+('24520247', 2, 51),
+('24520248', 1, 75),
+('24520248', 2, 91),
+('24520249', 1, 52),
+('24520249', 2, 93),
+('24520250', 1, 66),
+('24520250', 2, 41)

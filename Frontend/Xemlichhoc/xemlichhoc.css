@@ -25,6 +25,7 @@ table {
     overflow: hidden;
     margin-left: 60px;
     table-layout: fixed;
+    margin-top: 6rem;
 }
 
 th {
