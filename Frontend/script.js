@@ -17,7 +17,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
         localStorage.setItem("Tai_Khoan", data.Tai_Khoan);
 
         if (data.Vai_Tro === "SinhVien") {
-            window.location.href = `/KetQuaHocTap/completedCourses.html`;
+            window.location.href = `/completedCourses/KetQuaHocTap`;
         } else if (data.Vai_Tro === "GiangVien") {
             window.location.href = `/teacher/${data.Tai_Khoan}`;
         }

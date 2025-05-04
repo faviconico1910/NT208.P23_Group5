@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async() => {
                   <td>${sv.Dien_Thoai || '-'}</td>
                   <td>${sv.SDT_Cha || '-'}</td>
                   <td>${sv.SDT_Me || '-'}</td>
-                  <td><a href="/KetQuaHocTap/completedCourses.html?mssv=${sv.Ma_Sinh_Vien}" class="btn btn-success btn-sm">Xem hồ sơ</a></td>
+                  <td><a href="/completedCourses/KetQuaHocTap" class="btn btn-success btn-sm">Xem hồ sơ</a></td>
                 </tr>`;
                 tableBody.innerHTML += row;
             });
