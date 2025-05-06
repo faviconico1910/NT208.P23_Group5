@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async() => {
                   <td>${sv.Dien_Thoai || '-'}</td>
                   <td>${sv.SDT_Cha || '-'}</td>
                   <td>${sv.SDT_Me || '-'}</td>
-                  <td><a href="/completedCourses/KetQuaHocTap" class="btn btn-success btn-sm">Xem hồ sơ</a></td>
+                  <td><button onclick="viewStudentProfile('${sv.Ma_Sinh_Vien}')" class="btn btn-success btn-sm">Xem hồ sơ</button></td>
                 </tr>`;
                 tableBody.innerHTML += row;
             });
@@ -80,6 +80,17 @@ input.addEventListener('input', function () {
         noMatchMessage.style.display = 'none';
     }
 });
+function viewStudentProfile(mssv) {
+    const token = localStorage.getItem("token");
+    if (!token) {
+        alert("Vui lòng đăng nhập lại!");
+        window.location.href = "/login";
+        return;
+    }
+    
+    // Chuyển trang đơn giản với token trong URL
+    window.location.href = `/completedCourses/KetQuaHocTap?mssv=${mssv}&token=${encodeURIComponent(token)}`;
+}
 
 fetch('/layout/sidebar_teacher.html').then(response => response.text())
 .then(html => {
