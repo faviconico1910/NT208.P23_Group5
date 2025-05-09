@@ -37,7 +37,9 @@ const login = async (req, res) => {
             message: "Đăng nhập thành công!",
             token,
             Vai_Tro: user.Vai_Tro,
-            Tai_Khoan: user.Tai_Khoan
+            Tai_Khoan: user.Tai_Khoan,
+            redirect: '/admin'
+
         });
     } catch (err) {
         console.error("❌ Lỗi truy vấn SQL:", err);

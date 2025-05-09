@@ -17,6 +17,7 @@ const huongdanXTNRoutes = require("./routes/huongdanXTN.routes.js");
 const chatbotRoutes = require("./routes/chatbot.routes.js");
 const gioithieuRoutes = require("./routes/gioithieu.routes.js");   
 const studentLists = require("./routes/DSSV.routes.js");   
+const adminRoutes = require('./routes/admin.routes.js');
 
 const app = express();
 const PORT = process.env.PORT;
@@ -41,7 +42,8 @@ app.use('/teacher', teacherRoutes);
 app.use("/huongdanXTN", huongdanXTNRoutes);
 app.use("/chatbot", chatbotRoutes);
 app.use("/dssv", studentLists);
-app.use("/", gioithieuRoutes); // giới thiệu routes
+app.use("/", gioithieuRoutes); // giới thiệu     routes
+app.use("/admin", require("./routes/admin.routes.js"));
 
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {

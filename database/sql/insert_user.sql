@@ -1,4 +1,5 @@
 INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES
+('admin','123','admin'),
 ('24520001', '123', 'SinhVien'),
 ('24520002', 'BjW9Tnkept', 'SinhVien'),
 ('24520003', 'AD7JjYveeg', 'SinhVien'),
