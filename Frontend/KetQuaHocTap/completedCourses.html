@@ -130,59 +130,190 @@
     });
 
     async function fetchResults() {
-        const semester = document.getElementById('semester-filter').value;
-        const year = document.getElementById('year-filter').value;
-        
-        // Lấy token từ URL hoặc localStorage
-        const urlParams = new URLSearchParams(window.location.search);
-        const viewMSSV = urlParams.get("mssv");
-        const tokenFromURL = urlParams.get("token");
-        const tokenToUse = tokenFromURL || localStorage.getItem('token');
+        // Hiển thị trạng thái loading
+        const tbody = document.getElementById('results-body');
+        tbody.innerHTML = `
+            <tr>
+                <td colspan="11" class="no-data">
+                    <i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...
+                </td>
+            </tr>
+        `;
     
-        if (!tokenToUse) {
-            window.location.href = '/login';
-            return;
-        }
-    
-        // Gọi API với token
         try {
-            let url = viewMSSV 
-                ? `/completedCourses/api/${viewMSSV}` 
-                : `/completedCourses/api`;
+            console.log("Bắt đầu quá trình lấy dữ liệu kết quả học tập");
     
+            // 1. Lấy thông tin sinh viên từ nhiều nguồn
+            const getStudentInfo = () => {
+                // Ưu tiên theo thứ tự:
+                // 1. URL parameters (nếu có ?mssv=...)
+                const urlParams = new URLSearchParams(window.location.search);
+                let mssv = urlParams.get('mssv');
+                
+                // 2. sessionStorage (từ DSSV)
+                if (!mssv) {
+                    mssv = sessionStorage.getItem('currentStudentMSSV');
+                }
+                
+                // 3. localStorage (dự phòng)
+                if (!mssv) {
+                    mssv = localStorage.getItem('viewingStudentMSSV');
+                }
+                
+                const token = localStorage.getItem("token") || sessionStorage.getItem('currentStudentToken');
+                
+                // Validate MSSV
+                if (mssv && !/^\d{8,10}$/.test(mssv)) {
+                    console.error("MSSV không hợp lệ:", mssv);
+                    return null;
+                }
+                
+                if (mssv) {
+                    return {
+                        mssv: mssv,
+                        token: token,
+                        isViewingOther: true
+                    };
+                }
+                
+                // Nếu không có MSSV (sinh viên tự xem)
+                if (token) {
+                    try {
+                        const decoded = jwt_decode(token);
+                        if (decoded.Tai_Khoan && /^\d{8,10}$/.test(decoded.Tai_Khoan)) {
+                            return {
+                                mssv: decoded.Tai_Khoan,
+                                token: token,
+                                isViewingOther: false
+                            };
+                        }
+                    } catch (e) {
+                        console.error("Lỗi giải mã token:", e);
+                    }
+                }
+                
+                return null;
+            };
+
+            const studentInfo = getStudentInfo();
+            
+            if (!studentInfo || !studentInfo.mssv || !studentInfo.token) {
+                throw new Error("Không tìm thấy thông tin sinh viên. Vui lòng truy cập từ trang Danh sách Sinh viên.");
+            }
+    
+            console.log("Sử dụng MSSV:", studentInfo.mssv, "Loại:", studentInfo.isViewingOther ? "Xem hồ sơ khác" : "Tự xem");
+    
+            // 2. Lấy giá trị bộ lọc
+            const semester = document.getElementById('semester-filter').value;
+            const year = document.getElementById('year-filter').value;
+            
+            // 3. Chuẩn bị tham số API
             const params = new URLSearchParams();
             if (semester) params.append('hocKy', semester);
             if (year) params.append('namHoc', year);
-    
-            const response = await fetch(`${url}?${params.toString()}`, {
-                headers: {
-                    'Authorization': `Bearer ${tokenToUse}`,
-                    'Content-Type': 'application/json'
-                }
-            });
             
+            // 4. Chuẩn bị headers
+            const headers = {
+                'Authorization': `Bearer ${studentInfo.token}`,
+                'Content-Type': 'application/json'
+            };
+            
+            // Thêm MSSV vào header nếu đang xem hồ sơ khác
+            if (studentInfo.isViewingOther) {
+                headers['X-Student-MSSV'] = studentInfo.mssv;
+            }
+            
+            // 5. Xác định endpoint API
+            const apiUrl = studentInfo.isViewingOther 
+            ? `/completedCourses/api/current/${studentInfo.mssv}?${params.toString()}`
+            : `/completedCourses/api?${params.toString()}`;
+            
+            console.log("Gọi API:", apiUrl);
+            console.log("Headers:", JSON.parse(JSON.stringify(headers))); // Clone để log an toàn
+    
+            // 6. Gọi API
+            const response = await fetch(apiUrl, { headers });
+            
+            // 7. Xử lý response
             if (!response.ok) {
-                throw new Error(`Lỗi HTTP: ${response.status}`);
+                const errorText = await response.text();
+                let errorData;
+                
+                try {
+                    errorData = JSON.parse(errorText);
+                } catch {
+                    throw new Error(`Lỗi HTTP ${response.status}: ${errorText}`);
+                }
+                
+                console.error("Chi tiết lỗi từ API:", errorData);
+                
+                // Xử lý riêng cho lỗi token hết hạn
+                if (response.status === 401 && errorData.message.includes('token')) {
+                    localStorage.removeItem('token');
+                    sessionStorage.removeItem('currentStudentToken');
+                    throw new Error("Phiên đăng nhập hết hạn. Vui lòng đăng nhập lại.");
+                }
+                
+                throw new Error(errorData.message || `Lỗi từ server: ${response.status}`);
             }
             
             const data = await response.json();
             
             if (!data.success) {
-                throw new Error(data.message);
+                throw new Error(data.message || "Dữ liệu trả về không hợp lệ");
             }
-                
+            
+            console.log("Dữ liệu nhận được:", data);
+    
+            // 8. Hiển thị kết quả
             displayResults(data.data);
+            
+            // 9. Cập nhật thống kê
+            const failedCourses = data.data.filter(item => item.Diem_HP < 5);
             updateStats(
                 data.stats.tongMon,
-                data.data.filter(item => item.Diem_HP < 5).length,
+                failedCourses.length,
                 data.stats.tongTC,
-                data.data.filter(item => item.Diem_HP < 5).reduce((sum, item) => sum + item.So_TC, 0),
+                failedCourses.reduce((sum, item) => sum + item.So_TC, 0),
                 data.stats.diemTB
             );
             
         } catch (error) {
-            console.error('Lỗi khi lấy dữ liệu:', error);
-            showError(error.message || 'Lỗi khi tải dữ liệu');
+            console.error('Lỗi trong quá trình lấy dữ liệu:', error);
+            
+            // Hiển thị thông báo lỗi chi tiết
+            tbody.innerHTML = `
+                <tr>
+                    <td colspan="11" class="no-data">
+                        <div class="error-message">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <h4>${error.message}</h4>
+                            ${error.message.includes('đăng nhập') 
+                                ? '<a href="/login" class="btn btn-primary mt-2">Đăng nhập lại</a>' 
+                                : '<a href="/dssv" class="btn btn-primary mt-2">Quay lại Danh sách SV</a>'}
+                        </div>
+                    </td>
+                </tr>
+            `;
+            
+            // Nếu là lỗi xác thực, tự động chuyển hướng sau 5 giây
+            if (error.message.includes('đăng nhập') || error.message.includes('Phiên')) {
+                setTimeout(() => {
+                    window.location.href = '/login';
+                }, 5000);
+            }
+        }
+    }
+    
+    // Hàm giải mã JWT (nếu không dùng thư viện)
+    function jwt_decode(token) {
+        try {
+            const base64Url = token.split('.')[1];
+            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            return JSON.parse(atob(base64));
+        } catch (e) {
+            console.error("Lỗi giải mã token:", e);
+            return null;
         }
     }
         
@@ -251,6 +382,45 @@
                 </tr>
             `;
         }
+
+        // Xóa bỏ sự kiện DOMContentLoaded trùng lặp
+        document.addEventListener('DOMContentLoaded', () => {
+            // Kiểm tra xem có thông tin sinh viên trong session không
+            const viewMSSV = sessionStorage.getItem('currentStudentMSSV');
+            const token = sessionStorage.getItem('currentStudentToken') || localStorage.getItem('token');
+            
+            if (!token) {
+                window.location.href = '/login';
+                return;
+            }
+            
+            // Thêm debug log
+            console.log('Thông tin session:', { viewMSSV, token });
+            
+            if (!viewMSSV) {
+                // Nếu không có MSSV trong session, có thể là sinh viên tự xem
+                try {
+                    const decoded = jwt_decode(token);
+                    if (decoded.role === 'teacher') {
+                        window.location.href = '/dssv';
+                        return;
+                    }
+                } catch (e) {
+                    console.error('Lỗi giải mã token:', e);
+                    window.location.href = '/login';
+                    return;
+                }
+            }
+            
+            fetchResults();
+        });
+
+        // Thêm hàm jwt_decode nếu chưa có
+        function jwt_decode(token) {
+            const base64Url = token.split('.')[1];
+            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+            return JSON.parse(atob(base64));
+        }
         
         document.getElementById('filter-btn').addEventListener('click', fetchResults);
         document.getElementById('reset-btn').addEventListener('click', () => {
@@ -259,14 +429,6 @@
             fetchResults();
         });
         
-        document.addEventListener('DOMContentLoaded', () => {
-            if (!token) {
-                window.location.href = '/login';
-                return;
-            }
-            
-            fetchResults();
-        });
 
         window.addEventListener('resize', () => {
             if (window.innerWidth > 768) {

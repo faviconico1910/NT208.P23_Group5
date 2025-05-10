@@ -11,7 +11,7 @@ fetch('/layout/sidebar.html').then(response => response.text())
 
 document.addEventListener("DOMContentLoaded", async () => {
     try {
-        let token = localStorage.getItem("token"); // Lấy token từ localStorage
+        let token = localStorage.getItem("token");
         if (!token) {
             console.error("❌ Không có token!");
             alert("Vui lòng đăng nhập lại!");
@@ -19,18 +19,52 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
 
-        // 👉 Lấy danh sách học kỳ
-        let hkResponse = await fetch("http://localhost:3000/xemlichhoc/hocki", {
+        // Giải mã token để kiểm tra vai trò
+        const decodedToken = JSON.parse(atob(token.split('.')[1]));
+        const userRole = decodedToken.Vai_Tro;  
+        const userId = decodedToken.Tai_Khoan;
+
+        console.log("User role:", userRole); // Debug log
+        console.log("SessionStorage content:", JSON.stringify(sessionStorage)); // Debug log
+
+        // Xác định MSSV cần xem
+        let mssvToView;
+        if (userRole === 'SinhVien') {
+            mssvToView = userId;
+        } else if (userRole === 'GiangVien') {
+            // Lấy MSSV từ sessionStorage với key chính xác
+            mssvToView = sessionStorage.getItem('currentStudentMSSV');
+            
+            console.log("MSSV from sessionStorage:", mssvToView); // Debug log
+            
+            if (!mssvToView) {
+                alert("Vui lòng chọn sinh viên từ trang hồ sơ trước khi xem lịch học");
+                window.location.href = "/dssv";
+                return;
+            }
+        } else {
+            alert("Vai trò không hợp lệ!");
+            window.location.href = "/login";
+            return;
+        }
+
+        // Lấy danh sách học kỳ
+        let hkResponse = await fetch("/xemlichhoc/hocki", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": `Bearer ${token}`
+                "Authorization": `Bearer ${token}`,
+                "x-student-mssv": mssvToView
             }
         });
+
+
         let hocKiList = await hkResponse.json();
         console.log("🎓 Danh sách học kỳ:", hocKiList);
 
         const listHocKi = document.getElementById("list-hocki");
+        listHocKi.innerHTML = ''; // Xóa các mục cũ trước khi thêm mới
+        
         hocKiList.forEach(hk => {
             let li = document.createElement("li");
             li.classList.add("dropdown-item");
@@ -47,15 +81,21 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         async function loadThoiKhoaBieu(hocki) {
-            let url = `http://localhost:3000/xemlichhoc/api?hocKi=${hocki}`;
-
+            let url = `/xemlichhoc/api/current/${mssvToView}?hocKi=${hocki}`;
+        
             let response = await fetch(url, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": `Bearer ${token}`
+                    "Authorization": `Bearer ${token}`,
+                    "x-student-mssv": mssvToView
                 }
             });
+            
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            
             let data = await response.json();
             console.log("📌 Dữ liệu từ API:", data);
             let tableBody = document.getElementById("table-body");
@@ -111,5 +151,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     } catch (error) {
         console.error("Lỗi tải dữ liệu:", error);
+        alert("Có lỗi xảy ra khi tải lịch học. Vui lòng thử lại!");
     }
 });

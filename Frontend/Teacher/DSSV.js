@@ -82,14 +82,24 @@ input.addEventListener('input', function () {
 });
 function viewStudentProfile(mssv) {
     const token = localStorage.getItem("token");
-    if (!token) {
+    if (!token || !mssv) {
         alert("Vui lòng đăng nhập lại!");
         window.location.href = "/login";
         return;
     }
     
-    // Chuyển trang đơn giản với token trong URL
-    window.location.href = `/completedCourses/KetQuaHocTap?mssv=${mssv}&token=${encodeURIComponent(token)}`;
+    // Validate MSSV trước khi lưu
+    if (!/^\d{8,10}$/.test(mssv)) {
+        alert("MSSV không hợp lệ!");
+        return;
+    }
+    
+    // Lưu vào cả localStorage và sessionStorage
+    localStorage.setItem('viewingStudentMSSV', mssv);
+    sessionStorage.setItem('currentStudentMSSV', mssv);
+    sessionStorage.setItem('currentStudentToken', token);
+    
+    window.location.href = '/completedCourses/KetQuaHocTap';
 }
 
 fetch('/layout/sidebar_teacher.html').then(response => response.text())
