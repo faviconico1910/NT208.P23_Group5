@@ -1,6 +1,5 @@
 document.getElementById("loginForm").addEventListener("submit", async (e) => {
     e.preventDefault();
-    console.log('♥ Submitted!!!');
     let Tai_Khoan = document.getElementById("Tai_Khoan").value;
     let Mat_Khau = document.getElementById("Mat_Khau").value;
 
@@ -19,16 +18,15 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
 
         // Điều hướng dựa vào Vai_Tro
         if (data.Vai_Tro === "SinhVien") {
-            window.location.href = `/student/${data.Tai_Khoan}`;
+            window.location.href = `/student/profile`;
         } else if (data.Vai_Tro === "GiangVien") {
             window.location.href = `/teacher/${data.Tai_Khoan}`;
         }
         else if (data.Vai_Tro=="admin") {
            window.location.href = "/admin";
-        
         }
     } else {
-        alert( data.message);
+        alert("Error:", data.message);
     }
     
 });
