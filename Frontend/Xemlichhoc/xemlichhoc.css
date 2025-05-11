@@ -24,12 +24,7 @@ table {
     border-radius: 10px;
     overflow: hidden;
     table-layout: fixed;
-<<<<<<< HEAD
-    margin: auto auto;
-    margin-top: 7rem;
-=======
     margin-top: 6rem;
->>>>>>> origin/quocbao
 }
 
 th {
