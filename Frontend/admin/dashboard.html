@@ -217,6 +217,30 @@
 .close-btn:hover {
   color: #e74c3c;
 }
+
+
+
+
+.header {
+    margin-left: 255px; /* Điều chỉnh theo chiều rộng sidebar khi thu nhỏ */
+    transition: margin-left 0.3s ease;
+    width: calc(100% - 70px); /* Đảm bảo header không bị tràn */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #2c3e50;
+}
+
+/* Khi sidebar mở rộng */
+.sidebar-open .header {
+    margin-left: 255px; /* Điều chỉnh theo chiều rộng sidebar khi mở rộng */
+    width: calc(100% - 255px);
+}
+
+/* Điều chỉnh main content để không bị che bởi header */
+main {
+    margin-top: 80px; /* Chiều cao của header */
+}
   </style>
   <script>
     // Kiểm tra token ngay khi trang được tải
@@ -227,7 +251,7 @@
   </script>
 </head>
 <body>
-  <header>
+    <header class="header">
     <h1>UIT Admin Dashboard</h1>
   </header>
 
@@ -334,15 +358,26 @@
 
   
   <script>
-    fetch('/layout/sidebar_admin.html').then(response => response.text())
+  fetch('/layout/sidebar_admin.html').then(response => response.text())
 .then(html => {
     document.getElementById("sidebar-container").innerHTML = html;
     const toggleButton = document.getElementById("toggle-btn");
     const sidebar = document.getElementById("sidebar");
+    const header = document.querySelector(".header");
 
     toggleButton.addEventListener("click", () => {
         sidebar.classList.toggle("collapsed");
-    })
+        document.body.classList.toggle("sidebar-open");
+        
+        // Đồng bộ trạng thái với header
+        if (sidebar.classList.contains("collapsed")) {
+            header.style.marginLeft = "70px";
+            header.style.width = "calc(100% - 70px)";
+        } else {
+            header.style.marginLeft = "255px";
+            header.style.width = "calc(100% - 255px)";
+        }
+    });
 });
   </script>
 <script src="/admin/dashboard.js"></script>
