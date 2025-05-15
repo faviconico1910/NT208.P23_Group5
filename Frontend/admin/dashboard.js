@@ -224,3 +224,13 @@ addClassForm.addEventListener('submit', async (e) => {
     }
 });
 });
+
+
+
+toggleButton.addEventListener("click", () => {
+    const sidebar = document.getElementById("sidebar");
+    sidebar.classList.toggle("collapsed");
+    
+    // Thêm class collapsed-sidebar cho body
+    document.body.classList.toggle("collapsed-sidebar");
+});
