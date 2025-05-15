@@ -81,6 +81,32 @@ const updateProfile = async (req, res) => {
     }
 }
 
-module.exports = { profile, updateProfile};
+const studentProfileFromTeacher = async (req, res) => {
+    try {
+        // lấy mssv từ header
+        const mssv = req.params.mssv || req.headers['x-student-mssv'];
+
+        
+        // sql
+        const sql = "SELECT * FROM SINHVIEN WHERE Ma_Sinh_Vien = ?";
+        const [result] = await db.query(sql, [mssv]);
+
+        if (result.length === 0) {
+            console.log("Không tìm thấy sinh viên!");
+            return res.status(404).json({ message: "Không tìm thấy sinh viên!" });
+        }
+
+        console.log("Dữ liệu sinh viên:", result[0]);
+        return res.json(result[0]);
+
+    }
+    catch (error) {
+        console.error("Lỗi xác thực token hoặc truy vấn:", error);
+        res.status(401).json({ message: "Token không hợp lệ hoặc truy vấn lỗi!" });
+    }
+}
+
+module.exports = { profile, updateProfile, studentProfileFromTeacher};
+// module.exports = { profile, updateProfile};
 
 
