@@ -1,3 +1,4 @@
+// xử lý đăng nhập thường
 document.getElementById("loginForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     let Tai_Khoan = document.getElementById("Tai_Khoan").value;
@@ -26,7 +27,39 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
            window.location.href = "/admin";
         }
     } else {
-        alert("Error:", data.message);
+        alert("Error:"+ data.message);
     }
     
+});
+
+// xử lý nút đăng nhập bằng google
+document.getElementById("google-btn").onclick = () => {
+  window.location.href = "http://localhost:3000/login/auth/google";
+};
+
+window.addEventListener("DOMContentLoaded", function() {
+    const params = new URLSearchParams(window.location.search);
+    const token = params.get("token");
+    const Vai_Tro = params.get("Vai_Tro");
+    const Tai_Khoan = params.get("Tai_Khoan");
+    const error = params.get("error");
+    if (error === "oauth") {
+        alert("Đăng nhập Google thất bại. Vui lòng thử lại hoặc dùng tài khoản hợp lệ!");
+    }
+    if (token) {
+        localStorage.setItem("token", token);
+        if (Vai_Tro) localStorage.setItem("Vai_Tro", Vai_Tro);
+        if (Tai_Khoan) localStorage.setItem("Tai_Khoan", Tai_Khoan);
+
+        // Điều hướng dựa vào Vai_Tro
+        if (Vai_Tro === "SinhVien") {
+            window.location.href = `/student/profile`;
+        } else if (Vai_Tro === "GiangVien") {
+            window.location.href = `/teacher/${Tai_Khoan}`;
+        } else if (Vai_Tro === "admin") {
+            window.location.href = "/admin";
+        } else {
+            window.location.href = "/";
+        }
+    }
 });

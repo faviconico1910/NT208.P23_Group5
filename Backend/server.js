@@ -3,6 +3,8 @@ const express = require("express");
 const path = require("path");
 const bcrypt = require("bcryptjs");
 const cors = require("cors");
+const session = require('express-session');
+const passport = require('./API-Controllers/auth.controller.js').passport;
 
 //  routes
 const authRoutes = require("./routes/auth.routes.js");
@@ -28,6 +30,17 @@ app.use(cors({
     allowedHeaders: ["Authorization", "Content-Type"], // Cho phép header Authorization
     exposedHeaders: ["Authorization"]
 }));
+// cấu hình passport
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+// remain
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../Frontend")));
 app.use("/login", authRoutes);  
@@ -42,7 +55,7 @@ app.use('/teacher', teacherRoutes);
 app.use("/huongdanXTN", huongdanXTNRoutes);
 app.use("/chatbot", chatbotRoutes);
 app.use("/dssv", studentLists);
-app.use("/", gioithieuRoutes); // giới thiệu     routes
+app.use("/", gioithieuRoutes); // giới thiệu   routes
 app.use("/admin", require("./routes/admin.routes.js"));
 
 // Chạy server
