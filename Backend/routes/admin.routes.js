@@ -21,7 +21,6 @@ router.get("/dashboard", authenticateAdmin, (req, res) => {
 router.get('/stats', getSystemStats);
 
 
-
 // API Users-----------------------------
 router.post("/users", authenticateAdmin, async (req, res) => {
     try {
