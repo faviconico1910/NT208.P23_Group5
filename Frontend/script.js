@@ -17,14 +17,11 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
         localStorage.setItem("Tai_Khoan", data.Tai_Khoan);
         document.cookie = `token=${data.token}; path=/; max-age=3600`; // 1 giờ
 
-        // Điều hướng dựa vào Vai_Tro
-        if (data.Vai_Tro === "SinhVien") {
-            window.location.href = `/student/profile`;
-        } else if (data.Vai_Tro === "GiangVien") {
-            window.location.href = `/teacher/${data.Tai_Khoan}`;
-        }
-        else if (data.Vai_Tro=="admin") {
-           window.location.href = "/admin";
+        // Điều hướng dựa vào redirect trả về từ backend
+        if (data.redirect) {
+            window.location.href = data.redirect;
+        } else {
+            window.location.href = "/";
         }
     } else {
         alert("Error:"+ data.message);
@@ -50,16 +47,6 @@ window.addEventListener("DOMContentLoaded", function() {
         localStorage.setItem("token", token);
         if (Vai_Tro) localStorage.setItem("Vai_Tro", Vai_Tro);
         if (Tai_Khoan) localStorage.setItem("Tai_Khoan", Tai_Khoan);
-
-        // Điều hướng dựa vào Vai_Tro
-        if (Vai_Tro === "SinhVien") {
-            window.location.href = `/student/profile`;
-        } else if (Vai_Tro === "GiangVien") {
-            window.location.href = `/teacher/${Tai_Khoan}`;
-        } else if (Vai_Tro === "admin") {
-            window.location.href = "/admin";
-        } else {
-            window.location.href = "/";
-        }
+        // Không điều hướng ở đây nữa, vì Google login giờ trả về JSON
     }
 });

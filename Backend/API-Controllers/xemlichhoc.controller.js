@@ -55,7 +55,7 @@ const Xem_lich_hoc_current = async (req, res) => {
         console.log("📩 Nhận request với mssv:", mssv, "và học kỳ:", hocKi);
 
         // Kiểm tra quyền truy cập
-        if (req.decodedToken.VaiTro === 'SinhVien' && req.decodedToken.Tai_Khoan !== mssv) {
+        if (req.decodedToken.Vai_Tro === 'SinhVien' && req.decodedToken.Tai_Khoan !== mssv) {
             return res.status(403).json({ message: "Bạn không có quyền xem lịch học của sinh viên khác" });
         }
 

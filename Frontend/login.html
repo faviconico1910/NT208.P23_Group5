@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
     * {
         margin: 0px;
@@ -119,7 +120,6 @@
         height: 67%;
         margin-bottom: -40px;
         background: rgba(255, 255, 255, 0.1); 
-        backdrop-filter: blur(10px); 
         z-index: 1;
         border-radius: 10px;
     }
@@ -168,6 +168,47 @@
             order: -1;
         }
     }
+
+    .google-login-btn {
+        position: relative;
+        z-index: 1;
+        background: #fff;
+        border: 2px solid #dadce0;
+        border-radius: 8px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        color: #222;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 12px;
+        cursor: pointer;
+        transition: box-shadow 0.2s, border-color 0.2s, color 0.2s, background 0.2s, transform 0.2s;
+        box-shadow: none;
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+    }
+
+    .google-login-btn:hover {
+        border: 2px solid transparent;
+        background:
+            linear-gradient(#fff, #fff) padding-box,
+            linear-gradient(90deg, #6e8efb, #a777e3) border-box;
+        color: #174ea6;
+        box-shadow: 0 4px 16px rgba(66, 133, 244, 0.18);
+        transform: translateY(-2px) scale(1.03);
+    }
+
+    .google-logo {
+        width: 28px;
+        height: 28px;
+        margin-right: 8px;
+        background: none;
+        border-radius: 50%;
+        display: inline-block;
+    }
     </style>
 </head>
 <body>
@@ -186,7 +227,10 @@
                     <button type="submit">Đăng nhập</button>
                     
                 </form>
-                <button id="google-btn" >Đăng nhập với Google</button>
+                <button id="google-btn" class="google-login-btn">
+                    <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google logo" class="google-logo">
+                    <span>Đăng nhập với Google</span>
+                </button>
             </div>
         </div>
         <div class="image-section">
@@ -197,5 +241,6 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <!-- Sau khi đăng nhập Google thành công, hệ thống sẽ tự động chuyển trang phù hợp với vai trò của bạn. -->
 </body>
 </html>
