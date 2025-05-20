@@ -356,11 +356,147 @@ const getCurrentStudentCourses = [
     }
   }
 ];
+// upload bảng điểm
+const uploadTranscript = [
+  authenticateToken,
+  async (req, res) => {
+    try {
+      const {studentInfo, results} = req.body;
+      const userMSSV = req.decodedToken.Tai_Khoan;
 
+      // xác thực mssv từ file html
+      const validation = validateMSSV(studentInfo.mssv);
+      if (!validation.isValid) {
+          return res.status(400).json({
+          success: false,
+          message: validation.message,
+          details: validation
+        });
+      }
+
+      // lấy tt sinh viên
+      const stInFo = await getStudentInfo(validation.mssv);
+      const { Nam_Nhap_Hoc, Ma_Nganh, Khoa } = stInFo;
+
+      // query
+      await db.query('START TRANSACTION');
+      try {
+          await db.query(`
+          UPDATE SINHVIEN 
+          SET Ho_Ten = ?, Ma_Lop = ?, Ma_Khoa = ?
+          WHERE Ma_Sinh_Vien = ?
+        `, [
+          studentInfo.hoTen,
+          studentInfo.lop,
+          studentInfo.khoa,
+          validation.mssv
+        ]);
+        const skippedResults = [];
+        for (const result in results) {
+          const { hocKy, namHoc, maMonHoc, tenMonHoc, soTC, diemQT, diemGK, diemTH, diemCK, diemHP, ghiChu } = result;
+          // Validate result
+          if (!hocKy || !namHoc || !maMonHoc || !tenMonHoc || soTC < 0) {
+            skippedResults.push({ maMonHoc: maMonHoc || 'unknown', error: 'Thiếu hoặc sai thông tin học kỳ/năm học/môn học' });
+            continue;
+          }
+          if (!/^\d{4}-\d{4}$/.test(namHoc)) {
+            skippedResults.push({ maMonHoc, error: 'Năm học không đúng định dạng YYYY-YYYY' });
+            continue;
+          }
+          if (!/^\d+$/.test(hocKy)) {
+            skippedResults.push({ maMonHoc, error: 'Học kỳ phải là số' });
+            continue;
+          }
+          // Tính Hoc_Ky dựa trên namHoc và hocKy
+          const [startYear] = namHoc.split('-').map(Number);
+          const expectedHocKy = (startYear - Nam_Nhap_Hoc) * 2 + parseInt(hocKy);
+          // Kiểm tra môn học trong bảng MONHOC hoặc MONHOC_KHAC
+          let [[monHoc]] = await db.query(`
+            SELECT Ma_Mon_Hoc, LOAI 
+            FROM (
+              SELECT Ma_Mon_Hoc, 'chinh' AS LOAI 
+              FROM MONHOC 
+              WHERE Ma_Mon_Hoc = ? AND Ma_Nganh = ? AND Khoa = ?
+              UNION
+              SELECT Ma_Mon_Hoc, 'khac' AS LOAI 
+              FROM MONHOC_KHAC 
+              WHERE Ma_Mon_Hoc = ? AND Ma_Nganh = ? AND Khoa = ?
+            ) AS mon
+          `, [maMonHoc, Ma_Nganh, dbStudentInfo.Khoa, maMonHoc, Ma_Nganh, dbStudentInfo.Khoa]);
+
+          if (!monHoc) {
+            // Thêm môn học mới vào MONHOC_KHAC nếu chưa tồn tại
+            await db.query(`
+              INSERT INTO MONHOC_KHAC (Ma_Mon_Hoc, Ten_Mon_Hoc, Tin_Chi_LT, Ma_Nganh, Khoa)
+              VALUES (?, ?, ?, ?, ?)
+            `, [maMonHoc, tenMonHoc, soTC, Ma_Nganh, dbStudentInfo.Khoa]);
+            monHoc = { Ma_Mon_Hoc: maMonHoc, LOAI: 'khac' };
+          }
+
+          // Kiểm tra đăng ký môn học
+          const [[dangKy]] = await db.query(`
+            SELECT Ma_Sinh_Vien 
+            FROM DANGKY 
+            WHERE Ma_Sinh_Vien = ? AND Ma_Mon_Hoc = ?
+          `, [validation.mssv, maMonHoc]);
+
+          if (!dangKy) {
+            await db.query(`
+              INSERT INTO DANGKY (Ma_Sinh_Vien, Ma_Mon_Hoc, LOAI)
+              VALUES (?, ?, ?)
+            `, [validation.mssv, maMonHoc, monHoc.LOAI]);
+          }
+
+          // Cập nhật hoặc thêm kết quả học tập
+          await db.query(`
+            INSERT INTO KETQUA (Ma_Sinh_Vien, Ma_Mon_Hoc, Hoc_Ky, Diem_QT, Diem_GK, Diem_TH, Diem_CK, Diem_HP, GHI_CHU)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON DUPLICATE KEY UPDATE
+              Diem_QT = VALUES(Diem_QT),
+              Diem_GK = VALUES(Diem_GK),
+              Diem_TH = VALUES(Diem_TH),
+              Diem_CK = VALUES(Diem_CK),
+              Diem_HP = VALUES(Diem_HP),
+              GHI_CHU = VALUES(GHI_CHU)
+          `, [
+            validation.mssv,
+            maMonHoc,
+            expectedHocKy,
+            diemQT,
+            diemGK,
+            diemTH,
+            diemCK,
+            diemHP,
+            ghiChu
+          ]);
+        }
+
+        await db.query('COMMIT');
+        res.json({
+          success: true,
+          message: 'Cập nhật bảng điểm thành công',
+          skippedResults: skippedResults
+        });
+      }
+      catch (error) {
+        await db.query('ROLLBACK');
+        throw error;
+      }
+    }
+    catch (error) {
+      console.error("Lỗi trong uploadTranscript:", error);
+      res.status(500).json({
+        success: false,
+        message: error.message || "Lỗi khi cập nhật bảng điểm",
+      });
+    }
+  }
+]
 module.exports = { 
   getCompletedCourses,
   getCompletedCoursesByMSSV,
   getCurrentStudentCourses,
   authenticateToken,
-  validateMSSV
+  validateMSSV,
+  uploadTranscript
 };

@@ -74,6 +74,15 @@
                     <i class="fas fa-sync-alt"></i> Đặt lại
                 </button>
             </div>
+            <!-- upload file bảng điểm nè-->
+            <div class="upload-section mt-3 ms-5">
+                <label for="transcript-upload" class="form-label">Tải lên bảng điểm (HTML):</label>
+                <input type="file" id="transcript-upload" class="form-control" accept=".html">
+                <button class="btn btn-primary mt-2" id="upload-btn">
+                    <i class="fas fa-upload"></i> Cập nhật bảng điểm
+                </button>
+                <div id="upload-status" class="mt-2"></div>
+            </div>
         </div>
 
         
@@ -384,6 +393,132 @@
                 </tr>
             `;
         }
+       // Xử lý tải file HTML
+document.getElementById('upload-btn').addEventListener('click', async () => {
+  const fileInput = document.getElementById('transcript-upload');
+  const statusDiv = document.getElementById('upload-status');
+  statusDiv.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Đang xử lý...';
+
+  if (!fileInput.files.length) {
+    statusDiv.innerHTML = '<i class="fas fa-exclamation-circle"></i> Vui lòng chọn file HTML!';
+    return;
+  }
+
+  const file = fileInput.files[0];
+  if (!file.name.endsWith('.html')) {
+    statusDiv.innerHTML = '<i class="fas fa-exclamation-circle"></i> File phải là định dạng HTML!';
+    return;
+  }
+
+  try {
+    const text = await file.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(text, 'text/html');
+
+    // Trích xuất thông tin sinh viên
+    const studentTable = doc.querySelector('table[width="100%"] tbody');
+    if (!studentTable) throw new Error('Không tìm thấy thông tin sinh viên trong file.');
+
+    const studentInfo = {
+      mssv: studentTable.querySelector('tr:nth-child(2) td:nth-child(2) strong')?.textContent.trim(),
+      hoTen: studentTable.querySelector('tr:nth-child(1) td:nth-child(2) strong')?.textContent.trim(),
+      lop: studentTable.querySelector('tr:nth-child(2) td:nth-child(4) strong')?.textContent.trim(),
+      khoa: studentTable.querySelector('tr:nth-child(2) td:nth-child(6) strong')?.textContent.trim(),
+      gioiTinh: studentTable.querySelector('tr:nth-child(1) td:nth-child(6) strong')?.textContent.trim(),
+      heDaoTao: studentTable.querySelector('tr:nth-child(3) td:nth-child(2) strong')?.textContent.trim()
+    };
+
+    // Debug log
+    console.log('studentInfo:', studentInfo);
+
+    // Validate studentInfo
+    if (!studentInfo.mssv || !/^\d{8,10}$/.test(studentInfo.mssv)) {
+      throw new Error('MSSV không hợp lệ hoặc không tìm thấy.');
+    }
+    if (!studentInfo.hoTen || !studentInfo.lop || !studentInfo.khoa) {
+      throw new Error('Thông tin sinh viên không đầy đủ (thiếu họ tên, lớp, hoặc khoa).');
+    }
+
+    // Trích xuất kết quả học tập
+    const resultsTable = doc.querySelector('table[border="1"] tbody');
+    if (!resultsTable) throw new Error('Không tìm thấy bảng kết quả học tập.');
+
+    const results = [];
+    let currentSemester = '';
+    let currentYear = '';
+
+    resultsTable.querySelectorAll('tr').forEach(row => {
+      const cells = row.querySelectorAll('td');
+      if (cells.length === 1 && cells[0].textContent.includes('Học kỳ')) {
+        const text = cells[0].textContent.trim();
+        const match = text.match(/Học kỳ\s*(\d)\s*-\s*Năm học\s*(\d{4}-\d{4})/i);
+        if (match) {
+          currentSemester = match[1];
+          currentYear = match[2];
+          console.log('Tìm thấy học kỳ:', currentSemester, currentYear);
+        } else {
+          console.warn('Không khớp tiêu đề học kỳ:', text);
+        }
+      } else if (cells.length === 10 && cells[0].textContent.trim() !== '' && !cells[0].textContent.includes('Trung bình') && !cells[0].textContent.includes('Số tín chỉ')) {
+        if (!currentSemester || !currentYear) {
+          console.warn('Bỏ qua môn học do thiếu học kỳ/năm học:', cells[1].textContent.trim());
+          return;
+        }
+        const diemHP = cells[8].textContent.trim();
+        results.push({
+          hocKy: currentSemester,
+          namHoc: currentYear,
+          maMonHoc: cells[1].textContent.trim(),
+          tenMonHoc: cells[2].textContent.trim(),
+          soTC: parseInt(cells[3].textContent.trim()) || 0,
+          diemQT: cells[4].textContent.trim() ? parseFloat(cells[4].textContent.trim()) : null,
+          diemGK: cells[5].textContent.trim() ? parseFloat(cells[5].textContent.trim()) : null,
+          diemTH: cells[6].textContent.trim() ? parseFloat(cells[6].textContent.trim()) : null,
+          diemCK: cells[7].textContent.trim() ? parseFloat(cells[7].textContent.trim()) : null,
+          diemHP: diemHP === 'Miễn' ? null : parseFloat(diemHP) || null,
+          ghiChu: diemHP === 'Miễn' ? 'Miễn' : cells[9].textContent.trim()
+        });
+      }
+    });
+
+    // Validate results
+    if (!results.length) throw new Error('Không tìm thấy kết quả học tập hợp lệ trong file.');
+
+    // Debug log
+    console.log('results:', results);
+
+    // Gửi dữ liệu lên server
+    const headers = {
+      'Authorization': `Bearer ${token}`,
+      'Content-Type': 'application/json'
+    };
+    const response = await fetch('/completedCourses/api/upload', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ studentInfo, results })
+    });
+
+    const result = await response.json();
+    if (!response.ok) {
+      if (response.status === 403) throw new Error('Bạn không có quyền upload bảng điểm này.');
+      throw new Error(result.message || 'Lỗi khi cập nhật bảng điểm.');
+    }
+
+    // Hiển thị kết quả
+    if (result.skippedResults && result.skippedResults.length > 0) {
+      statusDiv.innerHTML = `
+        <i class="fas fa-check-circle"></i> Cập nhật bảng điểm thành công, nhưng một số môn bị bỏ qua:
+        <ul>${result.skippedResults.map(r => `<li>${r.maMonHoc}: ${r.error}</li>`).join('')}</ul>
+      `;
+    } else {
+      statusDiv.innerHTML = '<i class="fas fa-check-circle"></i> Cập nhật bảng điểm thành công!';
+    }
+    fetchResults(); // Refresh bảng kết quả
+  } catch (error) {
+    statusDiv.innerHTML = `<i class="fas fa-exclamation-circle"></i> Lỗi: ${error.message}`;
+    console.error('Lỗi upload:', error);
+  }
+});
 
         // Xóa bỏ sự kiện DOMContentLoaded trùng lặp
         document.addEventListener('DOMContentLoaded', () => {
