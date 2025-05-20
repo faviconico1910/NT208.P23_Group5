@@ -375,8 +375,8 @@ const uploadTranscript = [
       }
 
       // lấy tt sinh viên
-      const stInFo = await getStudentInfo(validation.mssv);
-      const { Nam_Nhap_Hoc, Ma_Nganh, Khoa } = stInFo;
+      const dbStudentInfo = await getStudentInfo(validation.mssv);
+      const { Nam_Nhap_Hoc, Ma_Nganh, Khoa } = dbStudentInfo;
 
       // query
       await db.query('START TRANSACTION');
@@ -392,7 +392,7 @@ const uploadTranscript = [
           validation.mssv
         ]);
         const skippedResults = [];
-        for (const result in results) {
+        for (const result of results) {
           const { hocKy, namHoc, maMonHoc, tenMonHoc, soTC, diemQT, diemGK, diemTH, diemCK, diemHP, ghiChu } = result;
           // Validate result
           if (!hocKy || !namHoc || !maMonHoc || !tenMonHoc || soTC < 0) {
@@ -442,9 +442,9 @@ const uploadTranscript = [
 
           if (!dangKy) {
             await db.query(`
-              INSERT INTO DANGKY (Ma_Sinh_Vien, Ma_Mon_Hoc, LOAI)
-              VALUES (?, ?, ?)
-            `, [validation.mssv, maMonHoc, monHoc.LOAI]);
+              INSERT INTO DANGKY (Ma_Sinh_Vien, Ma_Mon_Hoc, Ma_Lop_Hoc , LOAI, Hoc_Ki)
+              VALUES (?, ?, ?, ?, ?)
+            `, [validation.mssv, maMonHoc, maMonHoc, monHoc.LOAI, hocKy]);
           }
 
           // Cập nhật hoặc thêm kết quả học tập

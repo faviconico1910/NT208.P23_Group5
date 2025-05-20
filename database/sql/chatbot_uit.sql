@@ -1324,7 +1324,10 @@ INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES
 ('GV100', 'GG3xJaWHE9', 'GiangVien');
 
 
-
+select * from dangky;
+select * from lichhoc;
+select * from monhoc;
+select * from dangky where ma_sinh_vien='23521179';
 
 
 
