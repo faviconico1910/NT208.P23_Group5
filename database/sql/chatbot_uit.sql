@@ -9,6 +9,38 @@ drop table lichhoc;
 drop table dangky;
 SELECT * FROM MONHOC;
 SELECT * FROM USER;
+SELECT * FROM SINHVIEN;
+
+SELECT * FROM KETQUA WHERE Ma_Sinh_Vien IN ('23520001', '23521179');
+
+
+UPDATE SinhVien
+SET Ma_Sinh_Vien = '23521179', Email_Truong = '23521179@gm.uit.edu.vn'
+WHERE Ma_Sinh_Vien = '23520001';
+UPDATE KETQUA
+SET Ma_Sinh_Vien = '23521179' 
+WHERE Ma_Sinh_Vien = '23520001';
+INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro)
+VALUES ('23520830', '28', 'SinhVien');
+INSERT INTO LOP (Ma_Lop, Ten_Lop, So_Luong, Co_Van_Hoc_Tap)
+VALUES ('MMT2023.1', 'Lớp Mạng Máy tính 1 - Khóa 2023', NULL, 'GV011');
+INSERT INTO SINHVIEN (
+    Ma_Sinh_Vien, Ho_Ten, Gioi_Tinh, Ngay_Sinh, Noi_Sinh, Tinh_Trang, Nam_Nhap_Hoc, Ma_Lop, Ma_Khoa, Ma_Nganh,
+    He_Dao_Tao, Email_Truong, Email_Ca_Nhan, Dien_Thoai, So_CMND, Ngay_Cap_CMND, Noi_Cap_CMND, Dan_Toc, Ton_Giao,
+    Xuat_Than, Ngay_Vao_Doan, Ngay_Vao_Dang, Ho_Ten_Cha, Nghe_Nghiep_Cha, SDT_Cha, Ho_Ten_Me, Nghe_Nghiep_Me,
+    SDT_Me, Ho_Ten_Bao_Ho, Thuong_Tru, Quan_Huyen, Phuong_Xa, Tinh_Tp, Dia_Chi_Tam_Tru, Dia_Chi_Cha,
+    Dia_Chi_Me, Dia_Chi_Bao_Ho, Chung_Chi_Anh_Van, Chung_Chi_Quan_Su
+) VALUES (
+    '23521179', 'Đậu Đức An Phú', 'Nam', '2005-09-15', '79', 'Tốt nghiệp', '2023', 'ATTT2023.2', 'MMT&TT', 'ATTT',
+    'Chính quy', '23521179@gm.uit.edu.vn', 'namle@example.com', '(08)234-5678', '123456789012', '2022-07-10',
+    'Công an TP.HCM', 'Kinh', 'Không', 'Nhân viên văn phòng', '2020-05-20', NULL,
+    'Lê Văn Hòa', 'Giảng viên đại học', '0908123456', 'Trần Thị Mai', 'Kế toán', '0937123456',
+    '', '123 Nguyễn Văn Linh, Quận 7, TP.HCM', '07', '12345', '79', '56 Đường số 3, TP.HCM',
+    '456 Lê Lợi, TP.HCM', '789 Hai Bà Trưng, TP.HCM', '', 'Có', 'Đã hoàn thành'
+);
+
+UPDATE ketqua SET Ma_Sinh_Vien = '23521179' WHERE Ma_Sinh_Vien = '23520001';
+UPDATE sinhvien SET Ma_Sinh_Vien = '23521179', Email_Truong = '23521179@gm.uit.edu.vn' WHERE Ma_Sinh_Vien = '23520001';
 -- create table
 CREATE TABLE SINHVIEN (
 	Ma_Sinh_Vien VARCHAR(20) PRIMARY KEY,
@@ -87,6 +119,8 @@ CREATE TABLE KETQUA (
     GHI_CHU VARCHAR(50),
     PRIMARY KEY (Hoc_Ky, Ma_Mon_Hoc, Ma_Sinh_Vien)
 ); 
+
+drop table user;
 CREATE TABLE USER(
     Tai_Khoan VARCHAR(50) PRIMARY KEY, 
     Mat_Khau VARCHAR(255) NOT NULL, 
