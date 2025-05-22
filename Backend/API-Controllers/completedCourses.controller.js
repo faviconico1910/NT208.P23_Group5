@@ -374,6 +374,14 @@ const uploadTranscript = [
         });
       }
 
+      // ktra quyền
+      if (userMSSV != validation.mssv) {
+        return res.status(403).json({
+          success: false,
+          message: "Bạn chỉ có thể cập nhật bảng điểm của chính mình"
+        });
+      }
+
       // lấy tt sinh viên
       const dbStudentInfo = await getStudentInfo(validation.mssv);
       const { Nam_Nhap_Hoc, Ma_Nganh, Khoa } = dbStudentInfo;
@@ -433,6 +441,23 @@ const uploadTranscript = [
             monHoc = { Ma_Mon_Hoc: maMonHoc, LOAI: 'khac' };
           }
 
+          // Kiểm tra hoặc thêm Ma_Lop_Hoc vào bảng lichhoc
+          const [[lopHoc]] = await db.query(`
+            SELECT Ma_Lop_Hoc 
+            FROM lichhoc 
+            WHERE Ma_Mon_Hoc = ?
+          `, [maMonHoc]);
+          if (!lopHoc) {
+            skippedResults.push({ maMonHoc, error: `Không tìm thấy lớp học cho môn ${maMonHoc} trong bảng lichhoc` });
+            continue;
+          }
+          // if (!lopHoc) {
+          //   await db.query(`
+          //     INSERT INTO lichhoc (Ma_Lop_Hoc, Ma_Mon_Hoc, Hoc_Ky, Nam_Hoc)
+          //     VALUES (?, ?, ?, ?)
+          //   `, [maMonHoc, maMonHoc, hocKy, namHoc]);
+          // }
+
           // Kiểm tra đăng ký môn học
           const [[dangKy]] = await db.query(`
             SELECT Ma_Sinh_Vien 
@@ -444,7 +469,7 @@ const uploadTranscript = [
             await db.query(`
               INSERT INTO DANGKY (Ma_Sinh_Vien, Ma_Mon_Hoc, Ma_Lop_Hoc , LOAI, Hoc_Ki)
               VALUES (?, ?, ?, ?, ?)
-            `, [validation.mssv, maMonHoc, maMonHoc, monHoc.LOAI, hocKy]);
+            `, [validation.mssv, maMonHoc, lopHoc.Ma_Lop_Hoc, monHoc.LOAI, hocKy]);
           }
 
           // Cập nhật hoặc thêm kết quả học tập
@@ -491,7 +516,8 @@ const uploadTranscript = [
       });
     }
   }
-]
+];
+
 module.exports = { 
   getCompletedCourses,
   getCompletedCoursesByMSSV,

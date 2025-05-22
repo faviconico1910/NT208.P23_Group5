@@ -500,7 +500,7 @@ document.getElementById('upload-btn').addEventListener('click', async () => {
 
     const result = await response.json();
     if (!response.ok) {
-      if (response.status === 403) throw new Error('Bạn không có quyền upload bảng điểm này.');
+      if (response.status === 403) throw new Error('Bạn không được phép upload bảng điểm của sinh viên khác!');
       throw new Error(result.message || 'Lỗi khi cập nhật bảng điểm.');
     }
 

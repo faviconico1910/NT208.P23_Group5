@@ -1323,7 +1323,9 @@ INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES
 ('GV099', 'yMhGytwjvO', 'GiangVien'),
 ('GV100', 'GG3xJaWHE9', 'GiangVien');
 
-
+ALTER TABLE LICHHOC ADD COLUMN Ma_Mon_Hoc VARCHAR(20);
+UPDATE LICHHOC
+SET Ma_Mon_Hoc = SUBSTRING_INDEX(Ma_Lop_Hoc, '.', 1);
 select * from dangky;
 select * from lichhoc;
 select * from monhoc;
