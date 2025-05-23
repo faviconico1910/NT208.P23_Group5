@@ -6,7 +6,13 @@
     <title>Quản Lý Người Dùng</title>
     <link rel="stylesheet" href="/layout/sidebar_admin.css">
     <style>
-        /* ... (Các style từ dashboard.html) ... */
+        main {
+    transition: margin-left 0.3s ease, width 0.3s ease;
+    position: relative;
+    padding: 20px;
+    margin-left: 255px; 
+    width: calc(100% - 255px); 
+}
         .user-list {
             width: 100%;
             border-collapse: collapse;
@@ -154,27 +160,47 @@
     </div>
 
     <script>
-        fetch('/layout/sidebar_admin.html').then(response => response.text())
-        .then(html => {
-            document.getElementById("sidebar-container").innerHTML = html;
-            const toggleButton = document.getElementById("toggle-btn");
-            const sidebar = document.getElementById("sidebar");
-            const header = document.querySelector(".header");
+         fetch('/layout/sidebar_admin.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("sidebar-container").innerHTML = html;
 
-            toggleButton.addEventListener("click", () => {
-                sidebar.classList.toggle("collapsed");
-                document.body.classList.toggle("sidebar-open");
-                
-                // Đồng bộ trạng thái với header
-                if (sidebar.classList.contains("collapsed")) {
-                    header.style.marginLeft = "70px";
-                    header.style.width = "calc(100% - 70px)";
-                } else {
-                    header.style.marginLeft = "255px";
-                    header.style.width = "calc(100% - 255px)";
+                const toggleButton = document.getElementById("toggle-btn");
+                const sidebar = document.getElementById("sidebar");
+                const header = document.querySelector(".header");
+                const mainContent = document.querySelector("main"); // Chọn thẻ main
+
+                if (mainContent) {
+                    const isSidebarCollapsedInitially = sidebar && sidebar.classList.contains("collapsed");
+                    if (isSidebarCollapsedInitially) {
+                        mainContent.style.marginLeft = "70px";
+                        mainContent.style.width = "calc(100% - 70px)";
+                    } else {
+                        mainContent.style.marginLeft = "255px";
+                        mainContent.style.width = "calc(100% - 255px)";
+                    }
+                }
+
+                if (toggleButton && sidebar && header && mainContent) {
+                    toggleButton.addEventListener("click", () => {
+                        sidebar.classList.toggle("collapsed");
+                        document.body.classList.toggle("sidebar-open");
+                        
+                        // Đồng bộ trạng thái với header và main content
+                        if (sidebar.classList.contains("collapsed")) {
+                            header.style.marginLeft = "70px";
+                            header.style.width = "calc(100% - 70px)";
+                            mainContent.style.marginLeft = "70px"; // Áp dụng cho main content
+                            mainContent.style.width = "calc(100% - 70px)"; // Áp dụng cho main content
+                        } else {
+                            header.style.marginLeft = "255px";
+                            header.style.width = "calc(100% - 255px)";
+                            mainContent.style.marginLeft = "255px"; // Áp dụng cho main content
+                            mainContent.style.width = "calc(100% - 255px)"; // Áp dụng cho main content
+                        }
+                    });
                 }
             });
-        });
     </script>
     <script src="/admin/quanli_user.js"></script>
 </body>
