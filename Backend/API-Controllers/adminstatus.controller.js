@@ -6,15 +6,15 @@ const getSystemStats = async (req, res) => {
         // 1. Xác thực token (giống như trong completedCourses)
         const authHeader = req.headers.authorization;
         if (!authHeader?.startsWith("Bearer ")) {
-            return res.status(403).json({ 
+            return res.status(403).json({
                 success: false,
-                message: "Token không hợp lệ!" 
+                message: "Token không hợp lệ!"
             });
         }
-        
+
         const token = authHeader.split(" ")[1];
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        
+
         // 2. Kiểm tra role là admin
         if (decoded.Vai_Tro !== 'admin') {
             return res.status(403).json({
@@ -27,16 +27,17 @@ const getSystemStats = async (req, res) => {
         const [students] = await db.query(
             "SELECT COUNT(*) as count FROM USER WHERE Tai_Khoan LIKE '%52%'"
         );
-        console.log('Số sinh viên:', students[0].count); // Thêm dòng này
+        console.log('Số sinh viên:', students[0].count);
 
         const [teachers] = await db.query(
             "SELECT COUNT(*) as count FROM USER WHERE Tai_Khoan LIKE '%GV%'"
         );
-        
-        const [courses] = await db.query(
-            "SELECT COUNT(*) as count FROM MONHOC"
+
+        const [coursesResult] = await db.query( 
+            "SELECT COUNT(Ma_Mon_Hoc) AS total_unique_monhoc FROM ( SELECT Ma_Mon_Hoc FROM MONHOC UNION SELECT Ma_Mon_Hoc FROM MONHOC_KHAC) AS combined_monhoc;"
         );
         
+
         const [classes] = await db.query(
             "SELECT COUNT(*) as count FROM LOP"
         );
@@ -48,16 +49,16 @@ const getSystemStats = async (req, res) => {
             data: {
                 totalStudents: students[0].count,
                 totalTeachers: teachers[0].count,
-                totalCourses: courses[0].count,
+                totalCourses: coursesResult[0].total_unique_monhoc,
                 totalClasses: classes[0].count
             }
         });
     } catch (error) {
         console.error("Lỗi khi lấy thống kê:", error);
-        res.status(500).json({ 
+        res.status(500).json({
             success: false,
             message: "Lỗi server",
-            error: error.message 
+            error: error.message
         });
     }
 };
