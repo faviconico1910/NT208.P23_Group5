@@ -520,8 +520,11 @@ document.getElementById('upload-btn').addEventListener('click', async () => {
   }
 });
 
-        // Xóa bỏ sự kiện DOMContentLoaded trùng lặp
         document.addEventListener('DOMContentLoaded', () => {
+            if (!localStorage.getItem("token")) {
+                location.replace("/login");
+            }
+
             // Kiểm tra xem có thông tin sinh viên trong session không
             const viewMSSV = sessionStorage.getItem('currentStudentMSSV');
             const token = sessionStorage.getItem('currentStudentToken') || localStorage.getItem('token');

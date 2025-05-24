@@ -67,7 +67,7 @@
         <footer>
             <div class="nav-item d-flex justify-content-center align-items-center logout" id="logout-btn">
                 <i class="fa-solid fa-right-from-bracket"></i>
-                <a class="sidebar__link text-white" href="/login">Đăng xuất</a>
+                <a class="sidebar__link text-white" href="/login" onclick="logout()">Đăng xuất</a>
             </div>
         </footer>
     </div>
@@ -79,6 +79,18 @@
                     sidebar.classList.toggle("collapsed");
                 })
         });
+        function logout() {
+            // Ghi đè trang hiện tại để xóa lịch sử
+            history.pushState(null, '', '/logout');
+
+            // Xóa localStorage & sessionStorage
+            localStorage.clear();
+            sessionStorage.clear();
+
+            // Điều hướng bằng replace để không quay lại được
+            location.replace('/login');
+        }
+
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

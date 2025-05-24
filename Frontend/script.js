@@ -50,3 +50,6 @@ window.addEventListener("DOMContentLoaded", function() {
         // Không điều hướng ở đây nữa, vì Google login giờ trả về JSON
     }
 });
+
+    localStorage.clear();
+    sessionStorage.clear();
