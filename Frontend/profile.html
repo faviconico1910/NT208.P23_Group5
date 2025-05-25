@@ -178,7 +178,7 @@
             async function fetchStudentProfile(token, Tai_Khoan) {
                 try {
                     console.log("Token trong localStorage:", localStorage.getItem("token"));
-                    let response = await fetch(`http://localhost:3000/student/api`, {
+                    let response = await fetch(`/student/api`, {
                         method: "GET",
                         headers: {
                             "Content-Type": "application/json",
@@ -201,7 +201,7 @@
             // api từ giáo viên
             async function fetchStudentProfileFromTeacher (mssv, newToken) {
                 try {
-                    const response = await fetch(`http://localhost:3000/student/api/fromTeacher/${mssv}`, {
+                    const response = await fetch(`/student/api/fromTeacher/${mssv}`, {
                         method: "GET",
                         headers: {
                             "Content-Type": "application/json",
@@ -275,7 +275,7 @@
                     Thuong_Tru: document.getElementById('edit-location').value,
                 };
                 try {
-                    const response = await fetch("http://localhost:3000/student/api",
+                    const response = await fetch("/student/api",
                     {
                         method: "PUT",
                         headers: {

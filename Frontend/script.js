@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     let Tai_Khoan = document.getElementById("Tai_Khoan").value;
     let Mat_Khau = document.getElementById("Mat_Khau").value;
 
-    let response = await fetch("http://localhost:3000/login", {
+    let response = await fetch("/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ Tai_Khoan, Mat_Khau })
@@ -31,7 +31,7 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
 
 // xử lý nút đăng nhập bằng google
 document.getElementById("google-btn").onclick = () => {
-  window.location.href = "http://localhost:3000/login/auth/google";
+  window.location.href = "/login/auth/google";
 };
 
 window.addEventListener("DOMContentLoaded", function() {
