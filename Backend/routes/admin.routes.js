@@ -20,14 +20,13 @@ router.get("/dashboard", authenticateAdmin, (req, res) => {
 });
 router.get('/stats', getSystemStats);
 
-
 // API Users-----------------------------
 router.post("/users", authenticateAdmin, async (req, res) => {
     try {
         const { userType, username, password } = req.body;
         
         // Kiểm tra email đã tồn tại chưa
-        const [existingUser] = await db.promise().query(
+        const [existingUser] = await db.query(
             "SELECT * FROM USER WHERE Tai_Khoan = ?", 
             [username]
         );
@@ -40,7 +39,7 @@ router.post("/users", authenticateAdmin, async (req, res) => {
         }
         
         // Thêm người dùng vào database
-        await db.promise().query(
+        await db.query(
             "INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES (?, ?, ?)",
             [ username, password, userType === 'SinhVien' ? 'SinhVien' : 'GiangVien']
         );
@@ -67,7 +66,7 @@ router.post("/classes", authenticateAdmin, async (req, res) => {
         const { Ma_Lop, Ten_Lop, So_Luong, Co_Van_Hoc_Tap } = req.body;
         
         // Kiểm tra lớp đã tồn tại chưa
-        const [existingClass] = await db.promise().query(
+        const [existingClass] = await db.query(
             "SELECT * FROM LOP WHERE Ma_Lop = ?", 
             [Ma_Lop]
         );
@@ -79,7 +78,7 @@ router.post("/classes", authenticateAdmin, async (req, res) => {
             });
         }
         
-        const [unexisting] = await db.promise().query(
+        const [unexisting] = await db.query(
             "SELECT * FROM GiangVien WHERE Ma_Giang_Vien = ?", 
             [Co_Van_Hoc_Tap]
         );
@@ -91,7 +90,7 @@ router.post("/classes", authenticateAdmin, async (req, res) => {
         }
         
         // Thêm lớp học vào database
-        await db.promise().query(
+        await db.query(
             "INSERT INTO LOP (Ma_Lop, Ten_Lop, So_Luong, Co_Van_Hoc_Tap) VALUES (?, ?, ?, ?)",
             [Ma_Lop, Ten_Lop, So_Luong, Co_Van_Hoc_Tap]
         );
