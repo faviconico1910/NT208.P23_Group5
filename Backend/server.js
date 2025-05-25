@@ -21,7 +21,6 @@ const gioithieuRoutes = require("./routes/gioithieu.routes.js");
 const studentLists = require("./routes/DSSV.routes.js");   
 const adminRoutes = require('./routes/admin.routes.js');
 const quanliUserRoutes = require('./routes/quanli_user.routes.js');
-const quanliMonHocRoutes = require('./routes/quanli_monhoc.routes.js');
 const quanliLop = require('./routes/quanli_lop.routes.js');
 
 const app = express();
@@ -59,9 +58,9 @@ app.use("/huongdanXTN", huongdanXTNRoutes);
 app.use("/chatbot", chatbotRoutes);
 app.use("/dssv", studentLists);
 app.use("/", gioithieuRoutes); // giới thiệu   routes
-app.use("/admin", require("./routes/admin.routes.js"));
+app.use("/admin", adminRoutes);
 app.use('/mnguser', quanliUserRoutes);
-app.use('/mngmonhoc', quanliMonHocRoutes);
+// app.use('/mngmonhoc', quanliMonHocRoutes);
 app.use('/mnglop', quanliLop);
 // Chạy server
 app.listen(PORT, "0.0.0.0", () => {
