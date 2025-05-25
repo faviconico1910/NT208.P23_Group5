@@ -62,7 +62,7 @@ async function send() {
     chatbox.scrollTop = chatbox.scrollHeight;
 
     try {
-        const res = await fetch("http://localhost:3000/chatbot/api", {
+        const res = await fetch("/chatbot/api", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

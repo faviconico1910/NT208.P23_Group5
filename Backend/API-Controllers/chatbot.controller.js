@@ -28,7 +28,7 @@ exports.sendMessage = async (req, res) => {
             {
                 headers: {
                     "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
-                    "HTTP-Referer": "http://localhost",
+                    "HTTP-Referer": "/",
                     "X-Title": "UIT Chatbot",
                     "Content-Type": "application/json"
                 }
@@ -77,7 +77,7 @@ exports.sendMessage = async (req, res) => {
             {
                 headers: {
                     "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
-                    "HTTP-Referer": "http://localhost",
+                    "HTTP-Referer": "/",
                     "X-Title": "UIT Chatbot",
                     "Content-Type": "application/json"
                 }
