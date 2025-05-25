@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Lớp Học</title>
+    <link rel="stylesheet" href="/layout/sidebar_admin.css">
+    <style>
+        main {
+            transition: margin-left 0.3s ease, width 0.3s ease;
+            position: relative;
+            padding: 20px;
+            margin-left: 255px;
+            width: calc(100% - 255px);
+        }
+        .class-list {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        .class-list th, .class-list td {
+            padding: 0.8rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .class-list th {
+            background-color: #f2f2f2;
+            font-weight: 600;
+        }
+        .class-list tr:hover {
+            background-color: #f5f5f5;
+        }
+        .action-btns {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        .edit-btn, .delete-btn, .add-student-btn {
+            cursor: pointer;
+            padding: 0.25rem 0.5rem;
+            border: none;
+            border-radius: 4px;
+        }
+        .edit-btn {
+            background-color: #3498db;
+            color: white;
+        }
+        .delete-btn {
+            background-color: #e74c3c;
+            color: white;
+        }
+        .add-student-btn {
+            background-color: #2ecc71;
+            color: white;
+        }
+        #search-class-form {
+            margin-bottom: 1rem;
+        }
+        #search-class-form input {
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        #search-class-form button, #add-class-form button, #add-student-form button {
+            padding: 0.5rem 1rem;
+            border: none;
+            background-color: #2c3e50;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .header {
+            margin-left: 255px;
+            transition: margin-left 0.3s ease;
+            width: calc(100% - 70px);
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            background-color: #2c3e50;
+        }
+        #search-class-form {
+            margin-bottom: 1rem;
+            margin-top: 70px;
+        }
+        #search-class-form input {
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            width: 260px;
+        }
+        .search-class-form {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 100px;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-left: 70px;
+        }
+        .class-list th:last-child,
+        .class-list td:last-child {
+            text-align: center;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 8px;
+            position: relative;
+        }
+        .close-btn {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close-btn:hover,
+        .close-btn:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .btn {
+            padding: 0.75rem 1.25rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.2s ease;
+        }
+        .btn-primary {
+            background-color: #2c3e50;
+            color: white;
+        }
+        .btn-primary:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Quản Lý Lớp Học</h1>
+    </header>
+
+    <div class="container">
+        <div id="sidebar-container"></div>
+        <main>
+            <section class="dashboard-section">
+                <h2 class="section-title">Danh Sách Lớp Học</h2>
+
+                <form id="search-class-form">
+                    <input type="text" id="search-class-name" placeholder="Nhập tên lớp để tìm kiếm">
+                    <button type="submit">Tìm kiếm</button>
+                    <button type="button" id="add-class-btn">Thêm Lớp Mới</button>
+                </form>
+
+                <table class="class-list">
+                    <thead>
+                        <tr>
+                            <th>Mã Lớp</th>
+                            <th>Tên Lớp</th>
+                            <th>Số Lượng Sinh Viên</th>
+                            <th>Cố Vấn Học Tập</th>
+                            <th>Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody id="class-list-body">
+                        </tbody>
+                </table>
+            </section>
+
+            <div id="editClassModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Chỉnh Sửa Lớp Học</h2>
+                    <form id="editClassForm">
+                        <input type="hidden" id="edit-class-id">
+                        <div class="form-group">
+                            <label for="edit-class-name">Tên Lớp</label>
+                            <input type="text" id="edit-class-name" name="className" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-class-quantity">Số Lượng Sinh Viên Tối Đa</label>
+                            <input type="number" id="edit-class-quantity" name="classQuantity" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-class-advisor">Cố Vấn Học Tập</label>
+                            <input type="text" id="edit-class-advisor" name="classAdvisor" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cập Nhật</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="addClassModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Thêm Lớp Học Mới</h2>
+                    <form id="addClassForm">
+                        <div class="form-group">
+                            <label for="add-class-id">Mã Lớp</label>
+                            <input type="text" id="add-class-id" name="classId" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="add-class-name">Tên Lớp</label>
+                            <input type="text" id="add-class-name" name="className" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="add-class-quantity">Số Lượng Sinh Viên Tối Đa</label>
+                            <input type="number" id="add-class-quantity" name="classQuantity" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="add-class-advisor">Cố Vấn Học Tập</label>
+                            <input type="text" id="add-class-advisor" name="classAdvisor" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Thêm Lớp</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="addStudentModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <h2>Thêm Sinh Viên Vào Lớp</h2>
+                    <form id="addStudentForm">
+                        <input type="hidden" id="add-student-class-id">
+                        <div class="form-group">
+                            <label for="student-username">Tài Khoản Sinh Viên</label>
+                            <input type="text" id="student-username" name="studentUsername" placeholder="Nhập tài khoản sinh viên" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Thêm Sinh Viên</button>
+                    </form>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+         fetch('/layout/sidebar_admin.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById("sidebar-container").innerHTML = html;
+
+                const toggleButton = document.getElementById("toggle-btn");
+                const sidebar = document.getElementById("sidebar");
+                const header = document.querySelector(".header");
+                const mainContent = document.querySelector("main");
+
+                if (mainContent) {
+                    const isSidebarCollapsedInitially = sidebar && sidebar.classList.contains("collapsed");
+                    if (isSidebarCollapsedInitially) {
+                        mainContent.style.marginLeft = "70px";
+                        mainContent.style.width = "calc(100% - 70px)";
+                    } else {
+                        mainContent.style.marginLeft = "255px";
+                        mainContent.style.width = "calc(100% - 255px)";
+                    }
+                }
+
+                if (toggleButton && sidebar && header && mainContent) {
+                    toggleButton.addEventListener("click", () => {
+                        sidebar.classList.toggle("collapsed");
+                        document.body.classList.toggle("sidebar-open");
+
+                        if (sidebar.classList.contains("collapsed")) {
+                            header.style.marginLeft = "70px";
+                            header.style.width = "calc(100% - 70px)";
+                            mainContent.style.marginLeft = "70px";
+                            mainContent.style.width = "calc(100% - 70px)";
+                        } else {
+                            header.style.marginLeft = "255px";
+                            header.style.width = "calc(100% - 255px)";
+                            mainContent.style.marginLeft = "255px";
+                            mainContent.style.width = "calc(100% - 255px)";
+                        }
+                    });
+                }
+            });
+    </script>
+    <script src="/admin/quanli_lop.js"></script>
+</body>
+</html>
