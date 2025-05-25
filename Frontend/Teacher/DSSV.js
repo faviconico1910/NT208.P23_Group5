@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async() => {
     let token = localStorage.getItem("token");
     try {
-        let res = await fetch("http://localhost:3000/dssv/api", {
+        let res = await fetch("/dssv/api", {
             headers: {
                 'Authorization': `Bearer ${token}`
             }     
