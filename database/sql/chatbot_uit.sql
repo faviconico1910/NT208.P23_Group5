@@ -1329,6 +1329,7 @@ SET Ma_Mon_Hoc = SUBSTRING_INDEX(Ma_Lop_Hoc, '.', 1);
 select * from dangky;
 select * from lichhoc;
 select * from monhoc;
+select * from lop;
 select * from dangky where ma_sinh_vien='23521179';
 
 

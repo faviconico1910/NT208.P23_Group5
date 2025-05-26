@@ -18,7 +18,7 @@ const login = async (req, res) => {
             return res.status(401).json({ message: "Sai tài khoản hoặc mật khẩu!" });
         }
 
-        const user = result[0];
+        let user = result[0];
         console.log("✅ Tìm thấy user:", user);
 
         if (Mat_Khau !== user.Mat_Khau) {
@@ -75,12 +75,25 @@ passport.use(new GoogleStrategy({
       }
       // tìm trong database
       const [rows] = await db.query("SELECT * FROM SINHVIEN WHERE Email_Truong = ?", [email]);
-
+      let user;
       if (rows.length === 0) {
-        return done(null, false, { message: 'Không tìm thấy sinh viên trong hệ thống.' });
+        // tạo sinh viên mới
+        const Ma_Sinh_Vien = email.split("@")[0];
+        const Ho_Ten = profile.displayName || "Không có dữ liệu";
+        // query
+        await db.query("INSERT INTO SINHVIEN (Ma_Sinh_Vien, Email_Truong, Ho_Ten) VALUES (?, ?, ?)",
+        [Ma_Sinh_Vien, email, Ho_Ten]);
+
+        console.log("Đã thêm sinh viên mới:", { Ma_Sinh_Vien, Email_Truong: email, Ho_Ten });
+
+        // Lấy lại thông tin sinh viên vừa thêm
+        [rows] = await db.query("SELECT * FROM SINHVIEN WHERE Email_Truong = ?", [email]);
+        user = rows[0];
+      } else 
+      {
+        user = rows[0];
       }
 
-      const user = rows[0];
       console.log("User data before token creation:", {
         Tai_Khoan: user.Ma_Sinh_Vien,
         Vai_Tro: 'SinhVien',

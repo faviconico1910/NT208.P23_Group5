@@ -13,7 +13,7 @@ exports.sendMessage = async (req, res) => {
         const response = await axios.post(
             "https://openrouter.ai/api/v1/chat/completions",
             {
-                model: "deepseek/deepseek-r1-zero:free",
+                model: "tngtech/deepseek-r1t-chimera:free",
                 messages: [
                     {
                         role: "system",
@@ -52,8 +52,14 @@ exports.sendMessage = async (req, res) => {
             return res.json({ reply: "Không phân tích được!!" });
         }
         
-        const sql = parsed.sql;
-        const [rows] = await db.query(sql);
+        let rows;
+        try {
+            [rows] = await db.query(parsed.sql);
+            console.log("SQL result:", JSON.stringify(rows, null, 2));
+        } catch (dbErr) {
+            console.error("Lỗi truy vấn SQL:", dbErr.message, "SQL:", parsed.sql);
+            return res.json({ reply: "Lỗi khi truy vấn cơ sở dữ liệu!" });
+        }
 
         if (rows.length === 0)
             return res.json({ reply: "Không có kết quả phù hợp với bạn!" });
@@ -62,7 +68,7 @@ exports.sendMessage = async (req, res) => {
         const explain = await axios.post(
             "https://openrouter.ai/api/v1/chat/completions",
             {
-                model: "deepseek/deepseek-r1-zero:free",
+                model: "tngtech/deepseek-r1t-chimera:free",
                 messages: [
                     {
                         role: "system",
