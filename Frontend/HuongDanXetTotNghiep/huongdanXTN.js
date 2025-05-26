@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
         // 👉 Lấy tổng tín chỉ
-        let ttcResponse = await fetch("http://localhost:3000/huongdanXTN/tinchi", {
+        let ttcResponse = await fetch("/huongdanXTN/tinchi", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         let ttcData = await ttcResponse.json();
         console.log("📊 Dữ liệu điểm rèn luyện:", ttcData);
 
-        let nganhResponse = await fetch("http://localhost:3000/huongdanXTN/sv", {
+        let nganhResponse = await fetch("/huongdanXTN/sv", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -219,7 +219,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
         }
         // 👉 Lấy điểm rèn luyện
-        let drlResponse = await fetch("http://localhost:3000/huongdanXTN/drl", {
+        let drlResponse = await fetch("/huongdanXTN/drl", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
         }
         // 👉 Lấy chứng chỉ Ngoại ngữ
-        let nnResponse = await fetch("http://localhost:3000/huongdanXTN/chungchi", {
+        let nnResponse = await fetch("/huongdanXTN/chungchi", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         let nnData = await nnResponse.json();
         console.log("📊 Dữ liệu điểm rèn luyện:", nnData);
 
-        let svResponse = await fetch("http://localhost:3000/huongdanXTN/sv",{
+        let svResponse = await fetch("/huongdanXTN/sv",{
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
         }
         // 👉 Lấy chứng chỉ Quốc Phòng
-        let qpResponse = await fetch("http://localhost:3000/huongdanXTN/chungchi", {
+        let qpResponse = await fetch("/huongdanXTN/chungchi", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",

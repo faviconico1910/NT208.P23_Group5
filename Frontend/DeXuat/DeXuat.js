@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         electiveTbody.innerHTML = "<tr><td colspan='6' class='text-center'>Đang tải dữ liệu...</td></tr>";
         specialTbody.innerHTML = "<tr><td colspan='6' class='text-center'>Đang tải dữ liệu...</td></tr>";
 
-        const response = await fetch("http://127.0.0.1:3000/dexuatmonhoc/api", {
+        const response = await fetch("/dexuatmonhoc/api", {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`,

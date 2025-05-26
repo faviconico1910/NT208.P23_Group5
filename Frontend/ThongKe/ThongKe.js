@@ -31,7 +31,7 @@ const fetchGPAData = async () => {
     if (hocKy) params.append("hocKy", hocKy);
     if (namHoc) params.append("namHoc", namHoc);
 
-    const url = `http://127.0.0.1:3000/thongkesv/api?${params.toString()}`;
+    const url = `/thongkesv/api?${params.toString()}`;
 
     try {
         const response = await fetch(url, {
@@ -106,7 +106,7 @@ const fetchGPADataChart = async () => {
     if (hocKy) params.append("hocKy", hocKy);
     if (namHoc) params.append("namHoc", namHoc);
 
-    const url = `http://127.0.0.1:3000/thongkesv/api?${params.toString()}`;
+    const url = `/thongkesv/api?${params.toString()}`;
 
     try {
         const response = await fetch(url, {

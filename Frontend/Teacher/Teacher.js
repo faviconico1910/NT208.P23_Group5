@@ -12,7 +12,7 @@ if (!token || !Tai_Khoan) {
 async function fetchTeacherProfile(token, Tai_Khoan) {
     try {
         console.log("🎯 Token trong localStorage:", localStorage.getItem("token"));
-        let response = await fetch(`http://localhost:3000/teacher/api`, {
+        let response = await fetch(`/teacher/api`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
@@ -83,7 +83,7 @@ saveBtn.addEventListener("click", async() => {
         Thuong_Tru: document.getElementById('edit-location').value,
     };
     try {
-        const response = await fetch("http://localhost:3000/teacher/api",
+        const response = await fetch("/teacher/api",
         {
             method: "PUT",
             headers: {
