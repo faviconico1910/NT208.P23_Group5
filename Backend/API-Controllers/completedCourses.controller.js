@@ -23,12 +23,19 @@ const validateMSSV = (mssv) => {
 // Hàm xây dựng query SQL
 const buildQuery = (studentId, Nam_Nhap_Hoc, Ma_Nganh, filters = {}) => {
   try {
-    const { hocKy, namHoc } = filters;
+    const { hocKy, namHoc, timKiem } = filters; // Nhận thêm timKiem từ filters
     const Khoa = `K${Nam_Nhap_Hoc - 2005}`;
     
     let whereConditions = ["kq.Ma_Sinh_Vien = ?", "kq.Diem_HP IS NOT NULL"];
     let queryParams = [studentId];
 
+    if (timKiem && timKiem.trim() !== '') {
+      let normalizedSearchTerm = timKiem.trim();
+      // Chuẩn hóa chuỗi tìm kiếm về dạng NFC
+      normalizedSearchTerm = normalizedSearchTerm.normalize('NFC'); 
+      whereConditions.push("(dk.Ma_Mon_Hoc LIKE ? OR (CASE WHEN dk.LOAI = 'chinh' THEN mh.Ten_Mon_Hoc ELSE mhk.Ten_Mon_Hoc END) LIKE ?)");
+      queryParams.push(`%${normalizedSearchTerm}%`, `%${normalizedSearchTerm}%`);
+    }
     // Xử lý lọc theo học kỳ/năm học
     if (hocKy && namHoc) {
       const hocKyNum = parseInt(hocKy);
@@ -168,7 +175,7 @@ const getCompletedCourses = [
   authenticateToken,
   async (req, res) => {
     try {
-      const { hocKy, namHoc } = req.query;
+      const { hocKy, namHoc, timKiem } = req.query;
       const studentId = req.decodedToken.Tai_Khoan;
 
       // Validate MSSV
@@ -186,7 +193,7 @@ const getCompletedCourses = [
       const { Nam_Nhap_Hoc, Ma_Nganh } = studentInfo;
 
       // Xây dựng và thực thi query
-      const query = buildQuery(validation.mssv, Nam_Nhap_Hoc, Ma_Nganh, { hocKy, namHoc });
+      const query = buildQuery(validation.mssv, Nam_Nhap_Hoc, Ma_Nganh, { hocKy, namHoc, timKiem });
       if (!query || !query.sql) {
         throw new Error("Không thể xây dựng câu truy vấn");
       }
@@ -226,7 +233,7 @@ const getCompletedCoursesByMSSV = [
   authenticateToken,
   async (req, res) => {
     try {
-      const { hocKy, namHoc } = req.query;
+      const { hocKy, namHoc, timKiem } = req.query;
       const mssv = req.params.mssv || req.headers['x-student-mssv'];
 
       // Validate MSSV
@@ -252,7 +259,7 @@ const getCompletedCoursesByMSSV = [
       const { Nam_Nhap_Hoc, Ma_Nganh } = studentInfo;
 
       // Xây dựng và thực thi query
-      const query = buildQuery(validation.mssv, Nam_Nhap_Hoc, Ma_Nganh, { hocKy, namHoc });
+      const query = buildQuery(validation.mssv, Nam_Nhap_Hoc, Ma_Nganh, { hocKy, namHoc, timKiem });
       if (!query || !query.sql) {
         throw new Error("Không thể xây dựng câu truy vấn");
       }
@@ -293,7 +300,7 @@ const getCurrentStudentCourses = [
     authenticateToken,
     async (req, res) => {
       try {
-        const { hocKy, namHoc } = req.query;
+        const { hocKy, namHoc, timKiem } = req.query;
         
         // Ưu tiên lấy MSSV từ params trước
         let mssv = req.params.mssv;
@@ -326,7 +333,7 @@ const getCurrentStudentCourses = [
       const { Nam_Nhap_Hoc, Ma_Nganh, Khoa } = studentInfo;
 
       // Xây dựng và thực thi query
-      const query = buildQuery(validation.mssv, Nam_Nhap_Hoc, Ma_Nganh, { hocKy, namHoc });
+      const query = buildQuery(validation.mssv, Nam_Nhap_Hoc, Ma_Nganh, { hocKy, namHoc, timKiem });
       const [results] = await db.query(query.sql, query.params);
 
       const { processedResults, stats } = processResults(results);

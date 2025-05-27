@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="/layout/sidebar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div id="sidebar-container"></div>
-    <button class="menu-toggle" style="display: none;">
-        <i class="fas fa-bars"></i>
-    </button>
+    <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết Quả Học Tập</title>
+    <link rel="stylesheet" type="text/css" href="/KetQuaHocTap/completedCourses.css">
+    <link rel="stylesheet" href="/layout/sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="sidebar-container">
+        </div>
 
     <div class="main-content">
         <header>
-            <h1 style="font-size: 2rem;"><i class="fa-solid fa-graduation-cap"></i> Kết Quả Học Tập</h1>
+            <h1><i class="fa-solid fa-graduation-cap"></i> Kết Quả Học Tập</h1>
         </header>
         
         <div class="stats-container">
@@ -41,553 +50,437 @@
             <div class="stat-card">
                 <h3>Điểm trung bình</h3>
                 <div class="value diem-tb" id="average-score">--</div>
-                <div class="sub-value"></div>
+                <div class="sub-value" id="average-score-subtext"></div>
             </div>
         </div>
         
         <div class="filter-section">
-            <div class="filter-group">
-                <label for="semester-filter">Học kỳ</label>
-                <select id="semester-filter">
-                    <option value="">Tất cả học kỳ</option>
-                    <option value="1">Học kỳ 1</option>
-                    <option value="2">Học kỳ 2</option>
-                </select>
+            <div class="filters-main-column">
+                <div class="filter-row">
+                    <div class="filter-group search-group-full-width"> 
+                        <label for="course-search-input">Tìm môn học</label>
+                        <div class="input-with-button"> 
+                            <input type="text" id="course-search-input" class="form-control" placeholder="Nhập mã hoặc tên môn...">
+                            <button class="btn btn-search" id="course-search-btn">
+                                <i class="fas fa-search"></i> Tìm
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-row"> 
+                    <div class="filter-group">
+                        <label for="year-filter">Năm học</label>
+                        <select id="year-filter" class="form-select">
+                            <option value="">Tất cả năm học</option>
+                            <option value="2024-2025">2024-2025</option>
+                            <option value="2023-2024">2023-2024</option>
+                            <option value="2022-2023">2022-2023</option>
+                            <option value="2021-2022">2021-2022</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="semester-filter">Học kỳ</label>
+                        <select id="semester-filter" class="form-select">
+                            <option value="">Tất cả học kỳ</option>
+                            <option value="1">Học kỳ 1</option>
+                            <option value="2">Học kỳ 2</option>
+                            <option value="3">Học kỳ hè (nếu có)</option>
+                        </select>
+                    </div>
+                
+                    <div class="filter-actions">
+                        <button class="btn" id="filter-btn">
+                            <i class="fas fa-filter"></i> Lọc
+                        </button>
+                        <button class="btn btn-secondary" id="reset-btn">
+                            <i class="fas fa-sync-alt"></i> Đặt lại
+                        </button>
+                    </div>
+                </div>
             </div>
-            
-            <div class="filter-group">
-                <label for="year-filter">Năm học</label>
-                <select id="year-filter">
-                    <option value="">Tất cả năm học</option>
-                    <option value="2024-2025">2024-2025</option>
-                    <option value="2023-2024">2023-2024</option>
-                    <option value="2022-2023">2022-2023</option>
-                    <option value="2021-2022">2021-2022</option>
-                </select>
-            </div>
-            
-            <div class="filter-actions">
-                <button class="btn" id="filter-btn">
-                    <i class="fas fa-filter"></i> Lọc
-                </button>
-                <button class="btn btn-secondary" id="reset-btn">
-                    <i class="fas fa-sync-alt"></i> Đặt lại
-                </button>
-            </div>
-            <!-- upload file bảng điểm nè-->
-            <div class="upload-section mt-3 ms-5">
-                <label for="transcript-upload" class="form-label">Tải lên bảng điểm (HTML):</label>
-                <input type="file" id="transcript-upload" class="form-control" accept=".html">
-                <button class="btn btn-primary mt-2" id="upload-btn">
-                    <i class="fas fa-upload"></i> Cập nhật bảng điểm
-                </button>
-                <div id="upload-status" class="mt-2"></div>
+
+            <div class="upload-main-column">
+                <div class="upload-section">
+                    <label for="transcript-upload" class="form-label">Tải lên bảng điểm (HTML):</label>
+                    <input type="file" id="transcript-upload" class="form-control" accept=".html">
+                    <button class="btn btn-primary mt-2" id="upload-btn">
+                        <i class="fas fa-upload"></i> Cập nhật bảng điểm
+                    </button>
+                    <div id="upload-status" class="mt-2"></div>
+                </div>
             </div>
         </div>
-
-        
         
         <div class="results-container">
-            <table class="results-table">
-                <thead>
-                    <tr>
-                        <th>STT</th>
-                        <th>Mã môn</th>
-                        <th>Tên môn</th>
-                        <th>TC</th>
-                        <th>Điểm QT</th>
-                        <th>Điểm GK</th>
-                        <th>Điểm TH</th>
-                        <th>Điểm CK</th>
-                        <th>Điểm HP</th>
-                        <th>Xếp loại</th>
-                        <th>Ghi chú</th>
-                    </tr>
-                </thead>
-                <tbody id="results-body">
-                    <tr>
-                        <td colspan="11" class="no-data">
-                            <i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+             <div class="table-wrapper">
+                <table class="results-table">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã môn</th>
+                            <th>Tên môn</th>
+                            <th>TC</th>
+                            <th>Điểm QT</th>
+                            <th>Điểm GK</th>
+                            <th>Điểm TH</th>
+                            <th>Điểm CK</th>
+                            <th>Điểm HP</th>
+                            <th>Xếp loại</th>
+                            <th>Ghi chú</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results-body">
+                        <tr>
+                            <td colspan="11" class="no-data">
+                                <i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         const token = localStorage.getItem('token');
-    const menuToggle = document.querySelector('.menu-toggle');
-    const sidebar = document.querySelector('.sidebar');
-    
-    // Lấy MSSV từ URL nếu có
-    const urlParams = new URLSearchParams(window.location.search);
-    const viewMSSV = urlParams.get("mssv");
-    
-    if (window.innerWidth <= 768) {
-        menuToggle.style.display = 'block';
-        
-        menuToggle.addEventListener('click', () => {
-            sidebar.classList.toggle('active');
-        });
-    }
-    
-    const navItems = document.querySelectorAll('.nav-item');
-    navItems.forEach(item => {
-        item.addEventListener('click', function() {
-            navItems.forEach(i => i.classList.remove('active'));
-            this.classList.add('active');
-        });
-    });
+        const urlParams = new URLSearchParams(window.location.search);
+        const viewMSSV = urlParams.get("mssv");
 
-    async function fetchResults() {
-        // Hiển thị trạng thái loading
-        const tbody = document.getElementById('results-body');
-        tbody.innerHTML = `
-            <tr>
-                <td colspan="11" class="no-data">
-                    <i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...
-                </td>
-            </tr>
-        `;
-    
-        try {
-            console.log("Bắt đầu quá trình lấy dữ liệu kết quả học tập");
-    
-            // 1. Lấy thông tin sinh viên từ nhiều nguồn
-            const getStudentInfo = () => {
-                // Ưu tiên theo thứ tự:
-                // 1. URL parameters (nếu có ?mssv=...)
-                const urlParams = new URLSearchParams(window.location.search);
-                let mssv = urlParams.get('mssv');
-                
-                // 2. sessionStorage (từ DSSV)
-                if (!mssv) {
-                    mssv = sessionStorage.getItem('currentStudentMSSV');
-                }
-                
-                // 3. localStorage (dự phòng)
-                if (!mssv) {
-                    mssv = localStorage.getItem('viewingStudentMSSV');
-                }
-                
-                const token = localStorage.getItem("token") || sessionStorage.getItem('currentStudentToken');
-                
-                // Validate MSSV
-                if (mssv && !/^\d{8,10}$/.test(mssv)) {
-                    console.error("MSSV không hợp lệ:", mssv);
+        function setupNavItems() {
+            const sidebarElement = document.getElementById("sidebar");
+            if (sidebarElement) {
+                const navItems = sidebarElement.querySelectorAll('.nav-item');
+            }
+        }
+
+        async function fetchResults() {
+            const tbody = document.getElementById('results-body');
+            tbody.innerHTML = `<tr><td colspan="11" class="no-data"><i class="fas fa-spinner fa-spin"></i> Đang tải dữ liệu...</td></tr>`;
+            try {
+                const getStudentInfo = () => { 
+                    const searchTerm = document.getElementById('course-search-input').value;
+                    const urlParams = new URLSearchParams(window.location.search);
+                    let mssv = urlParams.get('mssv');
+                    if (!mssv) mssv = sessionStorage.getItem('currentStudentMSSV');
+                    if (!mssv) mssv = localStorage.getItem('viewingStudentMSSV');
+                    
+                    const currentToken = localStorage.getItem("token") || sessionStorage.getItem('currentStudentToken');
+                    
+                    if (mssv && !/^\d{8,10}$/.test(mssv)) {
+                        console.error("MSSV không hợp lệ:", mssv);
+                        return null;
+                    }
+                    
+                    if (mssv) return { mssv: mssv, token: currentToken, isViewingOther: true }; 
+                    
+                    if (currentToken) {
+                        try {
+                            const decoded = jwt_decode(currentToken);
+                            if (decoded.Tai_Khoan && /^\d{8,10}$/.test(decoded.Tai_Khoan)) {
+                                return { mssv: decoded.Tai_Khoan, token: currentToken, isViewingOther: false };
+                            }
+                        } catch (e) { console.error("Lỗi giải mã token:", e); }
+                    }
                     return null;
+                };
+
+                const studentInfo = getStudentInfo();
+                if (!studentInfo || !studentInfo.mssv || !studentInfo.token) {
+                    const errorMsg = "Không tìm thấy thông tin sinh viên. Vui lòng truy cập từ trang Danh sách Sinh viên hoặc đăng nhập lại.";
+                    tbody.innerHTML = `<tr><td colspan="11" class="no-data"><div class="error-message"><i class="fas fa-exclamation-triangle"></i><h4>${errorMsg}</h4><a href="/login" class="btn btn-primary mt-2">Đăng nhập</a></div></td></tr>`;
+                    return;
                 }
+        
+                const semester = document.getElementById('semester-filter').value;
+                const year = document.getElementById('year-filter').value;
+                const searchTerm = document.getElementById('course-search-input').value; 
+
+                const params = new URLSearchParams();
+                if (semester) params.append('hocKy', semester);
+                if (year) params.append('namHoc', year);
+                if (searchTerm.trim()) params.append('timKiem', searchTerm.trim()); 
+
+                const headers = { 'Authorization': `Bearer ${studentInfo.token}`, 'Content-Type': 'application/json' };
                 
-                if (mssv) {
-                    return {
-                        mssv: mssv,
-                        token: token,
-                        isViewingOther: true
-                    };
-                }
-                
-                // Nếu không có MSSV (sinh viên tự xem)
-                if (token) {
+                let viewingSelf = studentInfo.isViewingOther === false; 
+                if (studentInfo.token) {
                     try {
-                        const decoded = jwt_decode(token);
-                        if (decoded.Tai_Khoan && /^\d{8,10}$/.test(decoded.Tai_Khoan)) {
-                            return {
-                                mssv: decoded.Tai_Khoan,
-                                token: token,
-                                isViewingOther: false
-                            };
+                        const decodedToken = jwt_decode(studentInfo.token);
+                        if (decodedToken && decodedToken.Tai_Khoan === studentInfo.mssv) {
+                            viewingSelf = true; 
+                        } else if(studentInfo.isViewingOther === false){
+                            viewingSelf = true; 
+                        }
+                        else {
+                            viewingSelf = false; 
                         }
                     } catch (e) {
-                        console.error("Lỗi giải mã token:", e);
+                        console.error("Lỗi giải mã token khi xác định viewingSelf:", e);
                     }
                 }
-                
-                return null;
-            };
 
-            const studentInfo = getStudentInfo();
-            
-            if (!studentInfo || !studentInfo.mssv || !studentInfo.token) {
-                throw new Error("Không tìm thấy thông tin sinh viên. Vui lòng truy cập từ trang Danh sách Sinh viên.");
-            }
-    
-            console.log("Sử dụng MSSV:", studentInfo.mssv, "Loại:", studentInfo.isViewingOther ? "Xem hồ sơ khác" : "Tự xem");
-    
-            // 2. Lấy giá trị bộ lọc
-            const semester = document.getElementById('semester-filter').value;
-            const year = document.getElementById('year-filter').value;
-            
-            // 3. Chuẩn bị tham số API
-            const params = new URLSearchParams();
-            if (semester) params.append('hocKy', semester);
-            if (year) params.append('namHoc', year);
-            
-            // 4. Chuẩn bị headers
-            const headers = {
-                'Authorization': `Bearer ${studentInfo.token}`,
-                'Content-Type': 'application/json'
-            };
-            
-            // Thêm MSSV vào header nếu đang xem hồ sơ khác
-            if (studentInfo.isViewingOther) {
-                headers['X-Student-MSSV'] = studentInfo.mssv;
-            }
-            
-            // 5. Xác định endpoint API
-            const apiUrl = studentInfo.isViewingOther 
-            ? `/completedCourses/api/current/${studentInfo.mssv}?${params.toString()}`
-            : `/completedCourses/api?${params.toString()}`;
-            
-            console.log("Gọi API:", apiUrl);
-            console.log("Headers:", JSON.parse(JSON.stringify(headers))); // Clone để log an toàn
-    
-            // 6. Gọi API
-            const response = await fetch(apiUrl, { headers });
-            
-            // 7. Xử lý response
-            if (!response.ok) {
-                const errorText = await response.text();
-                let errorData;
+                const apiUrl = viewingSelf
+                ? `/completedCourses/api?${params.toString()}`
+                : `/completedCourses/api/current/${studentInfo.mssv}?${params.toString()}`;
                 
-                try {
-                    errorData = JSON.parse(errorText);
-                } catch {
-                    throw new Error(`Lỗi HTTP ${response.status}: ${errorText}`);
+                if (!viewingSelf) { 
+                     headers['X-Student-MSSV'] = studentInfo.mssv;
                 }
                 
-                console.error("Chi tiết lỗi từ API:", errorData);
-                
-                // Xử lý riêng cho lỗi token hết hạn
-                if (response.status === 401 && errorData.message.includes('token')) {
-                    localStorage.removeItem('token');
-                    sessionStorage.removeItem('currentStudentToken');
-                    throw new Error("Phiên đăng nhập hết hạn. Vui lòng đăng nhập lại.");
+                const response = await fetch(apiUrl, { headers });
+                if (!response.ok) { 
+                    const errorText = await response.text();
+                    let errorData;
+                    try { errorData = JSON.parse(errorText); } 
+                    catch { throw new Error(`Lỗi HTTP ${response.status}: ${errorText}`); }
+                    
+                    if (response.status === 401 && errorData.message && errorData.message.includes('token')) {
+                        localStorage.removeItem('token'); sessionStorage.removeItem('currentStudentToken');
+                        throw new Error("Phiên đăng nhập hết hạn. Vui lòng đăng nhập lại.");
+                    }
+                    throw new Error(errorData.message || `Lỗi từ server: ${response.status}`);
                 }
                 
-                throw new Error(errorData.message || `Lỗi từ server: ${response.status}`);
-            }
-            
-            const data = await response.json();
-            
-            if (!data.success) {
-                throw new Error(data.message || "Dữ liệu trả về không hợp lệ");
-            }
-            
-            console.log("Dữ liệu nhận được:", data);
-    
-            // 8. Hiển thị kết quả
-            displayResults(data.data);
-            
-            // 9. Cập nhật thống kê
-            const failedCourses = data.data.filter(item => item.Diem_HP < 5);
-            updateStats(
-                data.stats.tongMon,
-                failedCourses.length,
-                data.stats.tongTC,
-                failedCourses.reduce((sum, item) => sum + item.So_TC, 0),
-                data.stats.diemTB
-            );
-            
-        } catch (error) {
-            console.error('Lỗi trong quá trình lấy dữ liệu:', error);
-            
-            // Hiển thị thông báo lỗi chi tiết
-            tbody.innerHTML = `
-                <tr>
-                    <td colspan="11" class="no-data">
-                        <div class="error-message">
-                            <i class="fas fa-exclamation-triangle"></i>
-                            <h4>${error.message}</h4>
-                            ${error.message.includes('đăng nhập') 
-                                ? '<a href="/login" class="btn btn-primary mt-2">Đăng nhập lại</a>' 
-                                : '<a href="/dssv" class="btn btn-primary mt-2">Quay lại Danh sách SV</a>'}
-                        </div>
-                    </td>
-                </tr>
-            `;
-            
-            // Nếu là lỗi xác thực, tự động chuyển hướng sau 5 giây
-            if (error.message.includes('đăng nhập') || error.message.includes('Phiên')) {
-                setTimeout(() => {
-                    window.location.href = '/login';
-                }, 5000);
-            }
-        }
-    }
-    
-    // Hàm giải mã JWT (nếu không dùng thư viện)
-    function jwt_decode(token) {
-        try {
-            const base64Url = token.split('.')[1];
-            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-            return JSON.parse(atob(base64));
-        } catch (e) {
-            console.error("Lỗi giải mã token:", e);
-            return null;
-        }
-    }
+                const data = await response.json();
+                if (!data.success) throw new Error(data.message || "Dữ liệu trả về không hợp lệ");
         
-        function displayResults(data) {
-            const tbody = document.getElementById('results-body');
-            
-            if (data.length === 0) {
+                displayResults(data.data);
+                
+                const failedCoursesList = data.data.filter(item => item.Diem_HP < 5 && item.Diem_HP !== null);
+                updateStats(
+                    data.stats.tongMon,
+                    failedCoursesList.length,
+                    data.stats.tongTC,
+                    failedCoursesList.reduce((sum, item) => sum + (item.So_TC || 0), 0),
+                    data.stats.diemTB
+                );
+
+            } catch (error) { 
+                console.error('Lỗi trong quá trình lấy dữ liệu:', error);
+                const studentInfoForErrorLink = getStudentInfo();
                 tbody.innerHTML = `
                     <tr>
                         <td colspan="11" class="no-data">
-                            <i class="fas fa-info-circle"></i> Không có dữ liệu môn học nào
+                            <div class="error-message">
+                                <i class="fas fa-exclamation-triangle fa-2x"></i>
+                                <h4 style="margin-top: 10px;">${error.message}</h4>
+                                ${error.message.includes('đăng nhập') || error.message.includes('Phiên')
+                                    ? '<a href="/login" class="btn btn-primary mt-2">Đăng nhập lại</a>' 
+                                    : (studentInfoForErrorLink && studentInfoForErrorLink.isViewingOther && jwt_decode(studentInfoForErrorLink.token)?.Tai_Khoan !== studentInfoForErrorLink.mssv ? '<a href="/dssv" class="btn btn-primary mt-2">Quay lại Danh sách SV</a>' : '')}
+                            </div>
                         </td>
-                    </tr>
-                `;
+                    </tr>`;
+                if (error.message.includes('đăng nhập') || error.message.includes('Phiên')) {
+                    setTimeout(() => { window.location.href = '/login'; }, 3000);
+                }
+            }
+        }
+    
+        function jwt_decode(token) { 
+            try {
+                const base64Url = token.split('.')[1];
+                const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+                const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+                    return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+                }).join(''));
+                return JSON.parse(jsonPayload);
+            } catch (e) { console.error("Lỗi giải mã token:", e); return null; }
+        }
+        
+        function displayResults(data) { 
+            const tbody = document.getElementById('results-body');
+            if (!data || data.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="11" class="no-data"><i class="fas fa-info-circle"></i> Không có dữ liệu môn học nào khớp với bộ lọc.</td></tr>`;
                 return;
             }
-            
-            tbody.innerHTML = '';
+            tbody.innerHTML = ''; 
             data.forEach((item, index) => {
-                const row = document.createElement('tr');
-                
+                const row = tbody.insertRow();
                 row.innerHTML = `
                     <td>${index + 1}</td>
-                    <td>${item.Ma_Mon_Hoc}</td>
-                    <td>${item.Ten_Mon_Hoc}</td>
-                    <td>${item.So_TC}</td>
+                    <td>${item.Ma_Mon_Hoc || '-'}</td>
+                    <td>${item.Ten_Mon_Hoc || '-'}</td>
+                    <td>${item.So_TC || 0}</td>
                     <td><span class="score ${getScoreClass(item.Diem_QT)}">${displayScore(item.Diem_QT)}</span></td>
                     <td><span class="score ${getScoreClass(item.Diem_GK)}">${displayScore(item.Diem_GK)}</span></td>
                     <td><span class="score ${getScoreClass(item.Diem_TH)}">${displayScore(item.Diem_TH)}</span></td>
                     <td><span class="score ${getScoreClass(item.Diem_CK)}">${displayScore(item.Diem_CK)}</span></td>
                     <td><span class="score ${getScoreClass(item.Diem_HP)}">${displayScore(item.Diem_HP)}</span></td>
-                    <td>${item.Xep_Loai || ''}</td>
-                    <td>${item.GHI_CHU || ''}</td>
+                    <td>${item.Xep_Loai || (item.Diem_HP !== null ? (item.Diem_HP < 5 ? 'Học lại' : 'Đạt') : '-')}</td>
+                    <td>${item.GHI_CHU || (item.Diem_HP !== null && item.Diem_HP < 5 && item.Xep_Loai !== 'F' && item.Xep_Loai !== 'Học lại' ? 'Cần học lại' : '')}</td>
                 `;
-                
-                tbody.appendChild(row);
             });
         }
         
-        function updateStats(totalCourses, failedCourses, totalCredits, failedCredits, averageScore) {
-            document.getElementById('completed-courses').textContent = totalCourses - failedCourses;
-            document.getElementById('failed-courses').textContent = failedCourses;
-            document.getElementById('completed-credits').textContent = totalCredits - failedCredits;
-            document.getElementById('failed-credits').textContent = failedCredits;
-            document.getElementById('average-score').textContent = averageScore;
+        function updateStats(totalCourses, failedCoursesCount, totalCredits, failedCreditsSum, averageScore) { 
+            document.getElementById('completed-courses').textContent = totalCourses - failedCoursesCount;
+            document.getElementById('failed-courses').textContent = failedCoursesCount;
+            document.getElementById('completed-credits').textContent = totalCredits - failedCreditsSum;
+            document.getElementById('failed-credits').textContent = failedCreditsSum;
+            const avgScoreEl = document.getElementById('average-score');
+            
+            avgScoreEl.textContent = (averageScore !== null && averageScore !== undefined) ? parseFloat(averageScore).toFixed(2) : '--';
         }
         
-        function getScoreClass(score) {
-            if (!score && score !== 0) return '';
-            if (score >= 8) return 'high';
-            if (score >= 5) return 'medium';
-            return 'low';
+        function getScoreClass(score) { 
+            if (score === null || score === undefined) return 'grey';
+            if (score >= 8.5) return 'high';
+            if (score >= 7.0) return 'medium';
+            if (score >= 5.0) return 'low'; 
+            return 'low danger';
         }
         
-        function displayScore(score) {
-            return (score || score === 0) ? score.toFixed(1) : '-';
+        function displayScore(score) { 
+            return (score !== null && score !== undefined) ? parseFloat(score).toFixed(1) : '-';
         }
         
-        function showError(message) {
-            const tbody = document.getElementById('results-body');
-            tbody.innerHTML = `
-                <tr>
-                    <td colspan="11" class="no-data" style="color: var(--danger)">
-                        <i class="fas fa-exclamation-circle"></i> ${message}
-                    </td>
-                </tr>
-            `;
-        }
-       // Xử lý tải file HTML
-document.getElementById('upload-btn').addEventListener('click', async () => {
-  const fileInput = document.getElementById('transcript-upload');
-  const statusDiv = document.getElementById('upload-status');
-  statusDiv.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Đang xử lý...';
+       document.getElementById('upload-btn').addEventListener('click', async () => { 
+            const fileInput = document.getElementById('transcript-upload');
+            const statusDiv = document.getElementById('upload-status');
+            statusDiv.className = 'mt-2'; 
+            statusDiv.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Đang xử lý...';
 
-  if (!fileInput.files.length) {
-    statusDiv.innerHTML = '<i class="fas fa-exclamation-circle"></i> Vui lòng chọn file HTML!';
-    return;
-  }
-
-  const file = fileInput.files[0];
-  if (!file.name.endsWith('.html')) {
-    statusDiv.innerHTML = '<i class="fas fa-exclamation-circle"></i> File phải là định dạng HTML!';
-    return;
-  }
-
-  try {
-    const text = await file.text();
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(text, 'text/html');
-
-    // Trích xuất thông tin sinh viên
-    const studentTable = doc.querySelector('table[width="100%"] tbody');
-    if (!studentTable) throw new Error('Không tìm thấy thông tin sinh viên trong file.');
-
-    const studentInfo = {
-      mssv: studentTable.querySelector('tr:nth-child(2) td:nth-child(2) strong')?.textContent.trim(),
-      hoTen: studentTable.querySelector('tr:nth-child(1) td:nth-child(2) strong')?.textContent.trim(),
-      lop: studentTable.querySelector('tr:nth-child(2) td:nth-child(4) strong')?.textContent.trim(),
-      khoa: studentTable.querySelector('tr:nth-child(2) td:nth-child(6) strong')?.textContent.trim(),
-      gioiTinh: studentTable.querySelector('tr:nth-child(1) td:nth-child(6) strong')?.textContent.trim(),
-      heDaoTao: studentTable.querySelector('tr:nth-child(3) td:nth-child(2) strong')?.textContent.trim()
-    };
-
-    // Debug log
-    console.log('studentInfo:', studentInfo);
-
-    // Validate studentInfo
-    if (!studentInfo.mssv || !/^\d{8,10}$/.test(studentInfo.mssv)) {
-      throw new Error('MSSV không hợp lệ hoặc không tìm thấy.');
-    }
-    if (!studentInfo.hoTen || !studentInfo.lop || !studentInfo.khoa) {
-      throw new Error('Thông tin sinh viên không đầy đủ (thiếu họ tên, lớp, hoặc khoa).');
-    }
-
-    // Trích xuất kết quả học tập
-    const resultsTable = doc.querySelector('table[border="1"] tbody');
-    if (!resultsTable) throw new Error('Không tìm thấy bảng kết quả học tập.');
-
-    const results = [];
-    let currentSemester = '';
-    let currentYear = '';
-
-    resultsTable.querySelectorAll('tr').forEach(row => {
-      const cells = row.querySelectorAll('td');
-      if (cells.length === 1 && cells[0].textContent.includes('Học kỳ')) {
-        const text = cells[0].textContent.trim();
-        const match = text.match(/Học kỳ\s*(\d)\s*-\s*Năm học\s*(\d{4}-\d{4})/i);
-        if (match) {
-          currentSemester = match[1];
-          currentYear = match[2];
-          console.log('Tìm thấy học kỳ:', currentSemester, currentYear);
-        } else {
-          console.warn('Không khớp tiêu đề học kỳ:', text);
-        }
-      } else if (cells.length === 10 && cells[0].textContent.trim() !== '' && !cells[0].textContent.includes('Trung bình') && !cells[0].textContent.includes('Số tín chỉ')) {
-        if (!currentSemester || !currentYear) {
-          console.warn('Bỏ qua môn học do thiếu học kỳ/năm học:', cells[1].textContent.trim());
-          return;
-        }
-        const diemHP = cells[8].textContent.trim();
-        results.push({
-          hocKy: currentSemester,
-          namHoc: currentYear,
-          maMonHoc: cells[1].textContent.trim(),
-          tenMonHoc: cells[2].textContent.trim(),
-          soTC: parseInt(cells[3].textContent.trim()) || 0,
-          diemQT: cells[4].textContent.trim() ? parseFloat(cells[4].textContent.trim()) : null,
-          diemGK: cells[5].textContent.trim() ? parseFloat(cells[5].textContent.trim()) : null,
-          diemTH: cells[6].textContent.trim() ? parseFloat(cells[6].textContent.trim()) : null,
-          diemCK: cells[7].textContent.trim() ? parseFloat(cells[7].textContent.trim()) : null,
-          diemHP: diemHP === 'Miễn' ? null : parseFloat(diemHP) || null,
-          ghiChu: diemHP === 'Miễn' ? 'Miễn' : cells[9].textContent.trim()
-        });
-      }
-    });
-
-    // Validate results
-    if (!results.length) throw new Error('Không tìm thấy kết quả học tập hợp lệ trong file.');
-
-    // Debug log
-    console.log('results:', results);
-
-    // Gửi dữ liệu lên server
-    const headers = {
-      'Authorization': `Bearer ${token}`,
-      'Content-Type': 'application/json'
-    };
-    const response = await fetch('/completedCourses/api/upload', {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({ studentInfo, results })
-    });
-
-    const result = await response.json();
-    if (!response.ok) {
-      if (response.status === 403) throw new Error('Bạn không được phép upload bảng điểm của sinh viên khác!');
-      throw new Error(result.message || 'Lỗi khi cập nhật bảng điểm.');
-    }
-
-    // Hiển thị kết quả
-    if (result.skippedResults && result.skippedResults.length > 0) {
-      statusDiv.innerHTML = `
-        <i class="fas fa-check-circle"></i> Cập nhật bảng điểm thành công, nhưng một số môn bị bỏ qua:
-        <ul>${result.skippedResults.map(r => `<li>${r.maMonHoc}: ${r.error}</li>`).join('')}</ul>
-      `;
-    } else {
-      statusDiv.innerHTML = '<i class="fas fa-check-circle"></i> Cập nhật bảng điểm thành công!';
-    }
-    fetchResults(); // Refresh bảng kết quả
-  } catch (error) {
-    statusDiv.innerHTML = `<i class="fas fa-exclamation-circle"></i> Lỗi: ${error.message}`;
-    console.error('Lỗi upload:', error);
-  }
-});
+            if (!fileInput.files.length) {
+                statusDiv.innerHTML = '<i class="fas fa-exclamation-circle text-danger"></i> Vui lòng chọn file HTML!';
+                statusDiv.classList.add('text-danger'); return;
+            }
+            const file = fileInput.files[0];
+            if (!file.name.endsWith('.html')) {
+                statusDiv.innerHTML = '<i class="fas fa-exclamation-circle text-danger"></i> File phải là định dạng HTML!';
+                statusDiv.classList.add('text-danger'); return;
+            }
+            try {
+                const text = await file.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(text, 'text/html');
+                const studentTable = doc.querySelector('table[width="100%"] tbody');
+                if (!studentTable) throw new Error('Không tìm thấy bảng thông tin sinh viên trong file.');
+                const studentInfoFromFile = {
+                mssv: studentTable.querySelector('tr:nth-child(2) td:nth-child(2) strong')?.textContent.trim(),
+                hoTen: studentTable.querySelector('tr:nth-child(1) td:nth-child(2) strong')?.textContent.trim(),
+                lop: studentTable.querySelector('tr:nth-child(2) td:nth-child(4) strong')?.textContent.trim(),
+                khoa: studentTable.querySelector('tr:nth-child(2) td:nth-child(6) strong')?.textContent.trim(),
+                gioiTinh: studentTable.querySelector('tr:nth-child(1) td:nth-child(6) strong')?.textContent.trim(),
+                heDaoTao: studentTable.querySelector('tr:nth-child(3) td:nth-child(2) strong')?.textContent.trim()
+                };
+                if (!studentInfoFromFile.mssv || !/^\d{8,10}$/.test(studentInfoFromFile.mssv)) throw new Error('MSSV không hợp lệ hoặc không tìm thấy.');
+                if (!studentInfoFromFile.hoTen || !studentInfoFromFile.lop || !studentInfoFromFile.khoa) throw new Error('Thông tin sinh viên không đầy đủ (thiếu họ tên, lớp, hoặc khoa).');
+                const resultsTable = doc.querySelector('table[border="1"] tbody');
+                if (!resultsTable) throw new Error('Không tìm thấy bảng kết quả học tập.');
+                const results = []; let currentSemester = ''; let currentYear = '';
+                resultsTable.querySelectorAll('tr').forEach(row => {
+                const cells = Array.from(row.querySelectorAll('td'));
+                if (cells.length === 1 && cells[0].textContent.includes('Học kỳ')) {
+                    const textContent = cells[0].textContent.trim();
+                    const match = textContent.match(/Học kỳ\s*(\d)\s*-\s*Năm học\s*(\d{4}-\d{4})/i);
+                    if (match) { currentSemester = match[1]; currentYear = match[2]; } 
+                    else { console.warn('Không khớp tiêu đề học kỳ:', textContent); }
+                } else if (cells.length >= 10 && cells[0].textContent.trim() !== '' && !cells[0].textContent.includes('Trung bình') && !cells[0].textContent.includes('Số tín chỉ')) {
+                    if (!currentSemester || !currentYear) { console.warn('Bỏ qua môn học do thiếu học kỳ/năm học:', cells[1]?.textContent.trim()); return; }
+                    const diemHPText = cells[8]?.textContent.trim();
+                    results.push({
+                    hocKy: currentSemester, namHoc: currentYear,
+                    maMonHoc: cells[1]?.textContent.trim(), tenMonHoc: cells[2]?.textContent.trim(),
+                    soTC: parseInt(cells[3]?.textContent.trim()) || 0,
+                    diemQT: cells[4]?.textContent.trim() ? parseFloat(cells[4]?.textContent.trim().replace(',', '.')) : null,
+                    diemGK: cells[5]?.textContent.trim() ? parseFloat(cells[5]?.textContent.trim().replace(',', '.')) : null,
+                    diemTH: cells[6]?.textContent.trim() ? parseFloat(cells[6]?.textContent.trim().replace(',', '.')) : null,
+                    diemCK: cells[7]?.textContent.trim() ? parseFloat(cells[7]?.textContent.trim().replace(',', '.')) : null,
+                    diemHP: diemHPText === 'Miễn' || diemHPText === '' ? null : (parseFloat(diemHPText.replace(',', '.'))),
+                    ghiChu: diemHPText === 'Miễn' ? 'Miễn' : (cells[9]?.textContent.trim() || '')
+                    });
+                }
+                });
+                if (!results.length) throw new Error('Không tìm thấy kết quả học tập hợp lệ trong file.');
+                const apiToken = localStorage.getItem('token');
+                if (!apiToken) throw new Error("Người dùng chưa đăng nhập hoặc token không hợp lệ.");
+                const response = await fetch('/completedCourses/api/upload', {
+                method: 'POST',
+                headers: { 'Authorization': `Bearer ${apiToken}`, 'Content-Type': 'application/json' },
+                body: JSON.stringify({ studentInfo: studentInfoFromFile, results })
+                });
+                const result = await response.json();
+                if (!response.ok) {
+                if (response.status === 403) throw new Error(result.message || 'Bạn không được phép upload bảng điểm này!');
+                throw new Error(result.message || 'Lỗi khi cập nhật bảng điểm.');
+                }
+                statusDiv.classList.remove('text-danger'); statusDiv.classList.add('text-success');
+                let successMessage = '<i class="fas fa-check-circle"></i> Cập nhật bảng điểm thành công!';
+                if (result.skippedResults && result.skippedResults.length > 0) {
+                successMessage += ` Một số môn bị bỏ qua: <ul>${result.skippedResults.map(r => `<li>${r.maMonHoc}: ${r.error}</li>`).join('')}</ul>`;
+                }
+                statusDiv.innerHTML = successMessage;
+                fetchResults(); 
+            } catch (error) {
+                statusDiv.innerHTML = `<i class="fas fa-exclamation-circle"></i> Lỗi: ${error.message}`;
+                statusDiv.classList.add('text-danger'); console.error('Lỗi upload:', error);
+            }
+       });
 
         document.addEventListener('DOMContentLoaded', () => {
-            if (!localStorage.getItem("token")) {
-                location.replace("/login");
-            }
-
-            // Kiểm tra xem có thông tin sinh viên trong session không
-            const viewMSSV = sessionStorage.getItem('currentStudentMSSV');
-            const token = sessionStorage.getItem('currentStudentToken') || localStorage.getItem('token');
-            
-            if (!token) {
-                window.location.href = '/login';
+            const currentToken = localStorage.getItem("token") || sessionStorage.getItem('currentStudentToken');
+             if (!currentToken && !window.location.pathname.endsWith('/login.html') && !window.location.pathname.endsWith('/login')) { 
+                window.location.href = "/login";
                 return;
             }
-            
-            // Thêm debug log
-            console.log('Thông tin session:', { viewMSSV, token });
-            
-            if (!viewMSSV) {
-                // Nếu không có MSSV trong session, có thể là sinh viên tự xem
-                try {
-                    const decoded = jwt_decode(token);
-                    if (decoded.role === 'teacher') {
-                        window.location.href = '/dssv';
-                        return;
-                    }
-                } catch (e) {
-                    console.error('Lỗi giải mã token:', e);
-                    window.location.href = '/login';
-                    return;
-                }
-            }
-            
             fetchResults();
         });
-
-        // Thêm hàm jwt_decode nếu chưa có
-        function jwt_decode(token) {
-            const base64Url = token.split('.')[1];
-            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-            return JSON.parse(atob(base64));
-        }
         
         document.getElementById('filter-btn').addEventListener('click', fetchResults);
         document.getElementById('reset-btn').addEventListener('click', () => {
             document.getElementById('semester-filter').value = '';
             document.getElementById('year-filter').value = '';
+            document.getElementById('course-search-input').value = ''; 
             fetchResults();
         });
         
+        const courseSearchBtn = document.getElementById('course-search-btn');
+        if (courseSearchBtn) {
+            courseSearchBtn.addEventListener('click', fetchResults);
+        }
+        
+        fetch('/layout/sidebar.html')
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status} when fetching sidebar.html`);
+                return response.text();
+            })
+            .then(html => { 
+                const sidebarContainer = document.getElementById("sidebar-container");
+                if (sidebarContainer) {
+                    sidebarContainer.innerHTML = html;
+                } else {
+                    console.error("#sidebar-container not found in the document.");
+                    return; 
+                }
+                
+                const toggleButton = document.getElementById("toggle-btn"); 
+                const sidebarElement = document.getElementById("sidebar");   
 
-        window.addEventListener('resize', () => {
-            if (window.innerWidth > 768) {
-                sidebar.classList.remove('active');
-                menuToggle.style.display = 'none';
-            } else {
-                menuToggle.style.display = 'block';
-            }
-        });
+                if (toggleButton && sidebarElement) {
+                    if (localStorage.getItem('sidebarState') === 'collapsed') {
+                        sidebarElement.classList.add("collapsed");
+                        document.body.classList.add("sidebar-collapsed");
+                    }
 
-        fetch('/layout/sidebar.html').then(response => response.text())
-            .then(html => {
-                document.getElementById("sidebar-container").innerHTML = html;
-                const toggleButton = document.getElementById("toggle-btn");
-                const sidebar = document.getElementById("sidebar");
-
-                toggleButton.addEventListener("click", () => {
-                    sidebar.classList.toggle("collapsed");
-                })
+                    toggleButton.addEventListener("click", () => {
+                        sidebarElement.classList.toggle("collapsed");
+                        document.body.classList.toggle("sidebar-collapsed");
+                        if (sidebarElement.classList.contains("collapsed")) {
+                           localStorage.setItem('sidebarState', 'collapsed');
+                        } else {
+                           localStorage.setItem('sidebarState', 'expanded');
+                        }
+                    });
+                } else {
+                    console.error("Sidebar toggle button (#toggle-btn) or sidebar element (#sidebar) not found. Make sure these IDs exist in /layout/sidebar.html.");
+                }
+                setupNavItems(); 
+            })
+            .catch(error => {
+                console.error("Error fetching or processing sidebar.html:", error);
             });
     </script>
 </body>
