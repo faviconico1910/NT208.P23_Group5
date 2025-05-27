@@ -28,27 +28,36 @@
         <nav class="sidebar__list navbar">
             <div class="navbar-collapse">
                 <ul class="sidebar__list-item navbar-nav">
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        <a class="sidebar__link text-white" href="/completedCourses/KetQuaHocTap">Kết Quả Học tập</a>
+                    <li class="nav-item">
+                        <a class="sidebar__link text-white d-flex align-items-center" href="/completedCourses/KetQuaHocTap">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span class="link-text">Kết Quả Học tập</span>
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-regular fa-user"></i>
-                        <a class="sidebar__link text-white" href="/student/profile" id="">Hồ sơ</a>
+                    <li class="nav-item">
+                        <a class="sidebar__link text-white d-flex align-items-center" href="/student/profile">
+                            <i class="fa-solid fa-user"></i>
+                            <span class="link-text">Hồ sơ</span>
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-solid fa-calendar-days"></i>
-                        <a class="sidebar__link text-white" href="/xemlichhoc">Thời Khóa Biểu</a>
+                    <li class="nav-item">
+                        <a class="sidebar__link text-white d-flex align-items-center" href="/xemlichhoc">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span class="link-text">Thời Khóa Biểu</span>
+                        </a>
                     </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-solid fa-lightbulb"></i>
-                        <a class="sidebar__link text-white" href="/dexuatmonhoc">Đề xuất môn học</a>
+                    <li class="nav-item">
+                        <a class="sidebar__link text-white d-flex align-items-center" href="/dexuatmonhoc">
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <span class="link-text">Đề xuất môn học</span>
+                        </a>
                     </li>
                     <li class="nav-item dropdown position-relative">
-                        <i class="fa-solid fa-circle-question"></i>
-                        <a class="sidebar__link text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"> Hướng dẫn
+                        <a class="sidebar__link text-white dropdown-toggle d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-circle-question"></i>
+                            <span class="link-text">Hướng dẫn</span>
                         </a>
-                        <ul class="dropdown-menu bg-light text-white" aria-labelledby="dropdownMenuLink">
+                        <ul class="dropdown-menu bg-light" aria-labelledby="dropdownMenuLink">
                             <li>
                                 <a href="/huongdandkhp" class="dropdown-item">Hướng dẫn DKHP</a>
                             </li>
@@ -57,17 +66,21 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-solid fa-robot"></i>
-                        <a class="sidebar__link text-white" href="/chatbot/chatbot">Chatbot UIT</a>
+                    <li class="nav-item">
+                        <a class="sidebar__link text-white d-flex align-items-center" href="/chatbot/chatbot">
+                            <i class="fa-solid fa-robot"></i>
+                            <span class="link-text">Chatbot UIT</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </nav>
         <footer>
-            <div class="nav-item d-flex justify-content-center align-items-center logout" id="logout-btn">
-                <i class="fa-solid fa-right-from-bracket"></i>
-                <a class="sidebar__link text-white" href="/login" onclick="logout()">Đăng xuất</a>
+            <div class="nav-item logout" id="logout-btn"> 
+                <a class="sidebar__link text-white d-flex align-items-center" href="/login" onclick="logout()">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    <span class="link-text">Đăng xuất</span>
+                </a>
             </div>
         </footer>
     </div>
