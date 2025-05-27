@@ -444,7 +444,7 @@ const uploadTranscript = [
           // Kiểm tra hoặc thêm Ma_Lop_Hoc vào bảng lichhoc
           const [[lopHoc]] = await db.query(`
             SELECT Ma_Lop_Hoc 
-            FROM lichhoc 
+            FROM LICHHOC
             WHERE Ma_Mon_Hoc = ?
           `, [maMonHoc]);
           if (!lopHoc) {

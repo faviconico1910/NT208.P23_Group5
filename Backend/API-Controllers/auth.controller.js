@@ -74,25 +74,13 @@ passport.use(new GoogleStrategy({
         return done(null, false, { message: 'Chỉ sinh viên UIT mới được phép đăng nhập.' });
       }
       // tìm trong database
-      const [rows] = await db.query("SELECT * FROM SINHVIEN WHERE Email_Truong = ?", [email]);
-      let user;
+      let [rows] = await db.query("SELECT * FROM SINHVIEN WHERE Email_Truong = ?", [email]);
+
       if (rows.length === 0) {
-        // tạo sinh viên mới
-        const Ma_Sinh_Vien = email.split("@")[0];
-        const Ho_Ten = profile.displayName || "Không có dữ liệu";
-        // query
-        await db.query("INSERT INTO SINHVIEN (Ma_Sinh_Vien, Email_Truong, Ho_Ten) VALUES (?, ?, ?)",
-        [Ma_Sinh_Vien, email, Ho_Ten]);
+        return done(null, false, { message: 'Không tìm thấy sinh viên trong hệ thống.' });
+      } 
 
-        console.log("Đã thêm sinh viên mới:", { Ma_Sinh_Vien, Email_Truong: email, Ho_Ten });
-
-        // Lấy lại thông tin sinh viên vừa thêm
-        [rows] = await db.query("SELECT * FROM SINHVIEN WHERE Email_Truong = ?", [email]);
-        user = rows[0];
-      } else 
-      {
-        user = rows[0];
-      }
+      let user = rows[0];
 
       console.log("User data before token creation:", {
         Tai_Khoan: user.Ma_Sinh_Vien,
