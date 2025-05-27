@@ -101,21 +101,27 @@ const buildQuery = (studentId, Nam_Nhap_Hoc, Ma_Nganh, filters = {}) => {
   }
 };
 
-// Hàm xử lý kết quả
 const processResults = (results) => {
   const processedResults = results.map(item => ({
     ...item,
-    So_TC: item.So_TC || 0
+    So_TC: item.So_TC || 0 
   }));
 
-  const stats = {
-    tongMon: processedResults.length,
-    tongTC: processedResults.reduce((sum, item) => sum + item.So_TC, 0),
-    diemTB: processedResults.length > 0 
-      ? parseFloat((processedResults.reduce((sum, item) => sum + item.Diem_HP, 0) / processedResults.length).toFixed(2))
-      : 0
-  };
+  const tongMon = processedResults.length; //
+  const tongTC = processedResults.reduce((sum, item) => sum + item.So_TC, 0); //
+  const tongDiemNhanHeSo = processedResults.reduce((sum, item) => {
+    return sum + (item.Diem_HP * item.So_TC);
+  }, 0);
 
+  const diemTB = tongTC > 0
+    ? parseFloat((tongDiemNhanHeSo / tongTC).toFixed(2))
+    : 0;
+
+  const stats = {
+    tongMon: tongMon,
+    tongTC: tongTC,
+    diemTB: diemTB
+  };
   return { processedResults, stats };
 };
 
