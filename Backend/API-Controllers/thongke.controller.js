@@ -86,6 +86,8 @@ const getGPAList = async (req, res) => {
             SELECT 
                 lop.Ma_Lop, 
                 sv.Ma_Sinh_Vien,
+                sv.Chung_Chi_Anh_Van,
+                sv.Gioi_Tinh,
                 ROUND(SUM(kq.Diem_HP * (mh.Tin_chi_LT + mh.Tin_chi_TH)) / SUM(mh.Tin_chi_LT + mh.Tin_chi_TH), 2) AS GPA,
                 SUM(mh.Tin_chi_LT + mh.Tin_chi_TH) AS Tong_Tin_Chi
             FROM KETQUA kq
@@ -103,18 +105,16 @@ const getGPAList = async (req, res) => {
         // Query thêm - GPA theo từng học kỳ
         const semesterQuery = `
             WITH MONHOC_ALL AS (
-                SELECT 
-                    Ma_Mon_Hoc, Tin_chi_LT, Tin_chi_TH, Ma_Nganh, Khoa
-                FROM MONHOC
+                SELECT Ma_Mon_Hoc, Tin_chi_LT, Tin_chi_TH, Ma_Nganh, Khoa FROM MONHOC
                 UNION ALL
-                SELECT 
-                    Ma_Mon_Hoc, Tin_chi_LT, Tin_chi_TH, Ma_Nganh, Khoa
-                FROM MONHOC_KHAC
+                SELECT Ma_Mon_Hoc, Tin_chi_LT, Tin_chi_TH, Ma_Nganh, Khoa FROM MONHOC_KHAC
             )
 
             SELECT 
                 kq.Hoc_Ky,
-                ROUND(AVG(ROUND(SUM(kq.Diem_HP * (mh.Tin_chi_LT + mh.Tin_chi_TH)) / SUM(mh.Tin_chi_LT + mh.Tin_chi_TH), 2)) OVER (PARTITION BY kq.Hoc_Ky), 2) AS GPA_Trung_Binh
+                ROUND(AVG(ROUND(SUM(kq.Diem_HP * (mh.Tin_chi_LT + mh.Tin_chi_TH)) / SUM(mh.Tin_chi_LT + mh.Tin_chi_TH), 2)) 
+                    OVER (PARTITION BY kq.Hoc_Ky), 2) AS GPA_Trung_Binh,
+                ROUND(AVG(drl.Diem_Ren_Luyen) OVER (PARTITION BY kq.Hoc_Ky), 2) AS DRL_Trung_Binh
             FROM KETQUA kq
             JOIN SINHVIEN sv ON kq.Ma_Sinh_Vien = sv.Ma_Sinh_Vien
             JOIN LOP lop ON sv.Ma_Lop = lop.Ma_Lop
@@ -122,6 +122,7 @@ const getGPAList = async (req, res) => {
                 ON kq.Ma_Mon_Hoc = mh.Ma_Mon_Hoc
                 AND mh.Ma_Nganh = sv.Ma_Nganh
                 AND mh.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+            JOIN DIEMRL drl ON drl.Ma_Sinh_Vien = sv.Ma_Sinh_Vien AND drl.Hoc_Ky = kq.Hoc_Ky
             WHERE Co_Van_Hoc_Tap = ?
             GROUP BY kq.Hoc_Ky, sv.Ma_Sinh_Vien
             ORDER BY kq.Hoc_Ky;
@@ -142,6 +143,9 @@ const getGPAList = async (req, res) => {
         const [semesterData] = await db.query(semesterQuery, [userId]);
         const [drlData] = await db.query(drlQuery, [...queryParams]);
 
+        // ✅ Đếm số sinh viên có chứng chỉ Anh văn = 'Có'
+        const soDatNgoaiNgu = queryData.filter(sv => sv.Chung_Chi_Anh_Van === 'Có').length;     
+
         // Xử lý dữ liệu học kỳ để loại bỏ các bản ghi trùng lặp
         const uniqueSemesterData = [];
         const seenSemesters = new Set();
@@ -153,10 +157,18 @@ const getGPAList = async (req, res) => {
             }
         }
 
+        let soNam = 0, soNu = 0;
+        for (const sv of queryData) {
+            if (sv.Gioi_Tinh === 'Nam') soNam++;
+            else if (sv.Gioi_Tinh === 'Nữ') soNu++;
+        }
+
         return res.json({
             query: queryData,
             semesterData: uniqueSemesterData,
-            drlData : drlData
+            drlData : drlData,
+            soDatNgoaiNgu: soDatNgoaiNgu,
+            gioiTinh: { Nam: soNam, Nu: soNu }
         });
     } catch (error) {
         console.error("Lỗi server:", error);
