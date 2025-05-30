@@ -10,55 +10,64 @@
     <link rel="stylesheet" href="../layout/sidebar_teacher.css">
 </head>
 <body>
-
     <div class="main-container">
         <div id="sidebar-container"></div>
         <div class="content-container">
+            <!-- Header -->
             <div class="page-header">
                 <h1><i class="fas fa-chart-line"></i> Thống kê sinh viên</h1>
-                <h2 id="class-name"><i class="fas fa-users"></i> <span id="class-name-text">Lớp:</span></h2>
+                <h2 id="class-name"><span id="class-name-text">Lớp:</span></h2>
             </div>
 
-            <div class="stats-container general">
-                <div class="stats-title">
-                    <h3>Thông tin chung</h3>
+            <!-- Phần Thông tin chung -->
+            <section class="info-section">
+                <div class="section-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h2>Thông tin chung</h2>
                 </div>
-                <div class="stat-card student-count">
-                    <div class="stat-icon">
-                        <i class="fas fa-user-graduate"></i>
+                <div class="stats-grid">
+                    <div class="stat-card student-count" data-bs-toggle="modal" data-bs-target="#studentListModal" title="Ấn để xem danh sách sinh viên" data-bs-placement="top" data-bs-toggle="tooltip" style="cursor: pointer;">
+                        <div class="stat-icon"> 
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Số lượng sinh viên</h3>
+                            <p id="total-students">50</p>
+                            <div class="stat-description">Tổng số sinh viên trong lớp</div>
+                        </div>
                     </div>
-                    <div class="stat-info">
-                        <h3>Số lượng sinh viên</h3>
-                        <p id="total-students"></p>
-                    </div>
-                </div>
 
-                <div class="stat-card student-count-certificate">
-                    <div class="stat-icon">
-                        <i class="fas fa-book-bookmark"></i>
+                    <div class="stat-card student-count-certificate">
+                        <div class="stat-icon">
+                            <i class="fas fa-book-bookmark"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Đạt đầu ra ngoại ngữ</h3>
+                            <p id="total-students-pass-english">30</p>
+                            <div class="stat-description">Tổng số sinh viên đã nộp chứng chỉ</div>
+                        </div>
                     </div>
-                    <div class="stat-info">
-                        <h3>Số đạt đầu ra ngoại ngữ </h3>
-                        <p id="total-students">30</p>
-                    </div>
-                </div>
 
-                <div class="stat-card student-count-gender">
-                    <div class="stat-icon">
-                        <i class="fas fa-venus-mars"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3>Nam/Nữ</h3>
-                        <p id="total-students">35/15</p>
+                    <div class="stat-card student-count-gender">
+                        <div class="stat-icon">
+                            <i class="fas fa-venus-mars"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Phân bố giới tính</h3>
+                            <p id="gender">0/0</p>
+                            <div class="stat-description">Nam/Nữ</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
-            <div class="stats-container average">
-                <div class="stats-title">
-                    <h3>Trung bình</h3>
-                </div>
+            </section>
 
+            <!-- Phần Trung bình -->
+            <section class="average-section">
+                <div class="section-header">
+                    <i class="fas fa-calculator"></i>
+                    <h2>Trung bình lớp</h2>
+                </div>
+                
                 <div class="filter-section">
                     <div class="filter-group">
                         <label for="semester-filter">Học kỳ</label>
@@ -76,55 +85,62 @@
                             <option value="2024-2025">2024-2025</option>
                             <option value="2023-2024">2023-2024</option>
                             <option value="2022-2023">2022-2023</option>
-                            <option value="2021-2022">2021-2022</option>
                         </select>
                     </div>
                     
                     <div class="filter-actions">
-                        <button class="btn" id="filter-btn">
-                            <i class="fas fa-filter"></i> Lọc
-                        </button>
                         <button class="btn btn-secondary" id="reset-btn">
                             <i class="fas fa-sync-alt"></i> Đặt lại
                         </button>
+                        <button class="btn btn-primary" id="filter-btn">
+                            <i class="fas fa-filter"></i> Áp dụng
+                        </button>
                     </div>
                 </div>
 
-                <div class="stat-card average-gpa">
-                    <div class="stat-icon">
-                        <i class="fas fa-star"></i>
+                <div class="stats-grid">
+                    <div class="stat-card average-gpa" data-bs-toggle="modal" data-bs-target="#studentAVEListModal" title="Ấn để xem danh sách trung bình sinh viên" data-bs-placement="top" data-bs-toggle="tooltip" style="cursor: pointer;">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>GPA trung bình</h3>
+                            <p id="average-gpa">3.42</p>
+                            <div class="stat-description">Thang điểm 10.0</div>
+                        </div>
                     </div>
-                    <div class="stat-info">
-                        <h3>GPA trung bình</h3>
-                        <p id="average-gpa"></p>
+                    
+                    <div class="stat-card average-credits">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Tín chỉ tích lũy trung bình</h3>
+                            <p id="average-credits">102</p>
+                            <div class="stat-description">Trung bình mỗi sinh viên</div>
+                        </div>
                     </div>
+
+                    <div class="stat-card average-drl">
+                        <div class="stat-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>DRL trung bình</h3>
+                            <p id="average-drl">85</p>
+                            <div class="stat-description">Thang điểm 100</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Phần Biểu đồ -->
+            <section class="chart-section">
+                <div class="section-header">
+                    <i class="fas fa-chart-pie"></i>
+                    <h2>Biểu đồ phân tích</h2>
                 </div>
                 
-                <div class="stat-card average-credits">
-                    <div class="stat-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3>Tín chỉ tích lũy TB</h3>
-                        <p id="average-credits"></p>
-                    </div>
-                </div>
-
-                <div class="stat-card average-drl">
-                    <div class="stat-icon">
-                        <i class="fas fa-medal"></i>
-                    </div>
-                    <div class="stat-info">
-                        <h3>Điểm rèn luyện TB</h3>
-                        <p id="average-drl"></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="chart-container">
-                <div class="stats-title">
-                    <h3>Biểu đồ</h3>
-                </div>
                 <div class="filter-section">
                     <div class="filter-group">
                         <label for="semester-filter-chart">Học kỳ</label>
@@ -142,44 +158,233 @@
                             <option value="2024-2025">2024-2025</option>
                             <option value="2023-2024">2023-2024</option>
                             <option value="2022-2023">2022-2023</option>
-                            <option value="2021-2022">2021-2022</option>
                         </select>
                     </div>
                     
                     <div class="filter-actions">
-                        <button class="btn" id="filter-btn-chart">
-                            <i class="fas fa-filter"></i> Lọc
-                        </button>
                         <button class="btn btn-secondary" id="reset-btn-chart">
                             <i class="fas fa-sync-alt"></i> Đặt lại
                         </button>
+                        <button class="btn btn-primary" id="filter-btn-chart">
+                            <i class="fas fa-filter"></i> Áp dụng
+                        </button>
                     </div>
                 </div>
-                <div class="chart-box piechart-box">
-                    <div class="chart-header">
-                        <h3><i class="fas fa-chart-pie"></i> Phân loại GPA</h3>
-                        <div class="chart-legend" id="pie-legend"></div>
+                
+                <div class="charts-grid">
+                    <div class="chart-box">
+                        <div class="chart-header">
+                            <h3><i class="fas fa-chart-pie"></i> Phân loại GPA trung bình</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="pieChart"></canvas>
+                        </div>
+                        </div>
+            
+                    <div class="chart-box">
+                        <div class="chart-header">
+                            <h3><i class="fas fa-chart-line"></i> Biến động GPA trung bình</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="GPAlineChart"></canvas>
+                        </div>
                     </div>
-                    <canvas id="pieChart"></canvas>
+
+                    <div class="chart-box">
+                        <div class="chart-header">
+                            <h3><i class="fas fa-chart-bar"></i> Phân loại DRL trung bình</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="drlChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-box">
+                        <div class="chart-header">
+                            <h3><i class="fas fa-chart-line"></i> Biến động DRL trung bình</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="DRLlineChart"></canvas>
+                        </div>
+                    </div>
                 </div>
-        
-                <div class="chart-box linechart-box">
-                    <div class="chart-header">
-                        <h3><i class="fas fa-chart-line"></i> Biến động GPA</h3>
-                    </div>
-                    <canvas id="lineChart"></canvas>
+            </section>
+        </div>
+    </div>
+    <!-- Model -->
+    <!-- Modal danh sách sinh viên -->
+    <div class="modal fade" id="studentListModal" tabindex="-1" aria-labelledby="studentListModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="studentListModalLabel">Danh sách sinh viên</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
                 </div>
 
-                <div class="chart-box piechart-box">
-                    <div class="chart-header">
-                        <h3><i class="fas fa-chart-pie"></i>Phân loại DRL</h3>
+                <div class="modal-body">
+                    <div class="filter-section">
+                        <div class="filter-group">
+                            <label for="filterMSSV">Mã số sinh viên</label>
+                            <input type="text" id="filterMSSV" class="form-control" placeholder="Nhập MSSV">
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="filterName">Họ tên</label>
+                            <input type="text" id="filterName" class="form-control" placeholder="Nhập họ tên">
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="filterEnglish">Chứng chỉ Anh văn</label>
+                            <select id="filterEnglish" class="form-control">
+                                <option value="">Tất cả</option>
+                                <option value="Có">Có</option>
+                                <option value="Chưa có">Chưa có</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="filterGender">Giới tính</label>
+                            <select id="filterGender" class="form-control">
+                                <option value="">Tất cả</option>
+                                <option value="Nam">Nam</option>
+                                <option value="Nữ">Nữ</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-actions">
+                            <button class="btn btn-secondary" id="reset-btn-student">
+                                <i class="fas fa-sync-alt"></i> Đặt lại
+                            </button>
+                            <button class="btn btn-primary" id="filter-btn-student">
+                                <i class="fas fa-filter"></i> Áp dụng
+                            </button>
+                        </div>
                     </div>
-                    <canvas id="drlChart"></canvas>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Mã SV</th>
+                                <th>Họ tên</th>
+                                <th>Chứng chỉ anh văn</th>
+                                <th>Giới tính</th>
+                                <th>Xem hồ sơ</th>
+                            </tr>
+                        </thead>
+                        <tbody id="student-list-body">
+                            <!-- Dữ liệu sẽ được thêm bằng JavaScript -->
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
     </div>
-    <script src="ThongKe/ThongKe.js"></script>
+    <!-- Modal danh sách sinh viên -->
+    <!-- Modal danh sách trung bình sinh viên -->
+    <div class="modal fade" id="studentAVEListModal" tabindex="-1" aria-labelledby="studentAVEListModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="studentAVEListModalLabel">Danh sách GPA trung bình sinh viên</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                </div>
 
+                <div class="modal-body">
+                    <div class="filter-section">
+                        <div class="filter-group">
+                            <label for="filterMSSV">Mã số sinh viên</label>
+                            <input type="text" id="filterMSSV-ave" class="form-control" placeholder="Nhập MSSV">
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="semester-filter-modal">Học kỳ</label>
+                            <select id="semester-filter-modal">
+                                <option value="">Tất cả học kỳ</option>
+                                <option value="1">Học kỳ 1</option>
+                                <option value="2">Học kỳ 2</option>
+                            </select>
+                        </div>
+                        
+                        <div class="filter-group">
+                            <label for="year-filter-modal">Năm học</label>
+                            <select id="year-filter-modal">
+                                <option value="">Tất cả năm học</option>
+                                <option value="2024-2025">2024-2025</option>
+                                <option value="2023-2024">2023-2024</option>
+                                <option value="2022-2023">2022-2023</option>
+                            </select>
+                        </div>
+
+                        <div class="row">
+                            <div class="filter-group col-md-4">
+                                <label for="gpa-classification-filter">Phân loại GPA</label>
+                                <select id="gpa-classification-filter" class="form-control">
+                                    <option value="">Tất cả phân loại</option>
+                                    <option value="excellent">Xuất sắc (>= 9.0)</option>
+                                    <option value="good">Giỏi (>= 8.0 và < 9.0)</option>
+                                    <option value="fair">Khá (>= 7.0 và < 8.0)</option>
+                                    <option value="average_good">Trung bình khá (>= 6.0 và < 7.0)</option>
+                                    <option value="average">Trung bình (>= 5.0 và < 6.0)</option>
+                                    <option value="weak">Yếu (>= 4.0 và < 5.0)</option>
+                                    <option value="poor">Kém (< 4.0)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="filter-group col-md-4">
+                                <label for="credit-classification-filter">Phân loại số tín chỉ</label>
+                                <select id="credit-classification-filter" class="form-control">
+                                    <option value="">Tất cả phân loại</option>
+                                    <option value="under14">Dưới 14 tín chỉ</option>
+                                    <option value="normal">Từ 14 tín chỉ trở lên</option>
+                                </select>
+                            </div>
+
+                            <div class="filter-group col-md-4">
+                                <label for="drl-classification-filter">Phân loại DRL</label>
+                                <select id="drl-classification-filter" class="form-control">
+                                    <option value="">Tất cả phân loại</option>
+                                    <option value="excellent">Xuất sắc (>= 90)</option>
+                                    <option value="good">Giỏi (>= 80 và < 90)</option>
+                                    <option value="fair">Khá (>= 70 và < 80)</option>
+                                    <option value="average_good">Trung bình khá (>= 60 và < 70)</option>
+                                    <option value="average">Trung bình (>= 50 và < 60)</option>
+                                    <option value="weak">Yếu (>= 40 và < 50)</option>
+                                    <option value="poor">Kém (< 40)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="filter-actions">
+                            <button class="btn btn-secondary" id="reset-btn-student-ave">
+                                <i class="fas fa-sync-alt"></i> Đặt lại
+                            </button>
+                            <button class="btn btn-primary" id="filter-btn-student-ave">
+                                <i class="fas fa-filter"></i> Áp dụng
+                            </button>
+                        </div>
+                    </div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Mã SV</th>
+                                <th>GPA</th>
+                                <th>Tín chỉ tích lũy</th>
+                                <th>DRL</th>
+                                <th>Xem hồ sơ</th>
+                            </tr>
+                        </thead>
+                        <tbody id="student-ave-list-body">
+                            <!-- Dữ liệu sẽ được thêm bằng JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal danh sách GPA trung bình sinh viên -->
+    <!-- Model -->
+    <script src="ThongKe/ThongKe.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
