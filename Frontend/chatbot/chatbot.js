@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Thêm marked từ CDN nếu chưa có
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
+    document.head.appendChild(script);
+    
     fetch("/chatbot.html")
         .then(response => response.text())
         .then(html => {
@@ -33,7 +38,7 @@ function attachChatEvent() {
                 const data = await res.json();
                 addMessage(data.reply, "bot");
             } catch (err) {
-                addMessage("Có lỗi xảy ra!", "bot");
+                addMessage("Hệ thống bận, thử lại nhé!", "bot");
             }
         }
     };
@@ -41,12 +46,11 @@ function attachChatEvent() {
     window.handleKeyPress = function (e) {
         if (e.key === "Enter") sendMessage();
     };
-
     function addMessage(text, sender) {
         const chatContent = document.getElementById("chatContent");
         const messageDiv = document.createElement("div");
         messageDiv.className = `message ${sender}-message`;
-        messageDiv.innerHTML = `<p>${text}</p>`;
+        messageDiv.innerHTML = `<p>${text.replace(/\n/g, "<br>")}</p>`; // Chuyển \n thành <br> cho xuống dòng
         chatContent.appendChild(messageDiv);
         chatContent.scrollTop = chatContent.scrollHeight;
     }
