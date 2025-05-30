@@ -25,7 +25,7 @@ function attachChatEvent() {
             input.value = "";
 
             try {
-                const res = await fetch("/api/chat", {
+                const res = await fetch("/chatbot/api", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ message })

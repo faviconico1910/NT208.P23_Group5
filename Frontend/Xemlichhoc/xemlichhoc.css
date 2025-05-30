@@ -24,6 +24,7 @@ table {
     border-radius: 10px;
     overflow: hidden;
     table-layout: fixed;
+    margin: auto auto;
     margin-top: 6rem;
 }
 
