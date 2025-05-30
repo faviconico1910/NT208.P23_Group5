@@ -1099,4 +1099,4 @@ INSERT INTO USER (Tai_Khoan, Mat_Khau, Vai_Tro) VALUES
 ('GV097', 'MUB5LNNspC', 'GiangVien'),
 ('GV098', 'J57NgAdDbo', 'GiangVien'),
 ('GV099', 'yMhGytwjvO', 'GiangVien'),
-('GV100', 'GG3xJaWHE9', 'GiangVien');
+('GV100', 'GG3xJaWHE9', 'GiangVien')
