@@ -50,7 +50,7 @@ function attachChatEvent() {
         const chatContent = document.getElementById("chatContent");
         const messageDiv = document.createElement("div");
         messageDiv.className = `message ${sender}-message`;
-        messageDiv.innerHTML = `<p>${text.replace(/\n/g, "<br>")}</p>`; // Chuyển \n thành <br> cho xuống dòng
+        messageDiv.innerHTML = `<p>${text.replace(/\n/g, "<br>")}</p>`;
         chatContent.appendChild(messageDiv);
         chatContent.scrollTop = chatContent.scrollHeight;
     }

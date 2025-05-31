@@ -65,19 +65,18 @@ exports.sendMessage = async (req, res) => {
         if (rows.length === 0) {
             finalReply = "Xin lỗi, mình không tìm thấy thông tin phù hợp. Bạn muốn hỏi gì thêm không?";
         } else {
-            // Thay {{results}} trong reply bằng kết quả thực tế
-            const formattedTable = "\n\n" + formatResults(rows).trim() + "\n\n";
-            finalReply = parsed.reply.replace(/\s*{{results}}\s*/g, formattedTable);
-
-            // Xử lý phần đầu "Chào bạn", "Dưới đây là..." lặp
-            finalReply = finalReply
-                .replace(/Chào bạn[^\n]*\n?/gi, "") // Xoá nguyên dòng chào bạn
-                .replace(/(Dưới đây là|Sau đây là|Mình đã tìm thấy).*?(?=\n|{{|📘)/gi, "") // Loại phần mô tả dư
-                .replace(/📘/g, "") // Loại emoji thừa, vì formatResults đã thêm rồi
-                .replace(/\n{2,}/g, "\n\n"); // Chuẩn hoá xuống dòng
-
-            // Nếu thiếu ngắt dòng trước bảng, ép thêm
-            if (!finalReply.includes('| Học kỳ |')) {
+            const formattedTable = formatResults(rows).trim();
+            finalReply = parsed.reply
+                .replace(/\s*{{results}}\s*/g, `\n${formattedTable}`)
+                .replace(/\n{3,}/g, "\n\n"); // Giới hạn tối đa 2 xuống dòng liên tiếp
+            
+            // Thêm phần tổng kết nếu có
+            if (parsed.reply.includes("📊")) {
+                finalReply += "\n" + parsed.reply.split("📊")[1];
+            }
+            
+            // Đảm bảo tiêu đề không bị mất
+            if (!finalReply.includes('📘')) {
                 finalReply = "📘 Dưới đây là kết quả học tập:\n\n" + finalReply;
             }
         }
@@ -93,26 +92,27 @@ exports.sendMessage = async (req, res) => {
 function formatResults(rows) {
     if (!rows.length) return "Không tìm thấy kết quả.";
 
-    if (rows[0].Ma_Mon_Hoc) {
-        let result = "";
-        const semesters = [...new Set(rows.map(row => row.Hoc_Ky))].sort();
-        semesters.forEach(semester => {
-            result += `- **Học kỳ ${semester}**:\n`;
-            const semesterRows = rows.filter(row => row.Hoc_Ky === semester);
-            semesterRows.forEach(row => {
-                const scores = [
-                    row.Diem_QT ? `Điểm quá trình ${row.Diem_QT}` : "",
-                    row.Diem_GK ? `Điểm giữa kỳ ${row.Diem_GK}` : "",
-                    row.Diem_TH ? `Điểm thực hành ${row.Diem_TH}` : "",
-                    row.Diem_CK ? `Điểm cuối kỳ ${row.Diem_CK}` : "",
-                    row.Diem_HP ? `Điểm học phần ${row.Diem_HP}` : ""
-                ].filter(Boolean).join(", ");
-                result += `  - ${row.Ma_Mon_Hoc}: ${scores || "Không có điểm"}.\n`;
-            });
+    if (rows[0].Ten_Mon_Hoc) {
+        // Lọc các môn học duy nhất
+        const uniqueSubjects = [];
+        const seenSubjects = new Set();
+        
+        rows.forEach(row => {
+            if (!seenSubjects.has(row.Ten_Mon_Hoc)) {
+                seenSubjects.add(row.Ten_Mon_Hoc);
+                uniqueSubjects.push(row);
+            }
         });
+
+        // Tạo chuỗi kết quả với khoảng cách hợp lý
+        let result = "Dựa trên thông tin mình có, đây là danh sách các môn học bạn đã học:\n\n";
+        
+        uniqueSubjects.forEach(subject => {
+            result += `- ${subject.Ten_Mon_Hoc}\n`;
+        });
+        
         return result;
     }
-
-    // Xử lý các kết quả khác
+    
     return rows.map(row => Object.entries(row).map(([key, val]) => `${key}: ${val ?? "N/A"}`).join(", ")).join("\n");
 }

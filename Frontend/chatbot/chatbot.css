@@ -87,3 +87,7 @@
 .input-group .btn:hover {
     background-color: #0b5ed7;
 }
+
+.message p {
+    white-space: pre-line;
+}
