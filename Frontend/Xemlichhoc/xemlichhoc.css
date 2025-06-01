@@ -1,66 +1,120 @@
-.right {
-    flex: 1; 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+.main-container {
     display: flex;
-    flex-direction: column;
-    /* align-items: center;  */
-    justify-content: flex-start; 
+}
+.content-container {
+    /* display: flex; */
+    flex: 1;
     padding: 20px;
-    margin-left: 260px; 
+    margin-left: 280px;
+    max-width: 1200px;
 }
-.right table{
-    text-align: center;
-}
-body .right #tieude{
-    color:linear-gradient(180deg, #54b1f4, #766cbe);
-    text-align: left;
+
+.upload-box {
     margin-bottom: 20px;
-    align-self: flex-start;
-}
-table {
-    width: 90% !important;;
-    border-collapse: collapse !important;;
     background: white;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    table-layout: fixed;
-    margin: auto auto;
-    margin-top: 6rem;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-th {
-    background: #6C5CE7;
+#calendar {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+}
+
+input[type="file"] {
+    font-size: 1rem;
+}
+
+.fc-toolbar-title {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: #6C5CE7; /* slate-800 */
+}
+
+/* Cỡ chữ tiêu đề ngày */
+.fc-col-header-cell-cushion {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #374151; 
+}
+.fc-daygrid-day-number {
+    color: #1f2937;
+    font-size: 1rem;
+    text-decoration: none !important;
+}
+
+.time-line {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Khoảng cách giữa dot và giờ */
+}
+
+.fc-col-header-cell-cushion { text-transform: uppercase; font-weight: 600; font-size: 1rem; color: #333; }
+
+.fc-daygrid-day-number { display: inline-block; width: 2rem; height: 2rem; line-height: 2rem; text-align: center; border-radius: 9999px; font-weight: 600; font-size: 1rem; }
+
+/* Highlight ngày hôm nay với hình tròn nằm giữa */
+.fc .fc-day-today {
+    background-color: #fffbe6 !important; /* màu nền vàng nhạt */
+    position: relative;
+}
+
+.fc .fc-day-today .fc-daygrid-day-number {
+    background-color: #6C5CE7; /* xanh dương */
     color: white;
-    padding: 8px !important;;
-    text-align: center !important;;
-    border: 1px solid white !important;
-}
-
-td {
-    background-color: white; 
-    color: black;  
-    padding: 6px !important;
-    text-align: center !important;;
-    border: 1px solid black !important;;
-    font-size: 16px;
-}
-
-tbody tr:nth-child(odd) {
-    background: #eeeeee;
-}
-
-td[colspan="7"] {
-    background: rgb(203, 203, 255);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
-    font-size: 16px;
-    color: #2c3e50;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 2;
 }
 
-td[rowspan] {
-    vertical-align: middle;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.047);
-    color: #2c3e50;
+.fc-daygrid-event {
+  max-height: 3.6em; /* hoặc giá trị phù hợp bạn muốn */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* nếu bạn muốn tất cả nằm trên một dòng */
+}
+
+.fc-event-title,
+.fc-event-time {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}
+
+.fc-event { font-size: 0.8rem; line-height: 1.2rem; padding: 2px; color: #6C5CE7;}
+
+.fc-event-time {color: #6C5CE7;}
+.fc-daygrid-event-dot  {
+    background-color: #6C5CE7 !important; /* tím */
+    border-color: #6C5CE7 !important;
+}
+.fc-event-main {background-color: #6C5CE7;}
+/* .fc-event-title {
+    color: #4caf50 !important;
+    text-decoration: none;    
+} */
+.fc-event:hover { z-index: 1000; } /* Tooltip dùng title mặc định */ 
+.fc-event-title-container { overflow: visible !important; }
+.fc .fc-timegrid-slot {
+    height: 4em !important; /* bạn có thể thử 5em hoặc 6em tùy theo độ rộng mong muốn */
 }
 
 .header-page h1 {
@@ -86,4 +140,52 @@ td[rowspan] {
 .header-page h1 i {
     margin-right: 10px;
     color: #6C5CE7;
+}
+
+/* Nút chung */
+.fc .fc-button {
+    background-color: #6C5CE7;   /* Màu nền */
+    color: #fff;                 /* Màu chữ */
+    border: none;
+    border-radius: 6px;
+}
+
+/* Hover */
+.fc .fc-button:hover {
+    background-color: #4435af;  
+}
+
+/* Nút đang active (ví dụ đang ở chế độ "week") */
+.fc .fc-button-active {
+    background-color: #4435af !important;
+    color: #fff !important;
+}
+
+.fc .fc-button:active {
+    background-color: #5e4bcf !important; /* màu khi giữ chuột */
+    color: #fff !important;
+}
+
+/* Nút today */
+.fc .fc-today-button {
+    background-color: #6C5CE7;
+    color: #fff;
+}
+
+/* Nút điều hướng ← → */
+.fc .fc-prev-button,
+.fc .fc-next-button {
+    background-color: #6C5CE7;
+    color: white;
+}
+
+/* Hover nút điều hướng */
+.fc .fc-prev-button:hover,
+.fc .fc-next-button:hover {
+    background-color: #4435af;
+}
+
+.fc-col-header-cell a {
+    text-decoration: none;
+    color: inherit; /* giữ màu chữ gốc */
 }

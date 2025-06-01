@@ -83,7 +83,7 @@ const getMonHocTongHop = async (req, res) => {
                     ON mh.Ma_Mon_Hoc = kq.Ma_Mon_Hoc 
                     AND mh.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
                     AND mh.Ma_Nganh = sv.Ma_Nganh
-                LEFT JOIN MONHOC_Khac mhk 
+                LEFT JOIN MONHOC_KHAC mhk 
                     ON mhk.Ma_Mon_Hoc = kq.Ma_Mon_Hoc 
                     AND mhk.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
                     AND mhk.Ma_Nganh = sv.Ma_Nganh

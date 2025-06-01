@@ -9,148 +9,170 @@ fetch('/layout/sidebar.html').then(response => response.text())
     });
 });
 
-document.addEventListener("DOMContentLoaded", async () => {
-    try {
-        let token = localStorage.getItem("token");
-        if (!token) {
-            console.error("❌ Không có token!");
-            alert("Vui lòng đăng nhập lại!");
-            window.location.href = "/login";
-            return;
-        }
+document.addEventListener('DOMContentLoaded', function () {
+    const icsInput = document.getElementById('icsFile');
+    const clearBtn = document.getElementById('clearIcsBtn');
+    const fileNameSpan = document.getElementById('fileName');
+    const calendarEl = document.getElementById('calendar');
 
-        // Giải mã token để kiểm tra vai trò
-        const decodedToken = JSON.parse(atob(token.split('.')[1]));
-        const userRole = decodedToken.Vai_Tro;  
-        const userId = decodedToken.Tai_Khoan;
-
-        console.log("User role:", userRole); // Debug log
-        console.log("SessionStorage content:", JSON.stringify(sessionStorage)); // Debug log
-
-        // Xác định MSSV cần xem
-        let mssvToView;
-        if (userRole === 'SinhVien') {
-            mssvToView = userId;
-        } else if (userRole === 'GiangVien') {
-            // Lấy MSSV từ sessionStorage với key chính xác
-            mssvToView = sessionStorage.getItem('currentStudentMSSV');
-            
-            console.log("MSSV from sessionStorage:", mssvToView); // Debug log
-            
-            if (!mssvToView) {
-                alert("Vui lòng chọn sinh viên từ trang hồ sơ trước khi xem lịch học");
-                window.location.href = "/dssv";
-                return;
-            }
-        } else {
-            alert("Vai trò không hợp lệ!");
-            window.location.href = "/login";
-            return;
-        }
-
-        // Lấy danh sách học kỳ
-        let hkResponse = await fetch("/xemlichhoc/hocki", {
-            method: "GET",
-            headers: {
-                "Content-Type": "application/json",
-                "Authorization": `Bearer ${token}`,
-                "x-student-mssv": mssvToView
-            }
-        });
-
-
-        let hocKiList = await hkResponse.json();
-        console.log("🎓 Danh sách học kỳ:", hocKiList);
-
-        const listHocKi = document.getElementById("list-hocki");
-        listHocKi.innerHTML = ''; // Xóa các mục cũ trước khi thêm mới
-        
-        hocKiList.forEach(hk => {
-            let li = document.createElement("li");
-            li.classList.add("dropdown-item");
-            li.textContent = "Học kỳ " + hk.Hoc_Ki;
-            li.addEventListener("click", () => {
-                loadThoiKhoaBieu(hk.Hoc_Ki);
-            });
-            listHocKi.appendChild(li);
-        });
-
-        // 👉 Tự động load học kỳ đầu tiên (lớn nhất)
-        if (hocKiList.length > 0) {
-            loadThoiKhoaBieu(hocKiList[0].Hoc_Ki);
-        }
-
-        async function loadThoiKhoaBieu(hocki) {
-            let url = `/xemlichhoc/api/current/${mssvToView}?hocKi=${hocki}`;
-        
-            let response = await fetch(url, {
-                method: "GET",
-                headers: {
-                    "Content-Type": "application/json",
-                    "Authorization": `Bearer ${token}`,
-                    "x-student-mssv": mssvToView
-                }
-            });
-            
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            
-            let data = await response.json();
-            console.log("📌 Dữ liệu từ API:", data);
-            let tableBody = document.getElementById("table-body");
-            
-            let timetable = {};
-            let rowspanTracker = {}; // Lưu số lượng tiết cần merge
-            let skippedCells = {}; // Lưu ô nào đã bị merge để bỏ qua
-            
-            for (let i = 1; i <= 12; i++) {
-                timetable[i] = { "Thứ 2": "", "Thứ 3": "", "Thứ 4": "", "Thứ 5": "", "Thứ 6": "", "Thứ 7": "" };
-            }
-            
-            data.forEach(row => {
-                let { Tiet_Bat_Dau, Tiet_Ket_Thuc, Thu, Ma_Lop_Hoc } = row;
-                let thuKey = "Thứ " + Thu;
-                
-                // Chỉ lưu môn học vào tiết đầu tiên
-                timetable[Tiet_Bat_Dau][thuKey] = Ma_Lop_Hoc;
-                rowspanTracker[`${Tiet_Bat_Dau}-${thuKey}`] = Tiet_Ket_Thuc - Tiet_Bat_Dau + 1; // Số tiết cần merge
-                
-                // Đánh dấu các tiết bị merge để không hiển thị lại
-                for (let i = Tiet_Bat_Dau + 1; i <= Tiet_Ket_Thuc; i++) {
-                    skippedCells[`${i}-${thuKey}`] = true;
-                }
-            });
-            
-            tableBody.innerHTML = ''; // Xóa dữ liệu cũ trước khi thêm mới
-
-            for (let i = 1; i <= 12; i++) {
-                if (i === 6) {
-                    tableBody.innerHTML += `<tr><td colspan='7' style='text-align:center; font-weight:bold;'>Nghỉ Trưa</td></tr>`;
-                }
-                let tr = `<tr><td>Tiết ${i}</td>`;
-                
-                for (let j = 2; j <= 7; j++) {
-                    let thuKey = "Thứ " + j;
-                    
-                    // Nếu ô này đã bị merge thì bỏ qua
-                    if (skippedCells[`${i}-${thuKey}`]) continue;
-                    
-                    let cellContent = timetable[i][thuKey];
-                    
-                    if (rowspanTracker[`${i}-${thuKey}`]) {
-                        tr += `<td rowspan="${rowspanTracker[`${i}-${thuKey}`]}">${cellContent}</td>`;
-                    } else {
-                        tr += `<td></td>`; // Chỉ thêm nếu không có rowspan
-                    }
-                }
-                
-                tr += `</tr>`;
-                tableBody.innerHTML += tr;
-            }
-        }
-    } catch (error) {
-        console.error("Lỗi tải dữ liệu:", error);
-        alert("Có lỗi xảy ra khi tải lịch học. Vui lòng thử lại!");
+    function updateFileName(name) {
+        if (fileNameSpan) fileNameSpan.textContent = name;
+        if (clearBtn) clearBtn.classList.remove('hidden');
     }
+
+    function clearFileDisplay() {
+        if (icsInput) icsInput.value = '';
+        if (fileNameSpan) fileNameSpan.textContent = 'Không có tệp nào được chọn';
+        if (clearBtn) clearBtn.classList.add('hidden');
+    }
+
+    async function loadCalendarEvents() {
+        const res = await fetch('/xemlichhoc/get', {
+            method: 'GET',
+            headers: { 'Authorization': 'Bearer ' + localStorage.getItem('token') }
+        });
+
+        if (!res.ok) {
+            console.warn("Không có file .ics nào được lưu");
+            return;
+        }
+
+        const icsText = await res.text();
+        const jcalData = ICAL.parse(icsText);
+        const comp = new ICAL.Component(jcalData);
+        const vevents = comp.getAllSubcomponents("vevent");
+
+        const events = [];
+
+        vevents.forEach(evt => {
+            const icalEvent = new ICAL.Event(evt);
+
+            if (!icalEvent.isRecurring()) {
+                events.push({
+                    title: icalEvent.summary || "(Không tiêu đề)",
+                    start: icalEvent.startDate.toJSDate(),
+                    end: icalEvent.endDate.toJSDate(),
+                });
+            } else {
+                const expansion = new ICAL.RecurExpansion({
+                    component: evt,
+                    dtstart: icalEvent.startDate
+                });
+
+                let count = 0;
+                while (expansion.next() && count < 100) {
+                    const nextDate = expansion.last.toJSDate();
+                    const duration = icalEvent.endDate.subtractDate(icalEvent.startDate);
+                    const endDate = expansion.last.clone();
+                    endDate.addDuration(duration);
+
+                    events.push({
+                        title: icalEvent.summary || "(Không tiêu đề)",
+                        start: nextDate,
+                        end: endDate.toJSDate(),
+                    });
+
+                    count++;
+                }
+            }
+        });
+
+        calendar.removeAllEvents();
+        calendar.addEventSource(events);
+
+        // ✅ Hiển thị tên giả định của file
+        updateFileName("23520501_scheduled.ics");
+    }
+
+    if (icsInput && clearBtn) {
+        icsInput.addEventListener('change', async function () {
+            const file = icsInput.files[0];
+            if (!file) return;
+
+            updateFileName(file.name);
+
+            const formData = new FormData();
+            formData.append("icsFile", file);
+
+            const uploadRes = await fetch('/xemlichhoc/upload', {
+                method: 'POST',
+                headers: { 'Authorization': 'Bearer ' + localStorage.getItem('token') },
+                body: formData
+            });
+
+            if (uploadRes.ok) {
+                await loadCalendarEvents();
+            } else {
+                alert("Upload thất bại!");
+            }
+        });
+
+        clearBtn.addEventListener('click', async function () {
+            clearFileDisplay();
+            calendar.removeAllEvents();
+
+            await fetch('/xemlichhoc/delete', {
+                method: 'DELETE',
+                headers: { 'Authorization': 'Bearer ' + localStorage.getItem('token') }
+            });
+        });
+    }
+
+    window.calendar = new window.FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        headerToolbar: {
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+        },
+        locale: 'en',
+        slotDuration: '01:00:00',
+        slotLabelInterval: '01:00',
+        slotLabelFormat: {
+            hour: 'numeric',
+            minute: '2-digit',
+            hour12: true
+        },
+        slotMinTime: '06:00:00',
+        slotMaxTime: '18:00:00',
+        displayEventTime: true,
+        displayEventEnd: true,
+        eventTimeFormat: {
+            hour: 'numeric',
+            minute: '2-digit',
+            meridiem: 'short',
+            hour12: true
+        },
+        eventDidMount: function (info) {
+            const start = info.event.start ? info.event.start.toLocaleString('vi-VN') : '';
+            const end = info.event.end ? info.event.end.toLocaleString('vi-VN') : '';
+            const tooltipText = `${info.event.title}\n⏰ ${start} – ${end}`;
+            info.el.setAttribute('title', tooltipText);
+        },
+        eventContent: function (arg) {
+            return {
+                html: `
+                    <div class="custom-event">
+                        <div class="time">
+                            <div class="time-line">
+                                <div class="fc-daygrid-event-dot"></div>
+                                <span>${arg.timeText}</span>
+                            </div>
+                        </div>
+                        <div class="title"><strong>${arg.event.title}</strong></div>
+                    </div>
+                `
+            };
+        },
+        titleFormat: { year: 'numeric', month: 'long' },
+        views: {
+            dayGridMonth: { dayHeaderFormat: { weekday: 'short' } },
+            timeGridWeek: { dayHeaderFormat: { weekday: 'short', day: 'numeric' }, allDaySlot: false },
+            timeGridDay: { dayHeaderFormat: { weekday: 'long', day: 'numeric' }, allDaySlot: false },
+        },
+        events: []
+    });
+
+    calendar.render();
+    loadCalendarEvents(); // 🚀 Tự động load khi vào trang
 });
