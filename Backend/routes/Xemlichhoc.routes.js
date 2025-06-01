@@ -42,7 +42,7 @@ function authenticateJWT(req, res, next) {
 
 // Gửi file xemlichhoc.html khi truy cập /xemlichhoc
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../Frontend/XemLichHoc/xemlichhoc.html'));
+    res.sendFile(path.join(__dirname, '../../Frontend/Xemlichhoc/xemlichhoc.html'));
 });
 
 // 🔹 POST /ics/upload: upload file ics
