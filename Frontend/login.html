@@ -146,17 +146,13 @@
         letter-spacing: 0.5px;
     }
 
-    /* Responsive adjustments */
-    @media (max-width: 1200px) {
-        .container {
-            width: 85%;
-        }
-    }
-
+  
     @media (max-width: 768px) {
         .container {
             flex-direction: column;
-            width: 90%;
+            width: 100%;
+            min-height: 100vh;
+            overflow-y: auto;
         }
         
         .login-section, .image-section {
