@@ -24,6 +24,11 @@ exports.sendMessage = async (req, res) => {
             3. Trả về JSON: { "sql": "<SQL>", "note": "<Giải thích>", "reply": "Đây là kết quả: {{results}}" }
             Lưu ý: Reply chỉ chứa văn bản với {{results}}, không chứa bảng markdown hay JSON thô.
             ${askPrompt}
+            **LƯU Ý QUAN TRỌNG**: 
+            - Khi câu hỏi liên quan đến môn học (học kỳ, danh sách môn học, v.v.), trả về các thông tin sau:
+                - Mã môn học (Ma_Mon_Hoc)
+                - Tên môn học (Ten_Mon_Hoc)
+                - Số tín chỉ (So_TC)
             Câu hỏi: "${userMessage}"
         `;
         const result = await model.generateContent({
@@ -88,10 +93,63 @@ exports.sendMessage = async (req, res) => {
         res.status(500).json({ reply: "Lỗi API" });
     }
 };
+function getGrade(score) {
+    if (score == null || score == undefined) return 'N/A';
+    if (score >= 8.5) return 'A';
+    if (score >= 8.0) return 'B+';
+    if (score >= 7.0) return 'B';
+    if (score >= 6.5) return 'C+';
+    if (score >= 5.5) return 'C';
+    if (score >= 5.0) return 'D+';
+    return 'F';
+}
 // hàm định dạng kq
 function formatResults(rows) {
     if (!rows.length) return "Không tìm thấy kết quả.";
+    if (rows[0].Diem_QT !== undefined && rows[0].Diem_GK !== undefined && rows[0].Diem_HP !== undefined) {
+        // Lọc các môn học duy nhất
+        const uniqueSubjects = [];
+        const seenSubjects = new Set();
+        
+        rows.forEach(row => {
+            const subjectKey = `${row.Ma_Mon_Hoc}_${row.Ten_Mon_Hoc}`;
+            if (!seenSubjects.has(subjectKey)) {
+                seenSubjects.add(subjectKey);
+                uniqueSubjects.push(row);
+            }
+        });
 
+        let result = "";
+        let totalScore = 0;
+        let passedCount = 0;
+        
+        uniqueSubjects.forEach(row => {
+            const grade = getGrade(row.Diem_HP);
+            result += `- ${row.Ma_Mon_Hoc} (${row.Ten_Mon_Hoc}):\n` +
+                    `  + Điểm QT: ${row.Diem_QT || 'N/A'}\n` +
+                    `  + Điểm GK: ${row.Diem_GK || 'N/A'}\n` +
+                    `  + Điểm TH: ${row.Diem_TH || 'N/A'}\n` +
+                    `  + Điểm CK: ${row.Diem_CK || 'N/A'}\n` +
+                    `  + Điểm HP: ${row.Diem_HP || 'N/A'} (${grade})\n\n`;
+            
+            if (row.Diem_HP && row.Diem_HP >= 5) {
+                totalScore += row.Diem_HP;
+                passedCount++;
+            }
+        });
+        
+        // Tính toán tổng kết
+        const average = passedCount > 0 ? (totalScore / passedCount).toFixed(2) : 0;
+        const overallGrade = getGrade(average);
+        
+        // Thêm phần tổng kết
+        result += `📌 Tổng kết:\n` +
+                `- Số môn học: ${uniqueSubjects.length}\n` +
+                `- Điểm trung bình: ${average} (${overallGrade})\n` +
+                `- Số môn đạt: ${passedCount}/${uniqueSubjects.length}`;
+        
+        return result;
+    }
     if (rows[0].Ten_Mon_Hoc) {
         // Lọc các môn học duy nhất
         const uniqueSubjects = [];
@@ -100,7 +158,11 @@ function formatResults(rows) {
         rows.forEach(row => {
             if (!seenSubjects.has(row.Ten_Mon_Hoc)) {
                 seenSubjects.add(row.Ten_Mon_Hoc);
-                uniqueSubjects.push(row);
+                uniqueSubjects.push({
+                    Ma_Mon_Hoc: row.Ma_Mon_Hoc,
+                    Ten_Mon_Hoc: row.Ten_Mon_Hoc,
+                    So_TC: row.So_TC
+                });
             }
         });
 
@@ -108,7 +170,7 @@ function formatResults(rows) {
         let result = "Dựa trên thông tin mình có, đây là danh sách các môn học bạn đã học:\n\n";
         
         uniqueSubjects.forEach(subject => {
-            result += `- ${subject.Ten_Mon_Hoc}\n`;
+            result += `- ${subject.Ma_Mon_Hoc}: ${subject.Ten_Mon_Hoc} (${subject.So_TC} tín chỉ)\n`;
         });
         
         return result;

@@ -61,3 +61,10 @@ Câu hỏi: "Sinh viên 123456 học môn gì học kỳ 1 năm 2023-2024?"
   "note": "Lấy danh sách môn học, điểm, tín chỉ, xếp loại của sinh viên.",
   "reply": "📘 Đây là danh sách môn học của bạn trong học kỳ 1 năm 2023-2024:\n\n{{results}}\n\n📊 Nếu cần xem điểm trung bình, lời khuyên học tập hoặc các môn nên học tiếp, cứ hỏi mình nhé!"
 }
+
+Câu hỏi: "Sinh viên 123456 có kết quả học tập như nào ở học kỳ 1 năm 2023-2024?"
+{
+  "sql": "SELECT kq.Hoc_Ky, kq.Ma_Mon_Hoc, mh.Ten_Mon_Hoc, kq.Diem_QT, kq.Diem_GK, kq.Diem_TH, kq.Diem_CK, kq.Diem_HP FROM KETQUA kq JOIN MONHOC mh ON kq.Ma_Mon_Hoc = mh.Ma_Mon_Hoc WHERE kq.Ma_Sinh_Vien = '123456' AND kq.Hoc_Ky = 1 AND CONCAT(2023 + FLOOR((kq.Hoc_Ky-1)/2), '-', 2023 + FLOOR((kq.Hoc_Ky-1)/2) + 1) = '2023-2024';",
+  "note": "Lấy kết quả học tập của sinh viên trong học kỳ 1 năm 2023-2024",
+  "reply": "📊 Đây là kết quả học tập của bạn trong học kỳ 1 năm 2023-2024:\n\n{{results}}\n\n"
+}
