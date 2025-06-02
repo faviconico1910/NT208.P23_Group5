@@ -521,7 +521,7 @@
         tableBody.innerHTML = '';
 
         try {
-            let res = await fetch("http://localhost:3000/dssv/api", {
+            let res = await fetch("/dssv/api", {
                 headers: {
                     'Authorization': `Bearer ${token}`
                 }
@@ -674,7 +674,7 @@ document.getElementById("filter-btn-student-ave").addEventListener("click", asyn
                 if (semesterParam) params.append("hocKy", semesterParam);
                 if (yearParam) params.append("namHoc", yearParam);
 
-                const url = `http://127.0.0.1:3000/thongkesv/api?${params.toString()}`;
+                const url = `/thongkesv/api?${params.toString()}`;
 
                 const response = await fetch(url, {
                     method: "GET",
