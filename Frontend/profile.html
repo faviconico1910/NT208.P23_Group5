@@ -172,7 +172,7 @@
             } else if (mssv) {
                 fetchStudentProfileFromTeacher(mssv, token);// dành cho giáo viên
             } else {
-                const Tai_Khoan = window.location.pathname.split('/')[2];
+                const Tai_Khoan = localStorage.getItem("Tai_Khoan");
                 fetchStudentProfile(token, Tai_Khoan); 
             }
             
@@ -256,9 +256,6 @@
                 document.getElementById('edit-religion').value = document.getElementById('religion').innerText;
                 document.getElementById('edit-gender').value = document.getElementById('gender').innerText;
                 document.getElementById('edit-location').value = document.getElementById('location').innerText;
-                // Hiển thị Modal
-                // const editModal = new bootstrap.Modal(document.getElementById('editModal'));
-                // editModal.show();
             });
 
             // save change button
