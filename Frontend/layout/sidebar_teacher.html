@@ -16,33 +16,41 @@
                 <div class="sidebar__open-close" id="toggle-btn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-                
                 <div class="sidebar__header">
                     <i class="fa-solid fa-school"></i>
                     UIT SYSTEM
                 </div>
             </div>
-
-            <div class="sidebar__list">
-                <ul class="sidebar__list-item">
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-regular fa-user"></i>
-                        <a class="sidebar__link text-white" href="" id="profile_link">Hồ sơ giáo viên</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fa-solid fa-graduation-cap"></i>
-                        <a class="sidebar__link text-white" href="/dssv">Danh Sách Sinh Viên</a>
-                    </li>
-                    <li class="nav-item d-flex align-items-center">
-                        <i class="fas fa-chart-line"></i>
-                        <a class="sidebar__link text-white" href="/thongkesv">Thống Kê</a>
-                    </li>
-                </ul>
-            </div>
+            <nav class="sidebar__list navbar">
+                <div class="navbar-collapse">
+                    <ul class="sidebar__list-item navbar-nav">
+                        <li class="nav-item">
+                            <a class="sidebar__link text-white d-flex align-items-center" href="">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="link-text" id="profile_link">Hồ sơ giáo viên</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="sidebar__link text-white d-flex align-items-center" href="/dssv">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="link-text">Danh Sách Sinh Viên</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="sidebar__link text-white d-flex align-items-center" href="/thongkesv">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span class="link-text">Thống Kê</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <footer>
-                <div class="nav-item d-flex justify-content-center align-items-center logout">
-                    <i class="fa-solid fa-right-from-bracket"></i>
-                    <a class="sidebar__link text-white" href="/login">Đăng xuất</a>
+                <div class="nav-item logout" id="logout-btn"> 
+                    <a class="sidebar__link text-white d-flex align-items-center" href="/login" onclick="logout()">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <span class="link-text">Đăng xuất</span>
+                    </a>
                 </div>
             </footer>
         </div>

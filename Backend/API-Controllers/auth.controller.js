@@ -123,7 +123,7 @@ const googleLoginCallback = (req, res) => {
   }
 
   let redirect = "/";
-  if (user.Vai_Tro === "SinhVien") redirect = "/student/profile";
+  if (user.Vai_Tro === "SinhVien") redirect = "/completedCourses/KetQuaHocTap";
   else if (user.Vai_Tro === "GiangVien") redirect = `/teacher/${user.Tai_Khoan}`;
   else if (user.Vai_Tro === "admin" || user.Vai_Tro === "Admin") redirect = "/admin";
 
