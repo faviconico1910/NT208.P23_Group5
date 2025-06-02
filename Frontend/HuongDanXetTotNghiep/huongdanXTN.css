@@ -7,6 +7,12 @@
     --success: #4cc9f0;
     --warning: #f8961e;
     --danger: #f72585;
+    --card-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    --sidebar-width: 240px;
+    --collapsed-sidebar-width: 70px;
+    --font-size-large-header: 2rem;
+    --font-size-medium-header: 1.7rem;
+    --font-size-small-header: 1.5rem;
 }
 
 body {
@@ -17,13 +23,24 @@ body {
     color: var(--dark);
     line-height: 1.6;
     display: flex;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 /* Main Content */
 .main-content {
     flex: 1;
     padding: 30px;
-    margin-left: 240px; /* Độ rộng sidebar */
+    margin-left: var(--sidebar-width);
+    transition: margin-left 0.3s ease;
+    overflow-x: hidden;
+}
+
+body.sidebar-collapsed .main-content {
+    margin-left: var(--collapsed-sidebar-width);
 }
 
 header {
@@ -33,18 +50,32 @@ header {
 header h1 {
     color: var(--primary);
     margin: 0;
-    font-size: 2rem;
+    font-size: var(--font-size-large-header);
     display: flex;
     align-items: center;
     gap: 15px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 0.5rem;
 }
 
-/* Graduation Guide */
+header h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3.5px;
+    background: var(--primary);
+    border-radius: 3px;
+}
+
 .guide-container {
     background: white;
     border-radius: 12px;
     box-shadow: var(--card-shadow);
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .guide-header {
@@ -70,6 +101,9 @@ header h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     border-left: 4px solid var(--accent);
 }
+.step:last-child {
+    margin-bottom: 0;
+}
 
 .step-header {
     display: flex;
@@ -80,6 +114,8 @@ header h1 {
 .step-number {
     background: var(--primary);
     color: white;
+    min-width: 32px;
+    min-height: 32px;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -88,44 +124,58 @@ header h1 {
     justify-content: center;
     margin-right: 15px;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .step-title {
     font-size: 1.2rem;
     color: var(--primary);
     margin: 0;
+    font-weight: 600;
 }
 
 .step-content {
     padding-left: 47px;
+}
+.step-content p,
+.step-content ul {
+    margin-bottom: 10px;
+}
+.step-content p:last-child,
+.step-content ul:last-child {
+    margin-bottom: 0;
 }
 
 .note {
     background-color: #fff8e6;
     border-left: 4px solid var(--warning);
     padding: 15px;
-    margin: 15px 0;
+    margin: 20px 0;
     border-radius: 0 4px 4px 0;
     display: flex;
     gap: 10px;
+    align-items: flex-start;
 }
 .note-success {
-    background-color: #e6ffed; /* Màu nền xanh lá nhạt */
-    border-left: 4px solid #28a745; /* Màu xanh lá cho viền trái */
+    background-color: #e6ffed;
+    border-left: 4px solid #28a745;
     padding: 15px;
-    margin: 15px 0;
+    margin: 20px 0;
     border-radius: 0 4px 4px 0;
     display: flex;
     gap: 10px;
+    align-items: flex-start;
 }
 
 .note-success .note-icon {
-    color: #28a745; /* Màu icon là màu xanh lá */
+    color: #28a745;
     font-size: 1.2rem;
+    padding-top: 2px;
 }
 .note-icon {
     color: var(--warning);
     font-size: 1.2rem;
+    padding-top: 2px;
 }
 
 .note-content {
@@ -134,13 +184,14 @@ header h1 {
 
 .note-title {
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: var(--dark);
 }
 
 ul.feature-list {
     padding-left: 20px;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 ul.feature-list li {
@@ -156,6 +207,7 @@ ul.feature-list li:before {
     position: absolute;
     left: 0;
     top: -5px;
+    line-height: 1;
 }
 
 a.link {
@@ -170,15 +222,123 @@ a.link:hover {
     text-decoration: underline;
 }
 
-/* Responsive */
+@media (max-width: 991px) {
+    .main-content {
+        margin-left: var(--collapsed-sidebar-width) !important;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: var(--font-size-medium-header);
+    }
+    header h1::after{
+        width: 50px;
+    }
+
+    .guide-body {
+        padding: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .main-content {
-        margin-left: 0;
         padding: 20px;
-        margin-bottom: 60px;
     }
-    
-    .quick-links {
-        grid-template-columns: 1fr 1fr;
+
+    header h1 {
+        font-size: 1.6rem; 
+        gap: 10px;
+    }
+    header h1 i {
+        font-size: 0.9em;
+    }
+     header h1::after{
+        width: 45px;
+    }
+
+
+    .guide-header {
+        padding: 15px 20px;
+    }
+    .guide-header h2 {
+        font-size: 1.3rem;
+    }
+    .guide-body {
+        padding: 20px;
+    }
+
+    .step {
+        padding: 15px;
+    }
+    .step-title {
+        font-size: 1.1rem;
+    }
+    .step-content {
+        padding-left: 0;
+    }
+    .step-header {
+    }
+}
+
+@media (max-width: 599px) {
+    .main-content {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: var(--font-size-small-header);
+    }
+     header h1::after{
+        width: 40px;
+        height: 3px;
+    }
+
+    .guide-header {
+        padding: 15px;
+    }
+    .guide-header h2 {
+        font-size: 1.2rem;
+    }
+     .guide-body {
+        padding: 15px;
+    }
+
+
+    .step-header {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+    .step-number {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 28px;
+        height: 28px;
+        font-size: 0.9rem;
+    }
+    .step-title {
+        font-size: 1.05rem;
+    }
+    .step-content {
+        padding-left: 5px; 
+    }
+
+    .note, .note-success {
+        padding: 12px;
+        gap: 8px;
+    }
+    .note-icon, .note-success .note-icon {
+        font-size: 1rem;
+    }
+    .note-title {
+        margin-bottom: 5px;
+    }
+
+    ul.feature-list li {
+        padding-left: 25px;
+        font-size: 0.95rem;
+    }
+    ul.feature-list li:before {
+        font-size: 1.3rem;
+        top: -3px;
     }
 }
