@@ -20,14 +20,14 @@ const teacher_profile = async (req, res) => {
         const sql = "SELECT * FROM GIANGVIEN WHERE Ma_Giang_Vien = ?";
         const [result] = await db.query(sql, [userId]);
             if (result.length === 0) {
-                console.log("❌ Không tìm thấy giảng viên!");
+                console.log("Không tìm thấy giảng viên!");
                 return res.status(404).json({ message: "Không tìm thấy giảng viên!" });
             }
             console.log("Dữ liệu giảng viên:", result[0]);
             res.json(result[0]);
     }
     catch (error) {
-        console.error("❌ Lỗi xác thực token:", error);
+        console.error("Lỗi xác thực token:", error);
         res.status(401).json({ message: "Token không hợp lệ!" });
     }
 };
