@@ -384,6 +384,35 @@
         </div>
     </div>
     <!-- Modal danh sách GPA trung bình sinh viên -->
+    <!-- Modal so sánh GPA theo kỳ -->
+    <div class="modal fade" id="compareGpaModal" tabindex="-1" aria-labelledby="compareGpaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="compareGpaModalLabel">So sánh GPA theo kỳ</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table" >
+                        <thead>
+                            <tr>
+                                <th style="background-color: #7fb7ef !important;">STT</th>
+                                <th style="background-color: #7fb7ef !important;">Mã SV</th>
+                                <th style="background-color: #7fb7ef !important;">GPA kỳ trước</th>
+                                <th style="background-color: #7fb7ef !important;">GPA kỳ hiện tại</th>
+                                <th style="background-color: #7fb7ef !important;">Chênh lệch</th>
+                                <th style="background-color: #7fb7ef !important;">Xem</th>
+                            </tr>
+                        </thead>
+                        <tbody id="compare-gpa-body">
+                            <!-- Dữ liệu render JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal so sánh GPA theo kỳ -->
     <!-- Model -->
     <script src="ThongKe/ThongKe.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
