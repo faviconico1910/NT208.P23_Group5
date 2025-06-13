@@ -338,6 +338,71 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+// thêm sinh viên từ file Excel
+    const studentExcelInput = document.getElementById('student-excel-file');
+
+if (studentExcelInput) {
+    studentExcelInput.addEventListener('change', async (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = async (e) => {
+            const data = new Uint8Array(e.target.result);
+            const workbook = XLSX.read(data, { type: 'array' });
+
+            const sheet = workbook.Sheets[workbook.SheetNames[0]];
+const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, raw: false });
+
+            // Giả sử mỗi dòng là [Ma_Sinh_Vien]
+            const students = rows.flat()
+                .filter(v => v !== null && v !== undefined && String(v).trim() !== '')
+                .map(v => String(v).trim());
+            const classId = addStudentClassIdInput.value;
+            if (!classId) {
+                alert("Vui lòng chọn lớp trước khi thêm file.");
+                return;
+            }
+
+            const confirm = window.confirm(`Bạn có chắc muốn thêm ${students.length} sinh viên vào lớp ${classId}?`);
+            if (!confirm) return;
+
+            try {
+                const response = await fetch(`/mnglop/classes/${classId}/add-multiple-students`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify({ students })
+                });
+
+               const result = await response.json();
+               if (result.success) {
+    let message = `✅ Đã thêm ${result.addedCount} sinh viên thành công!`;
+
+    if (result.skippedStudents && result.skippedStudents.length > 0) {
+        message += `\n⚠️ Không thể thêm các sinh viên sau:`;
+        result.skippedStudents.forEach(sv => {
+            message += `\n- ${sv.studentId} (${sv.reason})`;
+        });
+    }
+
+    alert(message);
+    fetchClasses(); // Cập nhật lại danh sách
+    if (addStudentModal) addStudentModal.style.display = 'none';
+} else {
+    alert(`Lỗi: ${result.message}`);
+}
+            } catch (err) {
+                console.error(err);
+                alert('Lỗi khi gửi danh sách sinh viên');
+            }
+        };
+        reader.readAsArrayBuffer(file);
+    });
+}
+
     // Initial fetch khi DOM đã load
     fetchClasses();
 });

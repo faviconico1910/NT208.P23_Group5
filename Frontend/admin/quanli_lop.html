@@ -261,9 +261,11 @@
                     <h2>Thêm Sinh Viên Vào Lớp</h2>
                     <form id="addStudentForm">
                         <input type="hidden" id="add-student-class-id">
-                        <div class="form-group">
+                        <div class="form-group"> 
                             <label for="student-username">Tài Khoản Sinh Viên</label>
-                            <input type="text" id="student-username" name="studentUsername" placeholder="Nhập tài khoản sinh viên" required>
+                            <input type="text" id="student-username" name="studentUsername" placeholder="Nhập tài khoản sinh viên" >
+                            <label for="student-excel-file">Hoặc chọn file Excel (.xlsx)</label>
+                            <input type="file" id="student-excel-file" accept=".xlsx, .xls">  
                         </div>
                         <button type="submit" class="btn btn-primary">Thêm Sinh Viên</button>
                     </form>
@@ -316,5 +318,7 @@
             });
     </script>
     <script src="/admin/quanli_lop.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
 </body>
 </html>

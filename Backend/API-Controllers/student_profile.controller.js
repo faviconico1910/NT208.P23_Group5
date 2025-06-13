@@ -34,17 +34,19 @@ const profile = async (req, res) => {
 
 const updateProfile = async (req, res) => {
     try {
-        const authHeader = req.headers.authorization; //lấy token từ header
+        const authHeader = req.headers.authorization;
         console.log("Token nhận được từ client:", authHeader);
-        
-        if (!authHeader || !authHeader.startsWith("Bearer ")) { // kiểm tra token có hợp lệ không
+
+        if (!authHeader || !authHeader.startsWith("Bearer ")) {
             return res.status(403).json({ message: "Không có token hoặc token không hợp lệ!" });
-        }       
+        }
+
         const token = authHeader.split(" ")[1];
         const decoded = jwt.verify(token, process.env.JWT_SECRET);
-        const userId = decoded.Tai_Khoan; // lấy Tai_Khoan từ token
+        const userId = decoded.Tai_Khoan;
 
         console.log("Nhận PUT update_profile với id từ token:", userId);
+
         const {
             Ho_Ten,
             Email_Ca_Nhan,
@@ -54,32 +56,57 @@ const updateProfile = async (req, res) => {
             Gioi_Tinh,
             Thuong_Tru
         } = req.body;
+
         const ngaySinhFormatted = Ngay_Sinh ? new Date(Ngay_Sinh).toISOString().split('T')[0] : null;
-        const sql = `
-            UPDATE SINHVIEN
-            SET Ho_Ten = ?, Email_Ca_Nhan = ?, Ngay_Sinh = ?, So_CMND = ?, Ton_Giao = ?, Gioi_Tinh = ?, Thuong_Tru = ?
-            WHERE Ma_Sinh_Vien = ?
-        `;
-        const [result] = await db.query(sql, [
-            Ho_Ten,
-            Email_Ca_Nhan,
-            ngaySinhFormatted,
-            So_CMND,
-            Ton_Giao,
-            Gioi_Tinh,
-            Thuong_Tru,
-            userId
-        ]);
-        
-        console.log("Kết quả cập nhật:", result);
-        // trả về client
+
+        // Kiểm tra xem sinh viên đã tồn tại chưa
+        const [checkResult] = await db.query("SELECT 1 FROM SINHVIEN WHERE Ma_Sinh_Vien = ?", [userId]);
+
+        if (checkResult.length > 0) {
+            // Nếu tồn tại => update
+            const sqlUpdate = `
+                UPDATE SINHVIEN
+                SET Ho_Ten = ?, Email_Ca_Nhan = ?, Ngay_Sinh = ?, So_CMND = ?, Ton_Giao = ?, Gioi_Tinh = ?, Thuong_Tru = ?
+                WHERE Ma_Sinh_Vien = ?
+            `;
+            await db.query(sqlUpdate, [
+                Ho_Ten,
+                Email_Ca_Nhan,
+                ngaySinhFormatted,
+                So_CMND,
+                Ton_Giao,
+                Gioi_Tinh,
+                Thuong_Tru,
+                userId
+            ]);
+        } else {
+            // Nếu chưa tồn tại => insert
+            const sqlInsert = `
+                INSERT INTO SINHVIEN 
+                (Ma_Sinh_Vien, Ho_Ten, Email_Ca_Nhan, Ngay_Sinh, So_CMND, Ton_Giao, Gioi_Tinh, Thuong_Tru)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            `;
+            await db.query(sqlInsert, [
+                userId,
+                Ho_Ten,
+                Email_Ca_Nhan,
+                ngaySinhFormatted,
+                So_CMND,
+                Ton_Giao,
+                Gioi_Tinh,
+                Thuong_Tru
+            ]);
+        }
+
+        // Lấy profile mới trả về client
         const [newProfile] = await db.query("SELECT * FROM SINHVIEN WHERE Ma_Sinh_Vien = ?", [userId]);
         return res.json(newProfile[0]);
-    }
-    catch (error) {
+    } catch (error) {
         console.error("Lỗi cập nhật profile:", error);
+        return res.status(500).json({ message: "Lỗi server khi cập nhật profile." });
     }
-}
+};
+
 
 const studentProfileFromTeacher = async (req, res) => {
     try {
