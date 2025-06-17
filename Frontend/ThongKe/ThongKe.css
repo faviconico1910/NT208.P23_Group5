@@ -124,12 +124,6 @@ body {
     align-items: center;
 }
 
-.stat-card.student-count:hover,
-.stat-card.average-gpa:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
-}
-
 .stat-icon {
     width: 56px;
     height: 56px;
@@ -327,4 +321,56 @@ canvas {
     .filter-actions {
         justify-content: flex-end;
     }
+}
+
+select.form-control {
+  appearance: auto; 
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+}
+
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.compare-table th, .compare-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.compare-table th {
+    /* background-color: #8a5cf600; */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.compare-table td {
+    text-align: center;
+}
+
+.compare-table th:nth-child(1), .compare-table td:nth-child(1) {
+    width: 8%;
+}
+
+.compare-table th:nth-child(2), .compare-table td:nth-child(2) {
+    width: 15%;
+    text-align: left;
+}
+
+.compare-table th:nth-child(3), 
+.compare-table th:nth-child(4), 
+.compare-table th:nth-child(5) {
+    width: 18%;
+}
+
+.compare-table th:nth-child(6), .compare-table td:nth-child(6) {
+    width: 10%;
+}
+
+.modal-header {
+    background-color: #8B5CF6;
+    color: white;
+    border-bottom: none;
 }

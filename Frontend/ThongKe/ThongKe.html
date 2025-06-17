@@ -25,9 +25,15 @@
                 <div class="section-header">
                     <i class="fas fa-info-circle"></i>
                     <h2>Thông tin chung</h2>
+                    <div class="text-center mt-2">
+                        <button id="open-student-list-btn" class="btn btn-outline-primary btn-sm">
+                            Xem chi tiết
+                        </button>
+                    </div>
+
                 </div>
                 <div class="stats-grid">
-                    <div class="stat-card student-count" data-bs-toggle="modal" data-bs-target="#studentListModal" title="Ấn để xem danh sách sinh viên" data-bs-placement="top" data-bs-toggle="tooltip" style="cursor: pointer;">
+                    <div class="stat-card student-count">
                         <div class="stat-icon"> 
                             <i class="fas fa-user-graduate"></i>
                         </div>
@@ -67,6 +73,11 @@
                 <div class="section-header">
                     <i class="fas fa-calculator"></i>
                     <h2>Trung bình lớp</h2>
+                    <div class="text-center mt-2">
+                        <button id="open-gpa-list-btn" class="btn btn-outline-primary btn-sm">
+                            Xem chi tiết
+                        </button>
+                    </div>
                 </div>
                 
                 <div class="filter-section">
@@ -100,7 +111,7 @@
                 </div>
 
                 <div class="stats-grid">
-                    <div class="stat-card average-gpa" data-bs-toggle="modal" data-bs-target="#studentAVEListModal" title="Ấn để xem danh sách trung bình sinh viên" data-bs-placement="top" data-bs-toggle="tooltip" style="cursor: pointer;">
+                    <div class="stat-card average-gpa">
                         <div class="stat-icon">
                             <i class="fas fa-star"></i>
                         </div>
@@ -185,6 +196,9 @@
                     <div class="chart-box">
                         <div class="chart-header">
                             <h3><i class="fas fa-chart-line"></i> Biến động GPA trung bình</h3>
+                            <button id="open-compare-gpa-list-btn" class="btn btn-outline-primary btn-sm">
+                                Xem chi tiết
+                            </button>
                         </div>
                         <div class="chart-container">
                             <canvas id="GPAlineChart"></canvas>
@@ -203,6 +217,9 @@
                     <div class="chart-box">
                         <div class="chart-header">
                             <h3><i class="fas fa-chart-line"></i> Biến động DRL trung bình</h3>
+                            <button id="open-compare-drl-list-btn" class="btn btn-outline-primary btn-sm">
+                                Xem chi tiết
+                            </button>
                         </div>
                         <div class="chart-container">
                             <canvas id="DRLlineChart"></canvas>
@@ -261,15 +278,15 @@
                             </button>
                         </div>
                     </div>
-                    <table class="table">
+                    <table class="table" style="padding: 12px 15px; text-align: center;">
                         <thead>
                             <tr>
-                                <th>STT</th>
-                                <th>Mã SV</th>
-                                <th>Họ tên</th>
-                                <th>Chứng chỉ anh văn</th>
-                                <th>Giới tính</th>
-                                <th>Xem hồ sơ</th>
+                                <th style="padding: 12px 15px; text-align: center;">STT</th>
+                                <th style="padding: 12px 15px; text-align: center;">Mã SV</th>
+                                <th style="padding: 12px 15px; text-align: center;">Họ tên</th>
+                                <th style="padding: 12px 15px; text-align: center;">Chứng chỉ anh văn</th>
+                                <th style="padding: 12px 15px; text-align: center;">Giới tính</th>
+                                <th style="padding: 12px 15px; text-align: center;">Xem hồ sơ</th>
                             </tr>
                         </thead>
                         <tbody id="student-list-body">
@@ -353,6 +370,27 @@
                                     <option value="poor">Kém (< 40)</option>
                                 </select>
                             </div>
+
+                            <div class="row">
+                                <div class="filter-group col-md-6">
+                                    <label for="sort-by">Sắp xếp theo</label>
+                                    <select id="sort-by" class="form-control">
+                                        <option value="gpa">GPA</option>
+                                        <option value="drl">DRL</option>
+                                        <option value="tinchi">Tín chỉ tích lũy</option>
+                                        <option value="mssv">Mã số sinh viên</option>
+                                    </select>
+                                </div>
+
+                                <div class="filter-group col-md-6">
+                                    <label for="sort-order">Thứ tự</label>
+                                    <select id="sort-order" class="form-control">
+                                        <option value="desc">Giảm dần</option>
+                                        <option value="asc">Tăng dần</option>
+                                    </select>
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="filter-actions">
@@ -364,15 +402,15 @@
                             </button>
                         </div>
                     </div>
-                    <table class="table">
+                    <table class="table" style="padding: 12px 15px; text-align: center;">
                         <thead>
                             <tr>
-                                <th>STT</th>
-                                <th>Mã SV</th>
-                                <th>GPA</th>
-                                <th>Tín chỉ tích lũy</th>
-                                <th>DRL</th>
-                                <th>Xem hồ sơ</th>
+                                <th style="padding: 12px 15px; text-align: center;">STT</th>
+                                <th style="padding: 12px 15px; text-align: center;">Mã SV</th>
+                                <th style="padding: 12px 15px; text-align: center;">GPA</th>
+                                <th style="padding: 12px 15px; text-align: center;">Tín chỉ tích lũy</th>
+                                <th style="padding: 12px 15px; text-align: center;">DRL</th>
+                                <th style="padding: 12px 15px; text-align: center;">Xem hồ sơ</th>
                             </tr>
                         </thead>
                         <tbody id="student-ave-list-body">
@@ -389,19 +427,43 @@
         <div class="modal-dialog modal-xl modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="compareGpaModalLabel">So sánh GPA theo kỳ</h5>
+                    <h5 class="modal-title" id="compareGpaModalLabel">So sánh GPA</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
                 </div>
                 <div class="modal-body">
-                    <table class="table" >
+                    <div class="filter-section mb-3">
+                        <div class="filter-group">
+                            <label for="compare-gpa-mssv-filter">Mã số sinh viên</label>
+                            <input id="compare-gpa-mssv-filter" type="text" class="form-control form-control-sm" placeholder="Nhập MSSV">
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="compare-gpa-sort-order">Sắp xếp chênh lệch</label>
+                            <select id="compare-gpa-sort-order" class="form-select form-select-sm">
+                                <option value="desc">Giảm dần</option>
+                                <option value="asc">Tăng dần</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-actions">
+                            <button class="btn btn-secondary" id="reset-btn-compare-gpa">
+                                <i class="fas fa-sync-alt"></i> Đặt lại
+                            </button>
+                            <button class="btn btn-primary" id="filter-btn-compare-gpa">
+                                <i class="fas fa-filter"></i> Áp dụng
+                            </button>
+                        </div>
+                    </div>
+
+                    <table class="compare-table" >
                         <thead>
                             <tr>
-                                <th style="background-color: #7fb7ef !important;">STT</th>
-                                <th style="background-color: #7fb7ef !important;">Mã SV</th>
-                                <th style="background-color: #7fb7ef !important;">GPA kỳ trước</th>
-                                <th style="background-color: #7fb7ef !important;">GPA kỳ hiện tại</th>
-                                <th style="background-color: #7fb7ef !important;">Chênh lệch</th>
-                                <th style="background-color: #7fb7ef !important;">Xem</th>
+                                <th>STT</th>
+                                <th>Mã SV</th>
+                                <th>GPA kỳ trước</th>
+                                <th>GPA kỳ hiện tại</th>
+                                <th>Chênh lệch</th>
+                                <th>Xem</th>
                             </tr>
                         </thead>
                         <tbody id="compare-gpa-body">
@@ -413,6 +475,59 @@
         </div>
     </div>
     <!-- Modal so sánh GPA theo kỳ -->
+    <!-- Modal so sánh DRL theo kỳ -->
+    <div class="modal fade" id="compareDRLModal" tabindex="-1" aria-labelledby="compareDRLModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="compareDRLModalLabel">So sánh DRL</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="filter-section mb-3">
+                        <div class="filter-group">
+                            <label for="compare-drl-mssv-filter">Mã số sinh viên</label>
+                            <input id="compare-drl-mssv-filter" type="text" class="form-control form-control-sm" placeholder="Nhập MSSV">
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="compare-drl-sort-order">Sắp xếp chênh lệch</label>
+                            <select id="compare-drl-sort-order" class="form-select form-select-sm">
+                                <option value="desc">Giảm dần</option>
+                                <option value="asc">Tăng dần</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-actions">
+                            <button class="btn btn-secondary" id="reset-btn-compare-drl">
+                                <i class="fas fa-sync-alt"></i> Đặt lại
+                            </button>
+                            <button class="btn btn-primary" id="filter-btn-compare-drl">
+                                <i class="fas fa-filter"></i> Áp dụng
+                            </button>
+                        </div>
+                    </div>
+
+                    <table class="compare-table" >
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Mã SV</th>
+                                <th>DRL kỳ trước</th>
+                                <th>DRL kỳ hiện tại</th>
+                                <th>Chênh lệch</th>
+                                <th>Xem</th>
+                            </tr>
+                        </thead>
+                        <tbody id="compare-drl-body">
+                            <!-- Dữ liệu render JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal so sánh DRL theo kỳ -->
     <!-- Model -->
     <script src="ThongKe/ThongKe.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    

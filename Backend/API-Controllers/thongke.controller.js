@@ -30,7 +30,17 @@ const getGPAList = async (req, res) => {
         if (!userId) {
             return res.status(400).json({ error: "Mã sinh viên không hợp lệ hoặc chưa đăng nhập" });
         }
+        const sortBy = req.query.sort_by || 'GPA';
+        const sortOrder = req.query.sort_order === 'asc' ? 'ASC' : 'DESC';
 
+        const allowedSortFields = {
+            'mssv': 'sv.Ma_Sinh_Vien',
+            'gpa': 'GPA',
+            'tinchi': 'Tong_Tin_Chi',
+            'drl': 'Diem_Ren_Luyen'
+        };
+
+        const sortColumn = allowedSortFields[sortBy.toLowerCase()] || 'GPA';
         // Lấy thông tin sinh viên của lớp: năm nhập học
         const [[studentInfo]] = await db.query(`
             SELECT Nam_Nhap_Hoc
@@ -50,25 +60,35 @@ const getGPAList = async (req, res) => {
         const { Nam_Nhap_Hoc } = studentInfo;
         const { hocKy, namHoc } = req.query;
 
-        let whereConditions = ["Co_Van_Hoc_Tap = ?"];
+        let whereConditions = ["l.Co_Van_Hoc_Tap = ?"];
         let queryParams = [userId];
+
+        let drlWhereConditions = ["l.Co_Van_Hoc_Tap = ?"];
+        let drlParams = [userId];
 
         if (hocKy && namHoc) {
             const hocKyNum = parseInt(hocKy);
             const [startYear] = namHoc.split('-').map(Number);
             const expectedHocKy = (startYear - Nam_Nhap_Hoc) * 2 + hocKyNum;
-            whereConditions.push("Hoc_Ky = ?");
+            whereConditions.push("kq.Hoc_Ky = ?");
             queryParams.push(expectedHocKy);
+            drlWhereConditions.push("drl.Hoc_Ky = ?");
+            drlParams.push(expectedHocKy);
         } else if (hocKy) {
-            whereConditions.push("Hoc_Ky = ?");
+            whereConditions.push("kq.Hoc_Ky = ?");
             queryParams.push(parseInt(hocKy));
+            drlWhereConditions.push("drl.Hoc_Ky = ?");
+            drlParams.push(parseInt(hocKy));
         } else if (namHoc) {
             const [startYear] = namHoc.split('-').map(Number);
             const yearOffset = startYear - Nam_Nhap_Hoc;
             const startHocKy = yearOffset * 2 + 1;
             const endHocKy = yearOffset * 2 + 2;
-            whereConditions.push(`Hoc_Ky BETWEEN ? AND ?`);
+            whereConditions.push(`kq.Hoc_Ky BETWEEN ? AND ?`);
             queryParams.push(startHocKy, endHocKy);
+
+            drlWhereConditions.push("drl.Hoc_Ky BETWEEN ? AND ?");
+            drlParams.push(startHocKy, endHocKy);
         }
 
         // Query chính - thông tin sinh viên và GPA tổng
@@ -84,22 +104,26 @@ const getGPAList = async (req, res) => {
             )
 
             SELECT 
-                lop.Ma_Lop, 
+                l.Ma_Lop, 
                 sv.Ma_Sinh_Vien,
                 sv.Chung_Chi_Anh_Van,
                 sv.Gioi_Tinh,
                 ROUND(SUM(kq.Diem_HP * (mh.Tin_chi_LT + mh.Tin_chi_TH)) / SUM(mh.Tin_chi_LT + mh.Tin_chi_TH), 2) AS GPA,
-                SUM(mh.Tin_chi_LT + mh.Tin_chi_TH) AS Tong_Tin_Chi
+                SUM(mh.Tin_chi_LT + mh.Tin_chi_TH) AS Tong_Tin_Chi,
+                ROUND(AVG(drl.Diem_Ren_Luyen), 2) AS Diem_Ren_Luyen
             FROM KETQUA kq
             JOIN SINHVIEN sv ON kq.Ma_Sinh_Vien = sv.Ma_Sinh_Vien
-            JOIN LOP lop ON sv.Ma_Lop = lop.Ma_Lop
+            JOIN LOP l ON sv.Ma_Lop = l.Ma_Lop
             JOIN MONHOC_ALL mh 
                 ON kq.Ma_Mon_Hoc = mh.Ma_Mon_Hoc
                 AND mh.Ma_Nganh = sv.Ma_Nganh
                 AND mh.Khoa = CONCAT('K', sv.Nam_Nhap_Hoc - 2005)
+            LEFT JOIN DIEMRL drl 
+            ON drl.Ma_Sinh_Vien = sv.Ma_Sinh_Vien
+            AND drl.Hoc_Ky = kq.Hoc_Ky
             WHERE ${whereConditions.join(' AND ')}
-            GROUP BY sv.Ma_Sinh_Vien, lop.Ma_Lop
-            ORDER BY GPA DESC;
+            GROUP BY sv.Ma_Sinh_Vien, l.Ma_Lop
+            ORDER BY ${sortColumn} ${sortOrder};
         `;
 
         // Query thêm - GPA theo từng học kỳ
@@ -135,7 +159,7 @@ const getGPAList = async (req, res) => {
             FROM DIEMRL drl 
             JOIN SINHVIEN sv ON sv.Ma_Sinh_Vien = drl.Ma_Sinh_Vien
             JOIN LOP l ON l.Ma_Lop = sv.Ma_Lop
-            WHERE ${whereConditions.join(' AND ')}
+            WHERE ${drlWhereConditions.join(' AND ')}
             GROUP BY sv.Ma_Sinh_Vien
         `; 
 

@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", async() => {
 // search function in Geeks4Geeks
 
 let input = document.getElementById('searchInput');
-let table = document.getElementById('studentTableContainer');
+let table = document.getElementById('studentTableBody');
 let rows = table.getElementsByTagName('tr');
 let noMatchMessage = document.getElementById('noMatch');
 
@@ -113,4 +113,4 @@ fetch('/layout/sidebar_teacher.html').then(response => response.text())
         profileContainer.classList.toggle("collapsed");
         // profileContainer.style.marginLeft = sidebar.classList.contains("collapsed") ? "30px" : "255px";
     })
-});
+}); 

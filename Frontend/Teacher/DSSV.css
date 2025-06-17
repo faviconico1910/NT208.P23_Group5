@@ -1,3 +1,121 @@
+:root {
+    --primary-color: #4e73df;
+    --secondary-color: #f8f9fc;
+    --accent-color: #2e59d9;
+    --text-color: #5a5c69;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #f5f7fb;
+    color: var(--text-color);
+}
+
+#main-container {
+    transition: margin-left 0.3s ease;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    padding: 30px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), #86b7fe);
+    border-radius: 3px;
+}
+
+.table-container {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.table thead {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+}
+
+.table th {
+    font-weight: 500;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+.table td {
+    padding: 12px 15px;
+    vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(78, 115, 223, 0.03);
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(78, 115, 223, 0.1);
+    transform: translateY(-1px);
+    transition: all 0.2s ease;
+}
+
+.search-box {
+    position: relative;
+    max-width: 350px;
+}
+
+.search-box .form-control {
+    padding-left: 40px;
+    border-radius: 20px;
+    border: 1px solid #d1d3e2;
+}
+
+.search-box .bi-search {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b7b9cc;
+}
+
+.badge-gpa {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.phone-icon {
+    color: #4caf50;
+    margin-right: 5px;
+}
+
+.action-btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 992px) {
+    #main-container {
+        margin-left: 0 !important;
+        padding: 20px;
+    }
+    
+    .table-responsive {
+        overflow-x: auto;
+    }
 }

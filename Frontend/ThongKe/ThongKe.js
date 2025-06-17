@@ -244,7 +244,7 @@ const renderStats = async () => {
     }
 };
 
-const fetchFilteredGPAData = async (semesterParam, yearParam) => {
+const fetchFilteredGPAData = async (semesterParam, yearParam, sortBy = "gpa", sortOrder = "desc") => {
     const token = localStorage.getItem("token");
     if (!token) {
         alert("Bạn chưa đăng nhập!");
@@ -255,6 +255,8 @@ const fetchFilteredGPAData = async (semesterParam, yearParam) => {
     const params = new URLSearchParams();
     if (semesterParam) params.append("hocKy", semesterParam);
     if (yearParam) params.append("namHoc", yearParam);
+    params.append("sort_by", sortBy);
+    params.append("sort_order", sortOrder);
     const url = `/thongkesv/api?${params.toString()}`;
 
     const response = await fetch(url, {
@@ -268,6 +270,8 @@ const fetchFilteredGPAData = async (semesterParam, yearParam) => {
     if (!response.ok) {
         throw new Error("Lỗi khi tải dữ liệu. Có thể token không hợp lệ!");
     }
+
+    
 
     const data = await response.json();
     const sinhVienList = data.query;
@@ -293,7 +297,9 @@ let pieChartInstance;
 let GPAlineChartInstance;
 let drlPieChartInstance;
 let DRLlineChartInstance;
-
+let currentCompareGpaData = [];
+let currentCompareDRLData = [];
+let globalSortedSemesters = [];
 const renderCharts = async () => {
     const { students, semesters } = await fetchGPADataChart();
 
@@ -323,7 +329,7 @@ const renderCharts = async () => {
     console.log("📘 Semesters nhận được:", semesters);
 
     const sortedSemesters = [...semesters].sort((a, b) => a.Hoc_Ky - b.Hoc_Ky);
-
+    globalSortedSemesters = sortedSemesters;
     const semesterLabels = sortedSemesters.map(sem => `HK${sem.Hoc_Ky}`);
     const semesterGPAs = sortedSemesters.map(sem => sem.GPA_Trung_Binh);
     const semesterDRLs = sortedSemesters.map(sem => sem.DRL_Trung_Binh);
@@ -360,13 +366,13 @@ const renderCharts = async () => {
             }
         }
     });
-
-    document.getElementById("GPAlineChart").addEventListener("click", async () => {
+    
+    document.getElementById("open-compare-gpa-list-btn").addEventListener("click", async () => {
         const token = localStorage.getItem("token");
         if (!token) return alert("Vui lòng đăng nhập.");
 
         // Tự động lấy học kỳ mới nhất từ sortedSemesters
-        const latestSemester = sortedSemesters[sortedSemesters.length - 1];
+        const latestSemester = globalSortedSemesters[globalSortedSemesters.length - 1];
         const currentSemester = latestSemester?.Hoc_Ky?.toString();
 
         if (!currentSemester) {
@@ -384,38 +390,22 @@ const renderCharts = async () => {
             const prevMap = {};
             prevData.students.forEach(sv => prevMap[sv.name] = sv.gpa);
 
-            const tableBody = document.getElementById("compare-gpa-body");
-            tableBody.innerHTML = "";
+            currentCompareGpaData = currentData.students.map((sv) => {
+                const prevGPA = parseFloat(prevMap[sv.name] || 0);
+                const currGPA = parseFloat(sv.gpa || 0);
+                return {
+                    mssv: sv.name,
+                    prev: prevGPA,
+                    curr: currGPA,
+                    diff: currGPA - prevGPA
+                };
+                });
 
-            currentData.students.forEach((sv, idx) => {
-                const prevGPA = parseFloat(prevMap[sv.name] || 0).toFixed(2);
-                const currGPA = parseFloat(sv.gpa || 0).toFixed(2);
-                const diff = (currGPA - prevGPA).toFixed(2);
-                const diffText = diff > 0 ? `+${diff}` : diff;
+                renderCompareGpaTable(currentCompareGpaData);
 
-            const bgColor = parseFloat(diff) > 0
-                ?'rgb(141, 236, 193)'  // xanh nhạt
-                : parseFloat(diff) < 0
-                    ? 'rgb(255, 154, 163)'  // đỏ nhạt
-                    : '';
+                const modal = new bootstrap.Modal(document.getElementById('compareGpaModal'));
+                modal.show();
 
-            const row = `
-                <tr>
-                    <td style="background-color: ${bgColor}">${idx + 1}</td>
-                    <td style="background-color: ${bgColor}">${sv.name}</td>
-                    <td style="background-color: ${bgColor}">${prevGPA}</td>
-                    <td style="background-color: ${bgColor}">${currGPA}</td>
-                    <td style="background-color: ${bgColor}">${diffText}</td>
-                    <td style="background-color: ${bgColor}"><button class="btn btn-sm btn-primary" onclick="viewStudentProfile('${sv.name}')">Xem</button></td>
-                </tr>`;
-
-
-
-                tableBody.innerHTML += row;
-            });
-
-            const modal = new bootstrap.Modal(document.getElementById('compareGpaModal'));
-            modal.show();
 
         } catch (error) {
             console.error("Lỗi khi so sánh GPA:", error);
@@ -572,7 +562,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             <td>${sv.Ho_Ten}</td>
                             <td>${sv.Chung_Chi_Anh_Van}</td>
                             <td>${sv.Gioi_Tinh}</td>
-                            <td><button onclick="viewStudentProfile('${sv.Ma_Sinh_Vien}')" class="btn btn-primary btn-sm">Xem</button></td>
+                            <td style="padding: 12px 15px; text-align: center;">
+                                <button class="btn btn-sm btn-outline-primary" onclick="viewStudentProfile('${sv.Ma_Sinh_Vien}')">
+                                    <i class="fas fa-user-graduate"></i> Xem
+                                </button>
+                            </td>
                         </tr>`;
                     tableBody.innerHTML += row;
                 });
@@ -587,6 +581,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.map(el => new bootstrap.Tooltip(el));
+
+    const openStudentListBtn = document.getElementById("open-student-list-btn");
+        if (openStudentListBtn) {
+            const bsModal = new bootstrap.Modal(document.getElementById("studentListModal"));
+            openStudentListBtn.addEventListener("click", () => {
+            bsModal.show();
+        });
+    }
 });
 
 // Modal dssv theo gpa
@@ -611,7 +613,11 @@ document.addEventListener("DOMContentLoaded", function () {
                             <td>${parseFloat(student.gpa).toFixed(2)}</td>
                             <td>${parseFloat(student.sum_credits).toFixed(2)}</td>
                             <td>${parseFloat(student.drl).toFixed(2)}</td>
-                            <td><button onclick="viewStudentProfile('${student.name}')" class="btn btn-primary btn-sm">Xem</button></td>
+                            <td style="padding: 12px 15px; text-align: center;">
+                                <button class="btn btn-sm btn-outline-primary" onclick="viewStudentProfile('${student.name}')">
+                                    <i class="fas fa-user-graduate"></i> Xem
+                                </button>
+                            </td>
                         </tr>`;
                     tableBody.innerHTML += row;
                 });
@@ -626,6 +632,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.map(el => new bootstrap.Tooltip(el));
+
+    const openGPAListBtn = document.getElementById("open-gpa-list-btn");
+        if (openGPAListBtn) {
+            const bsModal = new bootstrap.Modal(document.getElementById("studentAVEListModal"));
+            openGPAListBtn.addEventListener("click", () => {
+            bsModal.show();
+        });
+    }
 });
 
 // Filter dssv
@@ -682,75 +696,61 @@ document.getElementById("filter-btn-student-ave").addEventListener("click", asyn
     const creditClassification = document.getElementById("credit-classification-filter").value;
     const drlClassification = document.getElementById("drl-classification-filter").value;
 
-    if (semester || year) {
-        const tableBody = document.getElementById('student-ave-list-body');
-        tableBody.innerHTML = '<tr><td colspan="6">Đang lọc dữ liệu...</td></tr>';
+    const sortBySelect = document.getElementById("sort-by");
+    const sortOrderSelect = document.getElementById("sort-order");
 
-        try {
-            
+    const sortBy = sortBySelect?.value || "gpa";
+    const sortOrder = sortOrderSelect?.value || "desc";
 
-            const { students } = await fetchFilteredGPAData(semester, year);
-            let filteredStudents = students;
 
-            if (mssv) {
-                filteredStudents = students.filter(student => student.name.toLowerCase().includes(mssv));
-            }
-            if (gpaClassification) {
-                filteredStudents = filteredStudents.filter(student => getGPAClassification(parseFloat(student.gpa)) === gpaClassification);
-            }
-            if (creditClassification) {
-                filteredStudents = filteredStudents.filter(student => getCreditClassification(parseFloat(student.sum_credits)) === creditClassification);
-            }
-            if (drlClassification) {
-                filteredStudents = filteredStudents.filter(student => getDRLClassification(parseFloat(student.drl)) === drlClassification);
-            }
+   
+    const tableBody = document.getElementById('student-ave-list-body');
+    tableBody.innerHTML = '<tr><td colspan="6">Đang lọc dữ liệu...</td></tr>';
 
-            tableBody.innerHTML = '';
-            filteredStudents.forEach((student, index) => {
-                const row = `
-                    <tr>
-                        <td>${index + 1}</td>
-                        <td>${student.name}</td>
-                        <td>${parseFloat(student.gpa).toFixed(2)}</td>
-                        <td>${parseFloat(student.sum_credits).toFixed(2)}</td>
-                        <td>${parseFloat(student.drl).toFixed(2)}</td>
-                        <td><button onclick="viewStudentProfile('${student.name}')" class="btn btn-primary btn-sm">Xem</button></td>
-                    </tr>`;
-                tableBody.innerHTML += row;
-            });
+    try {
+        
+        const sortBy = document.getElementById("sort-by").value;
+        const sortOrder = document.getElementById("sort-order").value;
+        const { students } = await fetchFilteredGPAData(semester, year,  sortBy, sortOrder);
+        let filteredStudents = students;
 
-            if (filteredStudents.length === 0) {
-                tableBody.innerHTML = `<tr><td colspan="6">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
-            }
-        } catch (error) {
-            tableBody.innerHTML = `<tr><td colspan="6">Lỗi khi lọc dữ liệu!</td></tr>`;
-            console.error("Lỗi:", error);
+        if (mssv) {
+            filteredStudents = students.filter(student => student.name.toLowerCase().includes(mssv));
         }
-    } else {
-        const rows = document.querySelectorAll("#student-ave-list-body tr");
-        let stt = 1;
+        if (gpaClassification) {
+            filteredStudents = filteredStudents.filter(student => getGPAClassification(parseFloat(student.gpa)) === gpaClassification);
+        }
+        if (creditClassification) {
+            filteredStudents = filteredStudents.filter(student => getCreditClassification(parseFloat(student.sum_credits)) === creditClassification);
+        }
+        if (drlClassification) {
+            filteredStudents = filteredStudents.filter(student => getDRLClassification(parseFloat(student.drl)) === drlClassification);
+        }
 
-        rows.forEach(row => {
-            const cells = row.querySelectorAll("td");
-            if (cells.length < 6) return;
-
-            const rowMSSV = cells[1]?.textContent.toLowerCase() || "";
-            const rowGPA = parseFloat(cells[2]?.textContent) || 0;
-            const rowCredits = parseFloat(cells[3]?.textContent) || 0;
-            const rowDRL = parseFloat(cells[4]?.textContent) || 0;
-
-            const matchMSSV = rowMSSV.includes(mssv);
-            const matchGPAClass = gpaClassification ? getGPAClassification(rowGPA) === gpaClassification : true;
-            const matchCreditClass = creditClassification ? getCreditClassification(rowCredits) === creditClassification : true;
-            const matchDRLClass = drlClassification ? getDRLClassification(rowDRL) === drlClassification : true;
-
-            if (matchMSSV && matchGPAClass && matchCreditClass && matchDRLClass) {
-                row.style.display = "";
-                cells[0].textContent = stt++;
-            } else {
-                row.style.display = "none";
-            }
+        tableBody.innerHTML = '';
+        filteredStudents.forEach((student, index) => {
+            const row = `
+                <tr>
+                    <td style="padding: 12px 15px; text-align: center;">${index + 1}</td>
+                    <td style="padding: 12px 15px; text-align: center;">${student.name}</td>
+                    <td style="padding: 12px 15px; text-align: center;">${parseFloat(student.gpa).toFixed(2)}</td>
+                    <td style="padding: 12px 15px; text-align: center;">${parseFloat(student.sum_credits).toFixed(2)}</td>
+                    <td style="padding: 12px 15px; text-align: center;">${parseFloat(student.drl).toFixed(2)}</td>
+                    <td style="padding: 12px 15px; text-align: center;">
+                        <button class="btn btn-sm btn-outline-primary" onclick="viewStudentProfile('${student.name}')">
+                            <i class="fas fa-user-graduate"></i> Xem
+                        </button>
+                    </td>
+                </tr>`;
+            tableBody.innerHTML += row;
         });
+
+        if (filteredStudents.length === 0) {
+            tableBody.innerHTML = `<tr><td colspan="6">Không tìm thấy dữ liệu phù hợp.</td></tr>`;
+    }   
+    } catch (error) {
+        tableBody.innerHTML = `<tr><td colspan="6">Lỗi khi lọc dữ liệu!</td></tr>`;
+        console.error("Lỗi:", error);
     }
 });
 
@@ -762,7 +762,10 @@ document.getElementById("reset-btn-student-ave").addEventListener("click", funct
     document.getElementById("gpa-classification-filter").value = "";
     document.getElementById("credit-classification-filter").value = "";
     document.getElementById("drl-classification-filter").value = "";
+    document.getElementById("sort-by").value = "gpa";
+    document.getElementById("sort-order").value = "desc";
 
+    document.getElementById("filter-btn-student-ave").click();
     const rows = document.querySelectorAll("#student-ave-list-body tr");
     let stt = 1;
     rows.forEach(row => {
@@ -815,4 +818,155 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("year-filter-chart").value = "";
         renderCharts();
     });
+});
+
+function renderCompareGpaTable(data) {
+    const filterMssv = document.getElementById("compare-gpa-mssv-filter").value.trim().toLowerCase();
+    const sortOrder = document.getElementById("compare-gpa-sort-order").value;
+
+    let filtered = data;
+
+    if (filterMssv) {
+        filtered = filtered.filter(row => row.mssv.toLowerCase().includes(filterMssv));
+    }
+
+    filtered.sort((a, b) => {
+        return sortOrder === "asc" ? a.diff - b.diff : b.diff - a.diff;
+    });
+
+    const tableBody = document.getElementById("compare-gpa-body");
+    tableBody.innerHTML = "";
+
+    filtered.forEach((row, idx) => {
+        const bgColor = row.diff > 0
+            ? 'rgba(102, 239, 107, 0.36)'
+            : row.diff < 0
+                ? 'rgba(235, 91, 81, 0.32)'
+                : 'rgba(33, 150, 243, 0.1)';
+
+        const textColor = row.diff > 0 ? '#2e7d32'
+                        : row.diff < 0 ? '#c62828'
+                        : '#1565c0';
+
+        const icon = row.diff > 0 ? '↑' : row.diff < 0 ? '↓' : '→';
+
+        const tr = `
+            <tr style="border-bottom: 1px solid #e0e0e0;">
+                <td style="text-align: center;">${idx + 1}</td>
+                <td>${row.mssv}</td>
+                <td style="text-align: center;">${row.prev.toFixed(2)}</td>
+                <td style="text-align: center;">${row.curr.toFixed(2)}</td>
+                <td style="text-align: center; background-color: ${bgColor}; color: ${textColor}; font-weight: bold;">
+                    ${(row.diff > 0 ? '+' : '') + row.diff.toFixed(2)} ${icon}
+                </td>
+                <td style="text-align: center;">
+                    <button class="btn btn-sm btn-outline-primary" onclick="viewStudentProfile('${row.mssv}')">
+                        <i class="fas fa-user-graduate"></i> Xem
+                    </button>
+                </td>
+            </tr>
+        `;
+        tableBody.innerHTML += tr;
+    });
+}
+
+document.getElementById("filter-btn-compare-gpa").addEventListener("click", () => {
+    renderCompareGpaTable(currentCompareGpaData);
+});
+
+document.getElementById("reset-btn-compare-gpa").addEventListener("click", () => {
+    document.getElementById("compare-gpa-mssv-filter").value = "";
+    document.getElementById("compare-gpa-sort-order").value = "desc";
+    renderCompareGpaTable(currentCompareGpaData);
+});
+
+function renderCompareDRLTable(data) {
+    const filterMssv = document.getElementById("compare-drl-mssv-filter").value.trim().toLowerCase();
+    const sortOrder = document.getElementById("compare-drl-sort-order").value;
+    const tableBody = document.getElementById("compare-drl-body");
+
+    let filtered = data;
+    if (filterMssv) {
+        filtered = filtered.filter(row => row.mssv.toLowerCase().includes(filterMssv));
+    }
+
+    filtered.sort((a, b) => {
+        return sortOrder === "asc" ? a.diff - b.diff : b.diff - a.diff;
+    });
+
+    tableBody.innerHTML = "";
+
+    filtered.forEach((row, idx) => {
+        const bgColor = row.diff > 0
+            ? 'rgba(141, 236, 193, 0.4)'
+            : row.diff < 0
+                ? 'rgba(255, 154, 163, 0.3)'
+                : '';
+
+        const icon = row.diff > 0 ? '↑' : row.diff < 0 ? '↓' : '→';
+        const diffText = (row.diff > 0 ? '+' : '') + row.diff.toFixed(2) + ' ' + icon;
+
+        const tr = `
+            <tr>
+                <td>${idx + 1}</td>
+                <td>${row.mssv}</td>
+                <td style="text-align: center;">${row.prev.toFixed(2)}</td>
+                <td style="text-align: center;">${row.curr.toFixed(2)}</td>
+                <td style="text-align: center; background-color: ${bgColor}; font-weight: bold;">${diffText}</td>
+                <td style="text-align: center;">
+                    <button class="btn btn-sm btn-outline-primary" onclick="viewStudentProfile('${row.mssv}')">
+                        <i class="fas fa-user-graduate"></i> Xem
+                    </button>
+                </td>
+            </tr>`;
+        tableBody.innerHTML += tr;
+    });
+}
+document.getElementById("open-compare-drl-list-btn").addEventListener("click", async () => {
+    const token = localStorage.getItem("token");
+    if (!token) return alert("Vui lòng đăng nhập.");
+
+    const latestSemester = globalSortedSemesters[globalSortedSemesters.length - 1];
+    const currentSemester = latestSemester?.Hoc_Ky?.toString();
+    if (!currentSemester) return alert("Không tìm thấy học kỳ mới nhất.");
+
+    const prevSemester = currentSemester === "2" ? "1" : "2";
+
+    try {
+        const [prevRes, currRes] = await Promise.all([
+            fetchFilteredGPAData(prevSemester, null),
+            fetchFilteredGPAData(currentSemester, null)
+        ]);
+
+        const prevDRLMap = {};
+        prevRes.students.forEach(sv => prevDRLMap[sv.name] = parseFloat(sv.drl || 0));
+
+        currentCompareDRLData = currRes.students.map(sv => {
+            const prev = parseFloat(prevDRLMap[sv.name] || 0);
+            const curr = parseFloat(sv.drl || 0);
+            return {
+                mssv: sv.name,
+                prev,
+                curr,
+                diff: curr - prev
+            };
+        });
+
+        renderCompareDRLTable(currentCompareDRLData);
+
+        const modal = new bootstrap.Modal(document.getElementById("compareDRLModal"));
+        modal.show();
+    } catch (error) {
+        console.error("Lỗi khi lấy dữ liệu DRL:", error);
+        alert("Không thể lấy dữ liệu điểm rèn luyện.");
+    }
+});
+document.getElementById("filter-btn-compare-drl").addEventListener("click", () => {
+    renderCompareDRLTable(currentCompareDRLData);
+});
+
+document.getElementById("reset-btn-compare-drl").addEventListener("click", () => {
+    document.getElementById("compare-drl-mssv-filter").value = "";
+    document.getElementById("compare-drl-sort-order").value = "desc";
+    renderCompareDRLTable(currentCompareDRLData);
 });
